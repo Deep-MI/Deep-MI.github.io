@@ -6,7 +6,7 @@ group: research
 
 Interdisciplinarity is what drives modern research...
 
-(Note: this is a prototype page and will be filled with more details. In the meantime, see also [reuter.mit.edu]{http://reuter.mit.edu} )
+(Note: this is a prototype page and will be filled with more details. In the meantime, see also [reuter.mit.edu](http://reuter.mit.edu) )
 
 # Research Domains
 

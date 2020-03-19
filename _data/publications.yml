@@ -29,4 +29,176 @@
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.28022'
   github: reuter-lab/FatSegNet
 
+- authors: '**Estrada S**, **Conjeti S**, **Ahmad M**, Nassir N, **Reuter M**'
+  title: 'Competition vs. Concatenation in Skip Connections of Fully Convolutional Networks'
+  type: 'workshop'
+  year: 2018
+  month: 09
+  image: '/static/pub/estrada_2018.jpg'
+  arxiv: 1807.07803
+  doi: 10.1007/978-3-030-00919-9_25
+  bibtex: '/static/pub/estrada_2018.bib'
+  pdf: '/static/pub/1807.07803.pdf'
 
+- authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
+  title: 'Complex Fully Convolutional Neural Networks for MR Image Reconstruction'
+  type: 'workshop'
+  year: 2018
+  month: 09
+  image: '/static/pub/muneer_2018.jpg'
+  arxiv: 1807.03343
+  doi: 10.1007/978-3-030-00129-2_4
+  bibtex: '/static/pub/muneer_2018.bib'
+  pdf: '/static/pub/1807.03343.pdf'
+
+- authors: 'Zaretskaya N, Fischl B, **Reuter M**,  Renvall V, Polimeni JR'
+  title: 'Advantages of cortical surface reconstruction using submillimeter 7T MEMPRAGE'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2018
+  month: 01
+  image: '/static/pub/'
+  doi: 10.1016/j.neuroimage.2017.09.060
+  bibtex: '/static/pub/zaretskaya_2018.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6383677/pdf/nihms-988475.pdf'
+
+- authors: 'Schwarz JM, Pracht ED, Brenner D, **Reuter M**, Stöcker T'
+  title: 'GRAPPA reconstructed wave‐CAIPI MP‐RAGE at 7 Tesla'
+  journal: '*MRM*'
+  type: 'journal'
+  year: 2018
+  month: 04
+  image: '/static/pub/schwarz_2018.jpg'
+  doi: 10.1002/mrm.27215
+  bibtex: '/static/pub/schwarz_2018.bib'
+
+- authors: '**Wachinger C**, Nho K, Saykin AJ, **Reuter M**, Rieckmann A'
+  title: 'A Longitudinal Imaging Genetics Study of Neuroanatomical Asymmetry in Alzheimer`s Disease'
+  journal: '*Biol. Psychiatry*'
+  type: 'journal'
+  year: 2018
+  month: 10
+  image: '/static/pub/'
+  doi: 10.1016/j.biopsych.2018.04.017
+  bibtex: '/static/pub/wachinger_2018.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123250/pdf/nihms966344.pdf'
+
+- authors: 'Ranjan C, Paynabar K, **Reuter M**, Jafari-Khouzani K'
+  title: 'Longitudinal MRI Data Analysis in Presence of Measurement Error but Absence of Replicates'
+  journal: '*IISE Trans Healthc Syst Eng*'
+  type: 'journal'
+  year: 2018
+  month: 04
+  image: '/static/pub/'
+  doi: 10.1080/24725579.2017.1423419
+  bibtex: '/static/pub/ranjan_2018.bib'
+
+- authors: 'Berron D, Schütze H, Cardenas-Blanco A, Fliessbach K, Wagner M, Spottke A, **Reuter M**, Teipel SJ, Buerger K, Schneider A, Peters O, Nestor P, Priller J, Wiltfang J, Laske C, Jessen F, Düzel E'
+  title: 'Object and Scene Memory are Differentially Associated with CSF Markers OF Alzheimer’s Disease and MRI Volumetry'
+  journal: '*Alzheimers Dement*'
+  type: 'journal'
+  year: 2017
+  month: 07
+  image: '/static/pub/'
+  doi: 10.1016/j.jalz.2017.07.694
+  bibtex: '/static/pub/berron_2017.bib'
+
+- authors: '**Wachinger C**, **Reuter M**, Klein T'
+  title: 'DeepNAT: Deep convolutional neural network for segmenting neuroanatomy'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2018
+  month: 04
+  arxiv: 1702.08192
+  image: '/static/pub/'
+  doi: 10.1016/j.neuroimage.2017.02.035
+  bibtex: '/static/pub/wachinger_2018_deepNat.bib'
+  pdf: 'https://people.csail.mit.edu/wachinger/articles/Wachinger-Neuroimage-2017.pdf'
+
+- authors: 'Saygin, ZM, **Kliemann D**, Iglesias JE, van der Kouwe AJW, Boyd E, **Reuter M**, Stevens A, Van Leemput K, McKee A, Frosch MP, Fischl B, Augustinack JC'
+  title: 'High-resolution magnetic resonance imaging reveals nuclei of the human amygdala: manual segmentation to automatic atlas'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2017
+  month: 07
+  image: '/static/pub/saygin_2017.jpg'
+  doi: 10.1016/j.neuroimage.2017.04.046
+  bibtex: '/static/pub/saygin_2017.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5557007/pdf/nihms887623.pdf'
+
+- authors: '**Wachinger C**, Rieckmann A, **Reuter M**'
+  title: 'Latent Processes Governing Neuroanatomical Change in Aging and Dementia'
+  type: 'conference'
+  conference: 'MICCAI 2017'
+  year: 2017
+  month: 09
+  image: '/static/pub/'
+  doi: 10.1007/978-3-319-66179-7_4
+  bibtex: '/static/pub/wachinger_2017_lp.bib'
+  pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
+
+- authors: 'Klein A, Ghosh SS, Bao FS, Giard J, Häme Y, Stavsky E, Lee N, Rossa B, **Reuter M**, Chaibub Neto E, Keshavan A'
+  title: 'Mindboggling morphometry of human brains'
+  journal: '*Comput Biol.*'
+  type: 'journal'
+  year: 2017
+  month: 02
+  image: '/static/pub/klein_2017.jpg'
+  doi: 10.1371/journal.pcbi.1005350
+  bibtex: '/static/pub/klein_2017.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5322885/pdf/pcbi.1005350.pdf'
+
+- authors: 'Aganj I, Iglesias JE, **Reuter M**, Sabuncu MR, Fischl B'
+  title: 'Mid-space-independent deformable image registration'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2017
+  month: 05
+  image: '/static/pub/aganj_2017.jpg'
+  doi: 10.1016/j.neuroimage.2017.02.055
+  bibtex: '/static/pub/aganj_2017.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5432428/pdf/nihms859177.pdf'
+
+- authors: '**Wachinger C**, Salat DH, Weiner M, **Reuter M**'
+  title: 'Whole-brain analysis reveals increased neuroanatomical asymmetries in dementia for hippocampus and amygdala'
+  journal: '*Brain*'
+  type: 'journal'
+  year: 2016
+  month: 12
+  image: '/static/pub/'
+  doi: 10.1093/brain/aww243
+  bibtex: '/static/pub/wachinger_2016.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840883/pdf/aww243.pdf'
+
+- authors: 'Ge T, **Reuter M**, Winkler AM, Holmes AJ, Lee PH, Tirrell LS, Roffman JL, Buckner RL, Smoller JW, Sabuncu MR'
+  title: 'Multidimensional heritability analysis of neuroanatomical shape'
+  journal: '*Nat Commun.*'
+  type: 'journal'
+  year: 2016
+  month: 11
+  image: '/static/pub/ge_2016.jpg'
+  doi: 10.1038/ncomms13291
+  bibtex: '/static/pub/ge_2016.bib'
+  pdf: 'https://www.nature.com/articles/ncomms13291.pdf'
+
+- authors: 'Iglesias JE, Van Leemput K, Augustinack J, Insausti R, Fischl B, **Reuter M**'
+  title: 'Bayesian longitudinal segmentation of hippocampal substructures in brain MRI using subject-specific atlases'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2016
+  month: 11
+  image: '/static/pub/'
+  doi: 10.1016/j.neuroimage.2016.07.020
+  bibtex: '/static/pub/iglesias_2016.bib'
+  pdf: 'https://pdf.sciencedirectassets.com/272508/1-s2.0-S1053811916X00146/1-s2.0-S1053811916303275/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIDNjqw6BuzYzaYyquS8fnNlZWydSBoXbNS666wmrtIHNAiAGDZVmpUjryTN4iKOfWFdGmiQMx9%2FWSgsFW8EEjhbvgyq9Awja%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAIaDDA1OTAwMzU0Njg2NSIM3PO5Ip7EzjlcuM8tKpEDz%2B7bsZiIM329d%2FFY8WPy2XhxPgTw%2FgwQYLb%2Frzl88z5iw0duQ5YJC9NjS9UDK%2FVAB0HtFCT7Er7FxvaPNZ5vDhVVUXu3x2WOlJqItCO9joMGZzkt8nVMqn1sIUxassDDv2slRc%2F2dFQ5%2BM%2FpyRz4JD%2FlNKwdkvcmmfLc3hhGTDeScFktOV6w7mRD0cToV%2B7k2cm0IkEmrg8b%2Br4%2BLpwR2Q1PWN5fY6tKRez%2FP8V%2FJIjUepRRyllKo34oRSK3FOElHL%2FAZKhYbtW8KEOxs3ULAKe0Fsl5pORrz3Zhfe9vacVmPTbde6Lqtz0um2bXOIBL7DZRvWUymIn%2BwTtOSaUP%2FiyqvunwK20hnRYn5EABSzFNhrPxgiuJnh%2B3TESKuIRAxi5CkJfkg%2FibwbVu%2FL%2FpDrzTOK14Q8FBknBQRlnAYUawxo2ooadND6kpxh0bSs8ggEMgVQpKkfqBGxcN2Zl4m0bu7cTfJy%2FRlm0OQVff7mFPJGkf3LgNNQBf%2BG8Hz7xQzl9uSu1ad8wlL12GT4jvO%2FAwkMHO8wU67AHyoKVW5WutQDh2WVnOcEwWvkSqBnaAJhxadRPUsgw6MrFGn13whysovXD%2BKA8M65KJlOt86gd2eH%2FSr%2F%2FhbbunGb0rT1pU3KxfqNFnoux%2B5%2FKDN4T9QN9nu2ErqaBRYzOzNHemS1wYC6qngkSlgWwC56Mb8bPTQiEzc3BFaA6kKxvoXm4MvS9d06CEbU9XBt5w%2FUyW3hQafSMnm8xtQ0XD7Lo6%2FaTHUqLZosoeDCi05dmLAGhHCJ5YMwDOm%2BIkcScKvMEIIWV7ncsAtilgNS0Fj9jpKPh26RZrxu0fXqkrJLLj73odt%2BxMh2NgrQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200319T174051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYS3VPGNRN%2F20200319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=02ebaefd0ca82910dbe2e7a9a0140417a9202c5fa4542bf6cf794ded78b0e04f&hash=974cd701a23e5a109010b1703ba7de56d7a2f57d67b4b8c16bd0c60022cda7c7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1053811916303275&tid=spdf-528957c7-9e98-4273-9f3c-3309fd89edf3&sid=8be097374b6cc3409909ca46eba940ff9b24gxrqb&type=client'
+
+- authors: '**Wachinger C**, **Reuter M**'
+  title: 'Domain adaptation for Alzheimer`s disease diagnostics'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2016
+  month: 10
+  image: '/static/pub/'
+  doi: 10.1016/j.neuroimage.2016.05.053
+  bibtex: '/static/pub/wachinger_2016_da.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'  

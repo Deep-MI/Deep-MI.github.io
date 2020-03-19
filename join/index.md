@@ -8,7 +8,7 @@ group: join
 ![alt text](/static/img/join/bonn.jpg "Bonn")
 </p>
 
-We are looking for a Postdoc to join our Lab in Bonn, Germany at a world leading Helmholtz Research Center (German Center for Neurodegenerative Diseases). 
+**We are currently looking for a Postdoc to join our Lab in Bonn, Germany at a world leading Helmholtz Research Center (German Center for Neurodegenerative Diseases):  [postdoc-mic.pdf](http://reuter.mit.edu/download/postdoc-mic.pdf) **
 
 # What we have to offer
 

@@ -6,6 +6,8 @@ group: research
 
 Interdisciplinarity is what drives modern research...
 
+(Note: this is a prototype page and will be filled with more details. In the meantime, see also http://reuter.mit.edu )
+
 # Research Domains
 
 - AI in Medical Imaging, Deep-Learning, Convolutional Neural Networks,

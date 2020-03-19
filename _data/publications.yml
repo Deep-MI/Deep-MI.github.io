@@ -40,7 +40,7 @@
 
 - authors: '**Estrada S**, **Conjeti S**, **Ahmad M**, Nassir N, **Reuter M**'
   title: 'Competition vs. Concatenation in Skip Connections of Fully Convolutional Networks'
-  journal: 'MICCAI18 Workshop'
+  journal: '*MICCAI18 Workshop*'
   type: 'workshop'
   year: 2018
   month: 09
@@ -52,7 +52,7 @@
 
 - authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
   title: 'Complex Fully Convolutional Neural Networks for MR Image Reconstruction'
-  journal: 'MICCAI18 Workshop'
+  journal: '*MICCAI18 Workshop*'
   type: 'workshop'
   year: 2018
   month: 09

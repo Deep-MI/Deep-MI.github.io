@@ -1,0 +1,34 @@
+{% include header.html %}
+<div class="container">
+   <!--- <img class="img-fluid" src="/static/img/members/drawings/2019_FraserLab.png" title="This wonderful illustration was courtesy of Jennifer Li" alt="Lab Group Illustration (credit Jennifer Li)"> -->
+   <div class="row">
+       <div class="col">
+           <br>
+           {{ content }}
+       </div>
+      <!--- <div class="col-md-3 smalltxt">
+        <br>
+          abcdefghijklmnop
+        {% capture sidebar %}{% include alumni_sidebar.md %}{% endcapture %}
+        {{ sidebar | markdownify }}
+       </div>  -->
+   </div>
+   
+   <div class = "page header"><h2>DeepMI Alumni</h2></div>
+   <div class ="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+   {% for alum in site.data.alumni %}
+      <div class="col">
+         <hr>
+         <div id = "{{alum.name}}" style="padding-top: 60px; margin-top: -60px;">
+            <p><strong>{{alum.name}}</strong>  <br> <em>{{alum.position}}</em><br>
+            {% if alum.startdate %} {{alum.startdate}} - {% endif %}{{alum.enddate}} <br>
+            Subsequent Position: {{alum.current}} </p>
+          </div>
+      </div>
+   {% endfor %}
+   </div>
+  
+<!--- <img class="img-fluid" src="/static/img/members/drawings/2019_FraserLabAlumni_2.png" alt="We miss our alumni!"> -->
+</div>
+{% include footer.html %}
+

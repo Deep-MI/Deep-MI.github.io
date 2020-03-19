@@ -1,0 +1,59 @@
+---
+title: DeepMI Members
+layout: members
+group: members
+---
+
+<h1>DeepMI Lab Members</h1>
+
+The DeepMI Lab welcomes people of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or ability.
+
+{% for person in site.data.members %}
+<hr>
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div id = "{{person.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid" src="{{person.image}}" {% if person.altimage %} onmouseover="this.src='{{person.altimage}}';" onmouseout="this.src='{{person.image}}';" {% endif %} alt="{{person.name}}"; width="365"; height="365"><br>
+    </div>       
+    <div class="col-sm-3">
+        <strong>{{person.name}}</strong> <br>
+        {% if person.pronouns %}
+          <em>{{person.pronouns}}</em> <br>
+        {% endif %}
+        {{person.position}} <br>
+        <p class="smalltxt">
+        <em>{{person.email}}</em> <br>
+        {% if person.website %}
+          <a style="overflow-wrap: break-word;" href= "{{person.website}}">{{person.website}}</a> <br>
+        {% endif %}
+        {% if person.orcid %}
+          <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logos/orcidid_logo.svg"></a>
+          <a href="http://orcid.org/{{person.orcid}}"> {{person.orcid}}</a> <br>
+        {% endif %}
+        {% if person.linkedin %}
+          <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logos/lin_logo.svg"></a>
+          <a href= "http://www.linkedin.com/in/{{person.linkedin}}"> {{person.linkedin}} </a> <br>
+        {% endif %}
+        {% if person.scholar %}
+          <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logos/gscholar_logo.svg"></a>
+          <a href= "http://scholar.google.com/citations?user={{person.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if person.twitter %}
+          <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/logos/twitter_logo.svg"></a>
+          <a href= "http://twitter.com/{{person.twitter}}"> @{{person.twitter}} </a> <br>
+        {% endif %}
+        {% if person.github %}
+          <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg"></a>
+          <a href= "http://github.com/{{person.github}}"> {{person.github}} </a> <br>
+        {% endif %}
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <p class="text-justify">{{person.description | markdownify}}</p>
+        {% if person.projects %}
+          <em>Current Projects:</em> {{person.projects | markdownify}}
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+<hr>

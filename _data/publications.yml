@@ -1,0 +1,32 @@
+# THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
+#
+#
+# - citation: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C. The title of this super cool Paper. *Submitted*, 2020.'
+#   date: 202003
+#   image: '/static/img/pub/petek_2015.jpg'
+#   pmid: TBD
+#   pmcid: In Process
+#   biorxiv: xxxxx
+#   arxiv: 1904.02082
+#   doi: 10.1002/mrm.28022
+#   pdf: '/static/pdf/petek_2015.pdf'
+#   pdbs:
+#     - 5XXX
+#   links:
+#     - name: 'Mullins Lab'
+#       url: 'http://mullinslab.ucsf.edu/'
+#
+- authors: '**Estrada S**, Lu R, **Conjeti S**, Orozco‐Ruiz X, Panos‐Willuhn J, Breteler MMB, **Reuter M**'
+  title: 'FatSegNet: A Fully Automated Deep Learning Pipeline for Adipose Tissue Segmentation on Abdominal Dixon MRI'
+  journal: '*MRM*'
+  type: 'journal'
+  year: 2019
+  month: 09
+  image: '/static/pub/estrada_2019.jpg'
+  arxiv: 1904.02082
+  doi: 10.1002/mrm.28022
+  bibtex: '/static/pub/estrada_2019.bib'
+  pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.28022'
+  github: reuter-lab/FatSegNet
+
+

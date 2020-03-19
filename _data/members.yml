@@ -1,0 +1,80 @@
+# images 365x365 jpg
+
+- name: Martin Reuter
+  image: /static/img/members/reuter.jpg
+  #altimage: /static/img/members/reuter.jpg
+  #pronouns: he/him/his
+  position: Principal Investigator
+  email: martin.reuter (at) dzne.de
+  scholar: CbdJk1wAAAAJ
+  twitter: deepmilab
+  orcid: 0000-0002-2665-9693
+  github: deepmi
+  description: 'The lab is committed to publishing our code and posting manuscripts on preprint servers.'
+  
+- name: David Kügler
+  image: /static/img/members/david_kuegler.jpg
+  position: Postdoc
+  email: david.kuegler (at) dzne.de
+  scholar: RzZq4QIAAAAJ
+  twitter: kueglerd
+  orcid: 0000-0002-4101-819X
+  github: dkuegler
+  description: 'Deep Learning for Medical Imaging specialist; PhD on DL in CAI @TU Darmstadt'
+  projects: 'Geometry Reconstruction, Interpretability'
+  
+- name: Markus Schirmer
+  position: Postdoc
+  email: markus.schirmer (at) dzne.de
+  scholar: TU9iW8AAAAAJ
+  orcid: 0000-0001-9561-0239
+  github: mdschirmer
+  projects: 'White Matter Lesion Segmentation'
+  
+- name: Kersten Diers
+  position: Research Associate
+  email: kersten.diers (at) dzne.de
+  github: kdiers
+  projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
+  
+- name: Leonie Henschel
+  position: Research Associate
+  email: leonie.henschel (at) dzne.de
+  github: lehenschel
+  projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
+  
+- name: Santiago Estrada
+  image: /static/img/members/santiago_estrada.jpeg
+  #pronouns: he/him/his
+  position: PhD Student
+  email: santiago.estrada (at) dzne.de
+  scholar: c3sq1afExmsC
+  orcid: 0000-0003-0339-8870
+  github: santiestrada32
+  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in Biomedical Computing. His research focuses on the deployment of deep learning methods for quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)). When not at the lab, Santiago enjoys going to the movies and exploring the city.'
+  projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
+
+- name: Emad Bahrami-Rad
+  position: Research Associate
+  email: emad.bahrami-rad (at) dzne.de
+  github: emadRad
+  projects: 'Subfield Segmentation, MR Reconstruction'
+
+- name: Christian Ewert
+  position: Master Student
+  email: christian.ewert (at) dzne.de
+  github: christianewert
+  projects: 'Diffusion Processing, Fiber Tracking'
+
+- name: Clemens Pollak
+  position: Master Student
+  email: clemens.pollak (at) dzne.de
+  github: clepol
+  description: 'Clemens is a Master student in Computer Science from Leibniz Universität Hannover. He is currently writing his thesis and exploring the world of biomedical imaging. In general Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the lab he enjoys windsurfing and hiking.'
+  projects: 'MR Motion Tracking'
+
+- name: Saikat Roy
+  position: Master Student
+  email: saikat.roy (at) dzne.de
+  github: saikat-roy
+  projects: 'Fully 3D Segmentation Networks'

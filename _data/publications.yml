@@ -16,6 +16,15 @@
 #     - name: 'Mullins Lab'
 #       url: 'http://mullinslab.ucsf.edu/'
 #
+
+- authors: '**Henschel L**, **Conjeti S**, **Estrada S**, **Diers K**, Fischl B, **Reuter M**'
+  title: 'FastSurfer - A fast and accurate deep learning based neuroimaging pipeline'
+  journal: 'under review'
+  type: 'journal'
+  year: 2020
+  month: 0
+  arxiv: 1910.03866
+
 - authors: '**Estrada S**, Lu R, **Conjeti S**, Orozco‐Ruiz X, Panos‐Willuhn J, Breteler MMB, **Reuter M**'
   title: 'FatSegNet: A Fully Automated Deep Learning Pipeline for Adipose Tissue Segmentation on Abdominal Dixon MRI'
   journal: '*MRM*'

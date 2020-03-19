@@ -64,6 +64,7 @@
   position: Master Student
   email: christian.ewert (at) dzne.de
   github: christianewert
+  description: 'Christian is a Master student in Computer Science at University of Bonn. He is interested in Deep Learning and its potential to reveal hidden patterns and relationships in neuroimaging data. In his thesis, he explores ways to apply Deep Learning to fiber-tracking in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
 
 - name: Clemens Pollak

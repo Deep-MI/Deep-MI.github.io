@@ -45,10 +45,10 @@
   type: 'workshop'
   year: 2018
   month: 09
-  image: '/static/pub/muneer_2018.jpg'
+  image: '/static/pub/ahmad_2018.jpg'
   arxiv: 1807.03343
   doi: 10.1007/978-3-030-00129-2_4
-  bibtex: '/static/pub/muneer_2018.bib'
+  bibtex: '/static/pub/ahmad_2018.bib'
   pdf: '/static/pub/1807.03343.pdf'
 
 - authors: 'Zaretskaya N, Fischl B, **Reuter M**,  Renvall V, Polimeni JR'

@@ -23,6 +23,7 @@
   type: 'journal'
   year: 2020
   month: 0
+  image: '/static/pub/henschel_2020.jpg'
   arxiv: 1910.03866
 
 - authors: '**Estrada S**, Lu R, **Conjeti S**, Orozco‐Ruiz X, Panos‐Willuhn J, Breteler MMB, **Reuter M**'

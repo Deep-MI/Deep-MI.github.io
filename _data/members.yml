@@ -3,7 +3,6 @@
 - name: Martin Reuter
   image: /static/img/members/reuter.jpg
   #altimage: /static/img/members/reuter.jpg
-  #pronouns: he/him/his
   position: Principal Investigator
   email: martin.reuter (at) dzne.de
   scholar: CbdJk1wAAAAJ
@@ -74,11 +73,11 @@
   position: Research Associate
   email: leonie.henschel (at) dzne.de
   github: lehenschel
+  description: 'Leonie graduated from the Bonn-Aachen International Center for Information Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the development of deep learning methods for biomedical image analysis with a focus on brain MRIs. She is interested in machine learning, data science and deep learning. In her free time, Leonie enjoys running, yoga and the great outdoors.'
   projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
   
 - name: Santiago Estrada
   image: /static/img/members/santiago_estrada.jpeg
-  #pronouns: he/him/his
   position: PhD Student
   email: santiago.estrada (at) dzne.de
   scholar: c3sq1afExmsC
@@ -104,7 +103,7 @@
   position: Master Student
   email: clemens.pollak (at) dzne.de
   github: clepol
-  description: 'Clemens is a Master student in Computer Science from Leibniz Universität Hannover. He is currently writing his thesis and exploring the world of biomedical imaging. In general Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the lab he enjoys windsurfing and hiking.'
+  description: 'Clemens is a Master student in Computer Science at Leibniz University Hanover. He is currently writing his thesis and exploring the world of biomedical imaging. In general Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the lab he enjoys windsurfing and hiking.'
   projects: 'MR Motion Tracking'
 
 - name: Saikat Roy

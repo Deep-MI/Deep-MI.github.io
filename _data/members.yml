@@ -70,6 +70,7 @@
   projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
   
 - name: Leonie Henschel
+  image: /static/img/members/henschel.jpg
   position: Research Associate
   email: leonie.henschel (at) dzne.de
   github: lehenschel
@@ -77,7 +78,7 @@
   projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
   
 - name: Santiago Estrada
-  image: /static/img/members/estrada.jpeg
+  image: /static/img/members/estrada.jpg
   position: PhD Student
   email: santiago.estrada (at) dzne.de
   scholar: c3sq1afExmsC
@@ -87,12 +88,14 @@
   projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
 
 - name: Emad Bahrami-Rad
+  image: /static/img/members/bahrami-rad.jpg
   position: Research Associate
   email: emad.bahrami-rad (at) dzne.de
   github: emadRad
   projects: 'Subfield Segmentation, MR Reconstruction'
 
 - name: Christian Ewert
+  image: /static/img/members/ewert.jpg
   position: Master Student
   email: christian.ewert (at) dzne.de
   github: christianewert
@@ -100,6 +103,7 @@
   projects: 'Diffusion Processing, Fiber Tracking'
 
 - name: Clemens Pollak
+  image: /static/img/members/pollak.jpg
   position: Master Student
   email: clemens.pollak (at) dzne.de
   github: clepol
@@ -107,6 +111,7 @@
   projects: 'MR Motion Tracking'
 
 - name: Saikat Roy
+  image: /static/img/members/roy.jpg
   position: Master Student
   email: saikat.roy (at) dzne.de
   github: saikat-roy

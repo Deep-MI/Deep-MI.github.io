@@ -222,4 +222,41 @@
   bibtex: '/static/pub/wachinger_2016_da.bib'
   pmcid: PMC4983466
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'  
-  
+
+- authors: '**Wachinger C**, **Reuter M**'
+  title: 'Shape-based Classification and Domain Adaptation for Alzheimer's Disease Diagnostics'
+  conference: 'Human Brain Mapping 2016'
+  type: 'conference'
+  year: 2016
+  month: 06
+
+- authors: 'Yendiki A, **Reuter M**, Wilkens P, Rosas HD, Fischl B'
+  title: 'Joint reconstruction of white-matter pathways from longitudinal diffusion MRI data with anatomical priors'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2016
+  month: 12
+  doi: 10.1016/j.neuroimage.2015.12.003
+#  pages = {277--286},
+#  volume = {127},
+
+- authors: 'Tisdall MD, **Reuter M**, Qureshi A, Buckner RL, Fischl B, van der Kouwe A'
+  year: 2016
+  title: 'Prospective motion correction with volumetric navigators (vNavs) reduces the bias and variance in brain morphometry induced by subject motion'
+# pages = {11--22},
+# volume = {127},
+  journal: '*NeuroImage*'
+  doi: 10.1016/j.neuroimage.2015.11.054
+
+- authors: 'Biller A, **Reuter M**, Patenaude B, Homola GA, Breuer F, Bendszus M, Bartsch AJ'
+  type: 'journal'
+  year: 2015
+  title: 'Responses of the Human Brain to Mild Dehydration and Rehydration Explored In Vivo by 1H-MR Imaging and Spectroscopy'
+  pdf: http://www.ajnr.org/content/ajnr/36/12/2277.full.pdf
+#  pages = {2277--2284},
+#  volume = {36},
+#  number = {12},
+#  issn = {1936-959X},
+  journal: American Journal of Neuroradiology
+  doi: 10.3174/ajnr.A4508
+  pmcid: 26381562

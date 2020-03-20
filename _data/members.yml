@@ -10,7 +10,42 @@
   twitter: deepmilab
   orcid: 0000-0002-2665-9693
   github: deepmi
-  description: 'The lab is committed to publishing our code and posting manuscripts on preprint servers.'
+  description: 'Martin is Assistant Professor of Radiology and of Neurology at Harvard
+  Medical School and the Massachusetts General Hospital (Assistant in Neuroscience, Dept.
+  of Radiology and Dept. of Neurology). He is Director of the Image Analysis (Deep-MI Lab)
+  at the German Center for Neurodegenerative Diseases (DZNE), affiliated to the Martinos 
+  Center for Biomedical Imaging and the MIT Computer Science and Artificial Intelligence Lab.
+  
+  Martin started his career as a PhD student at the Welfenlab, Leibniz University of Hannover, Germany, 
+  after graduating (2001) there in mathematics with a second major in computer science and a minor
+  in business informatics. He obtained his PhD (2005) in the area of
+  computational and differential geometry from the department of electrical engineering 
+  and computer science with summa cum laude and was awarded a prize for his outstanding
+  scientific accomplishments by the University of Hanover. 
+   
+  Supported by a Feodor-Lynen fellowship of the Alexander von Humboldt Foundation he moved 
+  to MIT (2006-08) and contributed novel methods for non-rigid shape analysis and processing,
+  receiving a most cited paper award of the 
+  Computer-Aided Design journal for his ground-breaking manuscript on spectral shape analysis (ShapeDNA).
+  Martin then moved to MGH/Harvard Medical School in 2008 and began his independent faculty career as
+  Instructor at HMS in 2009/10 transitioning his focus to more applied medical image analysis topics. 
+  He contributed novel methods for unbiased longitudinal image processing of brain MRI 
+  and structural shape analysis for computer-aided diagnosis and prognosis. His methods are 
+  widely employed as part of the open source FreeSurfer software package to study neurodegeneration and 
+  assess disease modifying therapies, e.g., by the Alzheimer`s Disease Neuroimaging Initiative,
+  the Rhineland Study, and other large cohort studies.
+  
+  After receiving a competitive NIH Career Award (2014) for his research on computational methods for medical image
+  analysis, Martin was appointed Assistant Professor by both the Radiology and the Neurology Departments
+  at Harvard Medical School in 2015. He, further, accepted (2017) the offer to direct the Medical Image
+  Analysis at the German Centerfor Neurodegenerative Diseases (DZNE) in Bonn, Germany. During his career
+  so far, Martin has attracted close to $3 mio worth of 3rd party funding.
+  
+  The research focus the DeepMI lab is on the development of a novel deep-learning and machine-learning 
+  methods for the automated analysis of medical images, such as human brain MRI. 
+  Furthermore, our research interests include computational neuroimaging, computational geometry and topology, computer and 
+   biomedical vision, computer-aided design, geometric modeling and computer graphics.
+  The lab is committed to publishing our code and posting manuscripts on preprint servers.'
   
 - name: David Kügler
   image: /static/img/members/david_kuegler.jpg

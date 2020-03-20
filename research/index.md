@@ -8,7 +8,7 @@ Interdisciplinarity is what drives modern research...
 
 (Note: this is a prototype page and will be filled with more details. In the meantime, see also [reuter.mit.edu](http://reuter.mit.edu) )
 
-# Research Domains
+# Research Directions
 
 
   The research focus the DeepMI lab is on the development of a novel deep-learning (CNNs) and machine-learning 
@@ -24,9 +24,11 @@ Interdisciplinarity is what drives modern research...
 - Machine Learning, Computer Vision and Graphics, Computational Statistics,
 - Differential and Computational Geometry, Computational Topology,
 - Human Computer Interaction, Geometric Modeling, Computer-aided Design
--->
+
 
 # Research Directions
+
+-->
 
 In close collaboration with clinical and industrial partners, we develop the next-generation computational techniques for the analysis of large biomedical image datasets, including:
 

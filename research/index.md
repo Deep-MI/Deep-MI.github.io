@@ -6,7 +6,11 @@ group: research
 
 Interdisciplinarity is what drives modern research...
 
-(Note: this is a prototype page and will be filled with more details. In the meantime, see also [reuter.mit.edu](http://reuter.mit.edu) )
+(Note: this page is currently under development and will be filled with more details. In the meantime, see also [reuter.mit.edu](http://reuter.mit.edu) and our [publications](/publications) )
+
+
+The lab is committed to publishing our code ( [Deep-MI Github](https://github.com/deep-mi) ) and posting manuscripts on preprint servers.
+
 
 # Research Directions
 
@@ -16,7 +20,6 @@ Interdisciplinarity is what drives modern research...
   In addition to medical image computing and computational neuroimaging, our research intersets include
    computational geometry and topology, computer and 
    biomedical vision, computer-aided design, geometric modeling and computer graphics.
-  The lab is committed to publishing our code and posting manuscripts on preprint servers.
 
 <!---
 - AI in Medical Imaging, Deep-Learning, Convolutional Neural Networks,

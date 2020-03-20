@@ -10,11 +10,21 @@ Interdisciplinarity is what drives modern research...
 
 # Research Domains
 
+
+  The research focus the DeepMI lab is on the development of a novel deep-learning (CNNs) and machine-learning 
+  methods for the automated analysis of medical images, such as human brain MRI. 
+  In addition to medical image computing and computational neuroimaging, our research intersets include
+   computational geometry and topology, computer and 
+   biomedical vision, computer-aided design, geometric modeling and computer graphics.
+  The lab is committed to publishing our code and posting manuscripts on preprint servers.
+
+<!---
 - AI in Medical Imaging, Deep-Learning, Convolutional Neural Networks,
 - Medical Image Computing, Computational NeuroImaging, Big Data Analysis,
 - Machine Learning, Computer Vision and Graphics, Computational Statistics,
 - Differential and Computational Geometry, Computational Topology,
 - Human Computer Interaction, Geometric Modeling, Computer-aided Design
+-->
 
 # Research Directions
 
@@ -28,6 +38,5 @@ In close collaboration with clinical and industrial partners, we develop the nex
 
 
 <!---
-<img class="img-fluid mx-auto d-block" src="/static/img/fraseratucsf.jpg" alt="Fraser at UCSF, in molecular form">
-
+<img class="img-fluid mx-auto d-block" src="/static/img/image.jpg" alt="whatever">
  -->

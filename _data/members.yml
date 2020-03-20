@@ -103,6 +103,7 @@
   projects: 'Diffusion Processing, Fiber Tracking'
 
 - name: Clemens Pollak
+  image: /static/img/members/pollak.jpg
   position: Master Student
   email: clemens.pollak (at) dzne.de
   github: clepol

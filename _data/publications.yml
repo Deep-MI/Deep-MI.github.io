@@ -33,7 +33,7 @@
   type: 'journal'
   year: 2019
   month: 09
-  image: '/static/pub/estrada_2019.png'
+  image: '/static/pub/estrada_2019.jpg'
   arxiv: 1904.02082
   doi: 10.1002/mrm.28022
   bibtex: '/static/pub/estrada_2019.bib'
@@ -46,7 +46,7 @@
   type: 'workshop'
   year: 2018
   month: 09
-  image: '/static/pub/estrada_2018.png'
+  image: '/static/pub/estrada_2018.jpg'
   arxiv: 1807.07803
   doi: 10.1007/978-3-030-00919-9_25
   bibtex: '/static/pub/estrada_2018.bib'

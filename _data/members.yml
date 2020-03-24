@@ -51,7 +51,14 @@
   twitter: kueglerd
   orcid: 0000-0002-4101-819X
   github: dkuegler
-  description: 'Deep Learning for Medical Imaging specialist; PhD on DL in CAI @TU Darmstadt'
+  description: 'David focuses of Learning aspects for Artificial Intelligence in Medicine. 
+  He has a strong interest in developing next generation learning strategies for medical imaging 
+  with an intrinsic inclusion of geometry and modeling. At DZNE he supports students and PhDs with 
+  his Deep Learning and medical image processing experience. As an interdisciplinary researcher, 
+  David graduated from RWTH Aachen with a degree in mechanical engineering focusing on learning 
+  for control engineering in medical robotics. Since then he worked at the TU Darmstadt as a PhD 
+  bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses 
+  image-guided and electromagnetic tracking for temporal bone surgery.'
   projects: 'Geometry Reconstruction, Interpretability'
   
 - name: Markus Schirmer
@@ -67,6 +74,10 @@
   position: Research Associate
   email: kersten.diers (at) dzne.de
   github: kdiers
+  description: 'Kersten graduated from TU Dresden with a degree in Psychology and University of 
+  Heidelberg with a degree in Medical Biometry / Biostatistics. His work is at the intersection 
+  of applied methods development and empirical research, with a particular focus on shape 
+  analysis and statistical modeling of neuroimaging data.'
   projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
   
 - name: Leonie Henschel
@@ -74,7 +85,11 @@
   position: Research Associate
   email: leonie.henschel (at) dzne.de
   github: lehenschel
-  description: 'Leonie graduated from the Bonn-Aachen International Center for Information Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the development of deep learning methods for biomedical image analysis with a focus on brain MRIs. She is interested in machine learning, data science and deep learning. In her free time, Leonie enjoys running, yoga and the great outdoors.'
+  description: 'Leonie graduated from the Bonn-Aachen International Center for Information 
+  Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the 
+  development of deep learning methods for biomedical image analysis with a focus on brain 
+  MRIs. She is interested in machine learning, data science and deep learning. In her free time, 
+  Leonie enjoys running, yoga and the great outdoors.'
   projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
   
 - name: Santiago Estrada
@@ -84,7 +99,10 @@
   scholar: c3sq1afExmsC
   orcid: 0000-0003-0339-8870
   github: santiestrada32
-  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in Biomedical Computing. His research focuses on the deployment of deep learning methods for quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)). When not at the lab, Santiago enjoys going to the movies and exploring the city.'
+  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in 
+  Biomedical Computing. His research focuses on the deployment of deep learning methods for 
+  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)). 
+  When not at the lab, Santiago enjoys going to the movies and exploring the city.'
   projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
 
 - name: Emad Bahrami-Rad
@@ -99,7 +117,10 @@
   position: Master Student
   email: christian.ewert (at) dzne.de
   github: christianewert
-  description: 'Christian is a Master student in Computer Science at University of Bonn. He is interested in Deep Learning and its potential to reveal hidden patterns and relationships in neuroimaging data. In his thesis, he explores ways to apply Deep Learning to fiber-tracking in diffusion-weighted MRI.'
+  description: 'Christian is a Master student in Computer Science at University of Bonn. He is 
+  interested in Deep Learning and its potential to reveal hidden patterns and relationships in 
+  neuroimaging data. In his thesis, he explores ways to apply Deep Learning to fiber-tracking 
+  in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
 
 - name: Clemens Pollak
@@ -107,7 +128,10 @@
   position: Master Student
   email: clemens.pollak (at) dzne.de
   github: clepol
-  description: 'Clemens is a Master student in Computer Science at Leibniz University Hanover. He is currently writing his thesis and exploring the world of biomedical imaging. In general Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the lab he enjoys windsurfing and hiking.'
+  description: 'Clemens is a Master student in Computer Science at Leibniz University Hanover. 
+  He is currently writing his thesis and exploring the world of biomedical imaging. In general 
+  Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the 
+  lab he enjoys windsurfing and hiking.'
   projects: 'MR Motion Tracking'
 
 - name: Saikat Roy
@@ -116,5 +140,8 @@
   email: saikat.roy (at) dzne.de
   github: saikat-roy
   scholar: dSs0DfoAAAAJ
-  description: 'Saikat is a Master student in Computer Science at University of Bonn with a focus on Intelligent Systems. He is currently working on his thesis which deals with effectively using 3D deep learning in segmenting neuroimaging data. General interests include machine learning, pattern recognition and deep learning. Beyond his work, he enjoys gaming.'
+  description: 'Saikat is a Master student in Computer Science at University of Bonn with a focus 
+  on Intelligent Systems. He is currently working on his thesis which deals with effectively using 
+  3D deep learning in segmenting neuroimaging data. General interests include machine learning, 
+  pattern recognition and deep learning. Beyond his work, he enjoys gaming.'
   projects: 'Fully 3D Segmentation Networks'

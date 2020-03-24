@@ -31,6 +31,6 @@ of neurodegenerative disease, etc): BrainPrint Publication.
 
 ## Selected Publications and Links
 
- - [BrainPrint: A Discriminative Characterization of Brain Morphology. C.Wachinger, ..., M.Reuter. NeuroImage 109:232-248, 2015.](/publications#reuter_2015)
- - [Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter, F.-E. Wolter and N. Peinecke. Computer-Aided Design 38(4):342-366, 2006.](/publications#reuter_2006)
+ - [BrainPrint: A Discriminative Characterization of Brain Morphology. C.Wachinger, ..., M.Reuter. NeuroImage 109:232-248, 2015.](/publications/#reuter_2015)
+ - [Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter, F.-E. Wolter and N. Peinecke. Computer-Aided Design 38(4):342-366, 2006.](/publications/#reuter_2006)
 

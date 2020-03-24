@@ -41,6 +41,13 @@ In close collaboration with clinical and industrial partners, we develop the nex
 
 - Our research focuses on improving our understanding of brain development, neurodegeneration (aging, dementia, Alzheimer's disease, Huntington's disease), the sensitive quantification of subtle drug effects, and improving tumor treatment assessment, via multi-modal imaging.
 
+# Project Examples
+
+ - [FastSurfer](/research/fastsurfer/), a deep-learning based neuroimaging Pipeline 
+ - [FatSegNet](/research/fatsegnet/), automated adipose tissue segmentation and field-of-view estimation in Dixon MRI
+ - [BrainPrint](/research/brainprint/), tools for shape and asymmetry analysis of neuroanatomical structures
+ 
+ 
 
 <!---
 <img class="img-fluid mx-auto d-block" src="/static/img/image.jpg" alt="whatever">

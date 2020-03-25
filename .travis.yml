@@ -9,7 +9,7 @@ rvm:
 # the `install` step will run `bundle install` by default.
 #script: ./script/cibuild
 
-install: gem install bundler html-proofer
+install: gem install bundler html-proofer && bundle install
 
 script: jekyll build && htmlproofer ./_site
 

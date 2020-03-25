@@ -1,4 +1,10 @@
-# THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
+# Publications Table
+# 
+# Use single quotes around longer text passages, and use two single quotes to escape the quote e.g. Alzheimer''s disease.
+#
+# id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
+# pubmed central ID should be put if available
+# doi should always be put if available
 #
 #
 # - id: 'lastname_4digityear'       
@@ -8,15 +14,17 @@
 #   type: 'journal or conerence or workshop or abstract or poster'
 #   year: 2020
 #   month: 1
-#   pages: optional
-#   volume: optional
-#   number: optional
-#   image: '/static/img/pub/lastname_4digityear_ifnecessarymore.jpg'
+#   pages: if available
+#   volume: if available
+#   number: if available
+#   image: '/static/pub/lastname_4digityear_ifnecessarymore.jpg'
 #   pmcid: In Process or pubmed central id or omit
 #   biorxiv: xxxxx
 #   arxiv: 1904.02082
 #   doi: 10.1002/mrm.28022
-#   pdf: '/static/pdf/lastname_year_ifnecessarymore.pdf'
+#   pdf: '/static/pub/lastname_year_ifnecessarymore.pdf'
+#   github: /deep-mi/project
+#   bibtex: '/static/pub/lastname_year_ifnecessarymore.bib'
 #   links:
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'

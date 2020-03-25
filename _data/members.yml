@@ -110,6 +110,10 @@
   position: Research Associate
   email: emad.bahrami-rad (at) dzne.de
   github: emadRad
+  description: 'Emad graduated from University of Bonn with a Master's degree in Computer Science. 
+  He is working on the development of deep learning methods for substructure segmentation of
+  Cerebellum, Hypothalamus, Hippocampus, and Amygdala. His research interest includes machine learning,
+  deep learning, and computer vision.'
   projects: 'Subfield Segmentation, MR Reconstruction'
 
 - name: Christian Ewert

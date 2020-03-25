@@ -1,20 +1,25 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 #
 #
-# - citation: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C. The title of this super cool Paper. *Submitted*, 2020.'
-#   date: 202003
-#   image: '/static/img/pub/petek_2015.jpg'
-#   pmid: TBD
-#   pmcid: In Process
+# - id: 'lastname_4digityear'       
+#   authors: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C'
+#   title: 'The title of this super cool Paper using double''s to escape single quote'
+#   journal: 'abbreviated name or ''under review'' '
+#   type: 'journal or conerence or workshop or abstract or poster'
+#   year: 2020
+#   month: 1
+#   pages: optional
+#   volume: optional
+#   number: optional
+#   image: '/static/img/pub/lastname_4digityear_ifnecessarymore.jpg'
+#   pmcid: In Process or pubmed central id or omit
 #   biorxiv: xxxxx
 #   arxiv: 1904.02082
 #   doi: 10.1002/mrm.28022
-#   pdf: '/static/pdf/petek_2015.pdf'
-#   pdbs:
-#     - 5XXX
+#   pdf: '/static/pdf/lastname_year_ifnecessarymore.pdf'
 #   links:
-#     - name: 'Mullins Lab'
-#       url: 'http://mullinslab.ucsf.edu/'
+#     - name: 'Some coauthor Lab'
+#       url: 'http://coollab.uni.edu/'
 #
 
 - id: 'henschel_2020'
@@ -94,7 +99,7 @@
 
 - id: 'wachinger_2018'
   authors: '**Wachinger C**, Nho K, Saykin AJ, **Reuter M**, Rieckmann A'
-  title: 'A Longitudinal Imaging Genetics Study of Neuroanatomical Asymmetry in Alzheimer`s Disease'
+  title: 'A Longitudinal Imaging Genetics Study of Neuroanatomical Asymmetry in Alzheimer''s Disease'
   journal: '*Biol. Psychiatry*'
   type: 'journal'
   year: 2018
@@ -118,7 +123,7 @@
 
 - id: 'berron_2017'
   authors: 'Berron D, Schütze H, Cardenas-Blanco A, Fliessbach K, Wagner M, Spottke A, **Reuter M**, Teipel SJ, Buerger K, Schneider A, Peters O, Nestor P, Priller J, Wiltfang J, Laske C, Jessen F, Düzel E'
-  title: 'Object and Scene Memory are Differentially Associated with CSF Markers OF Alzheimer’s Disease and MRI Volumetry'
+  title: 'Object and Scene Memory are Differentially Associated with CSF Markers OF Alzheimer''s Disease and MRI Volumetry'
   journal: '*Alzheimers Dement*'
   type: 'journal'
   year: 2017
@@ -230,7 +235,7 @@
 
 - id: 'wachinger_2016_da'
   authors: '**Wachinger C**, **Reuter M**'
-  title: 'Domain adaptation for Alzheimer`s disease diagnostics'
+  title: 'Domain adaptation for Alzheimer''s disease diagnostics'
   journal: '*NeuroImage*'
   type: 'journal'
   year: 2016

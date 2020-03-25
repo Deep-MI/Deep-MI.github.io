@@ -10,13 +10,14 @@ rvm:
 #script: ./script/cibuild
 
 install: gem install jekyll html-proofer
+
 script: jekyll build && htmlproofer ./_site
 
 # branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+#branches:
+#  only:
+#  - gh-pages     # test the gh-pages branch
+#  - /pages-(.*)/ # test every branch which starts with "pages-"
 
 env:
   global:

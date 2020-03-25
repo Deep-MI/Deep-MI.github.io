@@ -33,7 +33,7 @@
   He contributed novel methods for unbiased longitudinal image processing of brain MRI 
   and structural shape analysis for computer-aided diagnosis and prognosis. His methods are 
   widely employed as part of the open source FreeSurfer software package to study neurodegeneration and 
-  assess disease modifying therapies, e.g., by the Alzheimer`s Disease Neuroimaging Initiative,
+  assess disease modifying therapies, e.g., by the Alzheimer''s Disease Neuroimaging Initiative,
   the Rhineland Study, and other large cohort studies.
   
   
@@ -105,12 +105,12 @@
   When not at the lab, Santiago enjoys going to the movies and exploring the city.'
   projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
 
-- name: 'Emad Bahrami-Rad'
+- name: Emad Bahrami-Rad
   image: /static/img/members/bahrami-rad.jpg
   position: Research Associate
-  email: 'emad.bahrami-rad (at) dzne.de'
+  email: emad.bahrami-rad (at) dzne.de
   github: emadRad
-  description: 'Emad graduated from University of Bonn with a Master's degree in Computer Science. 
+  description: 'Emad graduated from University of Bonn with a Master''s degree in Computer Science. 
   He is working on the development of deep learning methods for substructure segmentation of
   Cerebellum, Hypothalamus, Hippocampus, and Amygdala. His research interest includes machine learning,
   deep learning, and computer vision.'

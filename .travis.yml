@@ -5,7 +5,7 @@ rvm:
 # install will run bundle install by default (make sure Gemfile has dependencies)
 #install: gem install bundler && bundle install
 
-script: bundle exec jekyll build && htmlproofer ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site
 
 env:
   global:

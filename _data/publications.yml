@@ -53,7 +53,7 @@
   doi: 10.1002/mrm.28022
   bibtex: '/static/pub/estrada_2019.bib'
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.28022'
-  github: reuter-lab/FatSegNet
+  github: deep-mi/FatSegNet
 
 - id: 'estrada_2018'
   authors: '**Estrada S**, **Conjeti S**, **Ahmad M**, Nassir N, **Reuter M**'

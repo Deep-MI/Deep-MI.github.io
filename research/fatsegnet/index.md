@@ -124,7 +124,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 </div>
 
 ## Tool and Paper
-- Our tool is available at [github](https://github.com/reuter-lab/FatSegNet).
+- Our tool is available at [github](https://github.com/deep-mi/FatSegNet).
 - For more information about FatSegNet please check our [journal paper](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28022?af=R).
 
 ## News

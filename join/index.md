@@ -14,11 +14,9 @@ We are currently looking for a Postdoc to join our Lab in Bonn, Germany at a wor
 
 # What we have to offer
 
-While every lab member is expected to contribute to the lab, we also expect to give something back to you (not just a competitive salary). We want to enable you to advance your career towards your personal goals. 
+While every lab member is expected to contribute to the lab, we also expect to give something back to you (not just a competitive salary). We want to enable you to advance your career towards your personal goals:
 
-These are reasons, why we think this will be possible:
-
-- We mentor you and have an open ear for your concerns.
+- We mentor you and have an open ear for your.
 - We strive to provide excellent training across a wide range of computational and experimental techniques.
 - We provide a strong network of international collaborators at various prestigious institutions, such as Harvard and MIT.
 - We are located at the DZNE, a German Helmholtz Center, with outstanding funding, resources, and research environment.

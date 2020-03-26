@@ -20,7 +20,7 @@ FastSurfer consists of two main parts building upon each other:
 2. [recon-surf](#surface-reconstruction---recon-surf) - full  FreeSurfer  alternative for cortical surface reconstruction, mapping of cortical labels and
 traditional point-wise and ROI thickness analysis in approximately 60 minutes (+ optionally 30 min for group registration).
 
-<img src="/static/img/research/fastsurfer/01_teaser_white.png" class="responsive" alt="" style="
+<img src="/static/img/research/fastsurfer/01_teaser_white.png" class="responsive" alt="FastSurfer" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -41,7 +41,7 @@ Within each F-CNN we incorporate local and global competition via competitive de
 multi-slice information aggregation (7-channel input) that specifically tailor network performance towards accurate recognition of
 both cortical and sub-cortical structures.
 
-<img src="/static/img/research/fastsurfer/02_fastsurferCNN.png" alt="" style="
+<img src="/static/img/research/fastsurfer/02_fastsurferCNN.png" alt="FastSurferCNN" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +67,7 @@ the surface smoothly and quickly generate the final spherical map by scaling the
 
 Overall, these improvements result in a significant speed-up compared to FreeSurfer.
 
-<img src="/static/img/research/fastsurfer/03_recon_surf.png" alt="" style="
+<img src="/static/img/research/fastsurfer/03_recon_surf.png" alt="ReconSurf" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -90,7 +90,7 @@ and a manual standard (Mindboggle). It generalizes well across five different da
 cognitive normal, mild cognitive impaired or demented subjects in OASIS, ADNI, MIRIAD), different
 vendors (e.g. THP), age groups, downsampled and defaced images (e.g. HCP) and alternative T1-imaging protocols (e.g. MIRIAD)
 
-<img src="/static/img/research/fastsurfer/04_dice_hd_barplot.png" alt="" style="
+<img src="/static/img/research/fastsurfer/04_dice_hd_barplot.png" alt="DICE" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -107,7 +107,7 @@ vendors (e.g. THP), age groups, downsampled and defaced images (e.g. HCP) and al
 __Answer__: FastSurfer is highly reliable as demonstrated by the close agreement between the thickness and volumetric
 measurements for 20 Test-Retest subjects from OASIS1.
 
-<img src="/static/img/research/fastsurfer/05_icc_reliability_lr.png" alt="" style="
+<img src="/static/img/research/fastsurfer/05_icc_reliability_lr.png" alt="ICC" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -126,7 +126,7 @@ Reduced cortical thickness in regions associated with dementia (e.g. temporal lo
 differences (e.g. enlarged ventricles, shrunken Hippocampus) are robustly detected with increased sensitivity relative
 to FreeSurfer.
 
-<img src="/static/img/research/fastsurfer/06_sensitivity_v3.png" alt="" style="
+<img src="/static/img/research/fastsurfer/06_sensitivity_v3.png" alt="Sensitivity" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -139,9 +139,9 @@ thickness and subcortical volumes between dementia and control groups.
 </div>
 
 ### Tool and Paper
-- Our tool will be made available upon acceptance at [github](https://github.com/deep-mi/FastSurfer). Follow us on Twitter to get notified as soon as we go public: <a href="https://twitter.com/deepmilab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @deepmilab</a>
+- Our tool will be made available upon acceptance at [github](https://github.com/deep-mi/). Follow us on Twitter to get notified as soon as we go public: <a href="https://twitter.com/deepmilab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @deepmilab</a>
 
-- In-depth information about FastSurfer can be found in our arxiv paper [journal paper](https://arxiv.org/abs/1910.03866).
+- In-depth information about FastSurfer can be found in our [paper](https://arxiv.org/abs/1910.03866).
 
 ### News
-- FastSurfer was presented in the #OHBMx equinox (check out our twitter @deepmilab)
+- FastSurfer was presented in the #OHBMx equinox (check out our twitter [@deepmilab](https://twitter.com/deepmilab)).

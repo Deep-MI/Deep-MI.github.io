@@ -66,7 +66,7 @@
   arxiv: 1807.07803
   doi: 10.1007/978-3-030-00919-9_25
   bibtex: '/static/pub/estrada_2018.bib'
-  pdf: '/static/pub/1807.07803.pdf'
+  #pdf: '/static/pub/1807.07803.pdf'
 
 - id: 'ahmad_2018'
   authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
@@ -79,7 +79,7 @@
   arxiv: 1807.03343
   doi: 10.1007/978-3-030-00129-2_4
   bibtex: '/static/pub/ahmad_2018.bib'
-  pdf: '/static/pub/1807.03343.pdf'
+  #pdf: '/static/pub/1807.03343.pdf'
 
 - id: 'zaretskaya_2018'
   authors: 'Zaretskaya N, Fischl B, **Reuter M**,  Renvall V, Polimeni JR'
@@ -224,7 +224,7 @@
   type: 'journal'
   year: 2016
   month: 11
-  image: '/static/pub/ge_2016.jpg'
+  #image: '/static/pub/ge_2016.jpg'
   doi: 10.1038/ncomms13291
   bibtex: '/static/pub/ge_2016.bib'
   pdf: 'https://www.nature.com/articles/ncomms13291.pdf'

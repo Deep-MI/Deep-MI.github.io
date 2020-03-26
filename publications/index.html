@@ -23,7 +23,7 @@ group: publications
 			<strong>Access the paper</strong>
 			<!--DOI-->
 			{% if publication.doi %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/DOI_logo.svg">  <a href="http://dx.doi.org/{{publication.doi}}" alt = "doi: {{publication.doi}}" target="_blank"> {{publication.doi}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/DOI_logo.svg" alt="DOI">  <a href="http://dx.doi.org/{{publication.doi}}" alt = "doi: {{publication.doi}}" target="_blank"> {{publication.doi}}</a></li>
 			{% endif %}
 
 			<!--PMID-->
@@ -33,7 +33,7 @@ group: publications
 			
 			<!--PMCID - optional -->
 			{% if publication.pmcid %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/pmc_logo.jpg"> <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}" target="_blank"> {{publication.pmcid}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/pmc_logo.jpg" alt="PMC"> <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}" target="_blank"> {{publication.pmcid}}</a></li>
 			{% endif %}
 
 			<!--Biorxiv - optional -->
@@ -43,7 +43,7 @@ group: publications
 
 			<!--Arxiv - optional -->
 			{% if publication.arxiv %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/arxiv_logo.jpg"> <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}" target="_blank"> {{publication.arxiv}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}" target="_blank"> {{publication.arxiv}}</a></li>
 			{% endif %}
 
 			<!--Chemrxiv - optional -->
@@ -52,18 +52,18 @@ group: publications
 			{% endif %}
 
 			<!-- PDF -->
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg">  <a href="{{publication.pdf}}" alt = "PDF" target="_blank"> Full Text</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF">  <a href="{{publication.pdf}}" alt = "PDF" target="_blank"> Full Text</a></li>
 
 			<!-- BibTex -->
 		        {% if publication.bibtex %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bibtex.svg">  <a href="{{publication.bibtex}}" download alt = "BibTeX"> BibTeX</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bibtex.svg" alt="bibTeX">  <a href="{{publication.bibtex}}" download alt = "BibTeX"> BibTeX</a></li>
 		        {% endif %}
 		
 			<!--Github - optional -->
 			{% if publication.github %}
 		        <br>
 		        <strong>Source Code</strong>
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg"> <a href=" https://github.com/{{publication.github}}" alt = "github link: {{publication.github}}" target="_blank"> {{publication.github}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg" alt="GitHub"> <a href=" https://github.com/{{publication.github}}" alt = "github link: {{publication.github}}" target="_blank"> {{publication.github}}</a></li>
 			{% endif %}
 
 			<!-- Datasets - optional -->

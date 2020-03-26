@@ -10,7 +10,7 @@ group: research
 
 FatSegNet is a novel, fast, and fully automated deep learning pipeline to accurately identify, segment, and quantify visceral and subcutaneous adipose tissue (VAT and SAT) within a consistent, anatomically defined abdominal region on Dixon MRI scans. The proposed pipeline implements a three-stage design with our Competitive Dense Fully Convolutional Network (CDFNet) architecture at the core for localizing the abdominal region and segmenting the abdominal adipose tissue.
 
-<img src="/static/img/research/fatsegnet/2_FatSegNet_pipeline.jpg" class="responsive" alt="" style="
+<img src="/static/img/research/fatsegnet/2_FatSegNet_pipeline.jpg" class="responsive" alt="FatSegNet Pipeline" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,7 +28,7 @@ Our CDFNet is implemented by adopting a Dense-Unet architecture  and extending i
 - By training only one network, all sub-networks are jointly regularized.
 - It reduces the dimensionality of the feature space, hence it requires a significant lower number of learnable parameters.
 
-<img src="/static/img/research/fatsegnet/3_CDFNet_method_v2.jpg" alt="" style="
+<img src="/static/img/research/fatsegnet/3_CDFNet_method_v2.jpg" alt="CDFNet" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -99,7 +99,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 ### Validation in the Rhineland Study (N=587)
 
 ##### Replication of known age and sex effects on VAT and SAT volumes  
-<img src="/static/img/research/fatsegnet/association.jpg" alt="" style="
+<img src="/static/img/research/fatsegnet/association.jpg" alt="Age-Gender-Effects" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -112,7 +112,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 
 
 ##### Performance on Unseen Data 
-<img src="/static/img/research/fatsegnet/results_unseen_data.jpg" alt="" style="
+<img src="/static/img/research/fatsegnet/results_unseen_data.jpg" alt="Results" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -132,7 +132,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 - Currently, we are collaborating with [GenerationR](https://generationr.nl/) for improving the Domain adaptation of our tool into a wider population (age<30).
 - We are happy to announce that one of our paper images got into the cover of the April edition of the journal [Magnetic Resonance in Medicine](https://onlinelibrary.wiley.com/toc/15222594/2020/83/4). 
 
-<img src="/static/img/research/fatsegnet/mrm.v83.4.cover.jpg" alt="" style="
+<img src="/static/img/research/fatsegnet/mrm.v83.4.cover.jpg" alt="MRM Cover" style="
   display: block;
   margin-left: auto;
   margin-right: auto;

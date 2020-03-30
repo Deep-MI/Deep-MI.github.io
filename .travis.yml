@@ -18,11 +18,10 @@ addons:
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
-cache: bundler # caching bundler gem packages will speed up build
- 
-#cache:
-#  directories:
-#  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+cache:
+  bundler: true # caching bundler gem packages will speed up build
+  directories:
+    - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:

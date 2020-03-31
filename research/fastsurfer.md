@@ -5,7 +5,6 @@ layout: default
 group: research
 ---
 
-
 ## FastSurfer - a fast and accurate deep-learning based neuroimaging pipeline
 
 FastSurfer is a fast and [extensively validated](#proof-of-concept) deep-learning pipeline for the fully automated processing of structural
@@ -29,8 +28,13 @@ traditional point-wise and ROI thickness analysis in approximately 60 minutes (+
     height: auto;
 ">
 <div  style="text-align: center;"> Fig 1. FastSurfer - fully automated neuroimaging pipeline combining an advanced neural network architecture (FastSurferCNN) with a surface pipeline (recon-surf).
-
 </div>
+
+{::nomarkdown}
+<div class="video-container">
+         <iframe src="https://www.youtube.com/watch?v=V78jKcqVg7k" frameborder="0" width="280" height="107"></iframe>
+</div>
+{:/nomarkdown}
 
 
 ### Volumetric Segmentation - FastSurferCNN
@@ -143,5 +147,8 @@ thickness and subcortical volumes between dementia and control groups.
 
 - In-depth information about FastSurfer can be found in our [paper](https://arxiv.org/abs/1910.03866).
 
+- Or watch our small presentation (10min) on [YouTube](https://www.youtube.com/watch?v=V78jKcqVg7k).
+
 ### News
 - FastSurfer was presented in the #OHBMx equinox (check out our twitter [@deepmilab](https://twitter.com/deepmilab)).
+

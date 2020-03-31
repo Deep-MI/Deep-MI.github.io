@@ -297,8 +297,179 @@
 #  volume = {36},
 #  number = {12},
 #  issn = {1936-959X},
-  journal: American Journal of Neuroradiology
+  journal: '*Am. J. Neuroradiol.*'
   doi: 10.3174/ajnr.A4508
 #  pmid: 26381562
   pmcid: 4916775
   bibtex: '/static/pub/biller_2015.bib'
+
+- id: 'aganj_2015'
+  authors: 'Aganj I, Iglesias JE, **Reuter M**, Sabuncu MR, Fischl B'
+  type: 'conference'
+  conference: '*MICCAI 2015*'
+  year: 2015
+  title: 'Mid-Space-Independent Symmetric Data Term for Pairwise Deformable Image Registration'
+  pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
+  doi: 10.1007/978-3-319-24571-3_32
+  pmcid: 4732576
+  bibtex: '/static/pub/aganj_2015.bib'
+
+- id: 'cash_2015'
+  authors: 'Cash DM, Frost C, Iheme LO, Ünay D, Kandemir M, Fripp J, Salvado O, Bourgeat P, **Reuter M**, Fischl B, Lorenzi M, Frisoni GB, Pennec X, Pierson RK, Gunter JL, ML Senjem, Jack CR, Guizard JN, Fonov VS, Collins DL, Modat M, Cardoso MJ, Leung KK, Wang H, Das SR, Yushkevich PA, Malone IB, Fox NC, Schott JM, Ourselin S'
+  title: 'Assessing atrophy measurement techniques in dementia: Results from the MIRIAD atrophy challenge'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2015
+  month: 12
+  doi: 10.1016/j.neuroimage.2015.07.087
+  pmcid: 4634338
+  pdf: 'https://shorturl.at/cpq19'
+  bibtex: '/static/pub/cash_2015.bib'
+
+- id: 'wachinger_2015_brainPrint'
+  authors: '**Wachinger C**, Golland P, Kremen W, Fischl B, **Reuter M**'
+  title: 'BrainPrint: a discriminative characterization of brain morphology'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2015
+  month: 04
+  doi: 10.1016/j.neuroimage.2015.01.032
+  pmcid: 4340729
+  pdf: 'http://reuter.mit.edu/blue/papers/wachinger-brainprint15/wachinger-brainprint15.pdf'
+  bibtex: '/static/pub/wachinger_2015_brainPrint.bib'
+  image: '/static/pub/wachinger_2015_brainPrint.jpg'
+
+- id: 'bron_2015'
+  authors: 'Bron EE, Smits M, van der Flier WM, Vrenken H, Barkhof F, Scheltens P, Papma JM, Steketee RM, Méndez Orellana C, Meijboom R, Pinto M, Meireles JR, Garrett C, Bastos-Leite AJ, Abdulkadir A, Ronneberger O, Amoroso N, Bellotti R, Cárdenas-Peña D, Álvarez-Meza AM, Dolph CV, Iftekharuddin KM, Eskildsen SF, Coupé P, Fonov VS, Franke K, Gaser C, Ledig C, Guerrero R, Tong T, Gray KR, Moradi E, Tohka J, Routier A, Durrleman S, Sarica A, Di Fatta G, Sensi F, Chincarini A, Smith GM, Stoyanov ZV, Sørensen L, Nielsen M, Tangaro S, Inglese P, **Wachinger C**, **Reuter M**, van Swieten JC, Niessen WJ, Klein S'
+  title: 'Standardized evaluation of algorithms for computer-aided diagnosis of dementia based on structural MRI: The CADDementia challenge'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2015
+  month: 05
+  doi: 10.1016/j.neuroimage.2015.01.048
+  pmcid: 4943029
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943029/pdf/nihms796247.pdf'
+  bibtex: '/static/pub/bron_2015.bib'
+
+- id: 'reuter_2015'
+  authors: '**Reuter M**, Tisdall MD, Qureshi A, Buckner RL, van der Kouwe AJW, Fischl B'
+  title: 'Head motion during MRI acquisition reduces gray matter volume and thickness estimates'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2015
+  month: 02
+  doi: 10.1016/j.neuroimage.2014.12.006
+  pmcid: 4300248
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300248/pdf/nihms648171.pdf'
+  bibtex: '/static/pub/reuter_2015.bib'
+
+- id: 'wachinger_2015'
+  authors: '**Wachinger C**, Golland P, Magnain C, Fischl B, **Reuter M**'
+  title: 'Multi-Modal Robust Inverse-Consistent Linear Registration'
+  type: 'journal'
+  journal: '* Hum. Brain Mapp.*'
+  year: 2015
+  doi: 10.1002/hbm.22707
+  pmcid: 4732282
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732282/pdf/nihms753816.pdf'
+  bibtex: '/static/pub/wachinger_2015.bib'
+
+- id: 'aganj_2015_defreg'
+  authors: 'Aganj I, **Reuter M**, Sabuncu MR, Fischl B'
+  title: 'Avoiding symmetry-breaking spatial non-uniformity in deformable image registration via a quasi-volume-preserving constraint'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2015
+  month: 02
+  doi: 10.1016/j.neuroimage.2014.10.059
+  pmcid: 4286290 
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4286290/pdf/nihms640335.pdf'
+  bibtex: '/static/pub/aganj_2015_defreg.bib'
+
+- id: 'wachinger_2014'
+  authors: '**Wachinger C**, Golland P, **Reuter M**'
+  title: 'BrainPrint : Identifying Subjects by Their Brain'
+  type: 'conference'
+  conference: 'MICCAI 2014'
+  year: 2014
+  doi: 10.1007/978-3-319-10443-0_6
+  pmcid: 4216735 
+  bibtex: '/static/pub/wachinger_2014.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4216735/pdf/nihms-637906.pdf'
+
+- id: 'wachinger_2014_challenge'
+  authors: '**Wachinger C**, Batmanghelich K, Golland P, **Reuter M**'
+  title: 'BrainPrint in the Computer-Aided Diagnosis of Alzheimer''s Disease'
+  type: 'conference'
+  conference: 'MICCAI challenge 2014'
+  year: 2014
+  doi: 10.13140/2.1.4402.8162
+  bibtex: '/static/pub/wachinger_2014_challenge.bib'
+  pdf: 'https://people.csail.mit.edu/polina/papers/Wachinger-MICCAI-Challenge-CadDementia-2014.pdf'
+
+- id: 'wachinger_2014_reg'
+  authors: '**Wachinger C**, Golland P, **Reuter M**, Wells W'
+  title: 'Gaussian process interpolation for uncertainty estimation in image registration'
+  type: 'conference'
+  conference: 'MICCAI 2014'
+  year: 2014
+  doi: 10.1007/978-3-319-10404-1_34
+  pmcid: 4219919 
+  bibtex: '/static/pub/wachinger_2014_reg.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219919/pdf/nihms637911.pdf'
+
+- id: 'wade_2014'
+  authors: 'Wade BS, Joshi SH, **Reuter M**, Blumenthal JD, Toga AW, Thompson PM, Giedd JN'
+  title: 'Effects of sex chromosome dosage on corpus callosum morphology in supernumerary sex chromosome aneuploidies'
+  type: 'journal'
+  journal: '*Biol Sex Differ.*'
+  year: 2014
+  month: 10
+  doi: 10.1186/s13293-014-0016-4
+  pmcid: 4360142 
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360142/pdf/s13293-014-0016-4.pdf'
+  bibtex: '/static/pub/aganj_2015_defreg.bib'
+
+- id: 'wang_2014'
+  authors: 'Wang H, Zhu J, **Reuter M**, Vinke LN, Yendiki A, Boas DA, Fischl B, Akkin T'
+  title: 'Cross-validation of serial optical coherence scanning and diffusion tensor imaging: a study on neural fiber maps in human medulla oblongata'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 10
+  doi: 10.1016/j.neuroimage.2014.06.032
+  pmcid: 4142686
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4142686/pdf/nihms608969.pdf'
+  bibtex: '/static/pub/wang_2014.bib'
+
+- id: 'sabuncu_2014'
+  authors: 'Sabuncu MR, Bernal-Rusiel JL, **Reuter M**, Greve DN, Fischl B'
+  title: 'Event time analysis of longitudinal neuroimage data'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 08
+  doi: 10.1016/j.neuroimage.2014.04.015
+  pmcid: 4078261
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078261/pdf/nihms585837.pdf'
+  bibtex: '/static/pub/sabuncu_2014.bib'
+
+- id: 'mair_2014'
+  authors: 'Mair RW, **Reuter M**, Kouwe Avd'
+  title: 'Cortical Thickness/Volume Measured with Variable Acceleration in Young and Elderly Populations'
+  type: 'poster'
+  conference: '*OHBM 2014*'
+  year: 2014
+  bibtex: '/static/pub/mair_2014.bib'
+
+- id: 'reuter_2014'
+  authors: '**Reuter M**, Gerstner ER, Rapalino O, Batchelor TT, Rosen B, Fischl B'
+  title: 'Impact of MRI head placement on glioma response assessment'
+  type: 'journal'
+  journal: '*J Neurooncol.*'
+  year: 2014
+  month: 08
+  doi: 10.1007/s11060-014-1403-8
+  pmcid: 4026260
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4026260/pdf/nihms570261.pdf'
+  bibtex: '/static/pub/reuter_2014.bib'

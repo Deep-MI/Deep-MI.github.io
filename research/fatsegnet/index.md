@@ -19,8 +19,16 @@ FatSegNet is a novel, fast, and fully automated deep learning pipeline to accura
     height: auto;
 ">
 <div  style="text-align: center;"> Fig 1. Proposed FatSegNet pipeline for segmenting Abdominal Adipose tissue
- 
 </div>
+
+
+{::nomarkdown}
+<div class="video-container">
+         <iframe src="https://www.youtube.com/embed/eWqRT95fJYs" frameborder="0" width="280" height="107"></iframe>
+</div>
+{:/nomarkdown}
+
+
 
 Our CDFNet is implemented by adopting a Dense-Unet architecture  and extending it toward competitive learning via maxout activations. The Maxout operation computes the maximum at each spatial location across feature maps instead of concatenating them. Some benefits of competitive learning through Maxout activations are:
 - It promotes the formation of dedicated local sub-networks and improves features selectivity by introducing local competition.
@@ -126,6 +134,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 ## Tool and Paper
 - Our tool is available at [github](https://github.com/deep-mi/FatSegNet).
 - For more information about FatSegNet please check our [journal paper](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28022?af=R).
+- A quick presentation on [YouTube](https://www.youtube.com/watch?v=eWqRT95fJYs).
 
 ## News
 - To the day our tool has been deployed in 2738 participants from the [Rhineland-Study](https://www.rheinland-studie.de/) processing 16520.52 Liters of Abdominal Adipose Tissue which are equal to 1939 cases of beer or 4130 six-packs.

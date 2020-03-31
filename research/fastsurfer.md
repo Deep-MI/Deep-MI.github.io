@@ -32,7 +32,7 @@ traditional point-wise and ROI thickness analysis in approximately 60 minutes (+
 
 {::nomarkdown}
 <div class="video-container">
-         <iframe src="https://www.youtube.com/watch?v=V78jKcqVg7k" frameborder="0" width="280" height="107"></iframe>
+         <iframe src="https://www.youtube.com/embed/V78jKcqVg7k" frameborder="0" width="280" height="107"></iframe>
 </div>
 {:/nomarkdown}
 

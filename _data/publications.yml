@@ -33,7 +33,7 @@
 - id: 'henschel_2020'
   authors: '**Henschel L**, **Conjeti S**, **Estrada S**, **Diers K**, Fischl B, **Reuter M**'
   title: 'FastSurfer - A fast and accurate deep learning based neuroimaging pipeline'
-  journal: 'under review'
+  journal: '*Under review*'
   type: 'journal'
   year: 2020
   month: 0
@@ -170,7 +170,7 @@
   authors: '**Wachinger C**, Rieckmann A, **Reuter M**'
   title: 'Latent Processes Governing Neuroanatomical Change in Aging and Dementia'
   type: 'conference'
-  conference: 'MICCAI 2017'
+  journal: '*MICCAI 2017*'
   year: 2017
   month: 09
   #image: '/static/pub/'
@@ -306,7 +306,7 @@
 - id: 'aganj_2015'
   authors: 'Aganj I, Iglesias JE, **Reuter M**, Sabuncu MR, Fischl B'
   type: 'conference'
-  conference: '*MICCAI 2015*'
+  journal: '*MICCAI 2015*'
   year: 2015
   title: 'Mid-Space-Independent Symmetric Data Term for Pairwise Deformable Image Registration'
   pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
@@ -390,7 +390,7 @@
   authors: '**Wachinger C**, Golland P, **Reuter M**'
   title: 'BrainPrint : Identifying Subjects by Their Brain'
   type: 'conference'
-  conference: 'MICCAI 2014'
+  journal: '*MICCAI 2014*'
   year: 2014
   doi: 10.1007/978-3-319-10443-0_6
   pmcid: 4216735 
@@ -401,7 +401,7 @@
   authors: '**Wachinger C**, Batmanghelich K, Golland P, **Reuter M**'
   title: 'BrainPrint in the Computer-Aided Diagnosis of Alzheimer''s Disease'
   type: 'conference'
-  conference: 'MICCAI challenge 2014'
+  journal: '*MICCAI Challenge 2014*'
   year: 2014
   doi: 10.13140/2.1.4402.8162
   bibtex: '/static/pub/wachinger_2014_challenge.bib'
@@ -411,7 +411,7 @@
   authors: '**Wachinger C**, Golland P, **Reuter M**, Wells W'
   title: 'Gaussian process interpolation for uncertainty estimation in image registration'
   type: 'conference'
-  conference: 'MICCAI 2014'
+  journal: '*MICCAI 2014*'
   year: 2014
   doi: 10.1007/978-3-319-10404-1_34
   pmcid: 4219919 

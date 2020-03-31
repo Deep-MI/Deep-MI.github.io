@@ -58,7 +58,7 @@
 - id: 'estrada_2018'
   authors: '**Estrada S**, **Conjeti S**, **Ahmad M**, Nassir N, **Reuter M**'
   title: 'Competition vs. Concatenation in Skip Connections of Fully Convolutional Networks'
-  journal: '*MICCAI18 Workshop*'
+  journal: '*MICCAI Workshop*'
   type: 'workshop'
   year: 2018
   month: 09
@@ -71,7 +71,7 @@
 - id: 'ahmad_2018'
   authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
   title: 'Complex Fully Convolutional Neural Networks for MR Image Reconstruction'
-  journal: '*MICCAI18 Workshop*'
+  journal: '*MICCAI Workshop*'
   type: 'workshop'
   year: 2018
   month: 09
@@ -108,7 +108,7 @@
 - id: 'wachinger_2018'
   authors: '**Wachinger C**, Nho K, Saykin AJ, **Reuter M**, Rieckmann A'
   title: 'A Longitudinal Imaging Genetics Study of Neuroanatomical Asymmetry in Alzheimer''s Disease'
-  journal: '*Biol. Psychiatry*'
+  journal: '*Biol Psychiatry*'
   type: 'journal'
   year: 2018
   month: 10
@@ -170,7 +170,7 @@
   authors: '**Wachinger C**, Rieckmann A, **Reuter M**'
   title: 'Latent Processes Governing Neuroanatomical Change in Aging and Dementia'
   type: 'conference'
-  journal: '*MICCAI 2017*'
+  journal: '*MICCAI*'
   year: 2017
   month: 09
   #image: '/static/pub/'
@@ -181,7 +181,7 @@
 - id: 'klein_2017'
   authors: 'Klein A, Ghosh SS, Bao FS, Giard J, Häme Y, Stavsky E, Lee N, Rossa B, **Reuter M**, Chaibub Neto E, Keshavan A'
   title: 'Mindboggling morphometry of human brains'
-  journal: '*Comput Biol.*'
+  journal: '*Comput Biol*'
   type: 'journal'
   year: 2017
   month: 02
@@ -220,7 +220,7 @@
 - id: 'ge_2016'
   authors: 'Ge T, **Reuter M**, Winkler AM, Holmes AJ, Lee PH, Tirrell LS, Roffman JL, Buckner RL, Smoller JW, Sabuncu MR'
   title: 'Multidimensional heritability analysis of neuroanatomical shape'
-  journal: '*Nat Commun.*'
+  journal: '*Nat Commun*'
   type: 'journal'
   year: 2016
   month: 11
@@ -297,7 +297,7 @@
 #  volume = {36},
 #  number = {12},
 #  issn = {1936-959X},
-  journal: '*Am. J. Neuroradiol.*'
+  journal: '*Am J Neuroradiol*'
   doi: 10.3174/ajnr.A4508
 #  pmid: 26381562
   pmcid: 4916775
@@ -306,7 +306,7 @@
 - id: 'aganj_2015'
   authors: 'Aganj I, Iglesias JE, **Reuter M**, Sabuncu MR, Fischl B'
   type: 'conference'
-  journal: '*MICCAI 2015*'
+  journal: '*MICCAI*'
   year: 2015
   title: 'Mid-Space-Independent Symmetric Data Term for Pairwise Deformable Image Registration'
   pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
@@ -367,7 +367,7 @@
   authors: '**Wachinger C**, Golland P, Magnain C, Fischl B, **Reuter M**'
   title: 'Multi-Modal Robust Inverse-Consistent Linear Registration'
   type: 'journal'
-  journal: '*Hum. Brain Mapp.*'
+  journal: '*Hum Brain Mapp*'
   year: 2015
   doi: 10.1002/hbm.22707
   pmcid: 4732282
@@ -390,7 +390,7 @@
   authors: '**Wachinger C**, Golland P, **Reuter M**'
   title: 'BrainPrint : Identifying Subjects by Their Brain'
   type: 'conference'
-  journal: '*MICCAI 2014*'
+  journal: '*MICCAI*'
   year: 2014
   doi: 10.1007/978-3-319-10443-0_6
   pmcid: 4216735 
@@ -400,8 +400,8 @@
 - id: 'wachinger_2014_challenge'
   authors: '**Wachinger C**, Batmanghelich K, Golland P, **Reuter M**'
   title: 'BrainPrint in the Computer-Aided Diagnosis of Alzheimer''s Disease'
-  type: 'conference'
-  journal: '*MICCAI Challenge 2014*'
+  type: 'workshop'
+  journal: '*MICCAI Challenge*'
   year: 2014
   doi: 10.13140/2.1.4402.8162
   bibtex: '/static/pub/wachinger_2014_challenge.bib'
@@ -411,7 +411,7 @@
   authors: '**Wachinger C**, Golland P, **Reuter M**, Wells W'
   title: 'Gaussian process interpolation for uncertainty estimation in image registration'
   type: 'conference'
-  journal: '*MICCAI 2014*'
+  journal: '*MICCAI*'
   year: 2014
   doi: 10.1007/978-3-319-10404-1_34
   pmcid: 4219919 
@@ -422,7 +422,7 @@
   authors: 'Wade BS, Joshi SH, **Reuter M**, Blumenthal JD, Toga AW, Thompson PM, Giedd JN'
   title: 'Effects of sex chromosome dosage on corpus callosum morphology in supernumerary sex chromosome aneuploidies'
   type: 'journal'
-  journal: '*Biol Sex Differ.*'
+  journal: '*Biol Sex Differ*'
   year: 2014
   month: 10
   doi: 10.1186/s13293-014-0016-4
@@ -466,7 +466,7 @@
   authors: '**Reuter M**, Gerstner ER, Rapalino O, Batchelor TT, Rosen B, Fischl B'
   title: 'Impact of MRI head placement on glioma response assessment'
   type: 'journal'
-  journal: '*J Neurooncol.*'
+  journal: '*J Neurooncol*'
   year: 2014
   month: 08
   doi: 10.1007/s11060-014-1403-8

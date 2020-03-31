@@ -367,7 +367,7 @@
   authors: '**Wachinger C**, Golland P, Magnain C, Fischl B, **Reuter M**'
   title: 'Multi-Modal Robust Inverse-Consistent Linear Registration'
   type: 'journal'
-  journal: '* Hum. Brain Mapp.*'
+  journal: '*Hum. Brain Mapp.*'
   year: 2015
   doi: 10.1002/hbm.22707
   pmcid: 4732282
@@ -454,13 +454,13 @@
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078261/pdf/nihms585837.pdf'
   bibtex: '/static/pub/sabuncu_2014.bib'
 
-- id: 'mair_2014'
-  authors: 'Mair RW, **Reuter M**, Kouwe Avd'
-  title: 'Cortical Thickness/Volume Measured with Variable Acceleration in Young and Elderly Populations'
-  type: 'poster'
-  conference: '*OHBM 2014*'
-  year: 2014
-  bibtex: '/static/pub/mair_2014.bib'
+#- id: 'mair_2014'
+#  authors: 'Mair RW, **Reuter M**, Kouwe Avd'
+#  title: 'Cortical Thickness/Volume Measured with Variable Acceleration in Young and Elderly Populations'
+#  type: 'poster'
+#  conference: '*OHBM 2014*'
+#  year: 2014
+#  bibtex: '/static/pub/mair_2014.bib'
 
 - id: 'reuter_2014'
   authors: '**Reuter M**, Gerstner ER, Rapalino O, Batchelor TT, Rosen B, Fischl B'

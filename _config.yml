@@ -1,7 +1,7 @@
 name: "Deep Medical Imaging Lab"
 description: "This is the official web page for the Deep Medical Imaging Lab at DZNE and MGH/HMS."
 
-url: "https://Deep-MI.github.io"
+url: "https://Deep-MI.org"
 
 paginate: 5
 plugins: [jekyll-paginate]
@@ -11,3 +11,5 @@ permalink: pretty
 markdown: kramdown
 kramdown: 
   parse_block_html: true
+
+exclude: [vendor]

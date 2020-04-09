@@ -19,12 +19,16 @@ Your text goes here, with images, links etc....
 ## Add Members
 
 - add member info to _data/members.yml (see file for format)
-- put photos (size 365 x 365, 72 dpi) into /static/img/members
+- put photos (size 365 x 365, 72 dpi) into /static/img/members (jpg compressed)
 
 
 ## Add Publication
 
-- todo
+- add publication info to _data/publications.yml (see file for format)
+- add teaser image (size height 200 px max, jpg compressed, max 100kB) into /static/pub/paper_id.jpg
+- add bibtex file into /static/pub/paper_id.bib
+- link to openaccess PDF (journal) or put at /static/pub/paper_id.pdf
+- paper_id is the id field in the yml
 
 ## Sources
 

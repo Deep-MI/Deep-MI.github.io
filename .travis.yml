@@ -6,8 +6,9 @@ rvm:
 #install: gem install bundler && bundle install
 
 #script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --disable-external
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --only-4xx
 #testing to pass timeout for external url check:
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --typhoeus_config ''{ "timeout": 10 , "verbose": "true" }''
+#script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --typhoeus_config ''{ "timeout": 10 , "verbose": "true" }''
 
 env:
   global:

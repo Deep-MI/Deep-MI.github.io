@@ -5,10 +5,9 @@ rvm:
 # install will run bundle install by default (make sure Gemfile has dependencies)
 #install: gem install bundler && bundle install
 
-#script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --disable-external
 #script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --only-4xx
-#testing to pass timeout for external url check:
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --typhoeus_config '{ "timeout":30 , "verbose":"true" }'
+#passing longer timeout for external url check:
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --typhoeus_config '{ "timeout":30 }'
 
 env:
   global:
@@ -18,8 +17,6 @@ addons:
   apt:
     packages:
     - libcurl4-openssl-dev # required to avoid SSL errors
-
-sudo: false # route your build to the container-based infrastructure for a faster build
 
 cache:
   bundler: true # caching bundler gem packages will speed up build

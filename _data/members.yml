@@ -60,15 +60,7 @@
   bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses 
   image-guided and electromagnetic tracking for temporal bone surgery.'
   projects: 'Geometry Reconstruction, Interpretability'
-  
-- name: Markus Schirmer
-  position: Postdoc
-  email: markus.schirmer (at) dzne.de
-  scholar: TU9iW8AAAAAJ
-  orcid: 0000-0001-9561-0239
-  github: mdschirmer
-  projects: 'White Matter Lesion Segmentation'
-  
+ 
 - name: Kersten Diers
   image: /static/img/members/diers.jpg
   position: Research Associate

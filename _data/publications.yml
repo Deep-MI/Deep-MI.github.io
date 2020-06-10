@@ -33,12 +33,14 @@
 - id: 'henschel_2020'
   authors: '**Henschel L**, **Conjeti S**, **Estrada S**, **Diers K**, Fischl B, **Reuter M**'
   title: 'FastSurfer - A fast and accurate deep learning based neuroimaging pipeline'
-  journal: '*Under review*'
+  journal: '*NeuroImage'
   type: 'journal'
   year: 2020
-  month: 0
+  month: 06
   image: '/static/pub/henschel_2020.jpg'
   arxiv: 1910.03866
+  doi: 10.1016/j.neuroimage.2020.117012
+  bibtex: '/static/pub/henschel_2020.bib'
   pdf: 'https://arxiv.org/pdf/1910.03866'
 
 - id: 'estrada_2019'

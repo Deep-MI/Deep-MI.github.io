@@ -145,7 +145,7 @@ thickness and subcortical volumes between dementia and control groups.
 ### Tool and Paper
 - Our tool will be made available upon acceptance at [github](https://github.com/deep-mi/). Follow us on Twitter to get notified as soon as we go public: <a href="https://twitter.com/deepmilab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @deepmilab</a>
 
-- In-depth information about FastSurfer can be found in our [paper](https://arxiv.org/abs/1910.03866).
+- In-depth information about FastSurfer can be found in our [paper](https://doi.org/10.1016/j.neuroimage.2020.117012).
 
 - Or watch our small presentation (10min) on [YouTube](https://www.youtube.com/watch?v=V78jKcqVg7k).
 

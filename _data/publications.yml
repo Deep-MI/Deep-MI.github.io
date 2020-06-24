@@ -41,7 +41,8 @@
   arxiv: 1910.03866
   doi: 10.1016/j.neuroimage.2020.117012
   bibtex: '/static/pub/henschel_2020.bib'
-  pdf: 'https://arxiv.org/pdf/1910.03866'
+  pdf: 'https://reader.elsevier.com/reader/sd/pii/S1053811920304985?token=D02205D0403CE21E8D5CB10AE7FF528C624E67A610669944FC9FC21BDB13FAC20FCE6B77CDAE0B2A40C1D340B376862B'
+  github: deep-mi/FastSurfer
 
 - id: 'estrada_2019'
   authors: '**Estrada S**, Lu R, **Conjeti S**, Orozco‐Ruiz X, Panos‐Willuhn J, Breteler MMB, **Reuter M**'

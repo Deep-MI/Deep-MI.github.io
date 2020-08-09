@@ -137,6 +137,7 @@ FatSegNet is tested and validated in the [Rhineland Study](https://www.rheinland
 - A quick presentation on [YouTube](https://www.youtube.com/watch?v=eWqRT95fJYs).
 
 ## News
+- FatSegNet was selected as June’s 2020 [MRM Highlights](https://blog.ismrm.org/category/highlights/) by the ISMRM community. More information: [Q&A](https://blog.ismrm.org/2020/06/19/qa-with-santiago-estrada-and-martin-reuter/) and [reproducible research](https://blog.ismrm.org/2020/07/03/reproducible-research-insights-with-santiago-estrada-and-martin-reuter/) interviews. 
 - To the day our tool has been deployed in 2738 participants from the [Rhineland-Study](https://www.rheinland-studie.de/) processing 16520.52 Liters of Abdominal Adipose Tissue which are equal to 1939 cases of beer or 4130 six-packs.
 - Currently, we are collaborating with [GenerationR](https://generationr.nl/) for improving the Domain adaptation of our tool into a wider population (age<30).
 - We are happy to announce that one of our paper images got into the cover of the April edition of the journal [Magnetic Resonance in Medicine](https://onlinelibrary.wiley.com/toc/15222594/2020/83/4). 

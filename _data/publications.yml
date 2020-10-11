@@ -30,6 +30,18 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'ewert_2020'
+  authors: '**Ewert C**, **Kügler D**, Yendiki A, **Reuter M**'
+  title: 'Learning Anatomical Segmentations for Tractography from Diffusion MRI'
+  journal: '*MICCAI Workshop on Computational Diffusion MRI*'
+  type: 'workshop'
+  year: 2020
+  month: 10
+  image: '/static/pub/ewert_2020.jpg'
+  arxiv: 2009.04392
+  bibtex: '/static/pub/ewert_2020.bib'
+  pdf: 'https://arxiv.org/pdf/2009.04392.pdf'
+
 - id: 'henschel_2020'
   authors: '**Henschel L**, **Conjeti S**, **Estrada S**, **Diers K**, Fischl B, **Reuter M**'
   title: 'FastSurfer - A fast and accurate deep learning based neuroimaging pipeline'

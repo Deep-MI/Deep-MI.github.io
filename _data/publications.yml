@@ -1,5 +1,5 @@
 # Publications Table
-# 
+#
 # Use single quotes around longer text passages, and use two single quotes to escape the quote e.g. Alzheimer''s disease.
 #
 # id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
@@ -7,7 +7,7 @@
 # doi should always be put if available
 #
 #
-# - id: 'lastname_4digityear'       
+# - id: 'lastname_4digityear'
 #   authors: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C'
 #   title: 'The title of this super cool Paper using double''s to escape single quote'
 #   journal: 'abbreviated name or ''under review'' '
@@ -267,8 +267,8 @@
   doi: 10.1016/j.neuroimage.2016.05.053
   bibtex: '/static/pub/wachinger_2016_da.bib'
   pmcid: PMC4983466
-  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'  
-  
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'
+
 #- authors: '**Wachinger C**, **Reuter M**'
 #  title: 'Shape-based Classification and Domain Adaptation for Alzheimer''s Disease Diagnostics'
 #  conference: 'Human Brain Mapping 2016'
@@ -397,7 +397,7 @@
   year: 2015
   month: 02
   doi: 10.1016/j.neuroimage.2014.10.059
-  pmcid: 4286290 
+  pmcid: 4286290
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4286290/pdf/nihms640335.pdf'
   bibtex: '/static/pub/aganj_2015_defreg.bib'
 
@@ -408,7 +408,7 @@
   journal: '*MICCAI*'
   year: 2014
   doi: 10.1007/978-3-319-10443-0_6
-  pmcid: 4216735 
+  pmcid: 4216735
   bibtex: '/static/pub/wachinger_2014.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4216735/pdf/nihms-637906.pdf'
 
@@ -429,7 +429,7 @@
   journal: '*MICCAI*'
   year: 2014
   doi: 10.1007/978-3-319-10404-1_34
-  pmcid: 4219919 
+  pmcid: 4219919
   bibtex: '/static/pub/wachinger_2014_reg.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219919/pdf/nihms637911.pdf'
 
@@ -441,7 +441,7 @@
   year: 2014
   month: 10
   doi: 10.1186/s13293-014-0016-4
-  pmcid: 4360142 
+  pmcid: 4360142
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360142/pdf/s13293-014-0016-4.pdf'
   bibtex: '/static/pub/aganj_2015_defreg.bib'
 
@@ -488,3 +488,151 @@
   pmcid: 4026260
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4026260/pdf/nihms570261.pdf'
   bibtex: '/static/pub/reuter_2014.bib'
+
+- id: 'augustinack_2014'
+  authors: 'Augustinack JC, Magnain C, **Reuter M**, van der Kouwe AJW, Boas D, Fischl B'
+  title: 'MRI Parcellation of Ex Vivo Medial Temporal Lobe'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 06
+  doi: 10.1016/j.neuroimage.2013.05.053
+  pmcid: 3883990
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3883990/pdf/nihms483083.pdf'
+  bibtex: '/static/pub/augustinack_2014.bib'
+
+- id: 'andronesi_2014'
+  authors: 'Andronesi OC, Bhat H, **Reuter M**, Mukherjee S, Caravan P, Rosen BR'
+  title: 'Whole brain mapping of water pools and molecular dynamics with rotating frame MR relaxation using gradient modulated low-power adiabatic pulses'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 04
+  doi: 10.1016/j.neuroimage.2013.12.007
+  pmcid: 3944112
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944112/pdf/nihms550454.pdf'
+  bibtex: '/static/pub/andronesi_2014.bib'
+
+- id: 'fujimoto_2014'
+  authors: 'Fujimoto K, Polimeni JR, van der Kouwe AJW, **Reuter M**, Kober T, Benner T, Fischl B, Wald LL'
+  title: 'Quantitative comparison of cortical surface reconstructions from MP2RAGE and multi-echo MPRAGE data at 3 and 7 T'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 04
+  doi: 10.1016/j.neuroimage.2013.12.012
+  pmcid: 4035370
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4035370/pdf/nihms551229.pdf'
+  bibtex: '/static/pub/fujimoto_2014.bib'
+
+- id: 'adriaanse_2014'
+  authors: 'Adriaanse SM, Dijk KRA, Ossenkoppele R, **Reuter M**, Tolboom N, Zwan MD, Yaqub M, Boellaard R, Windhorst AD, Flier WM, Scheltens, P, Lammertsma AA, Barkhof F, Berckel BNM'
+  title: 'The effect of amyloid pathology and glucose metabolism on cortical volume loss over time in Alzheimer''s disease'
+  type: 'journal'
+  journal: '*European Journal of Nuclear Medicine and Molecular Imaging*'
+  year: 2014
+  month: 03
+  doi: 10.1007/s00259-014-2704-z
+  pmcid: 4917377
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4917377/pdf/nihms795464.pdf'
+  bibtex: '/static/pub/adriaanse_2014.bib'
+
+- id: 'rosas_2014'
+  autors: 'Rosas HD, Doros G, Gevorkian S, Malarick K, **Reuter M**, Coutu JP, Triggs T, Wilkens P, Matson W, Salat DH, Hersch SM'
+  title: 'PRECREST: A phase II prevention and biomarker trial of creatine in at-risk Huntington disease'
+  type: 'journal'
+  journal: '*Neurology*'
+  year: 2014
+  month: 03
+  doi: 10.1212/WNL.0000000000000187
+  pmcid: 3959748
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959748/pdf/NEUROLOGY2013532192.pdf'
+  bibtex: '/static/pub/rosas_2014.bib'
+
+- id: 'magnain_2014'
+  authors: 'Magnain C, Augustinack JC, **Reuter M**, **Wachinger C**, Frosch MP, Ragan T, Akkin T, Wedeen VJ, Boas DA, Fischl B'
+  title: 'Blockface histology with optical coherence tomography: A comparison with Nissl staining'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 01
+  doi: 10.1016/j.neuroimage.2013.08.072
+  pmcid: 4315235
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4315235/pdf/nihms656570.pdf'
+  bibtex: '/static/pub/magnain_2014.bib'
+
+- id: 'bernalrusiel_2013_longitneurospatiotemplme'
+  autors: 'Bernal-Rusiel JL, **Reuter M**, Greve DN, Fischl B, Sabuncu MR'
+  title: 'Spatiotemporal Linear Mixed Effects Modeling for the Mass-univariate Analysis of Longitudinal Neuroimage Data'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2013
+  month: 11
+  doi: 10.1016/j.neuroimage.2013.05.049
+  pmcid: 3816382
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816382/pdf/nihms483081.pdf'
+  bibtex: '/static/pub/bernalrusiel_2013_longitneurospatiotemplme.bib'
+
+- id: 'aganj_2013'
+  authors: 'Aganj I, **Reuter M**, Sabuncu MR, Fischl B'
+  title: 'Symmetric non-rigid image registration via an adaptive quasi-volume-preserving constraint'
+  type: 'conference'
+  journal: '*2013 IEEE 10th International Symposium on Biomedical Imaging*'
+  year: 2013
+  month: 04
+  #image: '/static/pub/'
+  doi: 10.1109/ISBI.2013.6556454
+  pmcid: 4349339
+  bibtex: '/static/pub/aganj_2013.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349339/pdf/nihms666839.pdf'
+
+- id: 'bernalrusiel_2013_longitneurolme'
+  authors: 'Bernal-Rusiel JL, Greve DN, **Reuter M**, Fischl B, Sabuncu MR'
+  title: 'Statistical analysis of longitudinal neuroimage data with Linear Mixed Effects models'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2013
+  month: 02
+  pages: '249 - 260'
+  volume: 66
+  pmcid: 3586747
+  doi: 10.1016/j.neuroimage.2012.10.065
+  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586747/pdf/nihms418971.pdf
+  bibtex: '/static/pub/bernalrusiel_2013_longitneurolme.bib'
+
+- id: 'lian_2013'
+  authors: 'Lian Z, Godil A, Bustos B, Daoudi M, Hermans J, Kawamura S, Kurita Y, Lavoué G, Van Nguyen H, Ohbuchi R, Ohkita Y, Ohishi Y, Porikli F, **Reuter M**, Sipiran I, Smeets D, Suetens P, Tabia H, Vandermeulen D'
+  title: 'A comparison of methods for non-rigid 3D shape retrieval'
+  type: 'journal'
+  journal: 'Pattern Recognition'
+  year: 2013
+  month: 01
+  pages: '449 - 461'
+  volume: 46
+  number: 1
+  doi: 10.1016/j.patcog.2012.07.014
+  pdf: 'https://www.icst.pku.edu.cn/zlian/docs/20181023143915802540.pdf'
+  bibtex: '/static/pub/lian_2013.bib'
+
+- id: 'reuter_2012'
+  authors: '**Reuter M**, Rosas DH, Fischl B'
+  title: 'Longitudinal FreeSurfer for Reliable Imaging Biomarkers'
+  type: 'workshop'
+  journal: '*MICCAI Novel Neuroimaging Biomarkers for Alzheimer's Disease and Related Disorders Workshop and Challenge*'
+  year: 2012
+  month: 10
+  pdf: '/static/pub/reuter_2012.pdf'
+  bibtex: '/static/pub/reuter_2012.bib'
+
+- id: 'adriaanse_2012'
+  authors: 'Adriaanse S, van Dijk K, Ossenkoppele R, **Reuter M**, Tolboom N, Zwan M, Yaqub M, Boellaard R, Windhorst A, Van der Flier W, Scheltens, P, Barkhof F, Lammertsma A, van Berckel B'
+  title: 'Exploring the biomarker cascade model: Relating cortical volume loss to [11C]PIB, [18F]FDG and MMSE over time in Alzheimer''s disease patients and normal controls'
+  type: 'journal'
+  journal: 'Alzheimer''s & Dementia'
+  year: 2012
+  month: 07
+  pages: 'P348'
+  volume: 8
+  doi: 10.1016/j.jalz.2012.05.954
+  pdf: '/static/pub/adriaanse_2012.pdf'
+  bibtex: '/static/pub/adriaanse_2012.bib'

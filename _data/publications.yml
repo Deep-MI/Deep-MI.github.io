@@ -215,6 +215,7 @@
   month: 09
   pages: '30 - 37'
   #image: '/static/pub/wachinger_2017_lp.jpg'
+  isbn: 978-3-319-66179-7
   doi: 10.1007/978-3-319-66179-7_4
   bibtex: '/static/pub/wachinger_2017_lp.bib'
   pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
@@ -990,7 +991,7 @@
 - id: 'reuter_2006_shaperecogn'
   authors: '**Reuter M**'
   title: 'Laplace Spectra for Shape Recognition'
-  #journal: '**'
+  journal: '**'
   #type: ''
   year: 2006
   #month:
@@ -1037,7 +1038,7 @@
 - id: 'wolter_2004'
   authors: 'Wolter FE, Peinecke N, **Reuter M**'
   title: 'Geometric Modeling of Complex Shapes and Engineering Artifacts'
-  #journal: '**'
+  journal: '**'
   #type: ''
   year: 2004
   month: 11

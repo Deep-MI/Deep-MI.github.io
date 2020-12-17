@@ -329,7 +329,7 @@
   #image: '/static/pub/yendiki_2016.jpg'
   doi: 10.1016/j.neuroimage.2015.12.003
   pmcid: PMC4755874
-  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26717853/
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26717853/'
   bibtex: '/static/pub/yendiki_2016.bib'
 
 - id: 'tisdall_2016'
@@ -339,9 +339,10 @@
   pages: '11 - 22'
   volume: 127
   journal: '*NeuroImage*'
-  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26654788/
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26654788/'
   doi: 10.1016/j.neuroimage.2015.11.054
   pmcid: PMC4754677
+  # image: '/static/pub/tisdall_2016.jpg'
   bibtex: '/static/pub/tisdall_2016.bib'
 
 - id: 'biller_2015'
@@ -358,6 +359,7 @@
   doi: 10.3174/ajnr.A4508
 #  pmid: 26381562
   pmcid: PMC4916775
+  # image: '/static/pub/biller_2015.jpg'
   bibtex: '/static/pub/biller_2015.bib'
 
 - id: 'aganj_2015'
@@ -384,7 +386,7 @@
   volume: 123
   doi: 10.1016/j.neuroimage.2015.07.087
   pmcid: PMC4634338
-  pdf: 'https://shorturl.at/cpq19'
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811915007181'
   bibtex: '/static/pub/cash_2015.bib'
 
 - id: 'wachinger_2015_brainPrint'

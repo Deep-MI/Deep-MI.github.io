@@ -967,10 +967,8 @@
   year: 2007
   month: 10
   volume: 1
-  # number: chapter?
   # image: '/static/pub/wolter_2007.jpg'
   doi: 10.1002/0470091355.ecm013.pub2
-  # pdf: '/static/pub/wolter_2007.pdf'
   bibtex: '/static/pub/wolter_2007.bib'
 
 - id: 'peinecke_2007'
@@ -991,21 +989,12 @@
 - id: 'reuter_2006_shaperecogn'
   authors: '**Reuter M**'
   title: 'Laplace Spectra for Shape Recognition'
-  journal: '**'
-  #type: ''
+  journal: '*Books on Demand GmbH*'
+  type: 'journal'
   year: 2006
-  #month:
+  month: 07
   # image: '/static/pub/reuter_2006_shaperecogn.jpg'
-  #pmcid:
-  #biorxiv:
-  #arxiv:
-  #doi:
-  #pdf: ''
-  #github:
   bibtex: '/static/pub/reuter_2006_shaperecogn.bib'
-  #links:
-  #  - name: 'Some coauthor Lab'
-  #    url: 'http://coollab.uni.edu/'
 
 - id: 'reuter_2006_shapedna'
   authors: '**Reuter M**, Wolter FE, Peinecke N'
@@ -1038,8 +1027,8 @@
 - id: 'wolter_2004'
   authors: 'Wolter FE, Peinecke N, **Reuter M**'
   title: 'Geometric Modeling of Complex Shapes and Engineering Artifacts'
-  journal: '**'
-  #type: ''
+  journal: '*Encyclopedia of Computational Mechanics*'
+  type: 'journal'
   year: 2004
   month: 11
   pages: '475 - 495'

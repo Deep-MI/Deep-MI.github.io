@@ -1,5 +1,5 @@
 # Publications Table
-# 
+#
 # Use single quotes around longer text passages, and use two single quotes to escape the quote e.g. Alzheimer''s disease.
 #
 # id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
@@ -7,7 +7,7 @@
 # doi should always be put if available
 #
 #
-# - id: 'lastname_4digityear'       
+# - id: 'lastname_4digityear'
 #   authors: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C'
 #   title: 'The title of this super cool Paper using double''s to escape single quote'
 #   journal: 'abbreviated name or ''under review'' '
@@ -49,6 +49,8 @@
   type: 'journal'
   year: 2020
   month: 06
+  pages: '117012'
+  volume: 2019
   image: '/static/pub/henschel_2020.jpg'
   arxiv: 1910.03866
   doi: 10.1016/j.neuroimage.2020.117012
@@ -63,6 +65,9 @@
   type: 'journal'
   year: 2019
   month: 09
+  pages: '1471 - 1483'
+  volume: 83
+  number: 4
   image: '/static/pub/estrada_2019.jpg'
   arxiv: 1904.02082
   doi: 10.1002/mrm.28022
@@ -73,10 +78,11 @@
 - id: 'estrada_2018'
   authors: '**Estrada S**, **Conjeti S**, **Ahmad M**, Nassir N, **Reuter M**'
   title: 'Competition vs. Concatenation in Skip Connections of Fully Convolutional Networks'
-  journal: '*MICCAI Workshop*'
+  journal: '*MICCAI - International Workshop on Machine Learning in Medical Imaging*'
   type: 'workshop'
   year: 2018
   month: 09
+  pages: '214 – 222'
   image: '/static/pub/estrada_2018.jpg'
   arxiv: 1807.07803
   doi: 10.1007/978-3-030-00919-9_25
@@ -86,10 +92,11 @@
 - id: 'ahmad_2018'
   authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
   title: 'Complex Fully Convolutional Neural Networks for MR Image Reconstruction'
-  journal: '*MICCAI Workshop*'
+  journal: '*MICCAI - International Workshop on Machine Learning for Medical Image Reconstruction*'
   type: 'workshop'
   year: 2018
   month: 09
+  pages: '30 – 38'
   image: '/static/pub/ahmad_2018.jpg'
   arxiv: 1807.03343
   doi: 10.1007/978-3-030-00129-2_4
@@ -103,6 +110,8 @@
   type: 'journal'
   year: 2018
   month: 01
+  pages: '11 - 26'
+  volume: 165
   #image: '/static/pub/'
   doi: 10.1016/j.neuroimage.2017.09.060
   bibtex: '/static/pub/zaretskaya_2018.bib'
@@ -116,6 +125,9 @@
   type: 'journal'
   year: 2018
   month: 04
+  pages: '2427 - 2438'
+  volume: 80
+  number: 6
   image: '/static/pub/schwarz_2018.jpg'
   doi: 10.1002/mrm.27215
   bibtex: '/static/pub/schwarz_2018.bib'
@@ -127,7 +139,10 @@
   type: 'journal'
   year: 2018
   month: 10
-  #image: '/static/pub/'
+  pages: '522 - 530'
+  volume: 84
+  number: 7
+  #image: '/static/pub/wachinger_2018.jpg'
   doi: 10.1016/j.biopsych.2018.04.017
   bibtex: '/static/pub/wachinger_2018.bib'
   pmcid: PMC6123250
@@ -140,7 +155,10 @@
   type: 'journal'
   year: 2018
   month: 04
-  #image: '/static/pub/'
+  pages: '117 - 130'
+  volume: 8
+  number: 2
+  #image: '/static/pub/ranjan_2018.jpg'
   doi: 10.1080/24725579.2017.1423419
   bibtex: '/static/pub/ranjan_2018.bib'
 
@@ -151,7 +169,10 @@
   type: 'journal'
   year: 2017
   month: 07
-  #image: '/static/pub/'
+  pages: 'P1553 - P1554'
+  volume: 13
+  number: 7
+  #image: '/static/pub/berron_2017'
   doi: 10.1016/j.jalz.2017.07.694
   bibtex: '/static/pub/berron_2017.bib'
 
@@ -162,8 +183,10 @@
   type: 'journal'
   year: 2018
   month: 04
+  pages: '434 - 445'
+  volume: 170
   arxiv: 1702.08192
-  #image: '/static/pub/'
+  #image: '/static/pub/wachinger_2018_deepNat.jpg'
   doi: 10.1016/j.neuroimage.2017.02.035
   bibtex: '/static/pub/wachinger_2018_deepNat.bib'
   pdf: 'https://people.csail.mit.edu/wachinger/articles/Wachinger-Neuroimage-2017.pdf'
@@ -175,6 +198,8 @@
   type: 'journal'
   year: 2017
   month: 07
+  pages: '370 - 382'
+  volume: 155
   image: '/static/pub/saygin_2017.jpg'
   doi: 10.1016/j.neuroimage.2017.04.046
   bibtex: '/static/pub/saygin_2017.bib'
@@ -188,7 +213,9 @@
   journal: '*MICCAI*'
   year: 2017
   month: 09
-  #image: '/static/pub/'
+  pages: '30 - 37'
+  #image: '/static/pub/wachinger_2017_lp.jpg'
+  isbn: 978-3-319-66179-7
   doi: 10.1007/978-3-319-66179-7_4
   bibtex: '/static/pub/wachinger_2017_lp.bib'
   pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
@@ -200,6 +227,9 @@
   type: 'journal'
   year: 2017
   month: 02
+  pages: e1005350
+  volume: 13
+  number: 2
   image: '/static/pub/klein_2017.jpg'
   doi: 10.1371/journal.pcbi.1005350
   bibtex: '/static/pub/klein_2017.bib'
@@ -213,6 +243,8 @@
   type: 'journal'
   year: 2017
   month: 05
+  pages: '158 - 170'
+  volume: 152
   image: '/static/pub/aganj_2017.jpg'
   doi: 10.1016/j.neuroimage.2017.02.055
   bibtex: '/static/pub/aganj_2017.bib'
@@ -226,7 +258,10 @@
   type: 'journal'
   year: 2016
   month: 12
-  #image: '/static/pub/'
+  pages: '3253 - 3266'
+  volume: 139
+  number: 12
+  #image: '/static/pub/wachinger_2016.jpg'
   doi: 10.1093/brain/aww243
   bibtex: '/static/pub/wachinger_2016.bib'
   pmcid: PMC5840883
@@ -239,6 +274,8 @@
   type: 'journal'
   year: 2016
   month: 11
+  pages: '13291'
+  volume: 7
   #image: '/static/pub/ge_2016.jpg'
   doi: 10.1038/ncomms13291
   bibtex: '/static/pub/ge_2016.bib'
@@ -251,10 +288,12 @@
   type: 'journal'
   year: 2016
   month: 11
-  #image: '/static/pub/'
+  pages: '542 - 555'
+  volume: 141
+  #image: '/static/pub/iglesias_2016.jpg'
   doi: 10.1016/j.neuroimage.2016.07.020
   bibtex: '/static/pub/iglesias_2016.bib'
-  pdf: 'https://pdf.sciencedirectassets.com/272508/1-s2.0-S1053811916X00146/1-s2.0-S1053811916303275/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIDNjqw6BuzYzaYyquS8fnNlZWydSBoXbNS666wmrtIHNAiAGDZVmpUjryTN4iKOfWFdGmiQMx9%2FWSgsFW8EEjhbvgyq9Awja%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAIaDDA1OTAwMzU0Njg2NSIM3PO5Ip7EzjlcuM8tKpEDz%2B7bsZiIM329d%2FFY8WPy2XhxPgTw%2FgwQYLb%2Frzl88z5iw0duQ5YJC9NjS9UDK%2FVAB0HtFCT7Er7FxvaPNZ5vDhVVUXu3x2WOlJqItCO9joMGZzkt8nVMqn1sIUxassDDv2slRc%2F2dFQ5%2BM%2FpyRz4JD%2FlNKwdkvcmmfLc3hhGTDeScFktOV6w7mRD0cToV%2B7k2cm0IkEmrg8b%2Br4%2BLpwR2Q1PWN5fY6tKRez%2FP8V%2FJIjUepRRyllKo34oRSK3FOElHL%2FAZKhYbtW8KEOxs3ULAKe0Fsl5pORrz3Zhfe9vacVmPTbde6Lqtz0um2bXOIBL7DZRvWUymIn%2BwTtOSaUP%2FiyqvunwK20hnRYn5EABSzFNhrPxgiuJnh%2B3TESKuIRAxi5CkJfkg%2FibwbVu%2FL%2FpDrzTOK14Q8FBknBQRlnAYUawxo2ooadND6kpxh0bSs8ggEMgVQpKkfqBGxcN2Zl4m0bu7cTfJy%2FRlm0OQVff7mFPJGkf3LgNNQBf%2BG8Hz7xQzl9uSu1ad8wlL12GT4jvO%2FAwkMHO8wU67AHyoKVW5WutQDh2WVnOcEwWvkSqBnaAJhxadRPUsgw6MrFGn13whysovXD%2BKA8M65KJlOt86gd2eH%2FSr%2F%2FhbbunGb0rT1pU3KxfqNFnoux%2B5%2FKDN4T9QN9nu2ErqaBRYzOzNHemS1wYC6qngkSlgWwC56Mb8bPTQiEzc3BFaA6kKxvoXm4MvS9d06CEbU9XBt5w%2FUyW3hQafSMnm8xtQ0XD7Lo6%2FaTHUqLZosoeDCi05dmLAGhHCJ5YMwDOm%2BIkcScKvMEIIWV7ncsAtilgNS0Fj9jpKPh26RZrxu0fXqkrJLLj73odt%2BxMh2NgrQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200319T174051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYS3VPGNRN%2F20200319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=02ebaefd0ca82910dbe2e7a9a0140417a9202c5fa4542bf6cf794ded78b0e04f&hash=974cd701a23e5a109010b1703ba7de56d7a2f57d67b4b8c16bd0c60022cda7c7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1053811916303275&tid=spdf-528957c7-9e98-4273-9f3c-3309fd89edf3&sid=8be097374b6cc3409909ca46eba940ff9b24gxrqb&type=client'
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811916303275'
 
 - id: 'wachinger_2016_da'
   authors: '**Wachinger C**, **Reuter M**'
@@ -263,12 +302,14 @@
   type: 'journal'
   year: 2016
   month: 10
-  #image: '/static/pub/'
+  pages: '470 - 479'
+  volume: 139
+  #image: '/static/pub/wachinger_2016_da.jpg'
   doi: 10.1016/j.neuroimage.2016.05.053
   bibtex: '/static/pub/wachinger_2016_da.bib'
   pmcid: PMC4983466
-  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'  
-  
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983466/pdf/nihms800929.pdf'
+
 #- authors: '**Wachinger C**, **Reuter M**'
 #  title: 'Shape-based Classification and Domain Adaptation for Alzheimer''s Disease Diagnostics'
 #  conference: 'Human Brain Mapping 2016'
@@ -283,23 +324,25 @@
   journal: '*NeuroImage*'
   year: 2016
   month: 12
+  pages: '277 - 286'
+  volume: 127
+  #image: '/static/pub/yendiki_2016.jpg'
   doi: 10.1016/j.neuroimage.2015.12.003
-  pmcid: 4755874
-  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26717853/
+  pmcid: PMC4755874
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26717853/'
   bibtex: '/static/pub/yendiki_2016.bib'
-#  pages = {277--286},
-#  volume = {127},
 
 - id: 'tisdall_2016'
   authors: 'Tisdall MD, **Reuter M**, Qureshi A, Buckner RL, Fischl B, van der Kouwe A'
   year: 2016
   title: 'Prospective motion correction with volumetric navigators (vNavs) reduces the bias and variance in brain morphometry induced by subject motion'
-# pages = {11--22},
-# volume = {127},
+  pages: '11 - 22'
+  volume: 127
   journal: '*NeuroImage*'
-  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26654788/
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26654788/'
   doi: 10.1016/j.neuroimage.2015.11.054
-  pmcid: 4754677
+  pmcid: PMC4754677
+  # image: '/static/pub/tisdall_2016.jpg'
   bibtex: '/static/pub/tisdall_2016.bib'
 
 - id: 'biller_2015'
@@ -308,14 +351,15 @@
   year: 2015
   title: 'Responses of the Human Brain to Mild Dehydration and Rehydration Explored In Vivo by 1H-MR Imaging and Spectroscopy'
   pdf: http://www.ajnr.org/content/ajnr/36/12/2277.full.pdf
-#  pages = {2277--2284},
-#  volume = {36},
-#  number = {12},
+  pages: 2277 - 2284
+  volume: 36
+  number: 12
 #  issn = {1936-959X},
   journal: '*Am J Neuroradiol*'
   doi: 10.3174/ajnr.A4508
 #  pmid: 26381562
-  pmcid: 4916775
+  pmcid: PMC4916775
+  # image: '/static/pub/biller_2015.jpg'
   bibtex: '/static/pub/biller_2015.bib'
 
 - id: 'aganj_2015'
@@ -324,9 +368,11 @@
   journal: '*MICCAI*'
   year: 2015
   title: 'Mid-Space-Independent Symmetric Data Term for Pairwise Deformable Image Registration'
+  pages: '263-271'
+  volume: 9350
   pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
   doi: 10.1007/978-3-319-24571-3_32
-  pmcid: 4732576
+  pmcid: PMC4732576
   bibtex: '/static/pub/aganj_2015.bib'
 
 - id: 'cash_2015'
@@ -336,9 +382,11 @@
   journal: '*NeuroImage*'
   year: 2015
   month: 12
+  pages: '149 - 164'
+  volume: 123
   doi: 10.1016/j.neuroimage.2015.07.087
-  pmcid: 4634338
-  pdf: 'https://shorturl.at/cpq19'
+  pmcid: PMC4634338
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811915007181'
   bibtex: '/static/pub/cash_2015.bib'
 
 - id: 'wachinger_2015_brainPrint'
@@ -348,11 +396,14 @@
   journal: '*NeuroImage*'
   year: 2015
   month: 04
+  pages: '232 - 248'
+  volume: 109
   doi: 10.1016/j.neuroimage.2015.01.032
-  pmcid: 4340729
+  pmcid: PMC4340729
   pdf: 'http://reuter.mit.edu/blue/papers/wachinger-brainprint15/wachinger-brainprint15.pdf'
   bibtex: '/static/pub/wachinger_2015_brainPrint.bib'
   image: '/static/pub/wachinger_2015_brainPrint.jpg'
+  github: deep-mi/BrainPrint
 
 - id: 'bron_2015'
   authors: 'Bron EE, Smits M, van der Flier WM, Vrenken H, Barkhof F, Scheltens P, Papma JM, Steketee RM, Méndez Orellana C, Meijboom R, Pinto M, Meireles JR, Garrett C, Bastos-Leite AJ, Abdulkadir A, Ronneberger O, Amoroso N, Bellotti R, Cárdenas-Peña D, Álvarez-Meza AM, Dolph CV, Iftekharuddin KM, Eskildsen SF, Coupé P, Fonov VS, Franke K, Gaser C, Ledig C, Guerrero R, Tong T, Gray KR, Moradi E, Tohka J, Routier A, Durrleman S, Sarica A, Di Fatta G, Sensi F, Chincarini A, Smith GM, Stoyanov ZV, Sørensen L, Nielsen M, Tangaro S, Inglese P, **Wachinger C**, **Reuter M**, van Swieten JC, Niessen WJ, Klein S'
@@ -361,8 +412,10 @@
   journal: '*NeuroImage*'
   year: 2015
   month: 05
+  pages: '562 - 579'
+  volume: 111
   doi: 10.1016/j.neuroimage.2015.01.048
-  pmcid: 4943029
+  pmcid: PMC4943029
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943029/pdf/nihms796247.pdf'
   bibtex: '/static/pub/bron_2015.bib'
 
@@ -373,8 +426,9 @@
   journal: '*NeuroImage*'
   year: 2015
   month: 02
+  pages: '107 - 115'
   doi: 10.1016/j.neuroimage.2014.12.006
-  pmcid: 4300248
+  pmcid: PMC4300248
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300248/pdf/nihms648171.pdf'
   bibtex: '/static/pub/reuter_2015.bib'
 
@@ -384,8 +438,12 @@
   type: 'journal'
   journal: '*Hum Brain Mapp*'
   year: 2015
+  month: 04
+  pages: '1365 - 1380'
+  volume: 36
+  number: 4
   doi: 10.1002/hbm.22707
-  pmcid: 4732282
+  pmcid: PMC4732282
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732282/pdf/nihms753816.pdf'
   bibtex: '/static/pub/wachinger_2015.bib'
 
@@ -396,8 +454,10 @@
   journal: '*NeuroImage*'
   year: 2015
   month: 02
+  pages: '238 - 251'
+  volume: 106
   doi: 10.1016/j.neuroimage.2014.10.059
-  pmcid: 4286290 
+  pmcid: PMC4286290
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4286290/pdf/nihms640335.pdf'
   bibtex: '/static/pub/aganj_2015_defreg.bib'
 
@@ -407,20 +467,26 @@
   type: 'conference'
   journal: '*MICCAI*'
   year: 2014
+  month: 09
+  pages: '41 - 48'
   doi: 10.1007/978-3-319-10443-0_6
-  pmcid: 4216735 
+  pmcid: PMC4216735
   bibtex: '/static/pub/wachinger_2014.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4216735/pdf/nihms-637906.pdf'
+  github: deep-mi/BrainPrint
 
 - id: 'wachinger_2014_challenge'
   authors: '**Wachinger C**, Batmanghelich K, Golland P, **Reuter M**'
   title: 'BrainPrint in the Computer-Aided Diagnosis of Alzheimer''s Disease'
   type: 'workshop'
-  journal: '*MICCAI Challenge*'
+  journal: '*MICCAI Challenge on Computer-Aided Diagnosis of Dementia Based on Structural MRI Data*'
   year: 2014
+  month: 01
+  pages: '129 - 138'
   doi: 10.13140/2.1.4402.8162
   bibtex: '/static/pub/wachinger_2014_challenge.bib'
   pdf: 'https://people.csail.mit.edu/polina/papers/Wachinger-MICCAI-Challenge-CadDementia-2014.pdf'
+  github: deep-mi/BrainPrint
 
 - id: 'wachinger_2014_reg'
   authors: '**Wachinger C**, Golland P, **Reuter M**, Wells W'
@@ -428,8 +494,10 @@
   type: 'conference'
   journal: '*MICCAI*'
   year: 2014
+  month: 09
+  pages: '267 - 274'
   doi: 10.1007/978-3-319-10404-1_34
-  pmcid: 4219919 
+  pmcid: PMC4219919
   bibtex: '/static/pub/wachinger_2014_reg.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219919/pdf/nihms637911.pdf'
 
@@ -440,8 +508,10 @@
   journal: '*Biol Sex Differ*'
   year: 2014
   month: 10
+  pages: '16'
+  volume: 5
   doi: 10.1186/s13293-014-0016-4
-  pmcid: 4360142 
+  pmcid: PMC4360142
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360142/pdf/s13293-014-0016-4.pdf'
   bibtex: '/static/pub/aganj_2015_defreg.bib'
 
@@ -452,8 +522,10 @@
   journal: '*NeuroImage*'
   year: 2014
   month: 10
+  pages: '395 - 404'
+  volume: 100
   doi: 10.1016/j.neuroimage.2014.06.032
-  pmcid: 4142686
+  pmcid: PMC4142686
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4142686/pdf/nihms608969.pdf'
   bibtex: '/static/pub/wang_2014.bib'
 
@@ -464,8 +536,10 @@
   journal: '*NeuroImage*'
   year: 2014
   month: 08
+  pages: '9 - 18'
+  volume: 97
   doi: 10.1016/j.neuroimage.2014.04.015
-  pmcid: 4078261
+  pmcid: PMC4078261
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078261/pdf/nihms585837.pdf'
   bibtex: '/static/pub/sabuncu_2014.bib'
 
@@ -484,7 +558,485 @@
   journal: '*J Neurooncol*'
   year: 2014
   month: 08
+  pages: '123 - 129'
+  volume: 118
+  number: 1
   doi: 10.1007/s11060-014-1403-8
-  pmcid: 4026260
+  pmcid: PMC4026260
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4026260/pdf/nihms570261.pdf'
   bibtex: '/static/pub/reuter_2014.bib'
+
+- id: 'augustinack_2014'
+  authors: 'Augustinack JC, Magnain C, **Reuter M**, van der Kouwe AJW, Boas D, Fischl B'
+  title: 'MRI Parcellation of Ex Vivo Medial Temporal Lobe'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 06
+  pages: '252 - 259'
+  volume: 93
+  doi: 10.1016/j.neuroimage.2013.05.053
+  pmcid: PMC3883990
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3883990/pdf/nihms483083.pdf'
+  bibtex: '/static/pub/augustinack_2014.bib'
+
+- id: 'andronesi_2014'
+  authors: 'Andronesi OC, Bhat H, **Reuter M**, Mukherjee S, Caravan P, Rosen BR'
+  title: 'Whole brain mapping of water pools and molecular dynamics with rotating frame MR relaxation using gradient modulated low-power adiabatic pulses'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 04
+  pages: '92 - 109'
+  volume: 89
+  doi: 10.1016/j.neuroimage.2013.12.007
+  pmcid: PMC3944112
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944112/pdf/nihms550454.pdf'
+  bibtex: '/static/pub/andronesi_2014.bib'
+
+- id: 'fujimoto_2014'
+  authors: 'Fujimoto K, Polimeni JR, van der Kouwe AJW, **Reuter M**, Kober T, Benner T, Fischl B, Wald LL'
+  title: 'Quantitative comparison of cortical surface reconstructions from MP2RAGE and multi-echo MPRAGE data at 3 and 7 T'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 04
+  pages: '60 - 73'
+  volume: 90
+  doi: 10.1016/j.neuroimage.2013.12.012
+  pmcid: PMC4035370
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4035370/pdf/nihms551229.pdf'
+  bibtex: '/static/pub/fujimoto_2014.bib'
+
+- id: 'adriaanse_2014'
+  authors: 'Adriaanse SM, Dijk KRA, Ossenkoppele R, **Reuter M**, Tolboom N, Zwan MD, Yaqub M, Boellaard R, Windhorst AD, Flier WM, Scheltens, P, Lammertsma AA, Barkhof F, Berckel BNM'
+  title: 'The effect of amyloid pathology and glucose metabolism on cortical volume loss over time in Alzheimer''s disease'
+  type: 'journal'
+  journal: '*European Journal of Nuclear Medicine and Molecular Imaging*'
+  year: 2014
+  month: 03
+  pages: '1190 - 1198'
+  volume: 41
+  number: 6
+  doi: 10.1007/s00259-014-2704-z
+  pmcid: PMC4917377
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4917377/pdf/nihms795464.pdf'
+  bibtex: '/static/pub/adriaanse_2014.bib'
+
+- id: 'rosas_2014'
+  autors: 'Rosas HD, Doros G, Gevorkian S, Malarick K, **Reuter M**, Coutu JP, Triggs T, Wilkens P, Matson W, Salat DH, Hersch SM'
+  title: 'PRECREST: A phase II prevention and biomarker trial of creatine in at-risk Huntington disease'
+  type: 'journal'
+  journal: '*Neurology*'
+  year: 2014
+  month: 03
+  pages: '850 - 857'
+  volume: 82
+  number: 10
+  doi: 10.1212/WNL.0000000000000187
+  pmcid: PMC3959748
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959748/pdf/NEUROLOGY2013532192.pdf'
+  bibtex: '/static/pub/rosas_2014.bib'
+
+- id: 'magnain_2014'
+  authors: 'Magnain C, Augustinack JC, **Reuter M**, **Wachinger C**, Frosch MP, Ragan T, Akkin T, Wedeen VJ, Boas DA, Fischl B'
+  title: 'Blockface histology with optical coherence tomography: A comparison with Nissl staining'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2014
+  month: 01
+  pages: '524 - 533'
+  volume: 84
+  doi: 10.1016/j.neuroimage.2013.08.072
+  pmcid: PMC4315235
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4315235/pdf/nihms656570.pdf'
+  bibtex: '/static/pub/magnain_2014.bib'
+
+- id: 'bernalrusiel_2013_longitneurospatiotemplme'
+  autors: 'Bernal-Rusiel JL, **Reuter M**, Greve DN, Fischl B, Sabuncu MR'
+  title: 'Spatiotemporal Linear Mixed Effects Modeling for the Mass-univariate Analysis of Longitudinal Neuroimage Data'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2013
+  month: 11
+  pages: '358 - 370'
+  volume: 81
+  doi: 10.1016/j.neuroimage.2013.05.049
+  pmcid: PMC3816382
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816382/pdf/nihms483081.pdf'
+  bibtex: '/static/pub/bernalrusiel_2013_longitneurospatiotemplme.bib'
+
+- id: 'aganj_2013'
+  authors: 'Aganj I, **Reuter M**, Sabuncu MR, Fischl B'
+  title: 'Symmetric non-rigid image registration via an adaptive quasi-volume-preserving constraint'
+  type: 'conference'
+  journal: '*ISBI*'
+  year: 2013
+  month: 04
+  pages: '230 - 233'
+  #image: '/static/pub/aganj_2013.jpg'
+  doi: 10.1109/ISBI.2013.6556454
+  pmcid: PMC4349339
+  bibtex: '/static/pub/aganj_2013.bib'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349339/pdf/nihms666839.pdf'
+
+- id: 'bernalrusiel_2013_longitneurolme'
+  authors: 'Bernal-Rusiel JL, Greve DN, **Reuter M**, Fischl B, Sabuncu MR'
+  title: 'Statistical analysis of longitudinal neuroimage data with Linear Mixed Effects models'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2013
+  month: 02
+  pages: '249 - 260'
+  volume: 66
+  pmcid: PMC3586747
+  doi: 10.1016/j.neuroimage.2012.10.065
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586747/pdf/nihms418971.pdf'
+  bibtex: '/static/pub/bernalrusiel_2013_longitneurolme.bib'
+
+- id: 'lian_2013'
+  authors: 'Lian Z, Godil A, Bustos B, Daoudi M, Hermans J, Kawamura S, Kurita Y, Lavoué G, Van Nguyen H, Ohbuchi R, Ohkita Y, Ohishi Y, Porikli F, **Reuter M**, Sipiran I, Smeets D, Suetens P, Tabia H, Vandermeulen D'
+  title: 'A comparison of methods for non-rigid 3D shape retrieval'
+  type: 'journal'
+  journal: '*Pattern Recognition*'
+  year: 2013
+  month: 01
+  pages: '449 - 461'
+  volume: 46
+  number: 1
+  doi: 10.1016/j.patcog.2012.07.014
+  pdf: 'https://hal.archives-ouvertes.fr/hal-00746279/document'
+  bibtex: '/static/pub/lian_2013.bib'
+
+#- id: 'reuter_2012_longitfreesurf'
+#  authors: '**Reuter M**, Rosas DH, Fischl B'
+#  title: 'Longitudinal FreeSurfer for Reliable Imaging Biomarkers'
+#  type: 'workshop'
+#  journal: '*MICCAI Novel Neuroimaging Biomarkers for Alzheimer's Disease and Related Disorders Workshop and Challenge*'
+#  year: 2012
+#  month: 10
+  # pdf: '/static/pub/reuter_2012_longitfreesurf.pdf'
+#  bibtex: '/static/pub/reuter_2012_longitfreesurf.bib'
+
+- id: 'tisdall_2012'
+  authors: 'Tisdall MD, Hess AT, **Reuter M**, and Meintjes EM, Fischl B, van der Kouwe AJW'
+  title: 'Volumetric navigators for prospective motion correction and selective reacquisition in neuroanatomical MRI'
+  type: 'journal'
+  journal: '*Magnetic Resonance in Medicine*'
+  year: 2012
+  month: 08
+  pages: '389 - 399'
+  volume: 68
+  number: 2
+  # image: '/static/pub/tisdall_2012.jpg'
+  pmcid: PMC3320676
+  doi: 10.1002/mrm.23228
+  pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.23228'
+  bibtex: '/static/pub/tisdall_2012.bib'
+
+- id: 'adriaanse_2012'
+  authors: 'Adriaanse S, van Dijk K, Ossenkoppele R, **Reuter M**, Tolboom N, Zwan M, Yaqub M, Boellaard R, Windhorst A, Van der Flier W, Scheltens, P, Barkhof F, Lammertsma A, van Berckel B'
+  title: 'Exploring the biomarker cascade model: Relating cortical volume loss to [11C]PIB, [18F]FDG and MMSE over time in Alzheimer''s disease patients and normal controls'
+  type: 'journal'
+  journal: '*Alzheimer''s & Dementia*'
+  year: 2012
+  month: 07
+  pages: 'P348'
+  volume: 8
+  doi: 10.1016/j.jalz.2012.05.954
+  # pdf: '/static/pub/adriaanse_2012.pdf'
+  bibtex: '/static/pub/adriaanse_2012.bib'
+
+- id: 'reuter_2012_templatelongit'
+  authors: '**Reuter M**, Schmansky NJ, Rosas HD, Fischl B'
+  title: 'Within-Subject Template Estimation for Unbiased Longitudinal Image Analysis'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2012
+  month: 07
+  pages: '1402 - 1418'
+  volume: 61
+  number: 4
+  # image: '/static/pub/reuter_2012_templatelongit.jpg'
+  pmcid: PMC3389460
+  doi: 10.1016/j.neuroimage.2012.02.084
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389460/pdf/nihms363223.pdf'
+  bibtex: '/static/pub/reuter_2012_templatelongit.bib'
+
+- id: 'rosas_2011'
+  authors: 'Rosas HD, **Reuter M**, Doros G, Lee SY, Triggs T, Malarick K, Fischl B, Salat DH, Hersch SM'
+  title: 'A tale of two factors: What determines the rate of progression in Huntington''s disease? A longitudinal MRI study'
+  type: 'journal'
+  journal: '*Movement Disorders*'
+  year: 2011
+  month: 08
+  pages: '1691 - 1697'
+  volume: 26
+  number: 9
+  # image: '/static/pub/rosas_2011.jpg'
+  pmcid: PMC3155608
+  doi: 10.1002/mds.23762
+  pdf: 'https://www.movementdisorders.org/MDS-Files1/Resources/PDFs/md_article_rosas.pdf'
+  bibtex: '/static/pub/rosas_2011.bib'
+
+- id: 'sabuncu_2011'
+  authors: 'Sabuncu MR, Desikan RS, Sepulcre J, Yeo BTT, Liu H, Schmansky NJ, **Reuter M**, Weiner MW, Buckner RL, Sperling RA, Fischl B, Alzheimer''s Disease Neuroimaging Initiative'
+  title: 'The Dynamics of Cortical and Hippocampal Atrophy in Alzheimer Disease'
+  type: 'journal'
+  journal: '*Arch Neurol.*'
+  year: 2011
+  month: 08
+  pages: '1040 - 1048'
+  volume: 68
+  number: 8
+  # image: '/static/pub/sabuncu_2011.jpg'
+  pmcid: PMC3248949
+  doi: 10.1001/archneurol.2011.167
+  pdf: 'https://jamanetwork.com/article.aspx?doi=10.1001/archneurol.2011.167'
+  bibtex: '/static/pub/sabuncu_2011.bib'
+
+- id: 'reuter_2011'
+  authors: '**Reuter M**, Fischl B'
+  title: 'Avoiding Asymmetry-Induced Bias in Longitudinal Image Processing'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2011
+  month: 07
+  pages: '19 - 21'
+  volume: 57
+  number: 1
+  # image: '/static/pub/reuter_2011.jpg'
+  pmcid: PMC3260043
+  doi: 10.1016/j.neuroimage.2011.02.076
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3260043/pdf/nihms344796.pdf'
+  bibtex: '/static/pub/reuter_2011.bib'
+
+- id: 'lian_2011'
+  authors: 'Lian Z, Godil A, Bustos B, Daoudi M, Hermans J, Kawamura S, Kurita Y, Lavoué G, Nguyen HV, Ohbuchi R, Ohkita Y, Ohishi Y, Porikli F, **Reuter M**, Sipiran I, Smeets D, Suetens P, Tabia H, Vandermeulen D'
+  title: 'SHREC''11 track: shape retrieval on non-rigid 3D watertight meshes'
+  journal: '*Eurographics*'
+  type: 'conference'
+  year: 2011
+  month: 04
+  pages: '79 - 88'
+  # image: '/static/pub/lian_2011.jpg'
+  doi: 10.18434/M32215
+  pdf: 'https://www.researchgate.net/publication/220888659_SHREC_%2711_Track_Shape_Retrieval_on_Non-rigid_3D_Watertight_Meshes'
+  bibtex: '/static/pub/lian_2011.bib'
+
+- id: 'desikan_2010'
+  authors: 'Desikan RS, Sabuncu MR, Schmansky NJ, **Reuter M**, Cabral HJ, Hess CP, Weiner MW, Biffi A, Anderson CD, Rosand J, Salat DH, Kemper TL, Dale AM, Sperling RA, Fischl B, Alzheimer''s Disease Neuroimaging Initiative'
+  title: 'Seletive Disruption of the Cerebral Neocortex in Alzheimer''s Disease'
+  type: 'journal'
+  journal: '*PLoS ONE*'
+  year: 2010
+  month: 09
+  pages: 'e12853'
+  volume: 5
+  number: 9
+  # image: '/static/pub/desikan_2010.jpg'
+  pmcid: PMC2944799
+  doi: 10.1371/journal.pone.0012853
+  pdf: 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0012853&type=printable'
+  bibtex: '/static/pub/desikan_2010.bib'
+
+- id: 'reuter_2010_invconsregistration'
+  authors: '**Reuter M**, Rosas HD, Fischl B'
+  title: 'Highly Accurate Inverse Consistent Registration: A Robust Approach'
+  type: 'journal'
+  journal: '*NeuroImage*'
+  year: 2010
+  month: 12
+  pages: '1181 - 1196'
+  volume: 53
+  number: 4
+  # image: '/static/pub/reuter_2010_invconsregistration.jpg'
+  pmcid: PMC2946852
+  doi: 10.1016/j.neuroimage.2010.07.020
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2946852/pdf/nihms-223420.pdf'
+  bibtex: '/static/pub/reuter_2010_invconsregistration.bib'
+
+- id: 'reuter_2010_lbeigenfunctions'
+  authors: '**Reuter M**'
+  title: 'Hierarchical Shape Segmentation and Registration via Topological Features of Laplace-Beltrami Eigenfunctions'
+  type: 'journal'
+  journal: '*International Journal of Computer Vision*'
+  year: 2010
+  month: 09
+  pages: '287 - 308'
+  volume: 89
+  number: 2
+  # image: '/static/pub/reuter_2010_lbeigenfunctions.jpg'
+  doi: 10.1007/s11263-009-0278-1
+  pdf: '/static/pub/reuter_2010_lbeigenfunctions.pdf'
+  bibtex: '/static/pub/reuter_2010_lbeigenfunctions.bib'
+
+- id: 'reuter_2009_discretelboperators'
+  authors: '**Reuter M**, Biasotti S, Giorgi D, Patanè G, Spagnuolo M'
+  title: 'Discrete Laplace-Beltrami operators for shape analysis and segmentation'
+  journal: '*Computers & Graphics*'
+  type: 'journal'
+  year: 2009
+  month: 06
+  pages: 381 - 390
+  volume: 33
+  number: 3
+  # image: '/static/pub/reuter_2009_discretelboperators.jpg'
+  doi: 10.1016/j.cag.2009.03.005
+  pdf: '/static/pub/reuter_2009_discretelboperators.pdf'
+  bibtex: '/static/pub/reuter_2009_discretelboperators.bib'
+
+- id: 'reuter_2009_lbeigenvaluesfunctions'
+  authors: '**Reuter M**, Wolter FE, Shenton M, Niethammer M'
+  title: 'Laplace-Beltrami Eigenvalues and Topological Features of Eigenfunctions for Statistical Shape Analysis'
+  journal: '*Computer-Aided Design*'
+  type: 'journal'
+  year: 2009
+  month: 10
+  pages: '739 - 755'
+  volume: 41
+  number: 10
+  # image: '/static/pub/reuter_2009_lbeigenvaluesfunctions.jpg'
+  pmcid: PMC2753296
+  doi: 10.1016/j.cad.2009.02.007
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2753296/pdf/nihms99404.pdf'
+  bibtex: '/static/pub/reuter_2009_lbeigenvaluesfunctions.bib'
+
+- id: 'reuter_2008'
+  authors: '**Reuter M**, Mikkelsen TS, Sherbrooke EC, Maekawa T, Patrikalakis NM'
+  title: 'Solving nonlinear polynomial systems in the barycentric Bernstein basis'
+  journal: '*The Visual Computer*'
+  type: 'journal'
+  year: 2008
+  month: 03
+  pages: '187 - 200'
+  volume: 24
+  number: 3
+  # image: '/static/pub/reuter_2008.jpg'
+  doi: 10.1007/s00371-007-0184-x
+  pdf: 'https://www.researchgate.net/publication/220067482_Solving_nonlinear_polynomial_systems_in_the_barycentric_Bernstein_basis'
+# pdf: '/static/pub/reuter_2008.pdf'
+  bibtex: '/static/pub/reuter_2008.bib'
+
+- id: 'reuter_2007_hearshape'
+  authors: '**Reuter M**'
+  title: 'Can one hear Shape?'
+  journal: '*GAMM07 and ICIAM07*'
+  type: 'conference'
+  year: 2007
+  month: 12
+  pages: '1011101 - 1011102'
+  volume: 7
+  number: 1
+  # image: '/static/pub/reuter_2007_hearshape.jpg'
+  doi: 10.1002/pamm.200700694
+  pdf: '/static/pub/reuter_2007_hearshape.pdf'
+  bibtex: '/static/pub/reuter_2007_hearshape.bib'
+
+- id: 'reuter_2007_vollaplacespec'
+  authors: '**Reuter M**, Niethammer M, Wolter FE, Bouix S, Shenton M'
+  title: 'Global Medical Shape Analysis Using the Volumetric Laplace Spectrum'
+  journal: '*CW*'
+  type: 'conference'
+  year: 2007
+  month: 10
+  pages: '417 - 426'
+  # image: '/static/pub/reuter_2007_vollaplacespec.jpg'
+  pmcid: PMC2782516
+  doi: 10.1109/CW.2007.42
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782516/pdf/nihms152637.pdf'
+  bibtex: '/static/pub/reuter_2007_vollaplacespec.bib'
+
+- id: 'niethammer_2007'
+  authors: 'Niethammer M, **Reuter M**, Wolter FE, Bouix S, Peinecke N, Koo MS, Shenton M'
+  title: 'Global Medical Shape Analysis using the Laplace-Beltrami Spectrum'
+  journal: '*MICCAI*'
+  type: 'conference'
+  year: 2007
+  month: 10
+  pages: '850 - 857'
+  # image: '/static/pub/niethammer_2007.jpg'
+  pmcid: PMC2782516
+  doi: 10.1007/978-3-540-75757-3_103
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782516/pdf/nihms152637.pdf'
+  bibtex: '/static/pub/niethammer_2007.bib'
+
+- id: 'wolter_2007'
+  authors: 'Wolter FE, **Reuter M**, Peinecke N'
+  title: 'Geometric Modeling for Engineering Applications'
+  journal: '*Encyclopedia of Computational Mechanics*'
+  type: 'journal'
+  year: 2007
+  month: 10
+  volume: 1
+  # image: '/static/pub/wolter_2007.jpg'
+  doi: 10.1002/0470091355.ecm013.pub2
+  bibtex: '/static/pub/wolter_2007.bib'
+
+- id: 'peinecke_2007'
+  authors: 'Peinecke N, Wolter FE, **Reuter M**'
+  title: 'Laplace Spectra as Fingerprints for Image Recognition'
+  journal: '*Computer-Aided Design*'
+  type: 'journal'
+  year: 2007
+  month: 06
+  pages: '460 - 476'
+  volume: 39
+  number: 6
+  # image: '/static/pub/peinecke_2007.jpg'
+  doi: 10.1016/j.cad.2007.01.014
+  pdf: 'https://www.researchgate.net/publication/222529415_Laplace_spectra_as_fingerprints_for_image_recognition'
+  bibtex: '/static/pub/peinecke_2007.bib'
+
+- id: 'reuter_2006_shaperecogn'
+  authors: '**Reuter M**'
+  title: 'Laplace Spectra for Shape Recognition'
+  journal: '*BoD*'
+  type: 'journal'
+  year: 2006
+  month: 07
+  # image: '/static/pub/reuter_2006_shaperecogn.jpg'
+  bibtex: '/static/pub/reuter_2006_shaperecogn.bib'
+
+- id: 'reuter_2006_shapedna'
+  authors: '**Reuter M**, Wolter FE, Peinecke N'
+  title: 'Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids'
+  journal: '*Computer-Aided Design*'
+  type: 'journal'
+  year: 2006
+  month: 04
+  pages: '342 - 03866'
+  volume: 38
+  number: 4
+  # image: '/static/pub/reuter_2006_shapedna.jpg'
+  doi: 10.1016/j.cad.2005.10.011
+  pdf: 'https://www.researchgate.net/publication/222403598_Laplace-Beltrami_spectra_as_%27Shape-DNA%27_of_surfaces_and_solids'
+  bibtex: '/static/pub/reuter_2006_shapedna.bib'
+
+- id: 'reuter_2005'
+  authors: '**Reuter M**, Wolter FE, Peinecke N'
+  title: 'Laplace-Spectra as Fingerprints for Shape Matching'
+  journal: '*SPM*'
+  type: 'conference'
+  year: 2005
+  month: 06
+  pages: '101 - 106'
+  # image: '/static/pub/reuter_2005.jpg'
+  doi: 10.1145/1060244.1060256
+  pdf: 'https://www.researchgate.net/publication/221115563_Laplace-spectra_as_fingerprints_for_shape_matching'
+  bibtex: '/static/pub/reuter_2005.bib'
+
+- id: 'wolter_2004'
+  authors: 'Wolter FE, Peinecke N, **Reuter M**'
+  title: 'Geometric Modeling of Complex Shapes and Engineering Artifacts'
+  journal: '*Encyclopedia of Computational Mechanics*'
+  type: 'journal'
+  year: 2004
+  month: 11
+  pages: '475 - 495'
+  volume: 1
+  # number: chapter??
+  # image: '/static/pub/wolter_2004.jpg'
+  doi: 10.1002/0470091355.ecm013
+  # pdf: '/static/pub/wolter_2004.pdf'
+  bibtex: '/static/pub/wolter_2004.bib'

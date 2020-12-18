@@ -373,6 +373,7 @@
   pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
   doi: 10.1007/978-3-319-24571-3_32
   pmcid: PMC4732576
+  # image: '/static/pub/aganj_2015.jpg'
   bibtex: '/static/pub/aganj_2015.bib'
 
 - id: 'cash_2015'
@@ -387,6 +388,7 @@
   doi: 10.1016/j.neuroimage.2015.07.087
   pmcid: PMC4634338
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811915007181'
+  # image: '/static/pub/cash_2015.jpg'
   bibtex: '/static/pub/cash_2015.bib'
 
 - id: 'wachinger_2015_brainPrint'
@@ -417,6 +419,7 @@
   doi: 10.1016/j.neuroimage.2015.01.048
   pmcid: PMC4943029
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943029/pdf/nihms796247.pdf'
+  # image: '/static/pub/bron_2015.jpg'
   bibtex: '/static/pub/bron_2015.bib'
 
 - id: 'reuter_2015'
@@ -430,6 +433,7 @@
   doi: 10.1016/j.neuroimage.2014.12.006
   pmcid: PMC4300248
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300248/pdf/nihms648171.pdf'
+  # image: '/static/pub/reuter_2015.jpg'
   bibtex: '/static/pub/reuter_2015.bib'
 
 - id: 'wachinger_2015'
@@ -445,6 +449,7 @@
   doi: 10.1002/hbm.22707
   pmcid: PMC4732282
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4732282/pdf/nihms753816.pdf'
+  # image: '/static/pub/wachinger_2015.jpg'
   bibtex: '/static/pub/wachinger_2015.bib'
 
 - id: 'aganj_2015_defreg'
@@ -459,6 +464,7 @@
   doi: 10.1016/j.neuroimage.2014.10.059
   pmcid: PMC4286290
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4286290/pdf/nihms640335.pdf'
+  # image: '/static/pub/aganj_2015_defreg.jpg'
   bibtex: '/static/pub/aganj_2015_defreg.bib'
 
 - id: 'wachinger_2014'
@@ -473,6 +479,7 @@
   pmcid: PMC4216735
   bibtex: '/static/pub/wachinger_2014.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4216735/pdf/nihms-637906.pdf'
+  # image: '/static/pub/wachinger_2014.jpg'
   github: deep-mi/BrainPrint
 
 - id: 'wachinger_2014_challenge'
@@ -486,6 +493,7 @@
   doi: 10.13140/2.1.4402.8162
   bibtex: '/static/pub/wachinger_2014_challenge.bib'
   pdf: 'https://people.csail.mit.edu/polina/papers/Wachinger-MICCAI-Challenge-CadDementia-2014.pdf'
+  # image: '/static/pub/wachinger_2014_challenge.jpg'
   github: deep-mi/BrainPrint
 
 - id: 'wachinger_2014_reg'
@@ -500,6 +508,7 @@
   pmcid: PMC4219919
   bibtex: '/static/pub/wachinger_2014_reg.bib'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219919/pdf/nihms637911.pdf'
+  # image: '/static/pub/wachinger_2014_reg.jpg'
 
 - id: 'wade_2014'
   authors: 'Wade BS, Joshi SH, **Reuter M**, Blumenthal JD, Toga AW, Thompson PM, Giedd JN'
@@ -513,7 +522,8 @@
   doi: 10.1186/s13293-014-0016-4
   pmcid: PMC4360142
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360142/pdf/s13293-014-0016-4.pdf'
-  bibtex: '/static/pub/aganj_2015_defreg.bib'
+  # image: '/static/pub/wade_2014.jpg'
+  bibtex: '/static/pub/wade_2014.bib'
 
 - id: 'wang_2014'
   authors: 'Wang H, Zhu J, **Reuter M**, Vinke LN, Yendiki A, Boas DA, Fischl B, Akkin T'
@@ -527,6 +537,7 @@
   doi: 10.1016/j.neuroimage.2014.06.032
   pmcid: PMC4142686
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4142686/pdf/nihms608969.pdf'
+  # image: '/static/pub/wang_2014.jpg'
   bibtex: '/static/pub/wang_2014.bib'
 
 - id: 'sabuncu_2014'
@@ -541,6 +552,7 @@
   doi: 10.1016/j.neuroimage.2014.04.015
   pmcid: PMC4078261
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078261/pdf/nihms585837.pdf'
+  # image: '/static/pub/sabuncu_2014.jpg'
   bibtex: '/static/pub/sabuncu_2014.bib'
 
 #- id: 'mair_2014'
@@ -564,6 +576,7 @@
   doi: 10.1007/s11060-014-1403-8
   pmcid: PMC4026260
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4026260/pdf/nihms570261.pdf'
+  # image: '/static/pub/reuter_2014.jpg'
   bibtex: '/static/pub/reuter_2014.bib'
 
 - id: 'augustinack_2014'
@@ -578,6 +591,7 @@
   doi: 10.1016/j.neuroimage.2013.05.053
   pmcid: PMC3883990
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3883990/pdf/nihms483083.pdf'
+  # image: '/static/pub/augustinack_2014.jpg'
   bibtex: '/static/pub/augustinack_2014.bib'
 
 - id: 'andronesi_2014'
@@ -592,6 +606,7 @@
   doi: 10.1016/j.neuroimage.2013.12.007
   pmcid: PMC3944112
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3944112/pdf/nihms550454.pdf'
+  # image: '/static/pub/andronesi_2014.jpg'
   bibtex: '/static/pub/andronesi_2014.bib'
 
 - id: 'fujimoto_2014'
@@ -606,6 +621,7 @@
   doi: 10.1016/j.neuroimage.2013.12.012
   pmcid: PMC4035370
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4035370/pdf/nihms551229.pdf'
+  # image: '/static/pub/fujimoto_2014.jpg
   bibtex: '/static/pub/fujimoto_2014.bib'
 
 - id: 'adriaanse_2014'
@@ -621,6 +637,7 @@
   doi: 10.1007/s00259-014-2704-z
   pmcid: PMC4917377
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4917377/pdf/nihms795464.pdf'
+  # image: '/static/pub/adriaanse_2014.jpg
   bibtex: '/static/pub/adriaanse_2014.bib'
 
 - id: 'rosas_2014'
@@ -636,6 +653,7 @@
   doi: 10.1212/WNL.0000000000000187
   pmcid: PMC3959748
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959748/pdf/NEUROLOGY2013532192.pdf'
+  # image: '/static/pub/rosas_2014.jpg
   bibtex: '/static/pub/rosas_2014.bib'
 
 - id: 'magnain_2014'
@@ -650,6 +668,7 @@
   doi: 10.1016/j.neuroimage.2013.08.072
   pmcid: PMC4315235
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4315235/pdf/nihms656570.pdf'
+  # image: '/static/pub/magnain_2014.jpg
   bibtex: '/static/pub/magnain_2014.bib'
 
 - id: 'bernalrusiel_2013_longitneurospatiotemplme'
@@ -664,6 +683,7 @@
   doi: 10.1016/j.neuroimage.2013.05.049
   pmcid: PMC3816382
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816382/pdf/nihms483081.pdf'
+  # image: '/static/pub/bernalrusiel_2013_longitneurospatiotemplme.jpg
   bibtex: '/static/pub/bernalrusiel_2013_longitneurospatiotemplme.bib'
 
 - id: 'aganj_2013'
@@ -692,6 +712,7 @@
   pmcid: PMC3586747
   doi: 10.1016/j.neuroimage.2012.10.065
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586747/pdf/nihms418971.pdf'
+  # image: '/static/pub/bernalrusiel_2013_longitneurolme.jpg'
   bibtex: '/static/pub/bernalrusiel_2013_longitneurolme.bib'
 
 - id: 'lian_2013'
@@ -706,6 +727,7 @@
   number: 1
   doi: 10.1016/j.patcog.2012.07.014
   pdf: 'https://hal.archives-ouvertes.fr/hal-00746279/document'
+  # image: '/static/pub/lian_2013.jpg'
   bibtex: '/static/pub/lian_2013.bib'
 
 #- id: 'reuter_2012_longitfreesurf'
@@ -826,7 +848,7 @@
 
 - id: 'desikan_2010'
   authors: 'Desikan RS, Sabuncu MR, Schmansky NJ, **Reuter M**, Cabral HJ, Hess CP, Weiner MW, Biffi A, Anderson CD, Rosand J, Salat DH, Kemper TL, Dale AM, Sperling RA, Fischl B, Alzheimer''s Disease Neuroimaging Initiative'
-  title: 'Seletive Disruption of the Cerebral Neocortex in Alzheimer''s Disease'
+  title: 'Selective Disruption of the Cerebral Neocortex in Alzheimer''s Disease'
   type: 'journal'
   journal: '*PLoS ONE*'
   year: 2010
@@ -915,7 +937,6 @@
   # image: '/static/pub/reuter_2008.jpg'
   doi: 10.1007/s00371-007-0184-x
   pdf: 'https://www.researchgate.net/publication/220067482_Solving_nonlinear_polynomial_systems_in_the_barycentric_Bernstein_basis'
-# pdf: '/static/pub/reuter_2008.pdf'
   bibtex: '/static/pub/reuter_2008.bib'
 
 - id: 'reuter_2007_hearshape'
@@ -942,9 +963,8 @@
   month: 10
   pages: '417 - 426'
   # image: '/static/pub/reuter_2007_vollaplacespec.jpg'
-  pmcid: PMC2782516
   doi: 10.1109/CW.2007.42
-  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782516/pdf/nihms152637.pdf'
+  pdf: 'https://www.researchgate.net/publication/40834593_Global_Medical_Shape_Analysis_Using_the_Volumetric_Laplace_Spectrum'
   bibtex: '/static/pub/reuter_2007_vollaplacespec.bib'
 
 - id: 'niethammer_2007'
@@ -1035,7 +1055,6 @@
   month: 11
   pages: '475 - 495'
   volume: 1
-  # number: chapter??
   # image: '/static/pub/wolter_2004.jpg'
   doi: 10.1002/0470091355.ecm013
   # pdf: '/static/pub/wolter_2004.pdf'

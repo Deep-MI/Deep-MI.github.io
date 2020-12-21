@@ -112,7 +112,7 @@
   month: 01
   pages: '11 - 26'
   volume: 165
-  #image: '/static/pub/'
+  #image: '/static/pub/zaretskaya_2018.jpg'
   doi: 10.1016/j.neuroimage.2017.09.060
   bibtex: '/static/pub/zaretskaya_2018.bib'
   pmcid: PMC6383677
@@ -162,20 +162,6 @@
   doi: 10.1080/24725579.2017.1423419
   bibtex: '/static/pub/ranjan_2018.bib'
 
-- id: 'berron_2017'
-  authors: 'Berron D, Schütze H, Cardenas-Blanco A, Fliessbach K, Wagner M, Spottke A, **Reuter M**, Teipel SJ, Buerger K, Schneider A, Peters O, Nestor P, Priller J, Wiltfang J, Laske C, Jessen F, Düzel E'
-  title: 'Object and Scene Memory are Differentially Associated with CSF Markers OF Alzheimer''s Disease and MRI Volumetry'
-  journal: '*Alzheimers Dement*'
-  type: 'journal'
-  year: 2017
-  month: 07
-  pages: 'P1553 - P1554'
-  volume: 13
-  number: 7
-  #image: '/static/pub/berron_2017'
-  doi: 10.1016/j.jalz.2017.07.694
-  bibtex: '/static/pub/berron_2017.bib'
-
 - id: 'wachinger_2018_deepNat'
   authors: '**Wachinger C**, **Reuter M**, Klein T'
   title: 'DeepNAT: Deep convolutional neural network for segmenting neuroanatomy'
@@ -191,6 +177,34 @@
   bibtex: '/static/pub/wachinger_2018_deepNat.bib'
   pdf: 'https://people.csail.mit.edu/wachinger/articles/Wachinger-Neuroimage-2017.pdf'
 
+- id: 'wachinger_2017_lp'
+  authors: '**Wachinger C**, Rieckmann A, **Reuter M**'
+  title: 'Latent Processes Governing Neuroanatomical Change in Aging and Dementia'
+  type: 'conference'
+  journal: '*MICCAI*'
+  year: 2017
+  month: 09
+  pages: '30 - 37'
+  #image: '/static/pub/wachinger_2017_lp.jpg'
+  isbn: 978-3-319-66179-7
+  doi: 10.1007/978-3-319-66179-7_4
+  bibtex: '/static/pub/wachinger_2017_lp.bib'
+  pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
+
+  - id: 'berron_2017'
+    authors: 'Berron D, Schütze H, Cardenas-Blanco A, Fliessbach K, Wagner M, Spottke A, **Reuter M**, Teipel SJ, Buerger K, Schneider A, Peters O, Nestor P, Priller J, Wiltfang J, Laske C, Jessen F, Düzel E'
+    title: 'Object and Scene Memory are Differentially Associated with CSF Markers OF Alzheimer''s Disease and MRI Volumetry'
+    journal: '*Alzheimers Dement*'
+    type: 'journal'
+    year: 2017
+    month: 07
+    pages: 'P1553 - P1554'
+    volume: 13
+    number: 7
+    #image: '/static/pub/berron_2017'
+    doi: 10.1016/j.jalz.2017.07.694
+    bibtex: '/static/pub/berron_2017.bib'
+
 - id: 'saygin_2017'
   authors: 'Saygin, ZM, **Kliemann D**, Iglesias JE, van der Kouwe AJW, Boyd E, **Reuter M**, Stevens A, Van Leemput K, McKee A, Frosch MP, Fischl B, Augustinack JC'
   title: 'High-resolution magnetic resonance imaging reveals nuclei of the human amygdala: manual segmentation to automatic atlas'
@@ -205,20 +219,6 @@
   bibtex: '/static/pub/saygin_2017.bib'
   pmcid: PMC5557007
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5557007/pdf/nihms887623.pdf'
-
-- id: 'wachinger_2017_lp'
-  authors: '**Wachinger C**, Rieckmann A, **Reuter M**'
-  title: 'Latent Processes Governing Neuroanatomical Change in Aging and Dementia'
-  type: 'conference'
-  journal: '*MICCAI*'
-  year: 2017
-  month: 09
-  pages: '30 - 37'
-  #image: '/static/pub/wachinger_2017_lp.jpg'
-  isbn: 978-3-319-66179-7
-  doi: 10.1007/978-3-319-66179-7_4
-  bibtex: '/static/pub/wachinger_2017_lp.bib'
-  pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
 
 - id: 'klein_2017'
   authors: 'Klein A, Ghosh SS, Bao FS, Giard J, Häme Y, Stavsky E, Lee N, Rossa B, **Reuter M**, Chaibub Neto E, Keshavan A'
@@ -373,6 +373,7 @@
   pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
   doi: 10.1007/978-3-319-24571-3_32
   pmcid: PMC4732576
+  # image: '/static/pub/aganj_2015.jpg'
   bibtex: '/static/pub/aganj_2015.bib'
 
 - id: 'cash_2015'
@@ -387,6 +388,7 @@
   doi: 10.1016/j.neuroimage.2015.07.087
   pmcid: PMC4634338
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811915007181'
+  # image: '/static/pub/cash_2015.jpg'
   bibtex: '/static/pub/cash_2015.bib'
 
 - id: 'wachinger_2015_brainPrint'
@@ -624,7 +626,7 @@
   bibtex: '/static/pub/adriaanse_2014.bib'
 
 - id: 'rosas_2014'
-  autors: 'Rosas HD, Doros G, Gevorkian S, Malarick K, **Reuter M**, Coutu JP, Triggs T, Wilkens P, Matson W, Salat DH, Hersch SM'
+  authors: 'Rosas HD, Doros G, Gevorkian S, Malarick K, **Reuter M**, Coutu JP, Triggs T, Wilkens P, Matson W, Salat DH, Hersch SM'
   title: 'PRECREST: A phase II prevention and biomarker trial of creatine in at-risk Huntington disease'
   type: 'journal'
   journal: '*Neurology*'
@@ -653,7 +655,7 @@
   bibtex: '/static/pub/magnain_2014.bib'
 
 - id: 'bernalrusiel_2013_longitneurospatiotemplme'
-  autors: 'Bernal-Rusiel JL, **Reuter M**, Greve DN, Fischl B, Sabuncu MR'
+  authors: 'Bernal-Rusiel JL, **Reuter M**, Greve DN, Fischl B, Sabuncu MR'
   title: 'Spatiotemporal Linear Mixed Effects Modeling for the Mass-univariate Analysis of Longitudinal Neuroimage Data'
   type: 'journal'
   journal: '*NeuroImage*'
@@ -814,14 +816,14 @@
 - id: 'lian_2011'
   authors: 'Lian Z, Godil A, Bustos B, Daoudi M, Hermans J, Kawamura S, Kurita Y, Lavoué G, Nguyen HV, Ohbuchi R, Ohkita Y, Ohishi Y, Porikli F, **Reuter M**, Sipiran I, Smeets D, Suetens P, Tabia H, Vandermeulen D'
   title: 'SHREC''11 track: shape retrieval on non-rigid 3D watertight meshes'
-  journal: '*Eurographics*'
-  type: 'conference'
+  journal: '*Eurographics - 3DOR''11 Workshop*'
+  type: 'workshop'
   year: 2011
   month: 04
   pages: '79 - 88'
   # image: '/static/pub/lian_2011.jpg'
-  doi: 10.18434/M32215
-  pdf: 'https://www.researchgate.net/publication/220888659_SHREC_%2711_Track_Shape_Retrieval_on_Non-rigid_3D_Watertight_Meshes'
+  doi: 10.2312/3DOR/3DOR11/079-088
+  pdf: 'http://diglib.eg.org/bitstream/handle/10.2312/3DOR.3DOR11.079-088/079-088.pdf?sequence=1&isAllowed=y'
   bibtex: '/static/pub/lian_2011.bib'
 
 - id: 'desikan_2010'
@@ -942,9 +944,8 @@
   month: 10
   pages: '417 - 426'
   # image: '/static/pub/reuter_2007_vollaplacespec.jpg'
-  pmcid: PMC2782516
   doi: 10.1109/CW.2007.42
-  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2782516/pdf/nihms152637.pdf'
+  pdf: 'https://www.researchgate.net/publication/40834593_Global_Medical_Shape_Analysis_Using_the_Volumetric_Laplace_Spectrum'
   bibtex: '/static/pub/reuter_2007_vollaplacespec.bib'
 
 - id: 'niethammer_2007'

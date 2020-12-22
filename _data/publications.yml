@@ -70,6 +70,7 @@
   number: 4
   image: '/static/pub/estrada_2019.jpg'
   arxiv: 1904.02082
+  pmcid: PMC6949410
   doi: 10.1002/mrm.28022
   bibtex: '/static/pub/estrada_2019.bib'
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.28022'
@@ -87,7 +88,7 @@
   arxiv: 1807.07803
   doi: 10.1007/978-3-030-00919-9_25
   bibtex: '/static/pub/estrada_2018.bib'
-  #pdf: '/static/pub/1807.07803.pdf'
+  pdf: 'https://arxiv.org/pdf/1807.07803.pdf'
 
 - id: 'ahmad_2018'
   authors: '**Ahmad M**, **Conjeti S**, **Estrada S**, Ehses P, Stöcker T, **Reuter M**'
@@ -101,7 +102,7 @@
   arxiv: 1807.03343
   doi: 10.1007/978-3-030-00129-2_4
   bibtex: '/static/pub/ahmad_2018.bib'
-  #pdf: '/static/pub/1807.03343.pdf'
+  pdf: 'https://arxiv.org/pdf/1807.03343.pdf'
 
 - id: 'zaretskaya_2018'
   authors: 'Zaretskaya N, Fischl B, **Reuter M**,  Renvall V, Polimeni JR'
@@ -131,6 +132,7 @@
   image: '/static/pub/schwarz_2018.jpg'
   doi: 10.1002/mrm.27215
   bibtex: '/static/pub/schwarz_2018.bib'
+  # pdf: '/static/pub/schwarz_2018.pdf'
 
 - id: 'wachinger_2018'
   authors: '**Wachinger C**, Nho K, Saykin AJ, **Reuter M**, Rieckmann A'
@@ -172,6 +174,7 @@
   pages: '434 - 445'
   volume: 170
   arxiv: 1702.08192
+  pmcid: PMC5563492
   image: '/static/pub/wachinger_2018_deepNat.jpg'
   doi: 10.1016/j.neuroimage.2017.02.035
   bibtex: '/static/pub/wachinger_2018_deepNat.bib'
@@ -189,7 +192,7 @@
   isbn: 978-3-319-66179-7
   doi: 10.1007/978-3-319-66179-7_4
   bibtex: '/static/pub/wachinger_2017_lp.bib'
-  pdf: 'http://wachinger.devweb.mwn.de/wp-content/uploads/2017/08/DiseaseProcess2017_final.pdf'
+  pdf: '/static/pub/wachinger_2017_lp.pdf'
 
 - id: 'berron_2017'
   authors: 'Berron D, Schütze H, Cardenas-Blanco A, Fliessbach K, Wagner M, Spottke A, **Reuter M**, Teipel SJ, Buerger K, Schneider A, Peters O, Nestor P, Priller J, Wiltfang J, Laske C, Jessen F, Düzel E'
@@ -278,6 +281,7 @@
   volume: 7
   image: '/static/pub/ge_2016.jpg'
   doi: 10.1038/ncomms13291
+  pmcid: PMC5116071
   bibtex: '/static/pub/ge_2016.bib'
   pdf: 'https://www.nature.com/articles/ncomms13291.pdf'
 
@@ -292,8 +296,9 @@
   volume: 141
   image: '/static/pub/iglesias_2016.jpg'
   doi: 10.1016/j.neuroimage.2016.07.020
+  pmcid: PMC5026967
   bibtex: '/static/pub/iglesias_2016.bib'
-  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811916303275'
+  pdf: 'https://reader.elsevier.com/reader/sd/pii/S1053811916303275?token=584D1FD4146E27565622B4C4428D63078EE6BEDBFD5BBF0B7FD4424DBBDCCFA273CE1D2A67D0362266C7E49877B84672'
 
 - id: 'wachinger_2016_da'
   authors: '**Wachinger C**, **Reuter M**'
@@ -387,7 +392,7 @@
   volume: 123
   doi: 10.1016/j.neuroimage.2015.07.087
   pmcid: PMC4634338
-  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811915007181'
+  pdf: 'https://reader.elsevier.com/reader/sd/pii/S1053811915007181?token=0C50F091C3EFC3098624878147E3BB2C3ACA78DC97328827EA75A79E330C5B19BF60EF600D5EE47140B45221225D77D2'
   image: '/static/pub/cash_2015.jpg'
   bibtex: '/static/pub/cash_2015.bib'
 
@@ -402,7 +407,7 @@
   volume: 109
   doi: 10.1016/j.neuroimage.2015.01.032
   pmcid: PMC4340729
-  pdf: 'http://reuter.mit.edu/blue/papers/wachinger-brainprint15/wachinger-brainprint15.pdf'
+  pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4340729/pdf/nihms657013.pdf'
   bibtex: '/static/pub/wachinger_2015_brainPrint.bib'
   image: '/static/pub/wachinger_2015_brainPrint.jpg'
   github: deep-mi/BrainPrint
@@ -523,7 +528,7 @@
   pmcid: PMC4360142
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360142/pdf/s13293-014-0016-4.pdf'
   image: '/static/pub/wade_2014.jpg'
-  bibtex: '/static/pub/aganj_2015_defreg.bib'
+  bibtex: '/static/pub/wade_2014.bib'
 
 - id: 'wang_2014'
   authors: 'Wang H, Zhu J, **Reuter M**, Vinke LN, Yendiki A, Boas DA, Fischl B, Akkin T'

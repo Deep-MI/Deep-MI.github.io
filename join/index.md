@@ -5,7 +5,7 @@ group: join
 ---
 
  <p style="text-align: center;">
-![alt text](/static/img/join/bonn.jpg "Bonn")
+![alt text](/static/img/join/dzne.jpg "DZNE-Bonn-Germany")
 </p>
 
 [//]: # (<p style="text-align: center; font-weight: bold;"> We are currently looking for a Postdoc to join our Lab in Bonn, Germany at a world leading Helmholtz Research Center (German Center for Neurodegenerative Diseases):  [postdoc-mic.pdf](http://reuter.mit.edu/download/postdoc-mic.pdf) </p>)
@@ -45,5 +45,5 @@ We can offer various exciting topics for your Master Thesis project in our lab. 
 In the past, our lab has enjoyed having foreign exchange students, interns, (sabbatical) visitors from academia and industry. As we expect people to be fairly compensated for their work by their home institution or by us, we do not have volunteer positions available. Note: We take interns only if their internship is an official University requirement as part of their curriculum.
 
 <p style="text-align: center;">
-![alt text](/static/img/join/dzne.jpg "DZNE-Bonn-Germany")
+![alt text](/static/img/join/bonn.jpg "Bonn")
 </p>

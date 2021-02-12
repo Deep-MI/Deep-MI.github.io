@@ -11,7 +11,7 @@
 #   authors: 'Duck D, Mouse M, **Labmember A**, Someone B, Lastauthor C'
 #   title: 'The title of this super cool Paper using double''s to escape single quote'
 #   journal: 'abbreviated name or ''under review'' '
-#   type: 'journal or conerence or workshop or abstract or poster'
+#   type: 'journal or conference or workshop or abstract or poster'
 #   year: 2020
 #   month: 1
 #   pages: if available
@@ -29,6 +29,28 @@
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'
 #
+
+ - id: 'hoffmann_2021'
+   authors: 'Hoffmann M, Turk EA, Gagoski B, Morgan L, Wighton P, Tisdall MD, **Reuter M**, Adalsteinsson E, Grant PE, Wald LL, van der Kouwe AJW'
+   title: 'Rapid head-pose detection for automated slice prescription of fetal-brain MRI'
+   journal: 'IMA'
+   type: 'journal'
+   year: 2021
+   image: '/static/pub/hoffmann_2021.jpg'
+   # doi:
+   # pdf: '/static/pub/hoffmann_2021.pdf'
+   bibtex: '/static/pub/hoffmann_2021.bib'
+
+ - id: 'lu_2021'
+   authors: 'Lu R, Aziz A, **Diers K**, Stöcker T, **Reuter M**, Breteler MMB'
+   title: 'Insulin resistance accounts for metabolic syndrome-related alterations in brain structure'
+   journal: 'HBM'
+   type: 'journal'
+   year: 2021
+   image: '/static/pub/lu_2021.jpg'
+   doi: 10.1002/hbm.25377
+   # pdf: '/static/pub/lu_2021.pdf'
+   bibtex: '/static/pub/lu_2021.bib'
 
 - id: 'ewert_2020'
   authors: '**Ewert C**, **Kügler D**, Yendiki A, **Reuter M**'

@@ -37,7 +37,7 @@
   type: 'journal'
   year: 2021
   image: '/static/pub/hoffmann_2021.jpg'
-  # doi:
+  doi: 10.1002/ima.22563
   # pdf: '/static/pub/hoffmann_2021.pdf'
   bibtex: '/static/pub/hoffmann_2021.bib'
 

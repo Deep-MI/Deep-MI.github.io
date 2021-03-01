@@ -38,7 +38,7 @@
   year: 2021
   image: '/static/pub/hoffmann_2021.jpg'
   doi: 10.1002/ima.22563
-  # pdf: '/static/pub/hoffmann_2021.pdf'
+  pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/ima.22563'
   bibtex: '/static/pub/hoffmann_2021.bib'
 
 - id: 'lu_2021'

@@ -44,12 +44,12 @@
 - id: 'lu_2021'
   authors: 'Lu R, Aziz A, **Diers K**, Stöcker T, **Reuter M**, Breteler MMB'
   title: 'Insulin resistance accounts for metabolic syndrome-related alterations in brain structure'
-  journal: 'Alzheimer''s Dement.'
+  journal: 'Human Brain Mapping'
   type: 'journal'
   year: 2021
   image: '/static/pub/lu_2021.jpg'
-  doi: 10.1002/alz.040870
-  pdf: 'https://alz-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/alz.040870'
+  doi: 10.1002/hbm.25377
+  pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.25377'
   bibtex: '/static/pub/lu_2021.bib'
 
 - id: 'ewert_2020'

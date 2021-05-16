@@ -152,6 +152,10 @@ thickness and subcortical volumes between dementia and control groups.
 
 - Or watch our small presentation (10min) on [YouTube](https://www.youtube.com/watch?v=V78jKcqVg7k).
 
+### Tutorial
+
+- A set of detailed tutorials for running Fastsurfer can be found within the FastSurfer github repository at [github](https://github.com/deep-mi/FastSurfer/tree/master/Tutorial) 
+
 ### News
 - FastSurfer was presented in the #OHBMx equinox (check out our twitter [@deepmilab](https://twitter.com/deepmilab)).
 

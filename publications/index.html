@@ -15,7 +15,7 @@ group: publications
 {% for publication in site.data.publications %}
 <hr>
    <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.id}}">
-   <div style="font-size: 120% !important;"> {{ publication.authors | append: ". " | append: publication.title | append: ". " | append: publication.journal | append: ". " | append: publication.year | append: ". " | markdownify }}</div>
+   <div class="col-sm-12" style="font-size: 120% !important;"> {{ publication.authors | append: ". " | append: publication.title | append: ". " | append: publication.journal | append: ". " | append: publication.year | append: ". " | markdownify }}</div>
 	<div class="col-sm-6">
 		{% if publication.image %}
 		<img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">

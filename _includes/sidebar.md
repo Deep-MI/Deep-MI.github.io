@@ -14,6 +14,7 @@ Harvard Medical School, Boston, USA
 Martinos Center for Biomedical Imaging, MGH, Boston, USA
 
 email: martin.reuter (#!) dzne.de
-email: mreuter (#!) nmr.mgh.harvard.edu
+email: mreuter (#!) mgh.harvard.edu
+email: reuter (#!) mit.edu
 
 

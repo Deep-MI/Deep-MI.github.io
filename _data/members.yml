@@ -60,15 +60,7 @@
   bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses 
   image-guided and electromagnetic tracking for temporal bone surgery.'
   projects: 'Geometry Reconstruction, Interpretability'
-  
-- name: Markus Schirmer
-  position: Postdoc
-  email: markus.schirmer (at) dzne.de
-  scholar: TU9iW8AAAAAJ
-  orcid: 0000-0001-9561-0239
-  github: mdschirmer
-  projects: 'White Matter Lesion Segmentation'
-  
+ 
 - name: Kersten Diers
   image: /static/img/members/diers.jpg
   position: Research Associate
@@ -118,24 +110,24 @@
 
 - name: Christian Ewert
   image: /static/img/members/ewert.jpg
-  position: Master Student
+  position: Research Associate
   email: christian.ewert (at) dzne.de
   github: christianewert
-  description: 'Christian is a Master student in Computer Science at University of Bonn. He is 
+  description: 'Christian obtained his Master degree in Computer Science at University of Bonn. He is 
   interested in Deep Learning and its potential to reveal hidden patterns and relationships in 
-  neuroimaging data. In his thesis, he explores ways to apply Deep Learning to fiber-tracking 
+  neuroimaging data. He explores ways to apply Deep Learning to accelerated image reconstruction and fiber-tracking 
   in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
 
 - name: Clemens Pollak
   image: /static/img/members/pollak.jpg
-  position: Master Student
+  position: Research Associate
   email: clemens.pollak (at) dzne.de
   github: clepol
-  description: 'Clemens is a Master student in Computer Science at Leibniz University Hanover. 
-  He is currently writing his thesis and exploring the world of biomedical imaging. In general 
-  Clemens is interested in Deep Learning, Data Science and Software Engineering. Outside of the 
-  lab he enjoys windsurfing and hiking.'
+  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover. 
+  He is interested in Deep Learning, Data Science and Software Engineering. His research focusses on 
+  quantifying and controlling motion during MR acquisition using deep learning. 
+  Outside of the lab he enjoys windsurfing and hiking.'
   projects: 'MR Motion Tracking'
 
 - name: Saikat Roy
@@ -144,8 +136,8 @@
   email: saikat.roy (at) dzne.de
   github: saikat-roy
   scholar: dSs0DfoAAAAJ
-  description: 'Saikat is a Master student in Computer Science at University of Bonn with a focus 
-  on Intelligent Systems. He is currently working on his thesis which deals with effectively using 
+  description: 'Saikat obtained his Master degree in Computer Science at University of Bonn with a focus 
+  on Intelligent Systems. He recently completed his thesis which deals with effectively using 
   3D deep learning in segmenting neuroimaging data. General interests include machine learning, 
   pattern recognition and deep learning. Beyond his work, he enjoys gaming.'
   projects: 'Fully 3D Segmentation Networks'

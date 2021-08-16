@@ -143,11 +143,18 @@ thickness and subcortical volumes between dementia and control groups.
 </div>
 
 ### Tool and Paper
-- Our tool will be made available upon acceptance at [github](https://github.com/deep-mi/). Follow us on Twitter to get notified as soon as we go public: <a href="https://twitter.com/deepmilab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @deepmilab</a>
 
-- In-depth information about FastSurfer can be found in our [paper](https://arxiv.org/abs/1910.03866).
+- FastSurfer is available as open source at [github](https://github.com/deep-mi/FastSurfer). 
+
+- An accompanying set of quality control tools can be found at [github](https://github.com/deep-mi/qatools-python)
+
+- In-depth information about FastSurfer can be found in our [paper](https://doi.org/10.1016/j.neuroimage.2020.117012).
 
 - Or watch our small presentation (10min) on [YouTube](https://www.youtube.com/watch?v=V78jKcqVg7k).
+
+### Tutorial
+
+- A set of detailed tutorials for running Fastsurfer can be found within the FastSurfer github repository at [github](https://github.com/deep-mi/FastSurfer/tree/master/Tutorial) 
 
 ### News
 - FastSurfer was presented in the #OHBMx equinox (check out our twitter [@deepmilab](https://twitter.com/deepmilab)).

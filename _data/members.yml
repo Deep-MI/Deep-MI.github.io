@@ -12,37 +12,37 @@
   description: 'Martin is Assistant Professor of Radiology and of Neurology at Harvard
   Medical School and the Massachusetts General Hospital (Assistant in Neuroscience, Dept.
   of Radiology and Dept. of Neurology). He is Director of the Image Analysis (Deep-MI Lab)
-  at the German Center for Neurodegenerative Diseases (DZNE), affiliated to the Martinos 
+  at the German Center for Neurodegenerative Diseases (DZNE), affiliated to the Martinos
   Center for Biomedical Imaging and the MIT Computer Science and Artificial Intelligence Lab.
-  
-  
-  Martin started his career as a PhD student at the Welfenlab, Leibniz University of Hannover, Germany, 
+
+
+  Martin started his career as a PhD student at the Welfenlab, Leibniz University of Hannover, Germany,
   after graduating (2001) there in mathematics with a second major in computer science and a minor
   in business informatics. He obtained his PhD (2005) in the area of
-  computational and differential geometry from the department of electrical engineering 
+  computational and differential geometry from the department of electrical engineering
   and computer science with summa cum laude and was awarded a prize for his outstanding
-  scientific accomplishments by the University of Hanover. 
-   
-   
-  Supported by a Feodor-Lynen fellowship of the Alexander von Humboldt Foundation he moved 
+  scientific accomplishments by the University of Hanover.
+
+
+  Supported by a Feodor-Lynen fellowship of the Alexander von Humboldt Foundation he moved
   to MIT (2006-08) and contributed novel methods for non-rigid shape analysis and processing,
-  receiving a most cited paper award of the 
+  receiving a most cited paper award of the
   Computer-Aided Design journal for his ground-breaking manuscript on spectral shape analysis (ShapeDNA).
   Martin then moved to MGH/Harvard Medical School in 2008 and began his independent faculty career as
-  Instructor at HMS in 2009/10 transitioning his focus to more applied medical image analysis topics. 
-  He contributed novel methods for unbiased longitudinal image processing of brain MRI 
-  and structural shape analysis for computer-aided diagnosis and prognosis. His methods are 
-  widely employed as part of the open source FreeSurfer software package to study neurodegeneration and 
+  Instructor at HMS in 2009/10 transitioning his focus to more applied medical image analysis topics.
+  He contributed novel methods for unbiased longitudinal image processing of brain MRI
+  and structural shape analysis for computer-aided diagnosis and prognosis. His methods are
+  widely employed as part of the open source FreeSurfer software package to study neurodegeneration and
   assess disease modifying therapies, e.g., by the Alzheimer''s Disease Neuroimaging Initiative,
   the Rhineland Study, and other large cohort studies.
-  
-  
+
+
   After receiving a competitive NIH Career Award (2014) for his research on computational methods for medical image
   analysis, Martin was appointed Assistant Professor by both the Radiology and the Neurology Departments
   at Harvard Medical School in 2015. He, further, accepted (2017) the offer to direct the Medical Image
   Analysis at the German Centerfor Neurodegenerative Diseases (DZNE) in Bonn, Germany. During his career
   so far, Martin has attracted close to $3 mio worth of 3rd party funding.'
-  
+
 - name: David Kügler
   image: /static/img/members/kuegler.jpg
   position: Postdoc
@@ -51,39 +51,39 @@
   twitter: kueglerd
   orcid: 0000-0002-4101-819X
   github: dkuegler
-  description: 'David focuses of Learning aspects for Artificial Intelligence in Medicine. 
-  He has a strong interest in developing next generation learning strategies for medical imaging 
-  with an intrinsic inclusion of geometry and modeling. At DZNE he supports students and PhDs with 
-  his Deep Learning and medical image processing experience. As an interdisciplinary researcher, 
-  David graduated from RWTH Aachen with a degree in mechanical engineering focusing on learning 
-  for control engineering in medical robotics. Since then he worked at the TU Darmstadt as a PhD 
-  bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses 
+  description: 'David focuses of Learning aspects for Artificial Intelligence in Medicine.
+  He has a strong interest in developing next generation learning strategies for medical imaging
+  with an intrinsic inclusion of geometry and modeling. At DZNE he supports students and PhDs with
+  his Deep Learning and medical image processing experience. As an interdisciplinary researcher,
+  David graduated from RWTH Aachen with a degree in mechanical engineering focusing on learning
+  for control engineering in medical robotics. Since then he worked at the TU Darmstadt as a PhD
+  bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses
   image-guided and electromagnetic tracking for temporal bone surgery.'
   projects: 'Geometry Reconstruction, Interpretability'
- 
+
 - name: Kersten Diers
   image: /static/img/members/diers.jpg
   position: Research Associate
   email: kersten.diers (at) dzne.de
   github: kdiers
-  description: 'Kersten graduated from TU Dresden with a degree in Psychology and University of 
-  Heidelberg with a degree in Medical Biometry / Biostatistics. His work is at the intersection 
-  of applied methods development and empirical research, with a particular focus on shape 
+  description: 'Kersten graduated from TU Dresden with a degree in Psychology and University of
+  Heidelberg with a degree in Medical Biometry / Biostatistics. His work is at the intersection
+  of applied methods development and empirical research, with a particular focus on shape
   analysis and statistical modeling of neuroimaging data.'
   projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
-  
+
 - name: Leonie Henschel
   image: /static/img/members/henschel.jpg
   position: Research Associate
   email: leonie.henschel (at) dzne.de
   github: lehenschel
-  description: 'Leonie graduated from the Bonn-Aachen International Center for Information 
-  Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the 
-  development of deep learning methods for biomedical image analysis with a focus on brain 
-  MRIs. She is interested in machine learning, data science and deep learning. In her free time, 
+  description: 'Leonie graduated from the Bonn-Aachen International Center for Information
+  Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the
+  development of deep learning methods for biomedical image analysis with a focus on brain
+  MRIs. She is interested in machine learning, data science and deep learning. In her free time,
   Leonie enjoys running, yoga and the great outdoors.'
   projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
-  
+
 - name: Santiago Estrada
   image: /static/img/members/estrada.jpg
   position: PhD Student
@@ -91,31 +91,20 @@
   scholar: c3sq1afExmsC
   orcid: 0000-0003-0339-8870
   github: santiestrada32
-  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in 
-  Biomedical Computing. His research focuses on the deployment of deep learning methods for 
-  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)). 
+  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in
+  Biomedical Computing. His research focuses on the deployment of deep learning methods for
+  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)).
   When not at the lab, Santiago enjoys going to the movies and exploring the city.'
   projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
-
-- name: Emad Bahrami-Rad
-  image: /static/img/members/bahrami-rad.jpg
-  position: Research Associate
-  email: emad.bahrami-rad (at) dzne.de
-  github: emadRad
-  description: 'Emad graduated from University of Bonn with a Master''s degree in Computer Science. 
-  He is working on the development of deep learning methods for substructure segmentation of
-  Cerebellum, Hypothalamus, Hippocampus, and Amygdala. His research interest includes machine learning,
-  deep learning, and computer vision.'
-  projects: 'Subfield Segmentation, MR Reconstruction'
 
 - name: Christian Ewert
   image: /static/img/members/ewert.jpg
   position: Research Associate
   email: christian.ewert (at) dzne.de
   github: christianewert
-  description: 'Christian obtained his Master degree in Computer Science at University of Bonn. He is 
-  interested in Deep Learning and its potential to reveal hidden patterns and relationships in 
-  neuroimaging data. He explores ways to apply Deep Learning to accelerated image reconstruction and fiber-tracking 
+  description: 'Christian obtained his Master degree in Computer Science at University of Bonn. He is
+  interested in Deep Learning and its potential to reveal hidden patterns and relationships in
+  neuroimaging data. He explores ways to apply Deep Learning to accelerated image reconstruction and fiber-tracking
   in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
 
@@ -124,20 +113,8 @@
   position: Research Associate
   email: clemens.pollak (at) dzne.de
   github: clepol
-  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover. 
-  He is interested in Deep Learning, Data Science and Software Engineering. His research focusses on 
-  quantifying and controlling motion during MR acquisition using deep learning. 
+  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover.
+  He is interested in Deep Learning, Data Science and Software Engineering. His research focusses on
+  quantifying and controlling motion during MR acquisition using deep learning.
   Outside of the lab he enjoys windsurfing and hiking.'
   projects: 'MR Motion Tracking'
-
-- name: Saikat Roy
-  image: /static/img/members/roy.jpg
-  position: Master Student
-  email: saikat.roy (at) dzne.de
-  github: saikat-roy
-  scholar: dSs0DfoAAAAJ
-  description: 'Saikat obtained his Master degree in Computer Science at University of Bonn with a focus 
-  on Intelligent Systems. He recently completed his thesis which deals with effectively using 
-  3D deep learning in segmenting neuroimaging data. General interests include machine learning, 
-  pattern recognition and deep learning. Beyond his work, he enjoys gaming.'
-  projects: 'Fully 3D Segmentation Networks'

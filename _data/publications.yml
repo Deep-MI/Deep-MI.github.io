@@ -2,9 +2,10 @@
 #
 # Use single quotes around longer text passages, and use two single quotes to escape the quote e.g. Alzheimer''s disease.
 #
-# id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
-# pubmed central ID should be put if available
-# doi should always be put if available
+# - id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
+# - pubmed central ID should be put if available
+# - doi should always be put if available
+# - authors who are lab members should be bold ( **name** )
 #
 #
 # - id: 'lastname_4digityear'
@@ -30,10 +31,20 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'lu_2021b'
+  authors: 'Lu R, Aziz NA, **Reuter M**, Stöcker T, Breteler MMB'
+  title: 'Evaluation of the Neuroanatomical Basis of Olfactory Dysfunction in the General Population'
+  journal: '*JAMA Otolaryngol Head Neck Surg*'
+  type: 'journal'
+  year: 2021
+  image: '/static/pub/lu_2021b.jpg'
+  doi: 10.1001/jamaoto.2021.2026
+  bibtex: '/static/pub/lu_2021b.bib'
+
 - id: 'estrada_2021'
   authors: '**Estrada S**, Lu R, **Diers K**, Zeng W, Ehses P, Stöcker T, Breteler MMB, **Reuter M**'
   title: 'Automated olfactory bulb segmentation on high resolutional T2-Weighted MRI'
-  journal: '*Neuroimage*'
+  journal: '*NeuroImage*'
   type: 'journal'
   year: 2021
   image: '/static/pub/estrada_2021.jpg'
@@ -46,7 +57,7 @@
 - id: 'hoffmann_2021'
   authors: 'Hoffmann M, Turk EA, Gagoski B, Morgan L, Wighton P, Tisdall MD, **Reuter M**, Adalsteinsson E, Grant PE, Wald LL, van der Kouwe AJW'
   title: 'Rapid head-pose detection for automated slice prescription of fetal-brain MRI'
-  journal: 'IMA'
+  journal: '*IMA*'
   type: 'journal'
   year: 2021
   image: '/static/pub/hoffmann_2021.jpg'
@@ -57,7 +68,7 @@
 - id: 'lu_2021'
   authors: 'Lu R, Aziz A, **Diers K**, Stöcker T, **Reuter M**, Breteler MMB'
   title: 'Insulin resistance accounts for metabolic syndrome-related alterations in brain structure'
-  journal: 'Human Brain Mapping'
+  journal: '*Human Brain Mapping*'
   type: 'journal'
   year: 2021
   image: '/static/pub/lu_2021.jpg'

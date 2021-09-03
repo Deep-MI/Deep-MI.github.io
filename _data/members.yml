@@ -118,3 +118,13 @@
   quantifying and controlling motion during MR acquisition using deep learning.
   Outside of the lab he enjoys windsurfing and hiking.'
   projects: 'MR Motion Tracking'
+
+- name: Georgi Lazarov
+  image: /static/img/members/lazarov.jpg
+  position: Master Student
+  email: georgi.lazarov (at) dzne.de
+  description: 'Georgi is a Master student in Life Science Informatics at the Bonn-Aachen International Center for Information Technology. 
+  Currently, he is working on his master thesis project. He is interested in novel deep learning methods in the biomedical domain. 
+  In his spare time, he enjoys trekking and winter sports.'
+  projects: 'Cerebral microbleeds (CMB) detection'
+

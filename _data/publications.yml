@@ -49,6 +49,7 @@
   year: 2021
   image: '/static/pub/estrada_2021.jpg'
   arxiv: 2108.04267
+  pmcid: PMC8473894
   doi: 10.1016/j.neuroimage.2021.118464
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811921007370'
   bibtex: '/static/pub/estrada_2021.bib'

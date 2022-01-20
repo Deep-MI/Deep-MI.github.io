@@ -5,7 +5,7 @@
 # - id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
 # - pubmed central ID should be put if available
 # - doi should always be put if available
-# - authors who are lab members should be bold ( **name** )
+# - authors who are/were lab members should be bold ( **name** )
 #
 #
 # - id: 'lastname_4digityear'
@@ -30,6 +30,24 @@
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'
 #
+
+- id: 'mauschitz_2022'
+  authors: ' Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
+  title: 'Retinal layer assessments as potential biomarkers for brain atrophy in the Rhineland Study'
+  journal: '*Scientific Reports*'
+  type: 'journal'
+  year: 2022
+  bibtex: '/static/pub/mauschitz_2022.bib'
+
+- id: 'harms_2022'
+  authors: 'Harms A, Bauer T, Fischbach L, David B, Ernst L, Witt J-A, **Diers K**, Baumgartner T, Weber B, Radbruch A, Becker AJ, Helmstaedter C, **Reuter M**, Elger CE, Surges R, Rüber T'
+  title: 'Shape description and volumetry of hippocampus and amygdala in temporal lobe epilepsy – A beneficial combination with a clinical perspective'
+  journal: '*Epilepsy & Behavior*'
+  type: 'journal'
+  year: 2022
+  image: '/static/pub/harms_2022.jpg'
+  doi: 10.1016/j.yebeh.2022.108560
+  bibtex: '/static/pub/harms_2022.bib'
 
 - id: 'lu_2021b'
   authors: 'Lu R, Aziz NA, **Reuter M**, Stöcker T, Breteler MMB'

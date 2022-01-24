@@ -31,8 +31,16 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'henschel_2022'
+  authors: '**Henschel L**, **Kügler D**, **Reuter M**'
+  title: 'FastSurferVINN: Building Resolution-Independence into Deep Learning Segmentation Methods - A Solution for HighRes Brain MRI'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2022
+  arxiv: 2112.09654
+
 - id: 'mauschitz_2022'
-  authors: ' Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
+  authors: 'Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
   title: 'Retinal layer assessments as potential biomarkers for brain atrophy in the Rhineland Study'
   journal: '*Scientific Reports*'
   type: 'journal'

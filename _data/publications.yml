@@ -32,7 +32,7 @@
 #
 
 - id: 'henschel_2022'
-  authors: '**Henschel L**, **Kügler D**, **Reuter M**'
+  authors: '**Henschel L-1**, **Kügler D-1**, **Reuter M**. (1: co-first)'
   title: 'FastSurferVINN: Building Resolution-Independence into Deep Learning Segmentation Methods - A Solution for HighRes Brain MRI'
   journal: '*NeuroImage*'
   type: 'journal'

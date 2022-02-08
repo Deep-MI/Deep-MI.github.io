@@ -38,6 +38,7 @@
   type: 'journal'
   year: 2022
   arxiv: 2112.09654
+  doi: 10.1016/j.neuroimage.2022.118933
 
 - id: 'mauschitz_2022'
   authors: 'Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
@@ -108,7 +109,7 @@
 - id: 'henschel_2020b'
   authors: '**Henschel L**, **Reuter M**'
   title: 'Parameter Space CNN for Cortical Surface Segmentation'
-  journal: '*Bildverarbeitung für die Medizin 2020. Informatik aktuell.*'
+  journal: '*Bildverarbeitung für die Medizin 2020. Informatik aktuell*'
   type: 'conference'
   year: 2020
   month: 02

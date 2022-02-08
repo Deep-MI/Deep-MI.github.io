@@ -32,7 +32,7 @@
 #
 
 - id: 'henschel_2022'
-  authors: '**Henschel L-1**, **Kügler D-1**, **Reuter M**. (1: co-first)'
+  authors: '**Henschel L\***, **Kügler D\***, **Reuter M**. (\*co-first)'
   title: 'FastSurferVINN: Building Resolution-Independence into Deep Learning Segmentation Methods - A Solution for HighRes Brain MRI'
   journal: '*NeuroImage*'
   type: 'journal'
@@ -104,6 +104,15 @@
   doi: 10.1002/hbm.25377
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.25377'
   bibtex: '/static/pub/lu_2021.bib'
+  
+- id: 'henschel_2020b'
+  authors: '**Henschel L**, **Reuter M**'
+  title: 'Parameter Space CNN for Cortical Surface Segmentation'
+  journal: '*Bildverarbeitung für die Medizin 2020. Informatik aktuell.*'
+  type: 'conference'
+  year: 2020
+  month: 02
+  doi: 10.1007/978-3-658-29267-6_49
 
 - id: 'ewert_2020'
   authors: '**Ewert C**, **Kügler D**, Yendiki A, **Reuter M**'

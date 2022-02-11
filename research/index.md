@@ -1,6 +1,6 @@
 ---
 title: DeepMI Research
-layout: default
+layout: postlist
 group: research
 ---
 

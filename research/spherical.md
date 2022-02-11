@@ -16,7 +16,7 @@ evaluate a 2D parameter space approach with view aggregation (p3CNN). We evaluat
 respect to accuracy and show that it outperforms the spherical CNN by a margin, increasing the
 average Dice similarity score for cortical segmentation to above 0.9.
 
-<img src="/static/img/news/segmentation_bvm.jpg" class="responsive" alt="Spherical-Segmentation" style="
+<img src="/static/img/research/segmentation_bvm.jpg" class="responsive" alt="Spherical-Segmentation" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

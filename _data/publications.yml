@@ -39,6 +39,7 @@
   year: 2022
   arxiv: 2112.09654
   doi: 10.1016/j.neuroimage.2022.118933
+  pdf: 'https://arxiv.org/pdf/2112.09654.pdf'
 
 - id: 'mauschitz_2022'
   authors: 'Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
@@ -47,6 +48,8 @@
   type: 'journal'
   year: 2022
   bibtex: '/static/pub/mauschitz_2022.bib'
+  pdf: 'https://www.nature.com/articles/s41598-022-06821-4.pdf'
+  doi: 10.1038/s41598-022-06821-4
 
 - id: 'harms_2022'
   authors: 'Harms A, Bauer T, Fischbach L, David B, Ernst L, Witt J-A, **Diers K**, Baumgartner T, Weber B, Radbruch A, Becker AJ, Helmstaedter C, **Reuter M**, Elger CE, Surges R, Rüber T'

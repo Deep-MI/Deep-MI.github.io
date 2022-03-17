@@ -2,9 +2,10 @@
 #
 # Use single quotes around longer text passages, and use two single quotes to escape the quote e.g. Alzheimer''s disease.
 #
-# id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
-# pubmed central ID should be put if available
-# doi should always be put if available
+# - id is a unique identifier, it should be the same as the image, pdf (if local) and bibtex file names
+# - pubmed central ID should be put if available
+# - doi should always be put if available
+# - authors who are/were lab members should be bold ( **name** )
 #
 #
 # - id: 'lastname_4digityear'
@@ -30,13 +31,68 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'henschel_2022'
+  authors: '**Henschel L\***, **Kügler D\***, **Reuter M**. (\*co-first)'
+  title: 'FastSurferVINN: Building Resolution-Independence into Deep Learning Segmentation Methods - A Solution for HighRes Brain MRI'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2022
+  arxiv: 2112.09654
+  doi: 10.1016/j.neuroimage.2022.118933
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811922000623/pdfft?md5=0522f6a35232c9e9e57674816ce19a7a&pid=1-s2.0-S1053811922000623-main.pdf'
+
+- id: 'mauschitz_2022'
+  authors: 'Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'
+  title: 'Retinal layer assessments as potential biomarkers for brain atrophy in the Rhineland Study'
+  journal: '*Scientific Reports*'
+  type: 'journal'
+  year: 2022
+  bibtex: '/static/pub/mauschitz_2022.bib'
+  pdf: 'https://www.nature.com/articles/s41598-022-06821-4.pdf'
+  doi: 10.1038/s41598-022-06821-4
+
+- id: 'harms_2022'
+  authors: 'Harms A, Bauer T, Fischbach L, David B, Ernst L, Witt J-A, **Diers K**, Baumgartner T, Weber B, Radbruch A, Becker AJ, Helmstaedter C, **Reuter M**, Elger CE, Surges R, Rüber T'
+  title: 'Shape description and volumetry of hippocampus and amygdala in temporal lobe epilepsy – A beneficial combination with a clinical perspective'
+  journal: '*Epilepsy & Behavior*'
+  type: 'journal'
+  year: 2022
+  image: '/static/pub/harms_2022.jpg'
+  doi: 10.1016/j.yebeh.2022.108560
+  bibtex: '/static/pub/harms_2022.bib'
+
+- id: 'lu_2021b'
+  authors: 'Lu R, Aziz NA, **Reuter M**, Stöcker T, Breteler MMB'
+  title: 'Evaluation of the Neuroanatomical Basis of Olfactory Dysfunction in the General Population'
+  journal: '*JAMA Otolaryngol Head Neck Surg*'
+  type: 'journal'
+  year: 2021
+  image: '/static/pub/lu_2021b.jpg'
+  doi: 10.1001/jamaoto.2021.2026
+  bibtex: '/static/pub/lu_2021b.bib'
+
+- id: 'estrada_2021'
+  authors: '**Estrada S**, Lu R, **Diers K**, Zeng W, Ehses P, Stöcker T, Breteler MMB, **Reuter M**'
+  title: 'Automated olfactory bulb segmentation on high resolutional T2-Weighted MRI'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2021
+  image: '/static/pub/estrada_2021.jpg'
+  arxiv: 2108.04267
+  pmcid: PMC8473894
+  doi: 10.1016/j.neuroimage.2021.118464
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811921007370'
+  bibtex: '/static/pub/estrada_2021.bib'
+  github: deep-mi/olf-bulb-segmentation
+
 - id: 'hoffmann_2021'
   authors: 'Hoffmann M, Turk EA, Gagoski B, Morgan L, Wighton P, Tisdall MD, **Reuter M**, Adalsteinsson E, Grant PE, Wald LL, van der Kouwe AJW'
   title: 'Rapid head-pose detection for automated slice prescription of fetal-brain MRI'
-  journal: 'IMA'
+  journal: '*IMA*'
   type: 'journal'
   year: 2021
   image: '/static/pub/hoffmann_2021.jpg'
+  pmcid: PMC8372849
   doi: 10.1002/ima.22563
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/ima.22563'
   bibtex: '/static/pub/hoffmann_2021.bib'
@@ -44,13 +100,23 @@
 - id: 'lu_2021'
   authors: 'Lu R, Aziz A, **Diers K**, Stöcker T, **Reuter M**, Breteler MMB'
   title: 'Insulin resistance accounts for metabolic syndrome-related alterations in brain structure'
-  journal: 'Human Brain Mapping'
+  journal: '*Human Brain Mapping*'
   type: 'journal'
   year: 2021
   image: '/static/pub/lu_2021.jpg'
+  pmcid: PMC8090787
   doi: 10.1002/hbm.25377
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.25377'
   bibtex: '/static/pub/lu_2021.bib'
+  
+- id: 'henschel_2020b'
+  authors: '**Henschel L**, **Reuter M**'
+  title: 'Parameter Space CNN for Cortical Surface Segmentation'
+  journal: '*Bildverarbeitung für die Medizin 2020. Informatik aktuell*'
+  type: 'conference'
+  year: 2020
+  month: 02
+  doi: 10.1007/978-3-658-29267-6_49
 
 - id: 'ewert_2020'
   authors: '**Ewert C**, **Kügler D**, Yendiki A, **Reuter M**'

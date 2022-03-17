@@ -54,12 +54,14 @@ group: publications
 			{% endif %}
 
 			<!-- PDF -->
+			{% if publication.pdf %}
 			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF">  <a href="{{publication.pdf}}" alt = "PDF" target="_blank"> Full Text</a></li>
+      {% endif %}
 
 			<!-- BibTex -->
-		        {% if publication.bibtex %}
+			{% if publication.bibtex %}
 			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bibtex.svg" alt="bibTeX">  <a href="{{publication.bibtex}}" download alt = "BibTeX"> BibTeX</a></li>
-		        {% endif %}
+			{% endif %}
 		
 			<!--Github - optional -->
 			{% if publication.github %}

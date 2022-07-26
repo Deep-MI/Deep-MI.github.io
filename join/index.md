@@ -30,7 +30,7 @@ While every lab member is expected to contribute to the lab, we also expect to g
 
 Inquiries about Postdoctoral positions should be emailed directly to Martin Reuter (use Subject: MIC-PD-JOIN). Our lab welcomes applicants of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, and eligible age or ability. Furthermore, we are committed to maintaining a supportive and collaborative lab environment. Our lab doesn’t always post for specific positions, so please reach out! We are interested in hearing about your scientific background and goals.
 
-Furthermore, as a member of the Humboldt Foundation Network, we would love to host you via a prestigious postdoctoral [Humboldt Fellowship]{https://www.humboldt-foundation.de/bewerben/foerderprogramme/humboldt-forschungsstipendium} for a stay of 6 - 24 months at the Deep-MI Lab in Germany! Please contact us. 
+Furthermore, as a member of the Humboldt Foundation Network, we would love to host you via a prestigious postdoctoral [Humboldt Fellowship](https://www.humboldt-foundation.de/bewerben/foerderprogramme/humboldt-forschungsstipendium) for a stay of 6 - 24 months at the Deep-MI Lab in Germany! Please contact us. 
 
 # Graduate Students
 

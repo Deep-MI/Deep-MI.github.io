@@ -31,15 +31,55 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'faber_2022'
+  authors: 'Faber J\*, **Kügler D\***, Bahrami E\*, Heinz LS, Timmann D, Ernst TM, Deike-Hofmann K, Klockgether T, van de Warrenburg B, van Gaalen J, Reetz K, Romanzetti S, Oz G, Joers JM, Diedrichsen J, ESMMR Study Group, **Reuter M**. (\*co-first)'
+  title: 'CerebNet: A fast and reliable deep-learning pipeline for detailed cerebellum sub-segmentation'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  year: 2022
+  github: /deep-mi/FastSurfer
+  doi: 10.1016/j.neuroimage.2022.119703
+  image: '/static/pub/faber_2022.png'
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811922008242/pdfft?isDTMRedir=true&download=true'
+  bibtex: '/static/pub/faber_2022.bib'
+
+- id: 'henschel_2022b'
+  authors: '**Henschel L**, **Kügler D**, **Reuter M**.'
+  title: 'Identifying and Combating Bias in Segmentation Networks by leveraging multiple resolutions'
+  journal: '*Medical Image Computing and Computer-Assisted Interventions, International Conference of (MICCAI)*'
+  type: 'conference'
+  year: 2022
+  arxiv: 2206.14919
+  doi: 10.1007/978-3-031-16443-9_34
+  image: '/static/pub/henschel_2022b.png'
+  pdf: 'https://arxiv.org/pdf/2206.14919'
+  bibtex: '/static/pub/henschel_2022b.bib'
+
+- id: 'roy_2022'
+  authors: '**Saikat R\***, **Kügler D\***, **Reuter M**. (\*co-first)'
+  title: 'Are 2.5D approaches superior to 3D deep networks in whole brain segmentation?'
+  journal: '*Medical Imaging with Deep Learning, Conference (MIDL)*'
+  type: 'journal'
+  year: 2022
+  github: /deep-mi/3d-neuro-seg
+  image: '/static/pub/roy_2022.png'
+  pdf: 'https://openreview.net/pdf?id=Ob62JPB_CDF'
+  bibtex: '/static/pub/roy_2022.bib'
+
 - id: 'henschel_2022'
   authors: '**Henschel L\***, **Kügler D\***, **Reuter M**. (\*co-first)'
   title: 'FastSurferVINN: Building Resolution-Independence into Deep Learning Segmentation Methods - A Solution for HighRes Brain MRI'
   journal: '*NeuroImage*'
   type: 'journal'
+  pages: 118933
+  volume: 251
   year: 2022
   arxiv: 2112.09654
+  image: '/static/pub/henschel_2022.jpg'
+  github: /deep-mi/FastSurfer
   doi: 10.1016/j.neuroimage.2022.118933
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811922000623/pdfft?md5=0522f6a35232c9e9e57674816ce19a7a&pid=1-s2.0-S1053811922000623-main.pdf'
+  bibtex: '/static/pub/henschel_2022.bib'
 
 - id: 'mauschitz_2022'
   authors: 'Mauschitz MM, Lohner V, Koch A, Stöcker T, **Reuter M**, Holz FG, Finger RP, Breteler MMB'

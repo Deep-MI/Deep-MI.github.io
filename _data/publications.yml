@@ -32,7 +32,7 @@
 #
 
 - id: 'faber_2022'
-  authors: 'Faber J\, **Kügler D\***, Bahrami E\, Heinz LS, Timmann D, Ernst TM, Deike-Hofmann K, Klockgether T, van de Warrenburg B, van Gaalen J, Reetz K, Romanzetti S, Oz G, Joers JM, Diedrichsen J, ESMMR Study Group, **Reuter M**. (\*co-first)'
+  authors: 'Faber J\*, **Kügler D\***, Bahrami E\*, Heinz LS, Timmann D, Ernst TM, Deike-Hofmann K, Klockgether T, van de Warrenburg B, van Gaalen J, Reetz K, Romanzetti S, Oz G, Joers JM, Diedrichsen J, ESMMR Study Group, **Reuter M**. (\*co-first)'
   title: 'CerebNet: A fast and reliable deep-learning pipeline for detailed cerebellum sub-segmentation'
   journal: '*NeuroImage*'
   type: 'journal'
@@ -44,7 +44,7 @@
   bibtex: '/static/pub/faber_2022.bib'
 
 - id: 'henschel_2022b'
-  authors: '**Henschel L***, **Kügler D***, **Reuter M**.'
+  authors: '**Henschel L**, **Kügler D**, **Reuter M**.'
   title: 'Identifying and Combating Bias in Segmentation Networks by leveraging multiple resolutions'
   journal: '*Medical Image Computing and Computer-Assisted Interventions, International Conference of (MICCAI)*'
   type: 'conference'

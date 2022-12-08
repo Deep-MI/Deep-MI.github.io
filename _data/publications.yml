@@ -158,6 +158,7 @@
   month: 02
   image: '/static/pub/henschel_2020b.jpg'
   pdf: '/static/pub/henschel_2020b.pdf'
+  bibtex: '/static/pub/henschel_2020b.bib'
   doi: 10.1007/978-3-658-29267-6_49
 
 - id: 'ewert_2020'

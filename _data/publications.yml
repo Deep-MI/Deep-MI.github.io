@@ -31,6 +31,18 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'pollak_2023a'
+  authors: '**Pollak C\***, **Kügler D\***, **Reuter M**. (\*co-first)'
+  title: 'Estimating Head Motion from MR-Images'
+  journal: '*IEEE 20th International Symposium on Biomedical Imaging (ISBI)*'
+  type: 'conference'
+  image: '/static/pub/pollak_2023a.png'
+  year: 2023
+  bibtex: '/static/pub/pollak_2023a.bib'
+  pdf: '/static/pub/pollak_2023a.pdf'
+  github: 'deep-mi/head-motion-from-MRI'
+
+
 - id: 'faber_2022'
   authors: 'Faber J\*, **Kügler D\***, Bahrami E\*, Heinz LS, Timmann D, Ernst TM, Deike-Hofmann K, Klockgether T, van de Warrenburg B, van Gaalen J, Reetz K, Romanzetti S, Oz G, Joers JM, Diedrichsen J, ESMMR Study Group, **Reuter M**. (\*co-first)'
   title: 'CerebNet: A fast and reliable deep-learning pipeline for detailed cerebellum sub-segmentation'

@@ -30,7 +30,18 @@
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'
 #
-
+- id: 'diers_2023'
+  authors: '**Diers K**, Baumeister H, Jessen F, Düzel E, Berron D, **Reuter M**'
+  title: 'An automated, geometry-based method for hippocampal shape and thickness analysis'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  image: '/static/pub/diers_2023.png'
+  year: 2023
+  bibtex: '/static/pub/diers_2023.bib'
+  doi: 10.1016/j.neuroimage.2023.120182
+  pdf: 'https://doi.org/10.1016/j.neuroimage.2023.120182'
+  github: 'deep-MI/Hipsta'
+  
 - id: 'pollak_2023b'
   authors: '**Pollak C**, **Kügler D**, Breteler MMB, **Reuter M**'
   title: 'Quantifying MR head motion in the Rhineland Study – A robust method for population cohorts'

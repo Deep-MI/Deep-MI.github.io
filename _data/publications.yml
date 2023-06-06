@@ -31,6 +31,19 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'pollak_2023b'
+  authors: '**Pollak C**, **Kügler D**, Breteler MMB, **Reuter M**'
+  title: 'Quantifying MR head motion in the Rhineland Study – A robust method for population cohorts'
+  journal: '*NeuroImage*'
+  type: 'journal'
+  image: '/static/pub/pollak_2023b.png'
+  year: 2023
+  bibtex: '/static/pub/pollak_2023b.bib'
+  doi: 10.1016/j.neuroimage.2023.120176
+  pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811923003270/pdfft?isDTMRedir=true&download=true'
+  github: 'deep-MI/head-motion-tools'
+
+
 - id: 'pollak_2023a'
   authors: '**Pollak C\***, **Kügler D\***, **Reuter M**. (\*co-first)'
   title: 'Estimating Head Motion from MR-Images'
@@ -38,8 +51,9 @@
   type: 'conference'
   image: '/static/pub/pollak_2023a.png'
   year: 2023
+  arxiv: 2302.14490
   bibtex: '/static/pub/pollak_2023a.bib'
-  pdf: '/static/pub/pollak_2023a.pdf'
+  pdf: 'https://arxiv.org/pdf/2302.14490.pdf'
   github: 'deep-mi/head-motion-from-MRI'
 
 

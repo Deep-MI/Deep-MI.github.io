@@ -38,8 +38,9 @@
   type: 'conference'
   image: '/static/pub/pollak_2023a.png'
   year: 2023
+  arxiv: 2302.14490
   bibtex: '/static/pub/pollak_2023a.bib'
-  pdf: '/static/pub/pollak_2023a.pdf'
+  pdf: 'https://arxiv.org/pdf/2302.14490.pdf'
   github: 'deep-mi/head-motion-from-MRI'
 
 

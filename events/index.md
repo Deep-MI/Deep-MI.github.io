@@ -17,9 +17,9 @@ group: events
 
 ## Overview
 
-The Deep MI lab is happy to announce a two-day, hands-on, introductory **FreeSurfer/FastSurfer course** about the analysis of structural imaging data.
+The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurfer/FreeSurfer course** focussing on the analysis of structural brain MRI data.
 
-The course consists of lectures, demonstrations, and practical exercises, and will cover a range of topics, such as
+The course consists of lectures, demonstrations, and practical exercises and will cover a range of topics, such as
 
 - Advanced deep-learning for image segmentation
 - Organization, processing, and inspection (QC) of brain MRI data
@@ -37,12 +37,9 @@ The course will be held on **September 28 and 29** (Thursday and Friday) **betwe
 
 ## Places
 
-The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)** at the Venusberg Campus in Bonn. 
+The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)**, Venusberg Campus, Bonn. 
 
-We will use seminar room **B.1.119/120** for the course. 
-
-Non-DZNE participants will be picked-up at 9 am each day at the reception in the DZNE main building.
-
+Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9 am each day at the reception in the DZNE main building.
 
 ## Preliminary schedule
 
@@ -78,24 +75,23 @@ _Friday, September 29:_
 
 A detailed schedule will follow.
 
+
 ## Registration
 
 The intended audience for this course is the DZNE and UKB neuroimaging community.
 
-There is a maximum capacity of **20 participants**, which will be admitted on a first-come, first-served basis.
+There is a maximum capacity of **20 participants** and no course fee.
 
 Please contact kersten.diers(at)dzne.de to register for the course. Registration closes once all spots are filled or latest on August 31.
-
-There is no course fee. 
 
 
 ## Requirements
 
 Participants should have initial experience in working with MRI data. 
 
-During the course, participants will be provided with workstations, software, and materials for following the lectures and doing the practical exercises.
+During the course, participants will be provided with workstations, software, and materials for the lectures and practical exercises.
 
-We cannot provide support for individual devices or datasets.
+We can neither provide support for personal devices nor individual datasets.
 
 
 ## Contact

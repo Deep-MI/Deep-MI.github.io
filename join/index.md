@@ -20,7 +20,7 @@ While every lab member is expected to contribute to the lab, we also expect to g
 - We are located at DZNE, a German Helmholtz Center, with outstanding funding, resources, and research environment.
 - We have access to exciting and richly phenotyped datasets, e.g. the Rhineland Study (a large population study with thousdands of participants).
 - We currently train on 24 NVIDIA V100 (32 GB each, NVlink'ed) and 8 A100 GPUs (40 GB each) available exclusively for our lab.
-- We get access to a local institutional HPC cluster with 94 V100 GPU's which is scheduled to go online later this year.
+- We provide access to the DZNE HPC cluster with 94 V100 GPU's.
 - We have a modern MRI facility in house (with a 3T and a 7T Siemens scanner), and further 3T scanners at two scan centers.
 - We have strong local collaborative ties with clinial science, population science, neuroscience, radiology, epileptiology etc.
 - We contribute to FreeSurfer (a popular open source software suite for brain MRI processing) via collaborations at Harvard Medical School.

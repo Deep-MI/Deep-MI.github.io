@@ -17,14 +17,12 @@ group: events
 
 ## Overview
 
-The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurfer/FreeSurfer course** focussing on the analysis of structural brain MRI data.
-
-The course consists of lectures, demonstrations, and practical exercises and will cover a range of topics, such as
+The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurfer/FreeSurfer course** focussing on the analysis of structural brain MRI data. The course consists of lectures, demonstrations, and practical exercises and will cover a range of topics, such as:
 
 - Advanced deep-learning for image segmentation
 - Organization, processing, and inspection (QC) of brain MRI data
 - Evaluation and interpretation of results
-- Generalized linear models for statistical analysis
+- General linear models for statistical analysis
 - Future directions
 
 The goal of the course is to equip participants with working knowledge about fundamental concepts in structural neuroimaging analysis, and enable them to conduct analyses of structural imaging data using the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software packages. 
@@ -32,7 +30,7 @@ The goal of the course is to equip participants with working knowledge about fun
 
 ## Dates 
 
-The course will be held on **September 28 and 29** (Thursday and Friday) **between 9 am and 4:30 pm**.
+The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:15 am and 4:30 pm**.
 
 
 ## Places
@@ -41,40 +39,60 @@ The course takes place at the **German Center for Neurodegenerative Diseases (DZ
 
 Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9 am each day at the reception in the DZNE main building.
 
-## Preliminary schedule
+## Schedule
 
 _Thursday, September 28:_
 
-**Session 1: Introduction**
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0; table-layout: fixed; width: 800px;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;width:50%}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
 
-- Overview of FastSurfer and FreeSurfer (lecture)
-
-**Session 2a: Analyzing individual cases**
-
-- Analyzing individual cases 1: volumes (lecture)
-- Introduction to Freeview (interactive)
-- How to run FastSurfer (practical)
-
-**Session 2b: Analyzing individual cases**
-
-- Analyzing individual cases 2: surfaces (lecture)
-- Exploring individual FastSurfer / FreeSurfer output (practical)
-- Questions and answers (interactive)
+<table class="tg">
+<thead>
+    <tr><th class="tg-fymr">Time</th><th class="tg-fymr">Topic</th></tr>
+</thead>
+<tbody>
+    <tr><td class="tg-buh4">09:15 - 09:30</td><td class="tg-buh4">Welcome</td></tr>
+    <tr><td class="tg-0lax">09:30 - 10:30</td><td class="tg-0lax">FastSurfer / FreeSurfer overview</td></tr>
+    <tr><td class="tg-buh4">10:30 - 10:45</td><td class="tg-buh4">Break</td></tr>
+    <tr><td class="tg-0lax">10:45 - 12:30</td><td class="tg-0lax">Analyzing individual cases 1: volumes</td></tr>
+    <tr><td class="tg-buh4">12:30 - 13:30</td><td class="tg-buh4">Lunch break</td></tr>
+    <tr><td class="tg-0lax">13:30 - 14:30</td><td class="tg-0lax">Analyzing individual cases 2: surfaces (part 1)</td></tr>
+    <tr><td class="tg-buh4">14:30 - 14:45</td><td class="tg-buh4">Break</td></tr>
+    <tr><td class="tg-0lax">14:45 - 15:45</td><td class="tg-0lax">Analyzing individual cases 2: surfaces (part 2)</td></tr>
+    <tr><td class="tg-buh4">15:45 - 16:30</td><td class="tg-buh4">Questions and answers</td></tr>
+</tbody>
+</table>
+<br>
 
 _Friday, September 29:_
 
-**Session 3: Group analysis**
-
-- Group analysis (lecture)
-- Group analysis (practical)
-
-**Session 4**
-
-- QC, troubleshooting, and manual edits (lecture)
-- FreeSurfer / FastSurfer add-ons and outlook (lecture)
-
-A detailed schedule will follow.
-
+<table class="tg">
+<thead>
+    <tr><th class="tg-fymr">Time</th><th class="tg-fymr">Topic</th></tr>
+</thead>
+<tbody>
+    <tr><td class="tg-buh4">09:15 - 10:30</td><td class="tg-buh4">Group analysis (part 1)</td></tr>
+    <tr><td class="tg-0lax">10:30 - 10:45</td><td class="tg-0lax">Break</td></tr>
+    <tr><td class="tg-buh4">10:45 - 12:30</td><td class="tg-buh4">Group analysis (part 2)</td></tr>
+    <tr><td class="tg-0lax">12:30 - 13:30</td><td class="tg-0lax">Lunch break</td></tr>
+    <tr><td class="tg-buh4">13:30 - 14:30</td><td class="tg-buh4">QC, troubleshooting, edits, and limitations</td></tr>
+    <tr><td class="tg-0lax">14:30 - 14:45</td><td class="tg-0lax">Break</td></tr>
+    <tr><td class="tg-buh4">14:45 - 15:45</td><td class="tg-buh4">Add-ons and outlook</td></tr>
+    <tr><td class="tg-0lax">15:45 - 16:30</td><td class="tg-0lax">Questions and answers</td></tr>
+</tbody>
+</table>
+<br>
+All sessions will contain lectures and demos as well as practical and interactive parts.
+<br>
+<br>
 
 ## Registration
 
@@ -82,7 +100,7 @@ The intended audience for this course is the DZNE and UKB neuroimaging community
 
 There is a maximum capacity of **20 participants** and no course fee.
 
-Please contact kersten.diers(at)dzne.de to register for the course. Registration closes once all spots are filled or latest on August 31.
+Registration is now closed.
 
 
 ## Requirements

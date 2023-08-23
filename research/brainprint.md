@@ -82,9 +82,13 @@ hippocampus. The computation of the shape descriptor <em>ShapeDNA</em> yields th
 
  - [Documentation and API](/BrainPrint)
  - [Open Source on GitHub](https://github.com/Deep-MI/BrainPrint)
-<!--- include after these exist in publication list, currently decided against it as it is not clear on the publication page which publication was targeted
- - [BrainPrint: A Discriminative Characterization of Brain Morphology. C.Wachinger, ..., M.Reuter. NeuroImage 109:232-248, 2015.](/publications/#wachinger_2015_brainPrint)
- - [Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter, F.-E. Wolter and N. Peinecke. Computer-Aided Design 38(4):342-366, 2006.](/publications/#reuter_2006_shapedna)
--->
+ - [BrainPrint: A Discriminative Characterization of Brain Morphology. C.Wachinger, ..., M.Reuter. NeuroImage. 2015.](/publications/#wachinger_2015_brainPrint)
+ - [Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter, F.-E. Wolter and N. Peinecke. Computer-Aided Design.  2006.](/publications/#reuter_2006_shapedna)
+ - [Multidimensional heritability analysis of neuroanatomical shape. T.Ge et al. Nat Commun. 2016.](/publications/#ge_2016)
+ - [Whole-brain analysis reveals increased neuroanatomical asymmetries in dementia for hippocampus and amygdala. C.Wachinger, ..., M.Reuter. Brain. 2016.](/publications/#wachinger_2016)
+ - [A Longitudinal Imaging Genetics Study of Neuroanatomical Asymmetry in Alzheimer's Disease. Wachinger et al. Biol Psychiatry. 2018.](/publications/#wachinger_2018)
+
+<!--- 
  - BrainPrint: A Discriminative Characterization of Brain Morphology. C.Wachinger, ..., M.Reuter. NeuroImage 109:232-248, 2015. [doi:10.1016/j.neuroimage.2015.01.032](http://dx.doi.org/10.1016/j.neuroimage.2015.01.032)
  - Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter, F.-E. Wolter and N. Peinecke. Computer-Aided Design 38(4):342-366, 2006. [doi:10.1016/j.cad.2005.10.011](http://dx.doi.org/10.1016/j.cad.2005.10.011)
+-->

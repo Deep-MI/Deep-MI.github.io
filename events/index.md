@@ -30,7 +30,7 @@ The goal of the course is to equip participants with working knowledge about fun
 
 ## Dates 
 
-The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:15 am and 4:30 pm**.
+The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:00 am and 4:30 pm**.
 
 
 ## Places
@@ -39,7 +39,7 @@ The course takes place at the **German Center for Neurodegenerative Diseases (DZ
 
 Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9 am each day at the reception in the DZNE main building.
 
-## Schedule
+## Preliminary Schedule
 
 _Thursday, September 28:_
 
@@ -96,7 +96,7 @@ All sessions will contain lectures and demos as well as practical and interactiv
 
 ## Registration
 
-The intended audience for this course is the DZNE and UKB neuroimaging community.
+The intended audience for this course is the DZNE and UKB neuroimaging community, as well as external guests.
 
 There is a maximum capacity of **20 participants** and no course fee.
 

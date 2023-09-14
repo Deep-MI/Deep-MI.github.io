@@ -30,16 +30,16 @@ The goal of the course is to equip participants with working knowledge about fun
 
 ## Dates 
 
-The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:00 am and 4:30 pm**.
+The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:15 am and 4:30 pm**.
 
 
 ## Places
 
 The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)**, Venusberg Campus, Bonn. 
 
-Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9 am each day at the reception in the DZNE main building.
+Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9:10 am each day at the reception in the DZNE main building.
 
-## Preliminary Schedule
+## Schedule
 
 _Thursday, September 28:_
 
@@ -62,12 +62,13 @@ _Thursday, September 28:_
     <tr><td class="tg-buh4">09:15 - 09:30</td><td class="tg-buh4">Welcome</td></tr>
     <tr><td class="tg-0lax">09:30 - 10:30</td><td class="tg-0lax">FastSurfer / FreeSurfer overview</td></tr>
     <tr><td class="tg-buh4">10:30 - 10:45</td><td class="tg-buh4">Break</td></tr>
-    <tr><td class="tg-0lax">10:45 - 12:30</td><td class="tg-0lax">Analyzing individual cases 1: volumes</td></tr>
+    <tr><td class="tg-0lax">10:45 - 12:30</td><td class="tg-0lax">Analyzing individual cases 1: segmentations</td></tr>
     <tr><td class="tg-buh4">12:30 - 13:30</td><td class="tg-buh4">Lunch break</td></tr>
     <tr><td class="tg-0lax">13:30 - 14:30</td><td class="tg-0lax">Analyzing individual cases 2: surfaces (part 1)</td></tr>
     <tr><td class="tg-buh4">14:30 - 14:45</td><td class="tg-buh4">Break</td></tr>
     <tr><td class="tg-0lax">14:45 - 15:45</td><td class="tg-0lax">Analyzing individual cases 2: surfaces (part 2)</td></tr>
     <tr><td class="tg-buh4">15:45 - 16:30</td><td class="tg-buh4">Questions and answers</td></tr>
+    <tr><td class="tg-0lax">17:00 - 19:00</td><td class="tg-0lax">Social event (optional)</td></tr>
 </tbody>
 </table>
 <br>
@@ -79,9 +80,9 @@ _Friday, September 29:_
     <tr><th class="tg-fymr">Time</th><th class="tg-fymr">Topic</th></tr>
 </thead>
 <tbody>
-    <tr><td class="tg-buh4">09:15 - 10:30</td><td class="tg-buh4">Group analysis (part 1)</td></tr>
+    <tr><td class="tg-buh4">09:15 - 10:30</td><td class="tg-buh4">Group analysis 1: preparations and modeling</td></tr>
     <tr><td class="tg-0lax">10:30 - 10:45</td><td class="tg-0lax">Break</td></tr>
-    <tr><td class="tg-buh4">10:45 - 12:30</td><td class="tg-buh4">Group analysis (part 2)</td></tr>
+    <tr><td class="tg-buh4">10:45 - 12:30</td><td class="tg-buh4">Group analysis: inference</td></tr>
     <tr><td class="tg-0lax">12:30 - 13:30</td><td class="tg-0lax">Lunch break</td></tr>
     <tr><td class="tg-buh4">13:30 - 14:30</td><td class="tg-buh4">QC, troubleshooting, edits, and limitations</td></tr>
     <tr><td class="tg-0lax">14:30 - 14:45</td><td class="tg-0lax">Break</td></tr>
@@ -111,6 +112,11 @@ During the course, participants will be provided with workstations, software, an
 
 We can neither provide support for personal devices nor individual datasets.
 
+## Directions
+
+The German Center for Neurodegenerative Diseases (Deutsches Zentrum für Neurodegenerative Erkrankungen, DZNE) is located at the Venusberg campus of the university hospital, its address is "Building 99, Venusberg-Campus 1". The most convenient way to get from Bonn main ststion to the DZNE is by bus. From Bonn main station, cross the street towards the city center to get to the bus station. At the bus station, take line 601 towards the direction "Venusberg / Uniklinikum" until its final stop "Uniklinikum Süd"; don’t take the 601 bus towards "Tannenbusch" (which is the opposite direction). The bus towards "Venusberg / Uniklinikum" typically leaves at platform A1, roughly every 10 mins.
+
+When arriving at the "Uniklinikum Süd" bus stop, follow the road until the roundabout, then turn left. The DZNE is located approximately 100m from the bus stop, and it’s a huge black building with colorful windows. 
 
 ## Contact
 

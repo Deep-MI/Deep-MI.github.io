@@ -80,14 +80,14 @@ _Friday, September 29:_
     <tr><th class="tg-fymr">Time</th><th class="tg-fymr">Topic</th></tr>
 </thead>
 <tbody>
-    <tr><td class="tg-buh4">09:15 - 10:30</td><td class="tg-buh4">Group analysis 1: preparations and modeling</td></tr>
-    <tr><td class="tg-0lax">10:30 - 10:45</td><td class="tg-0lax">Break</td></tr>
-    <tr><td class="tg-buh4">10:45 - 12:30</td><td class="tg-buh4">Group analysis 2: inference</td></tr>
+    <tr><td class="tg-buh4">09:15 - 11:00</td><td class="tg-buh4">Group analysis 1: preparations and modeling</td></tr>
+    <tr><td class="tg-0lax">11:00 - 11:15</td><td class="tg-0lax">Break</td></tr>
+    <tr><td class="tg-buh4">11:15 - 12:30</td><td class="tg-buh4">Group analysis 2: inference</td></tr>
     <tr><td class="tg-0lax">12:30 - 13:30</td><td class="tg-0lax">Lunch break</td></tr>
-    <tr><td class="tg-buh4">13:30 - 14:30</td><td class="tg-buh4">QC, troubleshooting, edits, and limitations</td></tr>
-    <tr><td class="tg-0lax">14:30 - 14:45</td><td class="tg-0lax">Break</td></tr>
-    <tr><td class="tg-buh4">14:45 - 15:45</td><td class="tg-buh4">FastSurfer ecosystem and outlook</td></tr>
-    <tr><td class="tg-0lax">15:45 - 16:30</td><td class="tg-0lax">Questions and answers</td></tr>
+    <tr><td class="tg-buh4">13:30 - 15:00</td><td class="tg-buh4">QC, troubleshooting, edits, and limitations</td></tr>
+    <tr><td class="tg-0lax">15:00 - 15:15</td><td class="tg-0lax">Break</td></tr>
+    <tr><td class="tg-buh4">15:15 - 16:00</td><td class="tg-buh4">FastSurfer ecosystem and outlook</td></tr>
+    <tr><td class="tg-0lax">16:00 - 16:30</td><td class="tg-0lax">Questions and answers</td></tr>
 </tbody>
 </table>
 <br>

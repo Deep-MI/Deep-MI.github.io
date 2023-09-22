@@ -84,7 +84,7 @@ _Friday, September 29:_
     <tr><td class="tg-0lax">11:00 - 11:15</td><td class="tg-0lax">Break</td></tr>
     <tr><td class="tg-buh4">11:15 - 12:30</td><td class="tg-buh4">Group analysis 2: inference</td></tr>
     <tr><td class="tg-0lax">12:30 - 13:30</td><td class="tg-0lax">Lunch break</td></tr>
-    <tr><td class="tg-buh4">13:30 - 15:00</td><td class="tg-buh4">QC, troubleshooting, edits, and limitations</td></tr>
+    <tr><td class="tg-buh4">13:30 - 15:00</td><td class="tg-buh4">QC, troubleshooting, edits, and caveats</td></tr>
     <tr><td class="tg-0lax">15:00 - 15:15</td><td class="tg-0lax">Break</td></tr>
     <tr><td class="tg-buh4">15:15 - 16:00</td><td class="tg-buh4">FastSurfer ecosystem and outlook</td></tr>
     <tr><td class="tg-0lax">16:00 - 16:30</td><td class="tg-0lax">Questions and answers</td></tr>

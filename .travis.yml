@@ -6,7 +6,7 @@ rvm:
 #install: gem install bundler && bundle install
 
 script: bundle exec jekyll build && bundle exec htmlproofer ./_site --only-4xx --ignore_status_codes "400,401,403" \
-            --enforce_https false --ignore_paths "/LaPy,/BrainPrint" \
+            --enforce_https false --ignore_files "/LaPy,/BrainPrint" \
             --typhoeus_config '{ "timeout":20 , "verbose":"true" }'
 #passing longer timeout for external url check:
 #script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check_html --typhoeus_config '{ "timeout":30 , "verbose":"true" }'

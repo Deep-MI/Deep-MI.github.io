@@ -48,6 +48,7 @@ In close collaboration with clinical and industrial partners, we develop the nex
  - [BrainPrint](/research/brainprint/), tools for shape and asymmetry analysis of neuroanatomical structures
  - [p3CNN](/research/spherical/), cortical surface segmentation
  - [LaPy](/LaPy/), Python Library for geometric mesh processing and FEM differential geometry computations
+ - [fsqc](/fsqc/), Quality check tools for FastSurfer and FreeSurfer output
  
 
 <!---

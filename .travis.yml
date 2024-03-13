@@ -5,7 +5,7 @@ rvm:
 # install will run bundle install by default (make sure Gemfile has dependencies)
 #install: gem install bundler && bundle install
 
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site --only-4xx --ignore_status_codes "400,401,403" --enforce_https false --ignore_urls "/LaPy,/LaPy/,/BrainPrint,https://dx.doi.org/10.3174/ajnr.A4508,https://dx.doi.org/10.1212/WNL.0000000000000187"
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site --only-4xx --ignore_status_codes "400,401,403" --enforce_https false --ignore_urls "/LaPy,/LaPy/,/BrainPrint,/fsqc/,https://dx.doi.org/10.3174/ajnr.A4508,https://dx.doi.org/10.1212/WNL.0000000000000187"
 #passing longer timeout for external url check:
 #script: bundle exec jekyll build && bundle exec htmlproofer ./_site --typhoeus '{ "timeout":30 , "verbose":"true" }'
 

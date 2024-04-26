@@ -31,7 +31,7 @@
 #       url: 'http://coollab.uni.edu/'
 #
 - id: 'ewert_2024a'
-  authors: '**Ewert C**\*, **Kügler D**\*, Stirnberg R, Koch A, Yendiki A, **Reuter M**. (\*co-first)'
+  authors: '**Ewert C\***, **Kügler D\***, Stirnberg R, Koch A, Yendiki A, **Reuter M**. (\*co-first)'
   title: 'Geometric Deep Learning for Diffusion MRI Signal Reconstruction with Continuous Samplings (DISCUS)'
   journal: '*Imaging Neuroscience*'
   type: 'journal'
@@ -39,7 +39,7 @@
   year: 2024
   bibtex: '/static/pub/ewert_2024a.bib'
   doi: 10.1162/imag_a_00121
-  pdf: 'https://doi.org/10.1162/imag_a_00121'
+  pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00121/2358010/imag_a_00121.pdf'
   github: /deep-mi/DISCUS
   
 - id: 'estrada2023'

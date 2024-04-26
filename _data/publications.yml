@@ -30,7 +30,18 @@
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'
 #
-
+- id: 'ewert_2024a'
+  authors: '**Ewert C**\*, **Kügler D**\*, Stirnberg R, Koch A, Yendiki A, **Reuter M**. (\*co-first)'
+  title: 'Geometric Deep Learning for Diffusion MRI Signal Reconstruction with Continuous Samplings (DISCUS)'
+  journal: '*Imaging Neuroscience*'
+  type: 'journal'
+  image: '/static/pub/ewert_2024a.jpg'
+  year: 2024
+  bibtex: '/static/pub/ewert_2024a.bib'
+  doi: 10.1162/imag_a_00121
+  pdf: 'https://doi.org/10.1162/imag_a_00121'
+  github: /deep-mi/DISCUS
+  
 - id: 'estrada2023'
   authors: '**Estrada S**, **Kügler D**, Bahrami E, Xu P, Mousa D, Breteler MMB, Aziz NA, **Reuter M**'
   title: 'FastSurfer-HypVINN: Automated sub-segmentation of the hypothalamus and adjacent structures on high-resolutional brain MRI'

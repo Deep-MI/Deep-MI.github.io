@@ -32,7 +32,7 @@
 #
 
 - id: 'henschel_2024'
-  authors: '**Henschel L**, **Kügler D**, **Zöllei L\***, **Reuter M\***. (\*co-last)'
+  authors: '**Henschel L**, **Kügler D**, Zöllei L\*, **Reuter M\***. (\*co-last)'
   title: 'VINNA for Neonates -- Orientation Independence through Latent Augmentations'
   journal: '*Imaging Neuroscience*'
   type: 'journal'

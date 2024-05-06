@@ -30,6 +30,18 @@
 #     - name: 'Some coauthor Lab'
 #       url: 'http://coollab.uni.edu/'
 #
+
+- id: 'henschel_2024'
+  authors: '**Henschel L**, **Kügler D**, **Zöllei L\***, **Reuter M\***. (\*co-last)'
+  title: 'VINNA for Neonates -- Orientation Independence through Latent Augmentations'
+  journal: '*Imaging Neuroscience*'
+  type: 'journal'
+  year: 2024
+  arxiv: 2311.17546
+  image: '/static/pub/henschel_2024.png'
+  pdf: 'https://arxiv.org/pdf/2311.17546'
+  bibtex: '/static/pub/henschel_2024.bib'
+
 - id: 'ewert_2024a'
   authors: '**Ewert C\***, **Kügler D\***, Stirnberg R, Koch A, Yendiki A, **Reuter M**. (\*co-first)'
   title: 'Geometric Deep Learning for Diffusion MRI Signal Reconstruction with Continuous Samplings (DISCUS)'

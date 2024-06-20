@@ -4,9 +4,11 @@ layout: default
 group: events
 ---
 
-# DeepMI FastSurfer/FreeSurfer course 2024
+# DeepMI FastSurfer / FreeSurfer course 2024
 
-<img src="/static/img/events/teaser.png" class="responsive" alt="FastSurfer" style="
+<br>
+
+<img src="/static/img/events/teaser_long.jpg" class="responsive" alt="FastSurfer" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -15,37 +17,49 @@ group: events
     height: auto;
 ">
 
-The DeepMI lab is happy to announce a two-day, hands-on, introductory courseon state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. 
+<br>
 
-The goal of the course is to equip participants with working knowledge about fundamental concepts in structural neuroimaging analysis, and enable them to conduct analyses of structural imaging data using the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software packages. It consists of lectures, demonstrations, practical exercises, and provides ample opportunities for discussions and informal exchange.
+The **DeepMI lab** is happy to announce the **DeepMI FastSurfer / FreeSurfer course**, a two-day, hands-on, introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. 
+
+The goal of the course is to equip participants with working knowledge about fundamental concepts in structural neuroimaging analysis, and enable them to conduct analyses of structural imaging data using the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software packages. 
+
+After completing the course, participants will have gained an understanding of modern methods for the analysis of structural brain images, will have learned how to run both the *FastSurfer* and *FreeSurfer* softwares, and will know how to set up an analysis and work with the resulting outputs in the context of their own research projects.
+
+The course consists of lectures, demonstrations, practical exercises, and provides ample opportunities for discussions and informal exchange.
 
 ## Dates 
 
-The course will be held on **TBD** (... weekdays ...) **between 9:15 am and 4:30 pm**.
+The course will be held on **September 26 and 27, 2024** (Thursday and Friday) between **9:15 am and 4:30 pm**.
 
 ## Places
 
-The course takes place at the Venusberg Campus of the   **German Center for Neurodegenerative Diseases (DZNE)** in Bonn, Germany ([directions](/events/workshops/fastsurfer-course-2024/location)). 
+The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)** in Bonn, Germany ([directions](/events/workshops/fastsurfer-course-2024/location)). 
 
 ## Topics
 
-The course will cover topics such as: (this should be non-technical, narrative, somewhat catchy ...)
+The course will cover the following topics:
 
-- Introduction to structural neuroimaging
-- Advanced deep-learning for image segmentation: ...
-- Surface-based modeling: ...
-- Statistical analysis: evaluation and interpretation of results
-- Troubleshooting and practical issues: ...
-- The FastSurfer ecosystem: current state and an outlook to the future
+- [Introduction to structural neuroimaging](/events/workshops/fastsurfer-course-2024/program#introduction-to-structural-neuroimaging): an overview of the FastSurfer and FreeSurfer software packages and what they can do 
+- [Advanced deep-learning for image segmentation](/events/workshops/fastsurfer-course-2024/program#advanced-deep-learning-for-image-segmentation): fast and reliable anatomical segmentation -- the core module of the FastSurfer software
+- [Surface models](/events/workshops/fastsurfer-course-2024/program#surface-models): how to create surface models and extract a rich set of anatomical features
+- [Statistical modeling and inference](/events/workshops/fastsurfer-course-2024/program#statistical-modeling-and-inference): how to arrive at conclusions -- the evaluation and interpretation of results
+- [QC, troubleshooting, and practical issues](/events/workshops/fastsurfer-course-2024/program#qc-troubleshooting-and-practical-issues): how to trust your results -- solutions to potential pitfalls and issues 
+- [The FastSurfer ecosystem](/events/workshops/fastsurfer-course-2024/program#the-fastsurfer-ecosystem): specialized applications, add-on modules, and an outlook to future developments
 
-Please find detailed information below:
+See here for detailed information:
 
-- [Program](/events/workshops/fastsurfer-course-2024/program)
-
+- [Program](/events/workshops/fastsurfer-course-2024/program) [(Flyer)](/static/img/events/deepmi-fastsurfer-course-poster.pdf)
 - [Schedule](/events/workshops/fastsurfer-course-2024/schedule)
 
-## Further information
+## Registration
+
+We are looking forward to your registration for the course:
 
 - [Registration](/events/workshops/fastsurfer-course-2024/registration)
 
-- [Contact](/events/workshops/fastsurfer-course-2024/contact)
+## Contact
+
+Please feel free to get in touch with any questions or requests that you might have:
+
+- <a href="mailto:kersten&#46;diers&#64;dzne&#46;de">Kersten Diers</a>
+- <a href="mailto:martin&#46;reuter&#64;dzne&#46;de">Martin Reuter</a>

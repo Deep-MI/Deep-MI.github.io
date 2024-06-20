@@ -13,7 +13,7 @@ group: events
     height: auto;
 ">
 
-# **DeepMI FastSurfer / FreeSurfer course**
+# **DeepMI FastSurfer / FreeSurfer course 2023**
 
 ## Overview
 
@@ -30,7 +30,7 @@ The goal of the course is to equip participants with working knowledge about fun
 
 ## Dates 
 
-The course will be held on **September 28 and 29** (Thursday and Friday) **between 9:15 am and 4:30 pm**.
+The course will be held on **September 28 and 29, 2023* (Thursday and Friday) **between 9:15 am and 4:30 pm**.
 
 
 ## Places

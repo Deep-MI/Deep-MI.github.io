@@ -66,7 +66,7 @@ This module includes a practical session during which particpants can conduct th
 
 ## <span style="color:#31727c">**Surface models**</span>
 
-<img src="/static/img/events/p_surface.jpg" class="responsive" alt="FastSurfer" style="
+<img src="/static/img/research/fastsurfer/03_recon_surf.png" class="responsive" alt="FastSurfer" style="
 	display: block;
 	margin-left: 0;
 	margin-right: auto;

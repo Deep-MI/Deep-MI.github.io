@@ -33,7 +33,7 @@ The intended audience for this course is neuroimaging scientists at all career s
 
 Registration will open on **July 1**, and will be possible until **August 31** or until all available spots are filled. 
 
-- Please fill in [**this form**](http://www.dzne.de/deepmi) to sign up for the course.
+- Please fill in [**this form**](https://www.dzne.de/deepmi) to sign up for the course.
 
 - There is a maximum capacity of **20 participants** and no course fee.
 

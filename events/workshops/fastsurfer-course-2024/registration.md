@@ -31,13 +31,9 @@ The intended audience for this course is neuroimaging scientists at all career s
 
 ## Participation
 
-Registration will open on **July 1**, and will be possible until **August 31** or until all available spots are filled. 
+Registration is now closed for the 2024 course.
 
-- Please fill in [**this form**](https://www.dzne.de/deepmi) to sign up for the course.
-
-- There is a maximum capacity of **20 participants** and no course fee.
-
-- The course may be cancelled if a sufficient number of registrations has not been reached until August 31.
+There is a maximum capacity of **20 participants** and no course fee.
 
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2024)</p>

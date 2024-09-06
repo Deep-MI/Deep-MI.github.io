@@ -1,4 +1,4 @@
-# Deep-MI.github.io
+# zhulab-mind.github.io
 
 
 ## Create News Posts

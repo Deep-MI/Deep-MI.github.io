@@ -30,9 +30,9 @@
   link: "/events"
   group: events
 
-- name: contact
-  link: "/contact"
-  group: contact
+# - name: contact
+#   link: "/contact"
+#   group: contact
 
 # - name: links
 #   link: "/links"

@@ -1,7 +1,7 @@
-name: "Deep Medical Imaging Lab"
-description: "This is the official web page for the Deep Medical Imaging Lab at DZNE and MGH/HMS."
+name: "MIND Lab"
+description: "This is the official web page for the MIND Lab at UTA."
 
-url: "https://Deep-MI.org"
+url: "https://zhulab-mind.github.io/"
 
 paginate: 5
 plugins: [jekyll-paginate]

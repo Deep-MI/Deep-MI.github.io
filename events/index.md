@@ -1,10 +1,10 @@
 ---
-title: DeepMI Events
+title: MIND Events
 layout: default
 group: events
 ---
 
-# DeepMI Events
+# MIND Events
 
 <br>
 

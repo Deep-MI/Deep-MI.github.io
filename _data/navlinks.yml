@@ -3,15 +3,15 @@
   group: home
 
 - name: research
-  link: "/zhulab-mind/research"
+  link: "/research"
   group: research
 
 - name: publications
-  link: "/zhulab-mind/publications"
+  link: "/publications"
   group: publications
 
 - name: members
-  link: "/zhulab-mind/members"
+  link: "/members"
   group: members
 
 #- name: teaching
@@ -23,15 +23,15 @@
 #  group: news
 
 - name: join
-  link: "/zhulab-mind/join"
+  link: "/join"
   group: join
 
 - name: events
-  link: "/zhulab-mind/events"
+  link: "/events"
   group: events
 
 - name: contact
-  link: "/zhulab-mind/contact"
+  link: "/contact"
   group: contact
 
 # - name: links

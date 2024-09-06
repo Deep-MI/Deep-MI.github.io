@@ -1,5 +1,5 @@
 ---
-title: Join DeepMI
+title: Join MIND
 layout: default
 group: join
 ---

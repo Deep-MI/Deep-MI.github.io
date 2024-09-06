@@ -1,5 +1,5 @@
 ---
-title: DeepMI Research
+title: MIND Research
 layout: postlist
 group: research
 ---

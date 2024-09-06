@@ -1,10 +1,10 @@
 ---
-title: Deep MI Lab 
+title: MIND Lab
 layout: home
 group: home
 ---
 
-# Welcome to Deep MI Lab!
+# Welcome to MIND Lab!
 {: .display-4}
 
 Our research is focused on the development of novel computational methods (deep-learning, AI) for the automated analysis, segmentation, classification, diagnosis and prognosis of medical imaging data to support the study of neurodegenerative diseases.

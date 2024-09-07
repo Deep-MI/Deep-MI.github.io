@@ -1,5 +1,5 @@
 
-### DeepMI Alumni
+### MIND Alumni
 
 
 {% for alum in site.data.alumni %}
@@ -12,7 +12,7 @@ Position: {{alum.current}} </p>
 
 {% if site.data.visitors %}
 <br>
-### DeepMI Visitors
+### MIND Visitors
 {% endif %}
 
 {% for visitor in site.data.visitors %}

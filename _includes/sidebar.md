@@ -3,18 +3,13 @@ title: Contact
 ---
 
 
-### Contact the DeepMI Lab
+### Contact the MIND Lab
 
-Martin Reuter, Ph.D. (Dr.rer.nat.)
-Director Medical Image Analysis, DZNE, Bonn, Germany
+Dajiang Zhu, Ph.D. 
 
-Assistant Professor of Radiology
-Assistant Professor of Neurology
-Harvard Medical School, Boston, USA
-Martinos Center for Biomedical Imaging, MGH, Boston, USA
+Associate Professor of Computer Science and Engineering
+The University of Texas at Arlington, Texas, USA
 
-email: martin.reuter (#!) dzne.de
-email: mreuter (#!) mgh.harvard.edu
-email: reuter (#!) mit.edu
+email: dajiang.zhu@uta.edu
 
 

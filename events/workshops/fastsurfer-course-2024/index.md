@@ -51,6 +51,10 @@ See here for detailed information:
 - [Program](/events/workshops/fastsurfer-course-2024/program) [(Flyer)](/static/img/events/deepmi-fastsurfer-course-poster.pdf)
 - [Schedule](/events/workshops/fastsurfer-course-2024/schedule)
 
+## Social event
+
+We are planning to conclude the first day of the course (Thursday) at the ["Waldau" restaurant](https://waldau-restaurant.de), which is a nice 15 min walk from the DZNE and can also be reached by bus in a few minutes. We will guide one group going by foot, and one group going by bus, right after the course at around 5 pm. For those wanting to join later, the address is "An der Waldau 50", and the closest bus stop is "Waldau" (served by line 602). Information about the bus schedules is available from the [VRS website](https://www.vrs.de).
+
 ## Registration
 
 We are looking forward to your registration for the course:

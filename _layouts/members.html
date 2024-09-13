@@ -22,7 +22,8 @@
          <div id = "{{alum.name}}" style="padding-top: 60px; margin-top: -60px;">
             <p><strong>{{alum.name}}</strong>  <br> <em>{{alum.position}}</em><br>
             {% if alum.startdate %} {{alum.startdate}} - {% endif %}{{alum.enddate}} <br>
-            Subsequent Position: {{alum.current}} </p>
+            Subsequent Position: {{alum.current}} <br>
+            Personal Webpage: <a href="{{alum.webpage}}"> Lu Zhang </a></p>
           </div>
       </div>
    {% endfor %}

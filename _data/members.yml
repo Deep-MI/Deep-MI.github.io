@@ -83,18 +83,18 @@
   Leonie enjoys running, yoga and the great outdoors.'
   projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
 
-- name: Santiago Estrada
+- name: Jing Zhang
   image: /static/img/members/estrada.jpg
-  position: PhD Student
-  email: santiago.estrada (at) dzne.de
-  scholar: c3sq1afExmsC
-  orcid: 0000-0003-0339-8870
-  github: santiestrada32
-  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in
-  Biomedical Computing. His research focuses on the deployment of deep learning methods for
-  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)).
-  When not at the lab, Santiago enjoys going to the movies and exploring the city.'
-  projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
+  position: Ph.D. Student
+  email: jxz7537@mavs.uta.edu 
+  scholar: iYvua8EAAAAJ&hl
+  description: 'Jing focuses on the development of Multimodal Large Models for brain image analysis, 
+  with a specific focus on brain MRI and PET scans. Additionally, she is also interested in DTI-fMRI image analysis, 
+  dedicated to unraveling the complex relationships between brain function and structure through deep learning technologies. 
+  Her work employs advanced machine learning techniques aimed at facilitating the early detection of neurodegenerative diseases. 
+  Outside of the lab, she enjoys traveling, photography, and reading. 
+  If you also appreciate the literature of Ernest Hemingway and Raymond Chandler, 
+  she would be delighted to discuss them with you. '
 
 - name: Christian Ewert
   image: /static/img/members/ewert.jpg

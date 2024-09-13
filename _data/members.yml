@@ -42,23 +42,17 @@
   Lab at the German Centerfor Neurodegenerative Diseases (DZNE) in Bonn, Germany. During his career
   so far, Martin has attracted approximately $3 mio worth of 3rd party funding.'
 
-- name: David Kügler
+- name: Xiaowei Yu
   image: /static/img/members/kuegler.jpg
-  position: Postdoc
-  email: david.kuegler (at) dzne.de
-  scholar: RzZq4QIAAAAJ
-  twitter: kueglerd
-  orcid: 0000-0002-4101-819X
-  github: dkuegler
-  description: 'David focuses of Learning aspects for Artificial Intelligence in Medicine.
-  He has a strong interest in developing next generation learning strategies for medical imaging
-  with an intrinsic inclusion of geometry and modeling. At DZNE he supports students and PhDs with
-  his Deep Learning and medical image processing experience. As an interdisciplinary researcher,
-  David graduated from RWTH Aachen with a degree in mechanical engineering focusing on learning
-  for control engineering in medical robotics. Since then he worked at the TU Darmstadt as a PhD
-  bringing learning to Computer-Assisted Interventions. In specific his PhD thesis addresses
-  image-guided and electromagnetic tracking for temporal bone surgery.'
-  projects: 'Geometry Reconstruction, Interpretability'
+  position: Ph.D.
+  email: xxy1302@mavs.uta.edu
+  scholar: Kc1FjToAAAAJ
+  cv: http://shawey94.github.io/
+  github: Shawey94
+  description: 'Xiaowei Yu received the B.E. degree from Northwestern Polytechnical University, China, 
+  in 2016 and the M.E. degree from Shanghai Jiao Tong University, China, in 2019. 
+  He is currently pursuing a Ph.D. in the Department of Computer Science and Engineering at UT Arlington, Texas, USA. 
+  His research focuses on developing novel machine learning and deep learning algorithms and their applications in brain science and biomedical image analysis.'
 
 - name: Kersten Diers
   image: /static/img/members/diers.jpg

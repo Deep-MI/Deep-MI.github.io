@@ -23,7 +23,9 @@
             <p><strong>{{alum.name}}</strong>  <br> <em>{{alum.position}}</em><br>
             {% if alum.startdate %} {{alum.startdate}} - {% endif %}{{alum.enddate}} <br>
             Subsequent Position: {{alum.current}} <br>
-            Personal Webpage: <a href="{{alum.webpage}}"> Lu Zhang </a></p>
+            {% if alum.webpage %}
+            Personal Webpage: <a href="{{alum.webpage}}"> Lu Zhang </a>
+            {% endif %}</p>
           </div>
       </div>
    {% endfor %}

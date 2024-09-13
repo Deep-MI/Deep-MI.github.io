@@ -107,15 +107,13 @@
   in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
 
-- name: Clemens Pollak
+- name: Minheng Chen
   image: /static/img/members/pollak.jpg
-  position: Research Associate
-  email: clemens.pollak (at) dzne.de
-  github: clepol
-  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover.
-  He is interested in Deep Learning, Data Science and Software Engineering. His research focusses on
-  quantifying and controlling motion during MR acquisition using deep learning.
-  Outside of the lab he enjoys windsurfing and hiking.'
-  projects: 'MR Motion Tracking'
+  position: Ph.D. Student
+  email: mxc2442@mavs.uta.edu
+  github: m1nhengChen
+  description: 'Minheng Chen is a PhD student in the Department of Computer Science and Engineering at the University of Texas at Arlington. 
+  Prior to that, he was an undergraduate student in the School of Computer Science and Engineering at Southeast University. 
+  His research focuses on developing advanced computational methods for imaging-based brain biomarkers and brain disease diagnosis.'
 
 

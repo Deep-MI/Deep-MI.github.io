@@ -112,4 +112,14 @@
   Prior to that, he was an undergraduate student in the School of Computer Science and Engineering at Southeast University. 
   His research focuses on developing advanced computational methods for imaging-based brain biomarkers and brain disease diagnosis.'
 
+- name: Yan Zhuang
+  image: /static/img/members/YanZhuang.jpg
+  position: Ph.D. Student
+  email: mxc2442@mavs.uta.edu
+  ocrid: 0009-0002-7029-3702
+  scholar: P_PeNZEAAAAJ
+  github: Lake233
+  description: 'Yan Zhuang is a PhD student in the Department of Computer Science and Engineering at the University of Texas at Arlington. 
+  He earned his B.E. degree from the University of Electronic Science and Technology of China. 
+  His research interests include machine learning and deep learning algorithms, with a focus on neuroimaging and brain disease analysis.'
 

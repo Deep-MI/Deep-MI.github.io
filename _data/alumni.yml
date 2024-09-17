@@ -4,36 +4,36 @@
   enddate: 2024
   current: Assitant Professor of Department of Computer Science @ Indiana University - Indianapolis
   webpage: https://qidianzl.github.io/
-<!--
-- name: Sailesh Conjeti, PhD
-  position: Postdoctoral Scientist
-  startdate: 2017
-  enddate: 2019
-  current: Product Manager @ Siemens Healthineers
 
-- name: Christian Wachinger, PhD
-  position: Postdoctoral Fellow
-  startdate: 2011
-  enddate: 2016
-  current: Interim Prof. @ LMU Munich
-  lab: http://ai-med.de/
+#- name: Sailesh Conjeti, PhD
+#  position: Postdoctoral Scientist
+#  startdate: 2017
+#  enddate: 2019
+#  current: Product Manager @ Siemens Healthineers
 
-- name: Dorit Kliemann, PhD
-  position: Postdoctoral Fellow
-  startdate: 2013
-  enddate: 2018
-  current: Assistant Prof. @ U Iowa
-  lab: https://kliemann.lab.uiowa.edu/
+#- name: Christian Wachinger, PhD
+#  position: Postdoctoral Fellow
+#  startdate: 2011
+#  enddate: 2016
+#  current: Interim Prof. @ LMU Munich
+#  lab: http://ai-med.de/
 
-- name: Saikat Roy
-  position: Research Associate
-  startdate: 2018
-  enddate: 2021
-  current: PhD @ DKFZ Heidelberg
+#- name: Dorit Kliemann, PhD
+#  position: Postdoctoral Fellow
+#  startdate: 2013
+#  enddate: 2018
+#  current: Assistant Prof. @ U Iowa
+#  lab: https://kliemann.lab.uiowa.edu/
 
-- name: Emad Bahrami-Rad
-  position: Research Associate
-  startdate: 2018
-  enddate: 2021
-  current: PhD @ Uni Bonn
-  -->
+#- name: Saikat Roy
+#  position: Research Associate
+#  startdate: 2018
+#  enddate: 2021
+#  current: PhD @ DKFZ Heidelberg
+
+#- name: Emad Bahrami-Rad
+#  position: Research Associate
+#  startdate: 2018
+#  enddate: 2021
+#  current: PhD @ Uni Bonn
+  

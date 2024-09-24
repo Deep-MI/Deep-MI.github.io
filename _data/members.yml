@@ -65,17 +65,15 @@
   analysis and statistical modeling of neuroimaging data.'
   projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
 
-- name: Leonie Henschel
+- name: Chao Cao
   image: /static/img/members/henschel.jpg
-  position: Research Associate
-  email: leonie.henschel (at) dzne.de
-  github: lehenschel
-  description: 'Leonie graduated from the Bonn-Aachen International Center for Information
-  Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the
-  development of deep learning methods for biomedical image analysis with a focus on brain
-  MRIs. She is interested in machine learning, data science and deep learning. In her free time,
-  Leonie enjoys running, yoga and the great outdoors.'
-  projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
+  position: Ph.D. Student
+  email: cxc0366@mavs.uta.edu
+  github: HenryVarro666
+  scholar: NJWMZBsAAAAJ
+  description: 'Chao Cao is currently a second-year PhD student in the Department of Computer and Engineering at the University of Texas at Arlington. 
+  He received his B.E. degree from the Nanjing University of Posts and Telecommunications and his M.S. degree from the University of Maryland at College Park. 
+  His research focuses on medical imaging, brain disease diagnosis, large language model, and foundation model.'
 
 - name: Jing Zhang
   image: /static/img/members/JingZhang.jpg

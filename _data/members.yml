@@ -92,12 +92,13 @@
   image: /static/img/members/Tom.png
   position: Ph.D. Student
   email: txc5603@mavs.uta.edu
-  github: christianewert
-  description: 'Christian obtained his Master degree in Computer Science at University of Bonn. He is
-  interested in Deep Learning and its potential to reveal hidden patterns and relationships in
-  neuroimaging data. He explores ways to apply Deep Learning to accelerated image reconstruction and fiber-tracking
-  in diffusion-weighted MRI.'
-  projects: 'Diffusion Processing, Fiber Tracking'
+  orcid: 0009-0000-2800-1476
+  description: 'Tong Chen is a second-year PhD student in the Department of Computer Science and Engineering. 
+  His research primarily focuses on neuroimaging, specifically on studying neurodegenerative diseases such as Alzheimer's Disease and Lewy Body Dementia. 
+  His work involves applying advanced machine learning models and state-of-the-art techniques in neuroimage analysis to better understand the brain alterations associated with these conditions, 
+  aiming to improve diagnostic accuracy and differentiate between various forms of dementia.'
+
+  
 
 - name: Minheng Chen
   image: /static/img/members/Minheng Chen.jpg

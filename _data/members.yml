@@ -71,18 +71,6 @@
   analysis and statistical modeling of neuroimaging data.'
   projects: 'Hippocampal Thickness Analysis, Shape Asymmetry, Harmonization, Quality Assessment, Bio-Statistics'
 
-- name: Leonie Henschel
-  image: /static/img/members/henschel.jpg
-  position: Research Associate
-  email: leonie.henschel (at) dzne.de
-  github: lehenschel
-  description: 'Leonie graduated from the Bonn-Aachen International Center for Information
-  Technology (b-it) with a degree in Life Science Informatics. Her research focuses on the
-  development of deep learning methods for biomedical image analysis with a focus on brain
-  MRIs. She is interested in machine learning, data science and deep learning. In her free time,
-  Leonie enjoys running, yoga and the great outdoors.'
-  projects: 'FastSurfer, High-Res MRI (3T and 7T), Geometric Learning, FCD Detection'
-
 - name: Santiago Estrada
   image: /static/img/members/estrada.jpg
   position: PhD Student
@@ -127,4 +115,13 @@
   github: sRassmann
   description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Bonn University. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has previously worked on automating the analysis of microscopy and X-ray imagery. Currently, his research focuses on implementing diffusion models for MR contrast translation.'
   projects: 'FLAIR synthesis'
-  
+
+- name: Jingjing Wu
+  image: /static/img/members/wu.jpg
+  position: Research Associate
+  email: jingjing.wu (at) dzne.de
+  description: 'Jingjing earned her bachelor''s degree in clinical medicine and a master''s degree in  neurology in China.
+  She is a certified neurologist with over five years of clinical experience. She completed her PhD at DZNE in the Translational
+  Biogerontology lab, where she studied the dynamics of aging in late life. Currently, her work focuses on continuous quality
+  control of brain imaging.'
+  projects: 'Anatomical labeling, quality control'

@@ -111,13 +111,11 @@
   position: Research Associate
   email: sebastian.rassmann (at) dzne.de
   scholar: tRjIOUIAAAAJ
-  github: srassmann
-  description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Uni
-  Bonn. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has
-  previously worked on automating the analysis of microscopy and X-ray imagery. Currently, his research focuses on
-  implementing diffusion models for MR contrast translation.'
+  orcid: 0000-0001-7119-9473
+  github: sRassmann
+  description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Bonn University. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has previously worked on automating the analysis of microscopy and X-ray imagery. Currently, his research focuses on implementing diffusion models for MR contrast translation.'
   projects: 'FLAIR synthesis'
-
+  
 - name: Jingjing Wu
   image: /static/img/members/wu.jpg
   position: Research Associate
@@ -128,3 +126,4 @@
   control of brain imaging.'
   projects: 'Anatomical labeling, quality control'
 
+  

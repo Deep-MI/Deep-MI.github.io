@@ -115,7 +115,7 @@
   github: sRassmann
   description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Bonn University. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has previously worked on automating the analysis of microscopy and X-ray imagery. Currently, his research focuses on implementing diffusion models for MR contrast translation.'
   projects: 'FLAIR synthesis'
-  
+
 - name: Jingjing Wu
   image: /static/img/members/wu.jpg
   position: Research Associate
@@ -125,5 +125,3 @@
   Biogerontology lab, where she studied the dynamics of aging in late life. Currently, her work focuses on continuous quality
   control of brain imaging.'
   projects: 'Anatomical labeling, quality control'
-
-  

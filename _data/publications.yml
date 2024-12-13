@@ -31,6 +31,16 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'koch_2024'
+  authors: 'Koch A, Stirnberg R, **Estrada S**, Zeng W, Lohner V, Shahid M, Ehses P, Pracht E, **Reuter M\***, Stöcker T\*, Breteler MMB\*. (\*co-last)'
+  title: 'Versatile MRI acquisition and processing protocol for population-based neuroimaging'
+  journal: '*Nature Protocols*'
+  type: 'journal'
+  year: 2024
+  image: '/static/pub/koch_2024.jpg'
+  bibtex: '/static/pub/koch_2024.bib'
+  doi: 10.1038/s41596-024-01085-w
+
 - id: 'henschel_2024'
   authors: '**Henschel L**, **Kügler D**, Zöllei L\*, **Reuter M\***. (\*co-last)'
   title: 'VINNA for Neonates -- Orientation Independence through Latent Augmentations'

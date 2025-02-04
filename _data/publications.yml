@@ -31,6 +31,18 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+
+- id: 'pollak_2025'
+  authors: '**Pollak C**, **Kügler D**, Bauer T, Rüber T, **Reuter M**'
+  title: 'FastSurfer-LIT: Lesion inpainting tool for whole-brain MRI segmentation with tumors, cavities, and abnormalities'
+  journal: '*Imaging Neuroscience*'
+  type: 'journal'
+  year: 2025
+  image: '/static/pub/pollak_2025.jpg'
+  bibtex: '/static/pub/pollak_2025.bib'
+  doi: 10.1162/imag_a_00446
+  github: 'deep-MI/LIT'
+
 - id: 'peng_2025'
   authors: 'Xu P, **Estrada S**, Etteldorf R, Liu D, Shahid M, Zeng W, Früh D, **Reuter M**, Breteler MMB, Aziz NA'
   title: 'Hypothalamic volume is associated with age, sex and cognitive function across lifespan: a comparative analysis of two large population-based cohort studies'

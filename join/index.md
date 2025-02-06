@@ -8,6 +8,8 @@ group: join
 ![alt text](/static/img/join/dzne.jpg "DZNE-Bonn-Germany")
 </p>
 
+<p style="text-align: center; font-weight: bold;"> We currently do not have any open positions, sorry. </p>
+
 [//]: # (<p style="text-align: center; font-weight: bold;"> We are currently looking for a Postdoc to join our Lab in Bonn, Germany at a world leading Helmholtz Research Center (German Center for Neurodegenerative Diseases):  [postdoc-mic.pdf](http://reuter.mit.edu/download/postdoc-mic.pdf) </p>)
 
 # What we have to offer
@@ -23,14 +25,16 @@ While every lab member is expected to contribute to the lab, we also expect to g
 - We provide access to the DZNE HPC cluster with 94 V100 GPU's.
 - We have a modern MRI facility in house (with a 3T and a 7T Siemens scanner), and further 3T scanners at two scan centers.
 - We have strong local collaborative ties with clinial science, population science, neuroscience, radiology, epileptiology etc.
-- We contribute to FreeSurfer (a popular open source software suite for brain MRI processing) via collaborations at Harvard Medical School.
+- We develop FastSurfer and contribute to FreeSurfer (a popular open source software suite for brain MRI processing) via collaborations at Harvard Medical School.
 - ... (if you are not yet convicend, please ask)
 
 # Postdoctoral Fellows
 
-Inquiries about Postdoctoral positions should be emailed directly to Martin Reuter (use Subject: MIC-PD-JOIN). Our lab welcomes applicants of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, and eligible age or ability. Furthermore, we are committed to maintaining a supportive and collaborative lab environment. Our lab doesn’t always post for specific positions, so please reach out! We are interested in hearing about your scientific background and goals.
+We currently do not have any open positions, sorry.
 
-Furthermore, as a member of the Humboldt Foundation Network, we would love to host you via a prestigious postdoctoral [Humboldt Fellowship](https://www.humboldt-foundation.de/bewerben/foerderprogramme/humboldt-forschungsstipendium) for a stay of 6 - 24 months at the Deep-MI Lab in Germany! Please contact us. 
+<!-- Inquiries about Postdoctoral positions should be emailed directly to Martin Reuter (use Subject: MIC-PD-JOIN). Our lab welcomes applicants of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, and eligible age or ability. Furthermore, we are committed to maintaining a supportive and collaborative lab environment. Our lab doesn’t always post for specific positions, so please reach out! We are interested in hearing about your scientific background and goals. -->
+
+As a member of the Humboldt Foundation Network, we would love to host you via a prestigious postdoctoral [Humboldt Fellowship](https://www.humboldt-foundation.de/bewerben/foerderprogramme/humboldt-forschungsstipendium) for a stay of 6 - 24 months at the Deep-MI Lab in Germany! Please contact us. 
 
 # Graduate Students
 

@@ -41,6 +41,7 @@
   image: '/static/pub/pollak_2025.jpg'
   bibtex: '/static/pub/pollak_2025.bib'
   doi: 10.1162/imag_a_00446
+  pmcid: 'PMC11917724'
   github: 'deep-MI/LIT'
 
 - id: 'peng_2025'

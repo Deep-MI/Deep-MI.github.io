@@ -189,6 +189,7 @@
   volume: 251
   year: 2022
   arxiv: 2112.09654
+  pmcid: 'PMC9801435'
   image: '/static/pub/henschel_2022.jpg'
   github: /deep-mi/FastSurfer
   doi: 10.1016/j.neuroimage.2022.118933
@@ -202,6 +203,7 @@
   type: 'journal'
   year: 2022
   bibtex: '/static/pub/mauschitz_2022.bib'
+  pmcid: 'PMC8854401'
   pdf: 'https://www.nature.com/articles/s41598-022-06821-4.pdf'
   doi: 10.1038/s41598-022-06821-4
 
@@ -221,6 +223,7 @@
   journal: '*JAMA Otolaryngol Head Neck Surg*'
   type: 'journal'
   year: 2021
+  pmcid: 'PMC8391780'
   image: '/static/pub/lu_2021b.jpg'
   doi: 10.1001/jamaoto.2021.2026
   bibtex: '/static/pub/lu_2021b.bib'

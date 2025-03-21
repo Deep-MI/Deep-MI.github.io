@@ -50,6 +50,7 @@
   journal: '*eBioMedicine*'
   type: 'journal'
   year: 2025
+  pmcid: 'PMC11732039'
   image: '/static/pub/peng_2025.jpg'
   bibtex: '/static/pub/peng_2025.bib'
   doi: 10.1016/j.ebiom.2024.105513
@@ -71,6 +72,7 @@
   type: 'journal'
   year: 2024
   arxiv: 2311.17546
+  pmcid: 'PMC11576933'
   image: '/static/pub/henschel_2024.png'
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00180/2375595/imag_a_00180.pdf'
   bibtex: '/static/pub/henschel_2024.bib'
@@ -84,6 +86,7 @@
   type: 'journal'
   image: '/static/pub/ewert_2024a.jpg'
   year: 2024
+  pmcid: 'PMC11576935'
   bibtex: '/static/pub/ewert_2024a.bib'
   doi: 10.1162/imag_a_00121
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00121/2358010/imag_a_00121.pdf'
@@ -98,6 +101,7 @@
   year: 2023
   bibtex: '/static/pub/estrada_2023.bib'
   arxiv: 2308.12736 
+  pmcid: 'PMC11576934'
   doi: 10.1162/imag_a_00034
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00034/2182290/imag_a_00034.pdf'
   github: /deep-mi/FastSurfer     

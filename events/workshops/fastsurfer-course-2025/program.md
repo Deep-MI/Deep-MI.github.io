@@ -95,7 +95,7 @@ A practical session will allow participants to become familiar with the full Fas
     height: auto;
 ">
 
-This module is about **longitudinal image processing and statistical anallysis**. Longitudinal desing can be very powerful for detecting subtle changes across time, but come with their own challenges and intricacies. For taking advantage of their full potential, some extra effort for image processing and statistical analysis is required. We will discuss:
+This module is about **longitudinal image processing and statistical analysis**. Longitudinal study designs can be very powerful for detecting subtle changes across time, but come with their own challenges and intricacies. For taking advantage of their full potential, some extra effort for image processing and statistical analysis is required. We will discuss:
 - Unbiased within-subject registration and person-specific templates
 - Advanced statistical analysis using linear mixed-effect models for modeling changes within and differences across persons
 - Implementation in FastSurfer's novel longitudinal stream and the 

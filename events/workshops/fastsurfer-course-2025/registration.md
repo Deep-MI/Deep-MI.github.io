@@ -33,7 +33,7 @@ The intended audience for this course is neuroimaging scientists at all career s
 
 Registration for the 2025 course will **open** on June 20, 2025, and **close** on August 31, 2025, or as soon as all spots are filled, whichever is earlier.
 
-The **course fee** is EUR 250. This covers the scientific lectures and practial sessions, course materials, rental hardware, and catering during the course (lunch, coffee breaks, reception on the first day). Payments can be made via credit cards, PayPal, or bank transfer.
+The **course fee** is EUR 250. This covers the scientific lectures and practial sessions, course materials, rental hardware, and catering during the course (lunch, coffee breaks, reception on the first day; the optional dinner at the second day of the course is not included). Payments can be made via credit cards, PayPal, or bank transfer.
 
 [Register here](https://eveeno.com/818352779) to take part in the 2025 DeepMI FastSurfer / FreeSurfer course. You will be forwarded to the site of our external service provider (eveeno.com). 
 
@@ -41,15 +41,15 @@ We will send a confirmation email immediately after your registration. Registrat
 
 The capacity of the course is limited. If the capacity is exceeded, a waiting list will be maintained. 
 
-If you need to cancel your participation please let us know as soon as possible. An 80% partial refund (EUR 200) will be made for cancellations until August 31, 2025, and no refunds can be made after August 31, 2025. It is always possible to name another person who attends the course instead.
+If you need to cancel your participation please let us know as soon as possible. An 80% partial refund (EUR 200; course fee minus EUR 50 administrative charge) will be made for cancellations until August 31, 2025, and no refunds can be made after August 31, 2025. It is always possible to name another person who attends the course instead.
 
 <br>
 
 ## Terms and conditions
 
-Participation in the course requires acceptance of the DZNE house and event rules, regulations on data protection and audiovisual recordings, and the terms and conditions for cancellations and refunds.
+Participation in the course requires acceptance of the [DeepMI FastSurfer / FreeSurfer course rules](/static/docs/events/Terms_and_conditions_for_DeepMI_FastSurfer_FreeSurfer_course.pdf) , the [DZNE event rules](https://www.dzne.de/fileadmin/Dateien/editors/Events/AGB_Online_Registrierung/DZNE_General_Terms_and_Conditions_Online_Registration_EN.pdf), and the [DZNE regulations on data protection](https://www.dzne.de/en/data-protection/).
 
-The organizers reserve the right to make minor adjustments to the program and schedule, and to cancel the course if a minimum number participants is not met; this will be communicated on September 1, 2025, at the latest.
+The organizers reserve the right to make minor adjustments to the program and schedule, and to cancel the course if a minimum number of participants is not met; this will be communicated on September 1, 2025, at the latest, and full refunds of course fees will be made in this case. Travel or accommodation costs cannot be reimbursed.
 
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2025)</p>

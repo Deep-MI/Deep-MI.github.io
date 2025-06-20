@@ -25,9 +25,11 @@ The goal of the course is to equip participants with working knowledge about fun
 
 After completing the course, participants will have gained an understanding of modern methods for the analysis of structural brain images, will have learned how to run both the *FastSurfer* and *FreeSurfer* softwares, and will know how to set up an analysis and work with the resulting outputs in the context of their own research projects.
 
-The course consists of lectures, demonstrations, practical exercises, and provides ample opportunities for discussions and informal exchange.
+The 2025 course will feature a new session for longitudinal processing and analyses, covering the recent addition of the longitudinal module to the FastSurfer software.
 
-The course fee is EUR 250, covering the scientific lectures and practial sessions, course materials and hardware, and catering during the course (lunch, coffee breaks, reception on the first day).
+The course consists of lectures, demonstrations, practical exercises, and provides ample opportunities for discussions and informal exchange. A helpdesk will be available during the course to offer individual support for issues related to installing and running the software on your own devices, or any questions you might have about your planned analyses and projects, for example.
+
+The course fee is **EUR 250**, covering the scientific lectures and practial sessions, course materials and hardware, and catering during the course (lunch, coffee breaks, reception on the first day).
 
 ## Dates 
 
@@ -45,7 +47,7 @@ The course will cover the following topics:
 - [Advanced deep-learning for image segmentation](/events/workshops/fastsurfer-course-2025/program#advanced-deep-learning-for-image-segmentation): fast and reliable anatomical segmentation -- the core module of the FastSurfer software
 - [Surface models](/events/workshops/fastsurfer-course-2025/program#surface-models): how to create surface models and extract a rich set of anatomical features
 - [Statistical modeling and inference](/events/workshops/fastsurfer-course-2025/program#statistical-modeling-and-inference): how to arrive at conclusions -- the evaluation and interpretation of results
-- [Longitudinal processing and analysis](/events/workshops/fastsurfer-course-2025/program#longitudinal-processing-and-analysis): taking advantage of longitudinal study designs -- and dealing with their challenges and intricacies
+- [**NEW**: Longitudinal processing and analysis](/events/workshops/fastsurfer-course-2025/program#longitudinal-processing-and-analysis): taking advantage of longitudinal study designs -- and dealing with their challenges and intricacies
 - [Quality control and edits](/events/workshops/fastsurfer-course-2025/program#qc-troubleshooting-and-practical-issues): how to trust your results -- solutions to potential pitfalls and issues 
 - [The FastSurfer ecosystem](/events/workshops/fastsurfer-course-2025/program#the-fastsurfer-ecosystem): specialized applications, add-on modules, and an outlook to future developments
 

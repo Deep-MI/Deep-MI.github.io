@@ -31,7 +31,7 @@ The intended audience for this course is neuroimaging scientists at all career s
 
 ## Participation
 
-Registration for the 2025 course will **open** on June 20, 2025, and **close** on August 31, 2025, or as soon as all spots are filled, whichever is earlier.
+Registration for the 2025 course will **open** on June 20, 2025, ~~and close on August 31, 2025, or as soon as all spots are filled, whichever is earlier.~~ A small, limited number of spots are left and we can accept late registrations until September 14.
 
 The **course fee** is EUR 250. This covers the scientific lectures and practial sessions, course materials, rental hardware, and catering during the course (lunch, coffee breaks, reception on the first day; the optional dinner at the second day of the course is not included). Payments can be made via credit cards, PayPal, or bank transfer.
 

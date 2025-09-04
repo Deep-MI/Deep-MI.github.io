@@ -74,9 +74,11 @@ _Thursday, September 18:_
     <tr><td class="tg-white">10:45 - 11:15</td><td class="tg-white">Break</td></tr>
     <tr><td class="tg-dgreen">11:15 - 12:30</td><td class="tg-dgreen">Analyzing individual cases 2: demonstrations and practical exercises</td></tr>
     <tr><td class="tg-white">12:30 - 13:30</td><td class="tg-white">Lunch break</td></tr>
-    <tr><td class="tg-lred">13:30 - 15:00</td><td class="tg-lred">Longitudinal processing and analysis</td></tr>
-    <tr><td class="tg-white">15:00 - 15:30</td><td class="tg-white">Break</td></tr>
-    <tr><td class="tg-lblue">15:30 - 17:00</td><td class="tg-lblue">QC, troubleshooting and practical issues</td></tr>
+    <tr><td class="tg-lred">13:30 - 14:15</td><td class="tg-lred">Longitudinal processing and analysis</td></tr>
+    <tr><td class="tg-white">14:15 - 14:45</td><td class="tg-white">Break</td></tr>
+    <tr><td class="tg-lblue">14:45 - 15:30</td><td class="tg-lblue">Quality control and edits</td></tr>
+    <tr><td class="tg-white">15:30 - 16:00</td><td class="tg-white">Break</td></tr>
+	<tr><td class="tg-lblue">16:00 - 17:00</td><td class="tg-lblue">Quality control and edits: practical exercises</td></tr>
     <tr><td class="tg-white">17:00 - 20:00</td><td class="tg-white">Social event (restaurant; optional)</td></tr>
 </tbody>
 </table>

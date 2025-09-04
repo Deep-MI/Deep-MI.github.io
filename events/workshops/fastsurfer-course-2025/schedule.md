@@ -78,7 +78,7 @@ _Thursday, September 18:_
     <tr><td class="tg-white">14:15 - 14:45</td><td class="tg-white">Break</td></tr>
     <tr><td class="tg-lblue">14:45 - 15:30</td><td class="tg-lblue">Quality control and edits</td></tr>
     <tr><td class="tg-white">15:30 - 16:00</td><td class="tg-white">Break</td></tr>
-	<tr><td class="tg-lblue">16:00 - 17:00</td><td class="tg-lblue">Quality control and edits: exercises</td></tr>
+	<tr><td class="tg-lblue">16:00 - 17:00</td><td class="tg-lblue">Quality control and edits: practical exercises</td></tr>
     <tr><td class="tg-white">17:00 - 20:00</td><td class="tg-white">Social event (restaurant; optional)</td></tr>
 </tbody>
 </table>

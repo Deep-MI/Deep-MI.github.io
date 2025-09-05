@@ -49,6 +49,7 @@ In close collaboration with clinical and industrial partners, we develop the nex
  - [p3CNN](/research/spherical/), cortical surface segmentation
  - [LaPy](/LaPy/), Python Library for geometric mesh processing and FEM differential geometry computations
  - [fsqc](/fsqc/), Quality check tools for FastSurfer and FreeSurfer output
+ - [WhipperSnapPy](/WhipperSnapPy/), Python OpenGL tool to take screenshots of surfaces and overlays
  
 
 <!---

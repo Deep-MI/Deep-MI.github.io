@@ -31,6 +31,18 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'rassmann_2025'
+  authors: '**Rassmann S**, **Kügler D**, **Ewert C**, **Reuter M**'
+  title: 'Regression is all you need for medical image translation'
+  journal: '*IEEE Transactions on Medical Imaging*'
+  type: 'journal'
+  year: 2025
+  image: '/static/pub/rassmann_2025.jpg'
+  bibtex: '/static/pub/rassmann_2025.bib'
+  arxiv: 'https://arxiv.org/abs/2505.02048'
+  doi: '10.1109/TMI.2025.3650412'
+  pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11322583'
+  github: 'deep-MI/YODA'
 
 - id: 'pollak_2025'
   authors: '**Pollak C**, **Kügler D**, Bauer T, Rüber T, **Reuter M**'

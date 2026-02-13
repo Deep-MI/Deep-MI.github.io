@@ -50,8 +50,8 @@ optimize_member_photo() {
     size=$(wc -c < "$temp_file" | tr -d ' ')
     size_kb=$((size / 1024))
 
-    if [ $size_kb -gt 150 ]; then
-        echo -e "  ${YELLOW}Warning: ${filename} is ${size_kb}KB (recommended < 100KB)${NC}"
+    if [ $size_kb -gt 100 ]; then
+        echo -e "  ${YELLOW}Warning: ${filename} is ${size_kb}KB (max 100KB)${NC}"
         echo -e "  Attempting further compression..."
         $CONVERT_CMD "$temp_file" -quality 75 "$temp_file"
         size=$(wc -c < "$temp_file" | tr -d ' ')

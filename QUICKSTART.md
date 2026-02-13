@@ -58,7 +58,7 @@ bundle exec jekyll serve
 
 | Type | Size | Format | Max Size |
 |------|------|--------|----------|
-| Member Photo | 365×365px, 72 DPI | JPG | ~100KB |
+| Member Photo | 365×365px, 72 DPI | JPG | 100KB |
 | Publication Teaser | Max 200px height | JPG | 100KB |
 | Post Images | Reasonable | JPG/PNG | 500KB |
 

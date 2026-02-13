@@ -16,11 +16,14 @@ group: news
 Your text goes here, with images, links etc....
 ```
 
+See `_templates/post-template.md` for a complete template.
+
 ## Add Members
 
 - add member info to _data/members.yml (see file for format)
 - put photos (size 365 x 365, 72 dpi) into /static/img/members (jpg compressed)
 
+See `_templates/member-template.md` for a complete template.
 
 ## Add Publication
 
@@ -30,21 +33,93 @@ Your text goes here, with images, links etc....
 - link to openaccess PDF (journal) or put at /static/pub/paper_id.pdf
 - paper_id is the id field in the yml
 
+See `_templates/publication-template.md` for a complete template.
+
+## Validation
+
+Before committing changes, validate your content:
+
+```bash
+# Validate YAML data files
+./scripts/validate_yaml.rb
+
+# Validate post filenames and format
+./scripts/validate_posts.sh
+```
+
+See `CONTRIBUTING.md` for detailed contribution guidelines.
+
+## Tools and Scripts
+
+### Validation
+
+```bash
+# Validate YAML files (checks structure, required fields, file existence)
+./scripts/validate_yaml.rb
+
+# Validate post filenames and format
+./scripts/validate_posts.sh
+```
+
+### Image Optimization
+
+```bash
+# Optimize member photos and publication teasers
+./scripts/optimize_images.sh member static/img/members/lastname.jpg
+./scripts/optimize_images.sh pub static/pub/paper_id.jpg
+```
+
+Requires ImageMagick: `brew install imagemagick`
+
+### Pre-commit Hook
+
+```bash
+# Install pre-commit hook for automatic validation
+cp scripts/pre-commit.sh .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
 ## Sources
 
 This website was built using the Fraser Lab [website](http://fraserlab.com/) as a template.  James Fraser's website is open-source and available on [Github](https://github.com/fraser-lab/fraser-lab.github.io)
 
 
-Technologies this website uses:  
+Technologies this website uses:
 
-    Jekyll  
-    Github Pages  
+    Jekyll
+    Github Pages
     Twitter Bootstrap 4.4.1
 
-Before pushing changes, please check that they will work on your system first with the plugins included in the Gemfile using the bundler tool (results served at [0.0.0.0:4000](0.0.0.0:4000)):
+## Local Development
 
-    sudo gem install bundler
-    bundle install
-    bundle exec jekyll serve
-    
+Before pushing changes, please check that they will work on your system first with the plugins included in the Gemfile using the bundler tool.
+
+### Setup (First Time)
+
+```bash
+# Install bundler (without sudo for security)
+gem install bundler --user-install
+
+# Install dependencies
+bundle install
+```
+
+### Running the Site Locally
+
+```bash
+# Start the Jekyll server
+bundle exec jekyll serve
+
+# Site will be available at: http://localhost:4000
+# Or: http://0.0.0.0:4000
+```
+
+### Testing
+
+```bash
+# Check for broken links and HTML issues
+bundle exec jekyll build
+bundle exec htmlproofer ./_site --disable-external
+```
+
 

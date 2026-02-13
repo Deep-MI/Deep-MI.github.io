@@ -4,6 +4,9 @@
 require 'yaml'
 require 'date'
 
+# Get the project root directory (parent of scripts directory)
+PROJECT_ROOT = File.expand_path('..', __dir__)
+
 def validate_file(filepath)
   puts "Validating #{filepath}..."
 
@@ -41,8 +44,8 @@ def validate_members(data, filepath)
       end
     end
 
-    # Check if image file exists
-    image_path = File.join(File.dirname(__dir__), member['image'])
+    # Check if image file exists (resolve relative to project root)
+    image_path = File.expand_path(member['image'], PROJECT_ROOT)
     unless File.exist?(image_path)
       puts "  Warning: Image not found for #{member['name']}: #{member['image']}"
     end
@@ -80,12 +83,12 @@ def validate_publications(data, filepath)
       raise "Publication #{pub['id']} has invalid year: #{pub['year']}"
     end
 
-    # Check if files exist
+    # Check if files exist (resolve relative to project root)
     ['image', 'bibtex', 'pdf'].each do |file_field|
       next unless pub[file_field]
       next if pub[file_field].start_with?('http')
 
-      file_path = File.join(File.dirname(__dir__), pub[file_field])
+      file_path = File.expand_path(pub[file_field], PROJECT_ROOT)
       unless File.exist?(file_path)
         puts "  Warning: File not found for #{pub['id']}: #{pub[file_field]}"
       end
@@ -95,6 +98,9 @@ end
 
 # Main execution
 exit_code = 0
+
+# Change to project root directory to find _data files
+Dir.chdir(PROJECT_ROOT)
 
 Dir.glob('_data/*.yml').each do |file|
   unless validate_file(file)

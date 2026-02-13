@@ -15,10 +15,10 @@ The lab is committed to publishing our code ( [Deep-MI Github](https://github.co
 # Research Directions
 
 
-  The research focus the DeepMI lab is on the development of a novel deep-learning (CNNs) and machine-learning 
-  methods for the automated analysis of medical images, such as human brain MRI. 
-  In addition to medical image computing and computational neuroimaging, our research intersets include
-   computational geometry and topology, computer and 
+  The research focus of the DeepMI lab is on the development of novel deep-learning (CNNs) and machine-learning
+  methods for the automated analysis of medical images, such as human brain MRI.
+  In addition to medical image computing and computational neuroimaging, our research interests include
+   computational geometry and topology, computer and
    biomedical vision, computer-aided design, geometric modeling and computer graphics.
 
 <!---
@@ -43,14 +43,14 @@ In close collaboration with clinical and industrial partners, we develop the nex
 
 # Selected Projects
 
- - [FastSurfer](/research/fastsurfer/), a deep-learning based neuroimaging Pipeline 
+ - [FastSurfer](/research/fastsurfer/), a deep-learning based neuroimaging Pipeline
  - [FatSegNet](/research/fatsegnet/), automated adipose tissue segmentation and field-of-view estimation in Dixon MRI
  - [BrainPrint](/research/brainprint/), tools for shape and asymmetry analysis of neuroanatomical structures
  - [p3CNN](/research/spherical/), cortical surface segmentation
  - [LaPy](/LaPy/), Python Library for geometric mesh processing and FEM differential geometry computations
  - [fsqc](/fsqc/), Quality check tools for FastSurfer and FreeSurfer output
  - [WhipperSnapPy](/WhipperSnapPy/), Python OpenGL tool to take screenshots of surfaces and overlays
- 
+
 
 <!---
 <img class="img-fluid mx-auto d-block" src="/static/img/image.jpg" alt="whatever">

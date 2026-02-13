@@ -118,7 +118,14 @@ Optimize images to meet size requirements:
 ./scripts/optimize_images.sh all-pubs
 ```
 
-**Requirements**: ImageMagick (`brew install imagemagick`)
+**Requirements**: ImageMagick
+
+**Installation**:
+- macOS: `brew install imagemagick`
+- Ubuntu/Debian: `sudo apt-get install imagemagick`
+- Fedora/RHEL: `sudo yum install imagemagick` or `sudo dnf install imagemagick`
+- Arch Linux: `sudo pacman -S imagemagick`
+- Windows: Download from [imagemagick.org](https://imagemagick.org/script/download.php#windows) or use `choco install imagemagick`
 
 ### Pre-commit Hook
 

@@ -99,10 +99,15 @@ rbenv local 3.1.0
 
 ### Images too large
 ```bash
-# Optimize automatically
+# Optimize automatically (requires ImageMagick)
 ./scripts/optimize_images.sh member static/img/members/photo.jpg
 ./scripts/optimize_images.sh pub static/pub/teaser.jpg
 ```
+
+**Install ImageMagick**:
+- macOS: `brew install imagemagick`
+- Linux: `sudo apt-get install imagemagick` or `sudo yum install imagemagick`
+- Windows: [imagemagick.org](https://imagemagick.org/script/download.php#windows)
 
 ## Useful Commands
 

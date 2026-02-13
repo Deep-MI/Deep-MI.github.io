@@ -73,7 +73,29 @@ remove_backup() {
 # Check if ImageMagick is installed
 if ! command -v magick &> /dev/null && ! command -v convert &> /dev/null; then
     echo -e "${RED}Error: ImageMagick is not installed${NC}"
-    echo "Install it with: brew install imagemagick"
+    echo ""
+    echo "Please install ImageMagick for your platform:"
+    echo ""
+    echo "  macOS:"
+    echo "    brew install imagemagick"
+    echo ""
+    echo "  Ubuntu/Debian Linux:"
+    echo "    sudo apt-get update"
+    echo "    sudo apt-get install imagemagick"
+    echo ""
+    echo "  Fedora/RHEL/CentOS Linux:"
+    echo "    sudo yum install imagemagick"
+    echo "    # or on newer systems:"
+    echo "    sudo dnf install imagemagick"
+    echo ""
+    echo "  Arch Linux:"
+    echo "    sudo pacman -S imagemagick"
+    echo ""
+    echo "  Windows:"
+    echo "    Download from: https://imagemagick.org/script/download.php#windows"
+    echo "    Or use Chocolatey: choco install imagemagick"
+    echo "    Or use Scoop: scoop install imagemagick"
+    echo ""
     exit 1
 fi
 

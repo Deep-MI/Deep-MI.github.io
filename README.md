@@ -69,7 +69,10 @@ See `CONTRIBUTING.md` for detailed contribution guidelines.
 ./scripts/optimize_images.sh pub static/pub/paper_id.jpg
 ```
 
-Requires ImageMagick: `brew install imagemagick`
+**Requirements**: ImageMagick
+- macOS: `brew install imagemagick`
+- Linux: `sudo apt-get install imagemagick` or `sudo yum install imagemagick`
+- Windows: See [imagemagick.org](https://imagemagick.org/script/download.php#windows)
 
 ### Pre-commit Hook
 

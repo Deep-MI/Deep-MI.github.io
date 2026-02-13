@@ -8,7 +8,12 @@ def validate_file(filepath)
   puts "Validating #{filepath}..."
 
   begin
-    data = YAML.safe_load_file(filepath, permitted_classes: [Date, Time], aliases: true)
+    # Use safe_load_file for Ruby >= 3.1, fall back to load_file for older versions
+    data = if YAML.respond_to?(:safe_load_file)
+      YAML.safe_load_file(filepath, permitted_classes: [Date, Time], aliases: true)
+    else
+      YAML.load_file(filepath)
+    end
 
     # File-specific validations
     case File.basename(filepath)

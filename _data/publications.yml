@@ -24,7 +24,7 @@
 #   arxiv: 1904.02082
 #   doi: 10.1002/mrm.28022
 #   pdf: '/static/pub/lastname_year_ifnecessarymore.pdf'
-#   github: /deep-mi/project
+#   github: deep-mi/project
 #   bibtex: '/static/pub/lastname_year_ifnecessarymore.bib'
 #   links:
 #     - name: 'Some coauthor Lab'
@@ -42,7 +42,7 @@
   arxiv: 'https://arxiv.org/abs/2505.02048'
   doi: '10.1109/TMI.2025.3650412'
   pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11322583'
-  github: 'deep-MI/YODA'
+  github: 'deep-mi/YODA'
 
 - id: 'pollak_2025'
   authors: '**Pollak C**, **Kügler D**, Bauer T, Rüber T, **Reuter M**'
@@ -54,7 +54,7 @@
   bibtex: '/static/pub/pollak_2025.bib'
   doi: 10.1162/imag_a_00446
   pmcid: 'PMC11917724'
-  github: 'deep-MI/LIT'
+  github: 'deep-mi/LIT'
 
 - id: 'peng_2025'
   authors: 'Xu P, **Estrada S**, Etteldorf R, Liu D, Shahid M, Zeng W, Früh D, **Reuter M**, Breteler MMB, Aziz NA'
@@ -89,7 +89,7 @@
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00180/2375595/imag_a_00180.pdf'
   bibtex: '/static/pub/henschel_2024.bib'
   doi: 10.1162/imag_a_00180
-  github: /deep-mi/VINNA4neonates
+  github: deep-mi/VINNA4neonates
 
 - id: 'ewert_2024a'
   authors: '**Ewert C\***, **Kügler D\***, Stirnberg R, Koch A, Yendiki A, **Reuter M**. (\*co-first)'
@@ -102,7 +102,7 @@
   bibtex: '/static/pub/ewert_2024a.bib'
   doi: 10.1162/imag_a_00121
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00121/2358010/imag_a_00121.pdf'
-  github: /deep-mi/DISCUS
+  github: deep-mi/DISCUS
 
 - id: 'estrada2023'
   authors: '**Estrada S**, **Kügler D**, Bahrami E, Xu P, Mousa D, Breteler MMB, Aziz NA, **Reuter M**'
@@ -116,7 +116,7 @@
   pmcid: 'PMC11576934'
   doi: 10.1162/imag_a_00034
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00034/2182290/imag_a_00034.pdf'
-  github: /deep-mi/FastSurfer
+  github: deep-mi/FastSurfer
 
 - id: 'diers_2023'
   authors: '**Diers K**, Baumeister H, Jessen F, Düzel E, Berron D, **Reuter M**'
@@ -128,7 +128,7 @@
   bibtex: '/static/pub/diers_2023.bib'
   doi: 10.1016/j.neuroimage.2023.120182
   pdf: 'https://doi.org/10.1016/j.neuroimage.2023.120182'
-  github: 'deep-MI/Hipsta'
+  github: 'deep-mi/Hipsta'
 
 - id: 'pollak_2023b'
   authors: '**Pollak C**, **Kügler D**, Breteler MMB, **Reuter M**'
@@ -140,7 +140,7 @@
   bibtex: '/static/pub/pollak_2023b.bib'
   doi: 10.1016/j.neuroimage.2023.120176
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811923003270/pdfft?isDTMRedir=true&download=true'
-  github: 'deep-MI/head-motion-tools'
+  github: 'deep-mi/head-motion-tools'
 
 
 - id: 'pollak_2023a'
@@ -162,7 +162,7 @@
   journal: '*NeuroImage*'
   type: 'journal'
   year: 2022
-  github: /deep-mi/FastSurfer
+  github: deep-mi/FastSurfer
   doi: 10.1016/j.neuroimage.2022.119703
   pmcid: 'PMC9771831'
   image: '/static/pub/faber_2022.jpg'
@@ -187,7 +187,7 @@
   journal: '*Medical Imaging with Deep Learning, Conference (MIDL)*'
   type: 'journal'
   year: 2022
-  github: /deep-mi/3d-neuro-seg
+  github: deep-mi/3d-neuro-seg
   image: '/static/pub/roy_2022.png'
   pdf: 'https://openreview.net/pdf?id=Ob62JPB_CDF'
   bibtex: '/static/pub/roy_2022.bib'
@@ -203,7 +203,7 @@
   arxiv: 2112.09654
   pmcid: 'PMC9801435'
   image: '/static/pub/henschel_2022.jpg'
-  github: /deep-mi/FastSurfer
+  github: deep-mi/FastSurfer
   doi: 10.1016/j.neuroimage.2022.118933
   pdf: 'https://www.sciencedirect.com/science/article/pii/S1053811922000623/pdfft?md5=0522f6a35232c9e9e57674816ce19a7a&pid=1-s2.0-S1053811922000623-main.pdf'
   bibtex: '/static/pub/henschel_2022.bib'

@@ -20,7 +20,7 @@ bundle exec jekyll serve
 
 ### News Post (5 minutes)
 
-1. Create: `_posts/2026-02-13-Title.md`
+1. Create: `_posts/YYYY-MM-DD-Title.md`
 2. Copy template from: `_templates/post-template.md`
 3. Add images to: `/static/img/`
 4. Validate: `./scripts/validate_posts.sh`

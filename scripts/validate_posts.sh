@@ -23,9 +23,10 @@ for file in _posts/*.md; do
   fi
 
   # Extract and validate date
+  # Try GNU date (Linux) or BSD date (macOS) - either one succeeding is valid
   date_part="${filename:0:10}"
-  if ! date -d "$date_part" "+%Y-%m-%d" > /dev/null 2>&1 && \
-     ! date -j -f "%Y-%m-%d" "$date_part" > /dev/null 2>&1; then
+  if ! ( date -d "$date_part" "+%Y-%m-%d" >/dev/null 2>&1 || \
+         date -j -f "%Y-%m-%d" "$date_part" >/dev/null 2>&1 ); then
     echo "✗ Invalid date in filename: $filename"
     ((error_count++))
     continue

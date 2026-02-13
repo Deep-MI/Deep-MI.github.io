@@ -1,15 +1,140 @@
+# Site Settings
+title: "Deep Medical Imaging Lab"
 name: "Deep Medical Imaging Lab"
-description: "This is the official web page for the Deep Medical Imaging Lab at DZNE and MGH/HMS."
+description: "Advancing medical imaging through deep learning and AI - research at DZNE, MGH/HMS, and MIT CSAIL"
+url: "https://Deep-MI.github.io"
+baseurl: ""
+repository: "Deep-MI/Deep-MI.github.io"
 
-url: "https://Deep-MI.org"
+# Theme - using remote_theme for GitHub Pages compatibility
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-paginate: 5
-plugins: [jekyll-paginate]
-paginate_path: "news/page:num"
+# Site Author
+author:
+  name: "Deep MI Lab"
+  avatar: "/static/img/logos/deepmi.png"
+  bio: "Deep learning and AI for medical imaging and computational neuroimaging"
+  location: "Bonn, Germany & Boston, USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Deep-MI"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://Deep-MI.github.io"
 
-permalink: pretty
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Deep-MI"
+    - label: "DZNE"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.dzne.de"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
-kramdown: 
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
   parse_block_html: true
 
-exclude: [vendor]
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: /news/page:num/
+timezone: Europe/Berlin
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false

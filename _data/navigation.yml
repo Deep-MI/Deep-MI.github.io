@@ -1,0 +1,15 @@
+# Main Navigation
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Team"
+    url: /members/
+  - title: "News"
+    url: /news/
+  - title: "Join Us"
+    url: /join/
+  - title: "Contact"
+    url: /contact/
+

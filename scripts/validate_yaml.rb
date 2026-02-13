@@ -8,7 +8,7 @@ def validate_file(filepath)
   puts "Validating #{filepath}..."
 
   begin
-    data = YAML.load_file(filepath)
+    data = YAML.safe_load_file(filepath, permitted_classes: [Date, Time], aliases: true)
 
     # File-specific validations
     case File.basename(filepath)

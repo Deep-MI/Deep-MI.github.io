@@ -24,7 +24,8 @@ for file in _posts/*.md; do
 
   # Extract and validate date
   date_part="${filename:0:10}"
-  if ! date -j -f "%Y-%m-%d" "$date_part" > /dev/null 2>&1; then
+  if ! date -d "$date_part" "+%Y-%m-%d" > /dev/null 2>&1 && \
+     ! date -j -f "%Y-%m-%d" "$date_part" > /dev/null 2>&1; then
     echo "✗ Invalid date in filename: $filename"
     ((error_count++))
     continue

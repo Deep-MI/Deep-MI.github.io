@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
 
 jobs:
-  build:
+  validate-and-build:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,6 +18,12 @@ jobs:
       with:
         ruby-version: '3.1'
         bundler-cache: true
+
+    - name: Validate YAML files
+      run: ruby scripts/validate_yaml.rb
+
+    - name: Validate posts
+      run: bash scripts/validate_posts.sh
 
     - name: Build Jekyll site
       run: bundle exec jekyll build

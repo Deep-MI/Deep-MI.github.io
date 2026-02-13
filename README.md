@@ -95,13 +95,16 @@ For more detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Attribution
 
-This website was built using the [Fraser Lab website](http://fraserlab.com/) as a template. James Fraser's website is open-source and available on [GitHub](https://github.com/fraser-lab/fraser-lab.github.io).
+This website uses the [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/) by Michael Rose, which is open-source and available on [GitHub](https://github.com/mmistakes/minimal-mistakes).
+
+The original Deep-MI website was built using the [Fraser Lab website](http://fraserlab.com/) as a template.
 
 ### Technologies Used
 
 - Jekyll - Static site generator
+- Minimal Mistakes - Modern responsive theme
 - GitHub Pages - Hosting
-- Bootstrap 4.4.1 - CSS framework
+- Ruby - Programming language
 
 ## Local Development
 

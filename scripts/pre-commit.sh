@@ -48,8 +48,11 @@ if [ -n "$large_files" ]; then
   echo "$large_files"
   echo ""
   echo "Consider optimizing images before committing."
-  echo "Press Enter to continue anyway, or Ctrl+C to abort."
-  read
+  # Only prompt if running interactively and not explicitly skipped
+  if [ -t 0 ] && [ -z "$SKIP_LARGE_FILE_PROMPT" ]; then
+    echo "Press Enter to continue anyway, or Ctrl+C to abort."
+    read
+  fi
 fi
 
 echo ""

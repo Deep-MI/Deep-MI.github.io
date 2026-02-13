@@ -103,7 +103,7 @@
   doi: 10.1162/imag_a_00121
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00121/2358010/imag_a_00121.pdf'
   github: /deep-mi/DISCUS
-  
+
 - id: 'estrada2023'
   authors: '**Estrada S**, **Kügler D**, Bahrami E, Xu P, Mousa D, Breteler MMB, Aziz NA, **Reuter M**'
   title: 'FastSurfer-HypVINN: Automated sub-segmentation of the hypothalamus and adjacent structures on high-resolutional brain MRI'
@@ -112,11 +112,11 @@
   image: '/static/pub/estrada_2023.jpg'
   year: 2023
   bibtex: '/static/pub/estrada_2023.bib'
-  arxiv: 2308.12736 
+  arxiv: 2308.12736
   pmcid: 'PMC11576934'
   doi: 10.1162/imag_a_00034
   pdf: 'https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00034/2182290/imag_a_00034.pdf'
-  github: /deep-mi/FastSurfer     
+  github: /deep-mi/FastSurfer
 
 - id: 'diers_2023'
   authors: '**Diers K**, Baumeister H, Jessen F, Düzel E, Berron D, **Reuter M**'
@@ -129,7 +129,7 @@
   doi: 10.1016/j.neuroimage.2023.120182
   pdf: 'https://doi.org/10.1016/j.neuroimage.2023.120182'
   github: 'deep-MI/Hipsta'
-  
+
 - id: 'pollak_2023b'
   authors: '**Pollak C**, **Kügler D**, Breteler MMB, **Reuter M**'
   title: 'Quantifying MR head motion in the Rhineland Study – A robust method for population cohorts'
@@ -277,7 +277,7 @@
   doi: 10.1002/hbm.25377
   pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.25377'
   bibtex: '/static/pub/lu_2021.bib'
-  
+
 - id: 'henschel_2020b'
   authors: '**Henschel L**, **Reuter M**'
   title: 'Parameter Space CNN for Cortical Surface Segmentation'
@@ -605,6 +605,7 @@
   pages: '11 - 22'
   volume: 127
   journal: '*NeuroImage*'
+  type: 'journal'
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/26654788/'
   doi: 10.1016/j.neuroimage.2015.11.054
   pmcid: PMC4754677

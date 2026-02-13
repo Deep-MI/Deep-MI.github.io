@@ -175,9 +175,9 @@ bundle exec htmlproofer ./_site --disable-external
 - Optimize images before uploading
 - Use descriptive filenames
 - Keep file sizes small:
-  - Member photos: ~50-100KB
+  - Member photos: max 100KB
   - Publication teasers: max 100KB
-  - Post images: < 500KB
+  - Post images: max 500KB
 
 ### Code
 

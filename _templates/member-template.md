@@ -27,6 +27,6 @@ Copy this template when adding a new member to `_data/members.yml`
 ## Tips
 
 - Use single quotes for multi-line descriptions
-- Keep file size under 100KB
+- Keep file size to max 100KB (optimization script helps with this)
 - Use consistent naming: lastname.jpg
 

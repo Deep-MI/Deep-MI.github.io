@@ -1,5 +1,14 @@
-# Deep-MI.github.io
+# Deep-MI Lab Website
 
+This is the official website for the Deep Medical Imaging (Deep-MI) Lab.
+
+The website is built with Jekyll and hosted on GitHub Pages.
+
+## Quick Links
+
+- **Live Website**: [https://deep-mi.github.io](https://deep-mi.github.io)
+- **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Quick Start**: See [QUICKSTART.md](QUICKSTART.md)
 
 ## Create News Posts
 
@@ -82,16 +91,17 @@ cp scripts/pre-commit.sh .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 ```
 
-## Sources
+For more detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-This website was built using the Fraser Lab [website](http://fraserlab.com/) as a template.  James Fraser's website is open-source and available on [Github](https://github.com/fraser-lab/fraser-lab.github.io)
+## Attribution
 
+This website was built using the [Fraser Lab website](http://fraserlab.com/) as a template. James Fraser's website is open-source and available on [GitHub](https://github.com/fraser-lab/fraser-lab.github.io).
 
-Technologies this website uses:
+### Technologies Used
 
-    Jekyll
-    Github Pages
-    Twitter Bootstrap 4.4.1
+- Jekyll - Static site generator
+- GitHub Pages - Hosting
+- Bootstrap 4.4.1 - CSS framework
 
 ## Local Development
 

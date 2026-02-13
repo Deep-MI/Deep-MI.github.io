@@ -20,7 +20,7 @@ Copy this template when adding a new publication to `_data/publications.yml`
   arxiv: '2401.12345'  # optional - arXiv ID
   doi: '10.1234/journal.2024.123456'  # strongly recommended
   pdf: 'https://journal.com/paper.pdf'  # or '/static/pub/lastname_year.pdf'
-  github: 'deep-mi/repository-name'  # optional - relative to github.com
+  github: 'deep-mi/repository-name'  # optional - format: org/repo (no leading slash)
   bibtex: '/static/pub/lastname_year.bib'
   links:  # optional - additional links
     - name: 'Project Website'
@@ -51,5 +51,7 @@ Copy this template when adding a new publication to `_data/publications.yml`
 - Always include DOI if available
 - Bold current and former lab members in author list
 - Keep image file size small (max 100KB)
+- GitHub format: `'deep-mi/repository-name'` (lowercase org, no leading slash)
+  - Rendered as: `https://github.com/deep-mi/repository-name`
 - Test that all file paths exist before committing
 

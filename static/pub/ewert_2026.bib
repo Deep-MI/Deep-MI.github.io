@@ -1,0 +1,11 @@
+@article{10.1162/IMAG.a.1183,
+    author = {Ewert, Christian and K\"ugler, David and Reuter, Martin},
+    title = {Learning-based Segmentation of Diffusion-Weighted MR Images with Arbitrary q-Space Samplings},
+    journal = {Imaging Neuroscience},
+    abstract = {Segmenting anatomical regions is a crucial step in many diffusion-weighted MRI (dMRI) workflows, such as region-of-interest analysis or anatomically-constrained tractography, which enable in vivo studies of brain microstructure and connectivity. However, convolutional neural networks (CNNs) -- the foundation of most state-of-the-art segmentation models -- require structured inputs with a fixed number of channels. This makes them ill-suited for dMRI, where acquisition protocols vary widely in $q$-space sampling -- the number of measurements as well as their directions (b-vectors) and weightings (b-values) -- resulting in unstructured data with inconsistent dimensionality across studies. As a consequence, the applicability of CNN-based methods is generally limited to the dataset on which they were trained. To address this, existing methods like DeepAnat and DDParcel rely on diffusion model fits, such as the diffusion tensor, to convert raw data into structured representations compatible with CNNs. While this enables broader applicability, it introduces lossy compression that can degrade performance. In this work, we propose a novel method that combines the geometric deep learning-based reconstruction framework DISCUS with the segmentation network VINN to directly map unstructured dMRI data to anatomical segmentations. Our segmentation approach is the first to achieve robust generalization across heterogeneous acquisition schemes using a single neural network without requiring diffusion model fits. Our approach generates the segmentation in minutes, whereas DeepAnat relies on the external FreeSurfer software, which runs for several hours. Additionally, we demonstrate generally superior segmentation performance of our approach across multiple datasets and acquisition settings with respect to DeepAnat, DDParcel, and SynthSeg},
+    doi = {10.1162/IMAG.a.1183},
+    url = {https://doi.org/10.1162/IMAG.a.1183},
+    eprint = {https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.1183/2586609/imag.a.1183.pdf},
+}
+
+

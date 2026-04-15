@@ -31,6 +31,17 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'ewert_2026'
+  authors: '**Ewert C**, **Kügler D**, **Reuter M**'
+  title: 'Learning-based Segmentation of Diffusion-Weighted MR Images with Arbitrary q-Space Samplings'
+  journal: '*Imaging Neuroscience*'
+  type: 'journal'
+  year: 2026
+  image: '/static/pub/ewert_2026.jpg'
+  bibtex: '/static/pub/ewert_2026.bib'
+  doi: 10.1162/IMAG.a.1183
+  github: 'deep-mi/DISCUSseg'
+
 - id: 'pollak_2026'
   authors: '**Pollak C**, **Diers K**, **Estrada S.**, **Kügler D**, **Reuter M**'
   title: 'FastSurfer-CC: A robust, accurate, and comprehensive framework for corpus callosum morphometry'
@@ -43,7 +54,6 @@
   #pmcid: 'PMC11917724'
   arxiv: 2511.16471
   github: 'deep-MI/FastSurfer'
-
 
 - id: 'rassmann_2025'
   authors: '**Rassmann S**, **Kügler D**, **Ewert C**, **Reuter M**'

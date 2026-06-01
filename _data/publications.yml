@@ -60,7 +60,7 @@
   title: 'Regression is all you need for medical image translation'
   journal: '*IEEE Transactions on Medical Imaging*'
   type: 'journal'
-  year: 2025
+  year: 2026
   image: '/static/pub/rassmann_2025.jpg'
   bibtex: '/static/pub/rassmann_2025.bib'
   arxiv: 2505.02048

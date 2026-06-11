@@ -27,15 +27,15 @@ After completing the course, participants will have gained an understanding of m
 
 The course consists of lectures, demonstrations, practical exercises, and provides ample opportunities for discussions and informal exchange. A helpdesk will be available during the course to offer individual support for issues related to installing and running the software on your own devices, or any questions you might have about your planned analyses and projects, for example.
 
-## Save the date!
+The course fee is **EUR 250**, covering the scientific lectures and practial sessions, course materials and hardware, and catering during the course (lunch, coffee breaks, reception on the evening of the first day, dinner on the evening of the second day).
+
+## Dates 
 
 The course will be held from **October 14 to October 16, 2026** (Wednesday to Friday), starting at 13:30 on Wednesday, and ending on 15:00 on Friday.
 
-## Format
+## Places
 
-We are currently evaluating the feasibility of hosting a fully online course. Otherwise, the course takes place at the German Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany. 
-
-The format of the course (online or on-site) will be announced until June 30, 2026.
+The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)** in Bonn, Germany ([directions](/events/workshops/fastsurfer-course-2026/location)). 
 
 ## Topics
 
@@ -43,23 +43,38 @@ The course will cover the following topics:
 
 - [Introduction to structural neuroimaging](/events/workshops/fastsurfer-course-2026/program#introduction-to-structural-neuroimaging): an overview of the FastSurfer and FreeSurfer software packages and what they can do 
 - [Advanced deep-learning for image segmentation](/events/workshops/fastsurfer-course-2026/program#advanced-deep-learning-for-image-segmentation): fast and reliable anatomical segmentation -- the core module of the FastSurfer software
-- [Surface models](/events/workshops/fastsurfer-course-2026/program#surface-models): how to create surface models and extract a rich set of anatomical features
+- [Surface models of the brain](/events/workshops/fastsurfer-course-2026/program#surface-models-of-the-brain): how to create surface models and extract a rich set of anatomical features
 - [Statistical modeling and inference](/events/workshops/fastsurfer-course-2026/program#statistical-modeling-and-inference): how to arrive at conclusions -- the evaluation and interpretation of results
 - [Longitudinal processing and analysis](/events/workshops/fastsurfer-course-2026/program#longitudinal-processing-and-analysis): taking advantage of longitudinal study designs -- and dealing with their challenges and intricacies
-- [Quality control and edits](/events/workshops/fastsurfer-course-2026/program#qc-troubleshooting-and-practical-issues): how to trust your results -- solutions to potential pitfalls and issues 
+- [Quality control and edits](/events/workshops/fastsurfer-course-2026/program#quality-control-and-edits): how to trust your results -- solutions to potential pitfalls and issues 
 - [The FastSurfer ecosystem](/events/workshops/fastsurfer-course-2026/program#the-fastsurfer-ecosystem): specialized applications, add-on modules, and an outlook to future developments
+
+See here for detailed information:
+
+- [Program](/events/workshops/fastsurfer-course-2026/program)
+- [Schedule](/events/workshops/fastsurfer-course-2026/schedule)
+
+## Social events
+
+We will have a **small reception** with snacks and drinks at the DZNE on the early evening of the first day (Wednesday, until 19:00) as an opportunity for informal exchange and discussion among course participants and with the speakers.
+
+We are planning to conclude the second day of the course (Thursday) at a **restaurant**, which is a nice 15 min walk from the DZNE and can also be reached by bus in a few minutes. We will guide one group going by foot, and one group going by bus, right after the course at around 5 pm. 
 
 ## Registration
 
-Registration for the course will open on July 1, 2026.
+Registration for the course will open on July 1, 2026. 
+
+You can pre-register for the course by <a href="mailto:fastsurfer-course&#64;dzne&#46;de">sending an email</a> to the FastSurfer course organizers. You will then be notified once the registration opens and have a chance to make your booking.
+
+The capacity of the course is limited, and registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained. 
 
 ## Contact
 
-Stay tuned for our latest announcements and updates! 
+Stay tuned for our latest announcements and updates - and get notified when the registration opens! 
 
 - [Subscribe to the FastSurfer newsletter](https://www.listserv.dfn.de/sympa/subscribe/fastsurfer)
 
-Please feel free to get in touch with any questions or requests that you might have:
+Feel free to get in touch with any questions or requests that you might have:
 
 - <a href="mailto:fastsurfer-course&#64;dzne&#46;de">Email the FastSurfer course organizers</a>
 

@@ -39,6 +39,7 @@
   year: 2026
   image: '/static/pub/ewert_2026.jpg'
   bibtex: '/static/pub/ewert_2026.bib'
+  pmcid: 'PMC13231284'
   doi: 10.1162/IMAG.a.1183
   github: 'deep-mi/DISCUSseg'
 
@@ -51,7 +52,7 @@
   image: '/static/pub/pollak_2026.jpg'
   bibtex: '/static/pub/pollak_2026.bib'
   doi: 10.1162/IMAG.a.1221
-  #pmcid: 'PMC11917724'
+  pmcid: 'PMC13159026'
   arxiv: 2511.16471
   github: 'deep-MI/FastSurfer'
 
@@ -64,6 +65,7 @@
   image: '/static/pub/rassmann_2025.jpg'
   bibtex: '/static/pub/rassmann_2025.bib'
   arxiv: 2505.02048
+  pmcid: 'PMC13255761'
   doi: '10.1109/TMI.2025.3650412'
   pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11322583'
   github: 'deep-mi/YODA'
@@ -97,6 +99,7 @@
   journal: '*Nature Protocols*'
   type: 'journal'
   year: 2024
+  pdf: '/static/pub/koch_2024.pdf'
   image: '/static/pub/koch_2024.jpg'
   bibtex: '/static/pub/koch_2024.bib'
   doi: 10.1038/s41596-024-01085-w

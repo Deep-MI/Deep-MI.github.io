@@ -62,11 +62,11 @@ We are planning to conclude the second day of the course (Thursday) at a **resta
 
 ## Registration
 
-Registration for the course will open on July 1, 2026. 
+Registration for the course will open on July 1, 2026, at the latest.
 
 You can pre-register for the course by <a href="mailto:fastsurfer-course&#64;dzne&#46;de">sending an email</a> to the FastSurfer course organizers. You will then be notified once the registration opens and have a chance to make your booking.
 
-The capacity of the course is limited, and registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained. 
+The capacity of the course is limited, and registrations / pre-registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained.
 
 ## Contact
 

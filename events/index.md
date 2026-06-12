@@ -10,6 +10,10 @@ group: events
 
 The DeepMI lab regularly hosts events for the local neuroimaging community and beyond. These include public talks from invited speakers, journal clubs, and practical tutorials and courses. Announcements are made via the lab's channels; below is a list of past and upoming events:
 
+- [DeepMI FastSurfer/FreeSurfer course 2026](/events/workshops/fastsurfer-course-2026) (Oct 14-16, 2026)
+
+- BIGS Neuroscience Summer School 2026: Introduction to AI in Human Neuroimaging (May 22, 2026)
+
 - [DeepMI FastSurfer/FreeSurfer course 2025](/events/workshops/fastsurfer-course-2025) (Sep 17-19, 2025)
 
 - BIGS Neuroscience Summer School 2025: Introduction to AI in Human Neuroimaging (May 13, 2025)

@@ -37,7 +37,7 @@ Late registrations after September 22, 2026, may be accepted, but this cannot be
 
 The **course fee** is EUR 250. This covers the scientific lectures and practial sessions, course materials, rental hardware, and catering during the course (lunch, coffee breaks, reception on the first day, dinner at the second day of the course). Payments can be made via credit cards, PayPal, or bank transfer.
 
-[Register here](https://eveeno.com/321532158) to take part in the 2026 DeepMI FastSurfer / FreeSurfer course. You will be forwarded to the site of our external service provider (eveeno.com). 
+[Register here](https://eveeno.com/fastsurfer-course) to take part in the 2026 DeepMI FastSurfer / FreeSurfer course. You will be forwarded to the site of our external service provider (eveeno.com).
 
 We will send a confirmation email immediately after your registration. Registration will only be complete, and participation in the course will only be possible, after we have received your payment. We reserve the right to cancel registrations with overdue payments.
 

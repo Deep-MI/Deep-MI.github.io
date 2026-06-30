@@ -19,7 +19,7 @@ group: events
 
 <br>
 
-The **DeepMI lab** is happy to announce the **DeepMI FastSurfer / FreeSurfer course**, a 2.5-day, hands-on, introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. 
+The [**DeepMI lab**](https://deep-mi.org/) is happy to announce the **DeepMI FastSurfer / FreeSurfer course**, a 2.5-day, hands-on, introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. 
 
 The goal of the course is to equip participants with working knowledge about fundamental concepts in structural neuroimaging analysis, and enable them to conduct analyses of structural imaging data using the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software packages. 
 
@@ -51,7 +51,7 @@ The course will cover the following topics:
 
 See here for detailed information:
 
-- [Program](/events/workshops/fastsurfer-course-2026/program)
+- [Program](/events/workshops/fastsurfer-course-2026/program) and [Flyer](/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf)
 - [Schedule](/events/workshops/fastsurfer-course-2026/schedule)
 
 ## Social events
@@ -62,15 +62,15 @@ We are planning to conclude the second day of the course (Thursday) at a **resta
 
 ## Registration
 
-Registration for the course will open on July 1, 2026, at the latest.
+The [registration](/events/workshops/fastsurfer-course-2026/registration) for the course is now open.
 
-You can pre-register for the course by <a href="mailto:fastsurfer-course&#64;dzne&#46;de">sending an email</a> to the FastSurfer course organizers. You will then be notified once the registration opens and have a chance to make your booking.
+The capacity of the course is limited, and registrations will be accepted on a first-come, first-served basis. 
 
-The capacity of the course is limited, and registrations / pre-registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained.
+If the capacity is exceeded, a waiting list will be maintained.
 
 ## Contact
 
-Stay tuned for our latest announcements and updates - and get notified when the registration opens! 
+Stay tuned for our latest announcements and updates:
 
 - [Subscribe to the FastSurfer newsletter](https://www.listserv.dfn.de/sympa/subscribe/fastsurfer)
 

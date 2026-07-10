@@ -392,6 +392,10 @@ layout: product
                     This enables robust, consistent segmentation across protocols ranging from standard 1&nbsp;mm
                     isotropic acquisitions to high-resolution 0.7&ndash;0.8&nbsp;mm sub-millimeter scans &mdash;
                     without any protocol-specific fine-tuning.</p>
+                <p>The segmentation block also replaces FreeSurfer's built-in corpus callosum detection with a
+                    dedicated CC module, avoiding FreeSurfer's known tendency to incorrectly attach the fornix to
+                    the CC and providing sub-regional parcellation with local thickness estimates
+                    (see <a href="#sci-modules">FastSurfer-CC</a> below).</p>
             </div>
             <figure class="sci-figure">
                 <img src="/static/pub/henschel_2022.jpg"
@@ -404,35 +408,54 @@ layout: product
     </div>
 </section>
 
-<!-- ===================== RECON-SURF ===================== -->
+<!-- ===================== SURFACE PIPELINE ===================== -->
 <section class="fs-section-soft">
     <div class="fs-wrap">
-        <div class="sci-two-col-flip">
+        <h2 class="fs-section-title">Surface-based Analysis</h2>
+        <p style="color: var(--fs-muted); font-size: 1rem; line-height: 1.75; max-width: 820px; margin: 0 0 2.5rem;">
+            Starting from the segmentation, FastSurfer performs a complete surface-based analysis: cortical
+            surface reconstruction, atlas label mapping, and point-wise and ROI thickness analysis &mdash; the
+            same outputs as a full FreeSurfer pipeline, but produced in approximately one hour. Having a
+            high-quality segmentation from the outset eliminates several time-consuming FreeSurfer steps,
+            including skull stripping and non-linear atlas registration, and also enables a number of
+            targeted methodological improvements.</p>
+        <div class="sci-two-col-flip" style="align-items: start;">
             <figure class="sci-figure sci-flip-img">
                 <img src="/static/img/research/fastsurfer/03_recon_surf.png"
-                     alt="FreeSurfer iterative spherical inflation vs recon-surf spectral embedding">
-                <figcaption>Fig&nbsp;3. FreeSurfer's iterative spherical inflation versus recon-surf's one-shot
-                    spectral embedding using the first three non-constant eigenfunctions of the
-                    Laplace-Beltrami operator.</figcaption>
+                     alt="FreeSurfer iterative spherical inflation vs FastSurfer one-shot spectral embedding">
+                <figcaption>Fig&nbsp;3. FreeSurfer's iterative spherical inflation (left) versus FastSurfer's
+                    one-shot spectral embedding (right) using eigenfunctions of the Laplace-Beltrami
+                    operator.</figcaption>
             </figure>
             <div class="sci-body">
-                <h2 class="fs-section-title">Surface Reconstruction &mdash; recon-surf</h2>
-                <p>With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels, and
-                    traditional point-wise and ROI thickness analysis. The high-quality segmentation from
-                    FastSurferVINN makes many time-consuming FreeSurfer steps obsolete &mdash; including skull stripping
-                    and non-linear atlas registration.</p>
-                <p>We perform a novel <strong>spectral spherical embedding</strong>, directly mapping cortical labels
-                    from image to surface using eigenfunctions of the Laplace-Beltrami operator, then scaling the
-                    3D spectral embedding vector to unit length to produce the final spherical map. These improvements
-                    result in a significant speed-up compared to FreeSurfer recon-all, reducing surface reconstruction
-                    from many hours to approximately one hour.</p>
+                <p>Key improvements over FreeSurfer's surface pipeline:</p>
+                <ul>
+                    <li><strong>One-shot spectral spherical embedding</strong> &mdash; instead of FreeSurfer's
+                        slow iterative spherical inflation, FastSurfer maps the cortical surface to the sphere
+                        in a single step using the eigenfunctions of the Laplace-Beltrami operator. This is
+                        the primary driver of the speed-up from many hours to approximately one hour.</li>
+                    <li><strong>Stabilized Talairach registration</strong> &mdash; the affine Talairach
+                        transform, from which intracranial volume (eTIV/ICV) is derived, is pre-initialized
+                        using a segmentation-based affine alignment. This reduces registration variance and
+                        yields more consistent eTIV/ICV estimates across subjects and scan sites compared
+                        to FreeSurfer.</li>
+                    <li><strong>Stabilized cortical atlas alignment</strong> &mdash; FreeSurfer's spherical
+                        atlas registration can misplace the central sulcus by one sulcal step, causing
+                        systematic parcellation errors and noisy local thickness estimates in the pre- and
+                        post-central gyri. FastSurfer pre-rotates the cortical sphere using the existing
+                        cortical segmentation labels before atlas registration, providing a robust
+                        initialization that avoids this known misalignment.</li>
+                    <li><strong>Faster statistics and label mapping</strong> &mdash; FastSurfer ships its
+                        own optimized implementations of segmentation statistics and surface label mapping,
+                        replacing the corresponding FreeSurfer tools and further reducing runtime.</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ===================== SUB-MODULES ===================== -->
-<section>
+<section id="sci-modules">
     <div class="fs-wrap">
         <div class="fs-center" style="margin-bottom: 0.5rem;">
             <h2 class="fs-section-title">Specialized Sub-modules</h2>

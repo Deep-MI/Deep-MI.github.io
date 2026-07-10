@@ -235,9 +235,9 @@ layout: product
                     localization during image acquisition or extraction of quantitative measures.</p>
                 <p>The pipeline is built from two main components:</p>
                 <ol>
-                    <li><strong>FastSurferCNN</strong> — whole-brain segmentation into 95 classes in under 1 minute,
+                    <li><strong>FastSurferCNN</strong> &mdash; whole-brain segmentation into 95 classes in under 1 minute,
                         mimicking FreeSurfer's anatomical segmentation and cortical parcellation (DKTatlas).</li>
-                    <li><strong>recon-surf</strong> — a full FreeSurfer-alternative for cortical surface reconstruction,
+                    <li><strong>recon-surf</strong> &mdash; a full FreeSurfer-alternative for cortical surface reconstruction,
                         cortical label mapping, and traditional point-wise and ROI thickness analysis in approximately
                         60 minutes.</li>
                 </ol>
@@ -245,7 +245,7 @@ layout: product
             <figure class="sci-figure">
                 <img src="/static/img/research/fastsurfer/01_teaser_white.png"
                      alt="FastSurfer fully automated pipeline combining FastSurferCNN with recon-surf">
-                <figcaption>Fig&nbsp;1. FastSurfer's fully automated pipeline — FastSurferCNN for volumetric
+                <figcaption>Fig&nbsp;1. FastSurfer's fully automated pipeline &mdash; FastSurferCNN for volumetric
                     segmentation, recon-surf for surface reconstruction.</figcaption>
             </figure>
         </div>
@@ -270,7 +270,7 @@ layout: product
     <div class="fs-wrap">
         <div class="sci-two-col">
             <div class="sci-body">
-                <h2 class="fs-section-title">Volumetric Segmentation — FastSurferCNN</h2>
+                <h2 class="fs-section-title">Volumetric Segmentation &mdash; FastSurferCNN</h2>
                 <p>FastSurferCNN is composed of three fully convolutional neural networks (F-CNNs) operating on
                     coronal, axial, and sagittal 2D slice stacks, combined with a final view aggregation that
                     harnesses both the local neighbourhood context of 3D patches and the global view of 2D slices.</p>
@@ -302,10 +302,10 @@ layout: product
                     embedding using the first three non-constant eigenfunctions of the Laplace-Beltrami operator.</figcaption>
             </figure>
             <div class="sci-body">
-                <h2 class="fs-section-title">Surface Reconstruction — recon-surf</h2>
+                <h2 class="fs-section-title">Surface Reconstruction &mdash; recon-surf</h2>
                 <p>With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels, and
                     traditional point-wise and ROI thickness analysis. The high-quality brain segmentation from
-                    FastSurferCNN makes many traditional FreeSurfer steps obsolete — including skull stripping and
+                    FastSurferCNN makes many traditional FreeSurfer steps obsolete &mdash; including skull stripping and
                     non-linear atlas registration.</p>
                 <p>We perform a novel <strong>spectral spherical embedding</strong>, directly mapping cortical labels
                     from image to surface using eigenfunctions of the Laplace-Beltrami operator, then scaling the
@@ -379,7 +379,7 @@ layout: product
         <div class="sci-links">
             <a class="sci-link-item" href="https://doi.org/10.1016/j.neuroimage.2020.117012" target="_blank" rel="noopener">
                 <span class="sci-link-label">Paper</span>
-                <span class="sci-link-desc">FastSurfer (NeuroImage, 2020) — primary reference for the pipeline</span>
+                <span class="sci-link-desc">FastSurfer (NeuroImage, 2020) &mdash; primary reference for the pipeline</span>
             </a>
             <a class="sci-link-item" href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">
                 <span class="sci-link-label">GitHub</span>

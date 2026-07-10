@@ -290,6 +290,23 @@ layout: product
     .fs-final .fs-hero-cta {
         justify-content: center;
     }
+
+    /* ---------- Interactive viewer callout ---------- */
+    .fs-viewer-card {
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-top: 4px solid var(--fs-accent);
+        border-radius: var(--fs-radius);
+        padding: 3rem 2.5rem;
+        max-width: 640px;
+        margin: 0 auto;
+        box-shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+    }
+
+    .fs-viewer-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
 </style>
 
 <!-- ===================== HERO ===================== -->
@@ -398,6 +415,30 @@ layout: product
                 <h3>HypVINN — hypothalamus</h3>
                 <p>Integrated module for automated sub-segmentation of the hypothalamus and adjacent structures.</p>
             </div>
+            <div class="fs-module">
+                <h3>FastSurfer-CC — corpus callosum</h3>
+                <p>Automated morphometry of the corpus callosum and its sub-regions, derived from the whole-brain segmentation.</p>
+            </div>
+            <div class="fs-module">
+                <h3>FastSurfer LIT — lesion inpainting</h3>
+                <p>Lesion inpainting module enabling robust surface reconstruction in brains with tumors or cavities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== INTERACTIVE VIEWER ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap fs-center">
+        <div class="fs-viewer-card">
+            <div class="fs-viewer-icon">🧠</div>
+            <h2 class="fs-section-title">See it for yourself — right now</h2>
+            <p class="fs-section-lead">Explore a real FastSurfer whole-brain segmentation interactively in your browser
+                with <strong>NeuroCade</strong>. No installation, no account required.</p>
+            <a class="btn btn-primary" href="https://neurocade.org" target="_blank" rel="noopener">Open in NeuroCade ↗</a>
+            <p style="margin-top: 0.9rem; font-size: 0.88rem; color: var(--fs-muted);">
+                Web-based viewer &middot; full-brain segmentation &middot; runs in any modern browser
+            </p>
         </div>
     </div>
 </section>

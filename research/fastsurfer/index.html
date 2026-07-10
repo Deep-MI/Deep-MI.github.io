@@ -1,0 +1,456 @@
+---
+title: "FastSurfer — Fast & accurate deep-learning brain MRI pipeline"
+description: "FastSurfer is a fast, accurate, deep-learning pipeline for fully automated human brain MRI analysis, providing FreeSurfer-conform outputs in minutes."
+layout: product
+---
+
+<style>
+    /* ---------- Hero ---------- */
+    .fs-hero {
+        background: linear-gradient(135deg, var(--fs-primary) 0%, var(--fs-primary-2) 100%);
+        color: #fff;
+        padding: 4.5rem 0 4rem;
+        overflow: hidden;
+    }
+
+    .fs-hero-grid {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 2.5rem;
+        align-items: center;
+        max-width: var(--fs-maxw);
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+
+    .fs-eyebrow {
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: #bcd4f5;
+        margin-bottom: 0.9rem;
+    }
+
+    .fs-hero h1 {
+        font-size: 3rem;
+        line-height: 1.08;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        margin: 0 0 1rem;
+    }
+
+    .fs-hero p.fs-tagline {
+        font-size: 1.25rem;
+        color: #dbe7f7;
+        margin: 0 0 1.8rem;
+        max-width: 34ch;
+    }
+
+    .fs-hero-cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9rem;
+    }
+
+    .fs-hero-media {
+        background: #fff;
+        border-radius: var(--fs-radius);
+        padding: 0.75rem;
+        box-shadow: 0 24px 60px rgba(3, 20, 55, 0.35);
+    }
+
+    .fs-hero-media img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .fs-hero-note {
+        margin-top: 1.4rem;
+        font-size: 0.9rem;
+        color: #a9c2e6;
+    }
+
+    @media (max-width: 820px) {
+        .fs-hero-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .fs-hero h1 {
+            font-size: 2.3rem;
+        }
+
+        .fs-hero-media {
+            order: -1;
+        }
+    }
+
+    /* ---------- Value cards ---------- */
+    .fs-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+    }
+
+    .fs-card {
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-radius: var(--fs-radius);
+        padding: 1.5rem 1.35rem;
+        transition: box-shadow .2s ease, transform .2s ease;
+    }
+
+    .fs-card:hover {
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        transform: translateY(-2px);
+    }
+
+    .fs-card-icon {
+        font-size: 1.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .fs-card h3 {
+        margin: 0 0 0.4rem;
+        font-size: 1.12rem;
+        font-weight: 700;
+    }
+
+    .fs-card p {
+        margin: 0;
+        color: var(--fs-muted);
+        font-size: 0.96rem;
+    }
+
+    @media (max-width: 880px) {
+        .fs-cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .fs-cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* ---------- Quickstart ---------- */
+    .fs-quick-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    @media (max-width: 820px) {
+        .fs-quick-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .fs-code {
+        background: #0b1220;
+        color: #e6edf6;
+        border-radius: var(--fs-radius);
+        padding: 1.4rem 1.5rem;
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 0.9rem;
+        line-height: 1.7;
+        overflow-x: auto;
+        box-shadow: 0 14px 40px rgba(3, 20, 55, 0.18);
+    }
+
+    .fs-code .c {
+        color: #7d8aa0;
+    }
+
+    /* comment */
+    .fs-code .p {
+        color: #f9a56b;
+    }
+
+    /* prompt / accent */
+    .fs-code b {
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    /* ---------- Figure / produces ---------- */
+    .fs-figure {
+        text-align: center;
+    }
+
+    .fs-figure img {
+        width: 100%;
+        max-width: 820px;
+        height: auto;
+        border-radius: var(--fs-radius);
+        border: 1px solid var(--fs-border);
+    }
+
+    .fs-figure figcaption {
+        color: var(--fs-muted);
+        font-size: 0.92rem;
+        margin-top: 0.9rem;
+    }
+
+    /* ---------- Modules ---------- */
+    .fs-modules {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 680px) {
+        .fs-modules {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .fs-module {
+        border: 1px solid var(--fs-border);
+        border-left: 4px solid var(--fs-accent);
+        border-radius: 10px;
+        padding: 1.25rem 1.4rem;
+        background: #fff;
+    }
+
+    .fs-module h3 {
+        margin: 0 0 0.3rem;
+        font-size: 1.08rem;
+    }
+
+    .fs-module p {
+        margin: 0;
+        color: var(--fs-muted);
+        font-size: 0.95rem;
+    }
+
+    /* ---------- Publications ---------- */
+    .fs-pub-list {
+        display: grid;
+        gap: 0.75rem;
+        max-width: 860px;
+        margin: 0 auto;
+    }
+
+    .fs-pub {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+    }
+
+    .fs-pub:hover {
+        border-color: #c9d6ea;
+    }
+
+    .fs-pub .fs-pub-name {
+        font-weight: 700;
+    }
+
+    .fs-pub .fs-pub-desc {
+        color: var(--fs-muted);
+        font-size: 0.95rem;
+    }
+
+    .fs-pub .fs-pub-year {
+        color: var(--fs-muted);
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+    /* ---------- Final CTA ---------- */
+    .fs-final {
+        background: linear-gradient(135deg, var(--fs-primary) 0%, var(--fs-primary-2) 100%);
+        color: #fff;
+        text-align: center;
+    }
+
+    .fs-final h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0 0 0.6rem;
+    }
+
+    .fs-final p {
+        color: #dbe7f7;
+        font-size: 1.1rem;
+        margin: 0 0 1.8rem;
+    }
+
+    .fs-final .fs-hero-cta {
+        justify-content: center;
+    }
+</style>
+
+<!-- ===================== HERO ===================== -->
+<section class="fs-hero">
+    <div class="fs-hero-grid">
+        <div>
+            <span class="fs-eyebrow">Deep-learning neuroimaging pipeline</span>
+            <h1>Brain MRI analysis in minutes, not hours.</h1>
+            <p class="fs-tagline">FastSurfer is a fast, accurate, and extensively validated pipeline for fully automated
+                processing of structural human brain MRI — with FreeSurfer-conform outputs.</p>
+            <div class="fs-hero-cta">
+                <a class="btn btn-primary" href="/FastSurfer/">Read the Documentation</a>
+                <a class="btn btn-ghost" href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">View
+                    on GitHub</a>
+            </div>
+            <p class="fs-hero-note">Whole-brain segmentation in under a minute · full surface reconstruction in about an
+                hour · free &amp; open source.</p>
+        </div>
+        <div class="fs-hero-media">
+            <img src="/static/img/research/fastsurfer/01_teaser_white.png"
+                 alt="FastSurfer processing pipeline overview">
+        </div>
+    </div>
+</section>
+
+<!-- ===================== VALUE PROPS ===================== -->
+<section>
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">Why FastSurfer?</h2>
+        <p class="fs-section-lead">Everything you expect from a full surface-based morphometry pipeline — at a fraction
+            of the runtime.</p>
+    </div>
+    <div class="fs-wrap">
+        <div class="fs-cards">
+            <div class="fs-card">
+                <div class="fs-card-icon">⚡</div>
+                <h3>Fast</h3>
+                <p>Whole-brain segmentation in under a minute on a GPU; the full surface pipeline in about an hour —
+                    instead of many hours.</p>
+            </div>
+            <div class="fs-card">
+                <div class="fs-card-icon">🎯</div>
+                <h3>Accurate &amp; validated</h3>
+                <p>Extensively validated for accuracy, generalizability, reliability and sensitivity across many public
+                    datasets.</p>
+            </div>
+            <div class="fs-card">
+                <div class="fs-card-icon">🔄</div>
+                <h3>FreeSurfer-conform</h3>
+                <p>Produces outputs compatible with FreeSurfer, so it drops into your existing analysis workflows.</p>
+            </div>
+            <div class="fs-card">
+                <div class="fs-card-icon">📈</div>
+                <h3>Scalable &amp; open</h3>
+                <p>Built for big-data cohorts and time-critical clinical use. Free and open source, with an active
+                    community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== QUICKSTART ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap">
+        <div class="fs-quick-grid">
+            <div>
+                <h2 class="fs-section-title">Get started in one command</h2>
+                <p class="fs-section-lead">Run FastSurfer via Docker on a single T1-weighted scan. See the documentation
+                    for native installation, GPU setup, and all options.</p>
+                <a class="btn btn-primary" href="/FastSurfer/">Full documentation &rarr;</a>
+            </div>
+            <div>
+                <div class="fs-code"><span class="c"># Run the full pipeline on one subject</span><br>
+                    <span class="p">$</span> docker run --gpus all -v <b>/data</b>:/data \\<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;deepmi/fastsurfer:latest \\<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;--t1 /data/subject/orig.mgz \\<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== WHAT IT PRODUCES ===================== -->
+<section>
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">One pipeline, whole-brain output</h2>
+        <p class="fs-section-lead">FastSurfer combines an advanced neural-network segmentation (FastSurferCNN / VINN)
+            with a fast surface pipeline (recon-surf) for volumes, cortical surfaces, thickness and parcellations.</p>
+    </div>
+    <div class="fs-wrap">
+        <figure class="fs-figure">
+            <img src="/static/img/research/fastsurfer/01_teaser_white_with_cerebnet.png"
+                 alt="FastSurfer outputs: whole-brain segmentation, cortical surfaces and sub-segmentations">
+            <figcaption>FastSurfer's fully automated pipeline — from raw T1 to segmentation, surfaces and detailed
+                sub-structures.
+            </figcaption>
+        </figure>
+
+        <div class="fs-modules">
+            <div class="fs-module">
+                <h3>CerebNet — cerebellum</h3>
+                <p>Integrated module for fast, reliable and detailed cerebellum sub-segmentation.</p>
+            </div>
+            <div class="fs-module">
+                <h3>HypVINN — hypothalamus</h3>
+                <p>Integrated module for automated sub-segmentation of the hypothalamus and adjacent structures.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== PUBLICATIONS ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">The science behind FastSurfer</h2>
+        <p class="fs-section-lead">FastSurfer and its modules are backed by peer-reviewed publications. Using FastSurfer
+            in your work? Please cite the relevant papers.</p>
+    </div>
+    <div class="fs-wrap">
+        <div class="fs-pub-list">
+            <a class="fs-pub" href="/publications/#henschel_2020">
+                <span><span class="fs-pub-name">FastSurfer</span> &mdash; <span class="fs-pub-desc">the whole-brain pipeline (NeuroImage)</span></span>
+                <span class="fs-pub-year">2020</span>
+            </a>
+            <a class="fs-pub" href="/publications/#henschel_2022">
+                <span><span class="fs-pub-name">FastSurferVINN</span> &mdash; <span class="fs-pub-desc">resolution-independent segmentation</span></span>
+                <span class="fs-pub-year">2022</span>
+            </a>
+            <a class="fs-pub" href="/publications/#faber_2022">
+                <span><span class="fs-pub-name">CerebNet</span> &mdash; <span class="fs-pub-desc">cerebellum sub-segmentation</span></span>
+                <span class="fs-pub-year">2022</span>
+            </a>
+            <a class="fs-pub" href="/publications/#estrada2023">
+                <span><span class="fs-pub-name">FastSurfer-HypVINN</span> &mdash; <span class="fs-pub-desc">hypothalamus sub-segmentation</span></span>
+                <span class="fs-pub-year">2023</span>
+            </a>
+            <a class="fs-pub" href="/publications/#pollak_2025">
+                <span><span class="fs-pub-name">FastSurfer-LIT</span> &mdash; <span class="fs-pub-desc">lesion inpainting for tumors &amp; cavities</span></span>
+                <span class="fs-pub-year">2025</span>
+            </a>
+            <a class="fs-pub" href="/publications/#pollak_2026">
+                <span><span class="fs-pub-name">FastSurfer-CC</span> &mdash; <span class="fs-pub-desc">corpus callosum morphometry</span></span>
+                <span class="fs-pub-year">2026</span>
+            </a>
+        </div>
+        <div class="fs-center" style="margin-top: 2rem;">
+            <a class="btn btn-outline" href="/research/fastsurfer/science/">Read the full science overview &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="fs-final">
+    <div class="fs-wrap">
+        <h2>Ready to try FastSurfer?</h2>
+        <p>Get up and running with the documentation, or explore the source on GitHub.</p>
+        <div class="fs-hero-cta">
+            <a class="btn btn-light" href="/FastSurfer/">Documentation</a>
+            <a class="btn btn-ghost" href="https://github.com/deep-mi/FastSurfer" target="_blank"
+               rel="noopener">GitHub</a>
+        </div>
+    </div>
+</section>

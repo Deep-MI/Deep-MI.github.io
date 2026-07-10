@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "FastSurfer" }}</title>
+    <meta name="description"
+          content="{{ page.description | default: 'FastSurfer — a fast, accurate, deep-learning pipeline for fully automated human brain MRI analysis. FreeSurfer-conform outputs in minutes.' }}">
+    <meta name="theme-color" content="#0b3d91">
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- Social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FastSurfer">
+    <meta property="og:description"
+          content="A fast, accurate, deep-learning pipeline for fully automated human brain MRI analysis. FreeSurfer-conform outputs in minutes.">
+    <meta property="og:image" content="/static/img/research/fastsurfer/fastsurfer-logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --fs-primary: #0b3d91; /* deep blue */
+            --fs-primary-2: #1466b8; /* lighter blue for gradients */
+            --fs-accent: #f97316; /* warm orange accent */
+            --fs-ink: #0f172a; /* body text */
+            --fs-muted: #556074; /* secondary text */
+            --fs-bg: #ffffff;
+            --fs-soft: #f4f7fb; /* soft section background */
+            --fs-border: #e3e8f0;
+            --fs-radius: 14px;
+            --fs-maxw: 1100px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: var(--fs-ink);
+            background: var(--fs-bg);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--fs-primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .fs-wrap {
+            max-width: var(--fs-maxw);
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        /* ---------- Top nav ---------- */
+        .fs-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: saturate(180%) blur(8px);
+            border-bottom: 1px solid var(--fs-border);
+        }
+
+        .fs-nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: var(--fs-maxw);
+            margin: 0 auto;
+            padding: 0.6rem 1.25rem;
+        }
+
+        .fs-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: var(--fs-ink);
+        }
+
+        .fs-brand:hover {
+            text-decoration: none;
+        }
+
+        .fs-brand img {
+            height: 34px;
+            width: 34px;
+        }
+
+        .fs-brand span {
+            letter-spacing: -0.01em;
+        }
+
+        .fs-nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .fs-nav-links a {
+            color: var(--fs-muted);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .fs-nav-links a:hover {
+            color: var(--fs-primary);
+            text-decoration: none;
+        }
+
+        .fs-nav-links .fs-lablink {
+            color: var(--fs-ink);
+            font-weight: 600;
+        }
+
+        @media (max-width: 680px) {
+            .fs-nav-links a.fs-hide-sm {
+                display: none;
+            }
+        }
+
+        /* ---------- Buttons ---------- */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.3rem;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: transform .05s ease, box-shadow .2s ease, background .2s ease;
+        }
+
+        .btn:hover {
+            text-decoration: none;
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        .btn-primary {
+            background: var(--fs-accent);
+            color: #fff;
+            box-shadow: 0 6px 18px rgba(249, 115, 22, 0.35);
+        }
+
+        .btn-primary:hover {
+            background: #ea6a0a;
+            color: #fff;
+        }
+
+        .btn-light {
+            background: #fff;
+            color: var(--fs-primary);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-light:hover {
+            background: #f0f4fa;
+            color: var(--fs-primary);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.55);
+        }
+
+        .btn-ghost:hover {
+            background: rgba(255, 255, 255, 0.12);
+            color: #fff;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--fs-primary);
+            border-color: var(--fs-border);
+        }
+
+        .btn-outline:hover {
+            background: var(--fs-soft);
+        }
+
+        /* ---------- Sections ---------- */
+        section {
+            padding: 4rem 0;
+        }
+
+        .fs-section-soft {
+            background: var(--fs-soft);
+        }
+
+        .fs-section-title {
+            font-size: 1.9rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin: 0 0 0.5rem;
+        }
+
+        .fs-section-lead {
+            color: var(--fs-muted);
+            font-size: 1.1rem;
+            max-width: 720px;
+            margin: 0 0 2rem;
+        }
+
+        .fs-center {
+            text-align: center;
+        }
+
+        .fs-center .fs-section-lead {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ---------- Footer ---------- */
+        .fs-footer {
+            background: #0b1220;
+            color: #c7d0de;
+            padding: 3rem 0 2.5rem;
+            font-size: 0.95rem;
+        }
+
+        .fs-footer a {
+            color: #ffffff;
+        }
+
+        .fs-footer-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+
+        .fs-footer h4 {
+            color: #fff;
+            font-size: 1rem;
+            margin: 0 0 0.6rem;
+        }
+
+        .fs-footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .fs-footer li {
+            margin: 0.25rem 0;
+        }
+
+        .fs-footer-bottom {
+            margin-top: 2rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            color: #8b97a8;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<header class="fs-nav">
+    <div class="fs-nav-inner">
+        <a class="fs-brand" href="/research/fastsurfer/">
+            <img src="/static/img/research/fastsurfer/fastsurfer-logo.png" alt="FastSurfer logo">
+            <span>FastSurfer</span>
+        </a>
+        <nav class="fs-nav-links">
+            <a class="fs-hide-sm" href="/research/fastsurfer/science/">Science</a>
+            <a href="/FastSurfer/">Docs</a>
+            <a href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">GitHub</a>
+            <a class="fs-lablink" href="/">Deep-MI Lab</a>
+        </nav>
+    </div>
+</header>
+
+{{ content }}
+
+<footer class="fs-footer">
+    <div class="fs-wrap">
+        <div class="fs-footer-grid">
+            <div style="max-width: 320px;">
+                <h4>FastSurfer</h4>
+                <p style="margin:0.2rem 0 0; color:#9aa6b6;">A fast, accurate, deep-learning pipeline for fully
+                    automated human brain MRI analysis. Developed by the
+                    <a href="/">Deep-MI Lab</a>.</p>
+            </div>
+            <div>
+                <h4>Project</h4>
+                <ul>
+                    <li><a href="/FastSurfer/">Documentation</a></li>
+                    <li><a href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">GitHub
+                        repository</a></li>
+                    <li><a href="/research/fastsurfer/science/">The science</a></li>
+                    <li><a href="/publications">Publications</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Deep-MI Lab</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/research">Research</a></li>
+                    <li><a href="/members">Team</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fs-footer-bottom">
+            FastSurfer is developed at the <a
+                href="https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/reuter/"
+                target="_blank" rel="noopener">DZNE</a>
+            and <a href="https://www.nmr.mgh.harvard.edu/user/7284" target="_blank" rel="noopener">MGH / Harvard Medical
+            School</a>.
+            Open source under the Apache 2.0 license &middot; This website is <a
+                href="https://github.com/Deep-MI/Deep-MI.github.io" target="_blank" rel="noopener">open source</a>.
+        </div>
+    </div>
+</footer>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-52773332-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

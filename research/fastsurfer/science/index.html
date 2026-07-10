@@ -5,7 +5,7 @@ layout: product
 ---
 
 <style>
-    /* ---- Page sub-header (condensed variant of the hero) ---- */
+    /* ---- Page sub-header ---- */
     .sci-header {
         background: linear-gradient(135deg, var(--fs-primary) 0%, var(--fs-primary-2) 100%);
         color: #fff;
@@ -20,10 +20,7 @@ layout: product
         margin-bottom: 1.25rem;
     }
 
-    .sci-breadcrumb:hover {
-        color: #fff;
-        text-decoration: none;
-    }
+    .sci-breadcrumb:hover { color: #fff; text-decoration: none; }
 
     .sci-header h1 {
         font-size: 2.5rem;
@@ -44,7 +41,7 @@ layout: product
         .sci-header h1 { font-size: 1.9rem; }
     }
 
-    /* ---- Two-column layout ---- */
+    /* ---- Two-column helpers ---- */
     .sci-two-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -86,7 +83,7 @@ layout: product
         line-height: 1.5;
     }
 
-    /* ---- Video embed ---- */
+    /* ---- Video ---- */
     .sci-video-wrap {
         position: relative;
         padding-bottom: 56.25%;
@@ -105,7 +102,7 @@ layout: product
         border: 0;
     }
 
-    /* ---- Body text tweaks ---- */
+    /* ---- Body text ---- */
     .sci-body p {
         color: var(--fs-muted);
         font-size: 1rem;
@@ -127,7 +124,7 @@ layout: product
 
     .sci-body li strong { color: var(--fs-ink); }
 
-    /* ---- Step number badge ---- */
+    /* ---- Step badge ---- */
     .sci-badge {
         display: inline-flex;
         align-items: center;
@@ -143,39 +140,145 @@ layout: product
         flex-shrink: 0;
     }
 
-    /* ---- Validation cards (3-up) ---- */
-    .sci-val-grid {
+    /* ---- Origin note tag ---- */
+    .sci-origin-note {
+        display: inline-block;
+        background: var(--fs-soft);
+        border: 1px solid var(--fs-border);
+        border-radius: 999px;
+        padding: 0.2rem 0.75rem;
+        font-size: 0.8rem;
+        color: var(--fs-muted);
+        margin-bottom: 1rem;
+    }
+
+    /* ---- Sub-module cards ---- */
+    .sci-mod-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
-        margin-top: 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-top: 2rem;
     }
 
-    @media (max-width: 860px) {
-        .sci-val-grid { grid-template-columns: 1fr; }
+    @media (max-width: 680px) {
+        .sci-mod-grid { grid-template-columns: 1fr; }
     }
 
-    .sci-val-card {
+    .sci-mod-card {
+        display: flex;
+        gap: 1.1rem;
+        align-items: flex-start;
         background: #fff;
         border: 1px solid var(--fs-border);
-        border-radius: var(--fs-radius);
-        padding: 1.75rem 1.5rem 1.5rem;
+        border-left: 4px solid var(--fs-accent);
+        border-radius: 10px;
+        padding: 1.1rem 1.2rem;
+        color: var(--fs-ink);
+        transition: box-shadow .2s, transform .18s;
     }
 
-    .sci-val-card h3 {
-        margin: 0.5rem 0 0.5rem;
-        font-size: 1.08rem;
+    .sci-mod-card:hover {
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+        transform: translateY(-2px);
+        text-decoration: none;
+    }
+
+    .sci-mod-img {
+        width: 72px;
+        height: 72px;
+        border-radius: 8px;
+        object-fit: cover;
+        flex-shrink: 0;
+        border: 1px solid var(--fs-border);
+    }
+
+    .sci-mod-body h3 {
+        margin: 0 0 0.3rem;
+        font-size: 0.98rem;
         font-weight: 700;
     }
 
-    .sci-val-card p {
+    .sci-mod-body p {
+        margin: 0;
+        font-size: 0.88rem;
         color: var(--fs-muted);
-        font-size: 0.94rem;
-        margin: 0 0 1.25rem;
-        line-height: 1.6;
+        line-height: 1.55;
     }
 
-    /* ---- Resource link list ---- */
+    .sci-mod-year {
+        display: inline-block;
+        font-size: 0.75rem;
+        color: var(--fs-muted);
+        margin-bottom: 0.3rem;
+    }
+
+    /* ---- Validation rows (full-width, alternating) ---- */
+    .sci-val-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 2.5rem;
+    }
+
+    .sci-val-row {
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+        gap: 3rem;
+        align-items: center;
+        padding: 3rem 0;
+        border-top: 1px solid var(--fs-border);
+    }
+
+    .sci-val-row:last-child {
+        border-bottom: 1px solid var(--fs-border);
+    }
+
+    .sci-val-row.flip {
+        grid-template-columns: 1.15fr 1fr;
+    }
+
+    .sci-val-row.flip .sci-val-fig { order: -1; }
+
+    @media (max-width: 760px) {
+        .sci-val-row,
+        .sci-val-row.flip {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .sci-val-row.flip .sci-val-fig { order: 0; }
+    }
+
+    .sci-val-text h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0.5rem 0 0.6rem;
+    }
+
+    .sci-val-text p {
+        color: var(--fs-muted);
+        font-size: 0.97rem;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    .sci-val-fig { text-align: center; }
+
+    .sci-val-fig img {
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+        border-radius: var(--fs-radius);
+        border: 1px solid var(--fs-border);
+    }
+
+    .sci-val-fig figcaption {
+        color: var(--fs-muted);
+        font-size: 0.85rem;
+        margin-top: 0.65rem;
+        line-height: 1.5;
+    }
+
+    /* ---- Resource links ---- */
     .sci-links {
         display: grid;
         gap: 0.65rem;
@@ -229,23 +332,26 @@ layout: product
         <div class="sci-two-col">
             <div class="sci-body">
                 <h2 class="fs-section-title">How FastSurfer works</h2>
-                <p>FastSurfer is a fast and extensively validated deep-learning pipeline for the fully automated
+                <p>FastSurfer is a fast and extensively validated deep-learning pipeline for fully automated
                     processing of structural human brain MRIs. It provides FreeSurfer-conform outputs, enabling
                     scalable big-data analysis and time-critical clinical applications such as structure
                     localization during image acquisition or extraction of quantitative measures.</p>
-                <p>The pipeline is built from two main components:</p>
+                <p>The pipeline is organized into two main stages:</p>
                 <ol>
-                    <li><strong>FastSurferCNN</strong> &mdash; whole-brain segmentation into 95 classes in under 1 minute,
-                        mimicking FreeSurfer's anatomical segmentation and cortical parcellation (DKTatlas).</li>
-                    <li><strong>recon-surf</strong> &mdash; a full FreeSurfer-alternative for cortical surface reconstruction,
-                        cortical label mapping, and traditional point-wise and ROI thickness analysis in approximately
-                        60 minutes.</li>
+                    <li><strong>Segmentation</strong> &mdash; A deep neural network labels ~95 brain structures
+                        (cortical regions, subcortical nuclei, white matter) in under one minute. Specialized
+                        sub-modules extend this to detailed analysis of additional structures such as the
+                        cerebellum, hypothalamus, and corpus callosum.</li>
+                    <li><strong>Surface-based analysis</strong> &mdash; Starting from the segmentation,
+                        FastSurfer reconstructs the cortical surfaces, maps parcellation labels, and computes
+                        thickness and curvature measures &mdash; the same outputs as a full FreeSurfer
+                        analysis, produced in a fraction of the time.</li>
                 </ol>
             </div>
             <figure class="sci-figure">
                 <img src="/static/img/research/fastsurfer/01_teaser_white.png"
-                     alt="FastSurfer fully automated pipeline combining FastSurferCNN with recon-surf">
-                <figcaption>Fig&nbsp;1. FastSurfer's fully automated pipeline &mdash; FastSurferCNN for volumetric
+                     alt="FastSurfer pipeline: FastSurferVINN segmentation feeding into recon-surf surface reconstruction">
+                <figcaption>Fig&nbsp;1. FastSurfer's fully automated pipeline &mdash; FastSurferVINN for volumetric
                     segmentation, recon-surf for surface reconstruction.</figcaption>
             </figure>
         </div>
@@ -265,105 +371,205 @@ layout: product
     </div>
 </section>
 
-<!-- ===================== FASTSURFERCNN ===================== -->
+<!-- ===================== FASTSURFERVINN ===================== -->
 <section>
     <div class="fs-wrap">
         <div class="sci-two-col">
             <div class="sci-body">
-                <h2 class="fs-section-title">Volumetric Segmentation &mdash; FastSurferCNN</h2>
-                <p>FastSurferCNN is composed of three fully convolutional neural networks (F-CNNs) operating on
-                    coronal, axial, and sagittal 2D slice stacks, combined with a final view aggregation that
-                    harnesses both the local neighbourhood context of 3D patches and the global view of 2D slices.</p>
-                <p>Within each F-CNN the architecture incorporates:</p>
-                <ul>
-                    <li><strong>Competitive dense blocks</strong> and <strong>competitive skip pathways</strong>
-                        for local and global competition</li>
-                    <li><strong>Multi-slice information aggregation</strong> via 7-channel inputs</li>
-                    <li>Tailored performance for both cortical and sub-cortical structure recognition</li>
-                </ul>
+                <span class="sci-origin-note">Evolved from FastSurferCNN &mdash; Henschel et al., NeuroImage 2020</span>
+                <h2 class="fs-section-title">Volumetric Segmentation &mdash; FastSurferVINN</h2>
+                <p><strong>FastSurferVINN</strong> (View-Aggregation with Instance Normalization Network) is the
+                    current segmentation engine in FastSurfer, introduced in Henschel et al., NeuroImage 2022.
+                    It performs whole-brain segmentation into 95 anatomical classes in under one minute and produces
+                    outputs fully compatible with FreeSurfer's DKTatlas parcellation.</p>
+                <p>The architecture uses three fully convolutional networks (F-CNNs) operating on
+                    coronal, axial, and sagittal 2D slice stacks &mdash; an approach first established in the original
+                    FastSurferCNN &mdash; combined with competitive dense blocks, competitive skip pathways, and a
+                    7-channel multi-slice input that captures local neighbourhood context.</p>
+                <p>The central advance in VINN is <strong>resolution independence</strong>: by replacing batch
+                    normalization with instance normalization (IN) and conditioning the network on the input voxel
+                    size, VINN adapts its internal representations to the acquisition resolution at inference time.
+                    This enables robust, consistent segmentation across protocols ranging from standard 1&nbsp;mm
+                    isotropic acquisitions to high-resolution 0.7&ndash;0.8&nbsp;mm sub-millimeter scans &mdash;
+                    without any protocol-specific fine-tuning.</p>
+                <p>The segmentation block also replaces FreeSurfer's built-in corpus callosum detection with a
+                    dedicated CC module, avoiding FreeSurfer's known tendency to incorrectly attach the fornix to
+                    the CC and providing sub-regional parcellation with local thickness estimates
+                    (see <a href="#sci-modules">FastSurfer-CC</a> below).</p>
             </div>
             <figure class="sci-figure">
-                <img src="/static/img/research/fastsurfer/02_fastsurferCNN.png"
-                     alt="FastSurferCNN architecture and view aggregation">
-                <figcaption>Fig&nbsp;2. FastSurferCNN architecture and the proposed multi-view aggregation strategy.</figcaption>
+                <img src="/static/pub/henschel_2022.jpg"
+                     alt="FastSurferVINN: resolution-independent segmentation via instance normalization">
+                <figcaption>Fig&nbsp;2. FastSurferVINN &mdash; resolution-independent whole-brain segmentation
+                    using instance normalization conditioned on voxel size
+                    (Henschel, K&uuml;gler &amp; Reuter, NeuroImage 2022).</figcaption>
             </figure>
         </div>
     </div>
 </section>
 
-<!-- ===================== RECON-SURF ===================== -->
+<!-- ===================== SURFACE PIPELINE ===================== -->
 <section class="fs-section-soft">
     <div class="fs-wrap">
-        <div class="sci-two-col-flip">
+        <h2 class="fs-section-title">Surface-based Analysis</h2>
+        <p style="color: var(--fs-muted); font-size: 1rem; line-height: 1.75; max-width: 820px; margin: 0 0 2.5rem;">
+            Starting from the segmentation, FastSurfer performs a complete surface-based analysis: cortical
+            surface reconstruction, atlas label mapping, and point-wise and ROI thickness analysis &mdash; the
+            same outputs as a full FreeSurfer pipeline, but produced in approximately one hour. Having a
+            high-quality segmentation from the outset eliminates several time-consuming FreeSurfer steps,
+            including skull stripping and non-linear atlas registration, and also enables a number of
+            targeted methodological improvements.</p>
+        <div class="sci-two-col-flip" style="align-items: start;">
             <figure class="sci-figure sci-flip-img">
                 <img src="/static/img/research/fastsurfer/03_recon_surf.png"
-                     alt="FreeSurfer iterative spherical inflation vs recon-surf spectral embedding">
-                <figcaption>Fig&nbsp;3. FreeSurfer's iterative spherical inflation versus recon-surf's one-shot spectral
-                    embedding using the first three non-constant eigenfunctions of the Laplace-Beltrami operator.</figcaption>
+                     alt="FreeSurfer iterative spherical inflation vs FastSurfer one-shot spectral embedding">
+                <figcaption>Fig&nbsp;3. FreeSurfer's iterative spherical inflation (left) versus FastSurfer's
+                    one-shot spectral embedding (right) using eigenfunctions of the Laplace-Beltrami
+                    operator.</figcaption>
             </figure>
             <div class="sci-body">
-                <h2 class="fs-section-title">Surface Reconstruction &mdash; recon-surf</h2>
-                <p>With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels, and
-                    traditional point-wise and ROI thickness analysis. The high-quality brain segmentation from
-                    FastSurferCNN makes many traditional FreeSurfer steps obsolete &mdash; including skull stripping and
-                    non-linear atlas registration.</p>
-                <p>We perform a novel <strong>spectral spherical embedding</strong>, directly mapping cortical labels
-                    from image to surface using eigenfunctions of the Laplace-Beltrami operator, then scaling the
-                    3D spectral embedding vector to unit length to produce the final spherical map. These improvements
-                    result in a significant speed-up compared to FreeSurfer recon-all.</p>
+                <p>Key improvements over FreeSurfer's surface pipeline:</p>
+                <ul>
+                    <li><strong>One-shot spectral spherical embedding</strong> &mdash; instead of FreeSurfer's
+                        slow iterative spherical inflation, FastSurfer maps the cortical surface to the sphere
+                        in a single step using the eigenfunctions of the Laplace-Beltrami operator. This is
+                        the primary driver of the speed-up from many hours to approximately one hour.</li>
+                    <li><strong>Stabilized Talairach registration</strong> &mdash; the affine Talairach
+                        transform, from which intracranial volume (eTIV/ICV) is derived, is pre-initialized
+                        using a segmentation-based affine alignment. This reduces registration variance and
+                        yields more consistent eTIV/ICV estimates across subjects and scan sites compared
+                        to FreeSurfer.</li>
+                    <li><strong>Stabilized cortical atlas alignment</strong> &mdash; FreeSurfer's spherical
+                        atlas registration can misplace the central sulcus by one sulcal step, causing
+                        systematic parcellation errors and noisy local thickness estimates in the pre- and
+                        post-central gyri. FastSurfer pre-rotates the cortical sphere using the existing
+                        cortical segmentation labels before atlas registration, providing a robust
+                        initialization that avoids this known misalignment.</li>
+                    <li><strong>Faster statistics and label mapping</strong> &mdash; FastSurfer ships its
+                        own optimized implementations of segmentation statistics and surface label mapping,
+                        replacing the corresponding FreeSurfer tools and further reducing runtime.</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ===================== VALIDATION ===================== -->
-<section>
+<!-- ===================== SUB-MODULES ===================== -->
+<section id="sci-modules">
+    <div class="fs-wrap">
+        <div class="fs-center" style="margin-bottom: 0.5rem;">
+            <h2 class="fs-section-title">Specialized Sub-modules</h2>
+            <p class="fs-section-lead">FastSurfer's modular design enables targeted analysis of specific brain
+                structures, each backed by dedicated peer-reviewed work.</p>
+        </div>
+        <div class="sci-mod-grid">
+
+            <a class="sci-mod-card" href="/publications/#faber_2022">
+                <img class="sci-mod-img" src="/static/pub/faber_2022.jpg" alt="CerebNet">
+                <div class="sci-mod-body">
+                    <span class="sci-mod-year">NeuroImage 2022</span>
+                    <h3>CerebNet &mdash; Cerebellum</h3>
+                    <p>Detailed sub-segmentation of the cerebellum into 28 sub-regions. Validated across scanner
+                        sites and cerebellar disease cohorts.</p>
+                </div>
+            </a>
+
+            <a class="sci-mod-card" href="/publications/#estrada2023">
+                <img class="sci-mod-img" src="/static/pub/estrada_2023.jpg" alt="HypVINN">
+                <div class="sci-mod-body">
+                    <span class="sci-mod-year">Imaging Neuroscience 2023</span>
+                    <h3>HypVINN &mdash; Hypothalamus</h3>
+                    <p>Automated sub-segmentation of the hypothalamus and 7 adjacent structures using a
+                        resolution-independent VINN architecture.</p>
+                </div>
+            </a>
+
+            <a class="sci-mod-card" href="/publications/#pollak_2026">
+                <img class="sci-mod-img" src="/static/pub/pollak_2026.jpg" alt="FastSurfer-CC">
+                <div class="sci-mod-body">
+                    <span class="sci-mod-year">Imaging Neuroscience 2026</span>
+                    <h3>FastSurfer-CC &mdash; Corpus Callosum</h3>
+                    <p>Robust morphometry of the corpus callosum and its five sub-regions &mdash; area, thickness,
+                        and curvature &mdash; derived from the whole-brain segmentation.</p>
+                </div>
+            </a>
+
+            <a class="sci-mod-card" href="/publications/#pollak_2025">
+                <img class="sci-mod-img" src="/static/pub/pollak_2025.jpg" alt="FastSurfer-LIT">
+                <div class="sci-mod-body">
+                    <span class="sci-mod-year">Imaging Neuroscience 2025</span>
+                    <h3>FastSurfer-LIT &mdash; Lesion Inpainting</h3>
+                    <p>Inpainting module enabling the full surface pipeline on brains with tumors, resection
+                        cavities, or other focal abnormalities.</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== PROOF OF CONCEPT ===================== -->
+<section class="fs-section-soft">
     <div class="fs-wrap fs-center">
         <h2 class="fs-section-title">Proof of Concept</h2>
-        <p class="fs-section-lead">FastSurfer was extensively validated across multiple publicly available datasets
-            for accuracy, reliability, and sensitivity.</p>
+        <p class="fs-section-lead">FastSurfer was extensively validated across multiple publicly available datasets.
+            Accuracy and reliability relative to FreeSurfer were established with the original pipeline and carry
+            forward to FastSurferVINN, which additionally extends robust performance to arbitrary acquisition
+            resolutions.</p>
     </div>
     <div class="fs-wrap">
-        <div class="sci-val-grid">
+        <div class="sci-val-section">
 
-            <div class="sci-val-card">
-                <div class="sci-badge">1</div>
-                <h3>Accuracy &amp; Generalizability</h3>
-                <p>FastSurferCNN outperforms other deep-learning architectures across five datasets covering different
-                    disease states (OASIS, ADNI, MIRIAD), scanner vendors, age groups, downsampled images, and
-                    alternative T1 imaging protocols.</p>
-                <figure class="sci-figure">
+            <div class="sci-val-row">
+                <div class="sci-val-text">
+                    <div class="sci-badge">1</div>
+                    <h3>Accuracy &amp; Generalizability</h3>
+                    <p>FastSurfer outperforms other deep-learning architectures across five public datasets covering
+                        different disease states (OASIS, ADNI, MIRIAD), scanner vendors, age groups, downsampled
+                        and defaced images, and alternative T1 imaging protocols. It achieves superior Dice
+                        Similarity Coefficients and Hausdorff distances both relative to FreeSurfer and to a
+                        manual gold standard (Mindboggle).</p>
+                </div>
+                <figure class="sci-val-fig">
                     <img src="/static/img/research/fastsurfer/04_dice_hd_barplot.png"
-                         alt="Dice similarity and Hausdorff distance comparison across architectures">
+                         alt="Dice similarity and Hausdorff distance comparison across architectures and datasets">
                     <figcaption>Fig&nbsp;4. FastSurfer outperforms state-of-the-art architectures on both Dice
-                        Similarity Coefficient and Hausdorff distance.</figcaption>
+                        Similarity Coefficient and Hausdorff distance across multiple datasets.</figcaption>
                 </figure>
             </div>
 
-            <div class="sci-val-card">
-                <div class="sci-badge">2</div>
-                <h3>Reliability</h3>
-                <p>FastSurfer demonstrates high test-retest reliability, with close agreement between thickness and
-                    volumetric measurements across 20 Test-Retest subjects from OASIS1.</p>
-                <figure class="sci-figure">
+            <div class="sci-val-row flip">
+                <div class="sci-val-text">
+                    <div class="sci-badge">2</div>
+                    <h3>Reliability</h3>
+                    <p>FastSurfer demonstrates high test-retest reliability, with close agreement between thickness
+                        and volumetric measurements across 20 test-retest subjects from OASIS1. Intraclass
+                        correlation coefficients (ICC) are consistently high, and cortical thickness agreement
+                        is improved compared to FreeSurfer.</p>
+                </div>
+                <figure class="sci-val-fig">
                     <img src="/static/img/research/fastsurfer/05_icc_reliability_lr.png"
-                         alt="ICC test-retest reliability">
+                         alt="ICC test-retest reliability for FastSurfer vs FreeSurfer">
                     <figcaption>Fig&nbsp;5. High test-retest reliability with improved cortical thickness agreement
-                        compared to FreeSurfer.</figcaption>
+                        compared to FreeSurfer (OASIS1, n&nbsp;=&nbsp;20).</figcaption>
                 </figure>
             </div>
 
-            <div class="sci-val-card">
-                <div class="sci-badge">3</div>
-                <h3>Sensitivity</h3>
-                <p>FastSurfer accurately reproduces known disease effects in control vs. dementia cross-sectional
-                    studies, detecting cortical thickness reductions and subcortical volume differences with greater
-                    sensitivity than FreeSurfer.</p>
-                <figure class="sci-figure">
+            <div class="sci-val-row">
+                <div class="sci-val-text">
+                    <div class="sci-badge">3</div>
+                    <h3>Sensitivity</h3>
+                    <p>FastSurfer accurately reproduces known disease effects in control vs. dementia
+                        cross-sectional group studies. Reduced cortical thickness in regions associated with
+                        dementia (e.g. temporal lobes) and subcortical volume differences (e.g. enlarged
+                        ventricles, reduced hippocampal volume) are detected with greater sensitivity than
+                        FreeSurfer.</p>
+                </div>
+                <figure class="sci-val-fig">
                     <img src="/static/img/research/fastsurfer/06_sensitivity_v3.png"
-                         alt="Sensitivity: group differences between dementia and control">
-                    <figcaption>Fig&nbsp;6. FastSurfer sensitively detects cortical and subcortical differences
-                        between dementia and control groups.</figcaption>
+                         alt="Sensitivity: cortical and subcortical group differences between dementia and controls">
+                    <figcaption>Fig&nbsp;6. FastSurfer sensitively detects cortical thickness and subcortical
+                        volume differences between dementia and control groups.</figcaption>
                 </figure>
             </div>
 
@@ -372,14 +578,18 @@ layout: product
 </section>
 
 <!-- ===================== RESOURCES ===================== -->
-<section class="fs-section-soft">
+<section>
     <div class="fs-wrap fs-center">
         <h2 class="fs-section-title">Resources</h2>
         <p class="fs-section-lead">Everything you need to use, cite, and learn more about FastSurfer.</p>
         <div class="sci-links">
+            <a class="sci-link-item" href="https://doi.org/10.1016/j.neuroimage.2022.118933" target="_blank" rel="noopener">
+                <span class="sci-link-label">VINN Paper</span>
+                <span class="sci-link-desc">FastSurferVINN &mdash; resolution-independent segmentation (NeuroImage, 2022)</span>
+            </a>
             <a class="sci-link-item" href="https://doi.org/10.1016/j.neuroimage.2020.117012" target="_blank" rel="noopener">
-                <span class="sci-link-label">Paper</span>
-                <span class="sci-link-desc">FastSurfer (NeuroImage, 2020) &mdash; primary reference for the pipeline</span>
+                <span class="sci-link-label">Original Paper</span>
+                <span class="sci-link-desc">FastSurfer &mdash; the original pipeline and CNN architecture (NeuroImage, 2020)</span>
             </a>
             <a class="sci-link-item" href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">
                 <span class="sci-link-label">GitHub</span>
@@ -392,10 +602,6 @@ layout: product
             <a class="sci-link-item" href="https://github.com/deep-mi/qatools-python" target="_blank" rel="noopener">
                 <span class="sci-link-label">QC Tools</span>
                 <span class="sci-link-desc">Accompanying quality control tools for FastSurfer outputs</span>
-            </a>
-            <a class="sci-link-item" href="https://github.com/deep-mi/FastSurfer/tree/master/Tutorial" target="_blank" rel="noopener">
-                <span class="sci-link-label">Tutorials</span>
-                <span class="sci-link-desc">Step-by-step guides for running FastSurfer on various setups</span>
             </a>
             <a class="sci-link-item" href="/publications/">
                 <span class="sci-link-label">All publications</span>

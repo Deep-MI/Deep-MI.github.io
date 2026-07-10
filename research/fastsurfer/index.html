@@ -424,7 +424,8 @@ layout: product
                     </div>
                     <div id="fs-cmd-apptainer" class="fs-code">
                         <span class="c"># Pull once — saves a portable .sif file</span><br>
-                        <span class="p">$</span> apptainer pull fastsurfer.sif docker://deepmi/fastsurfer:latest<br>
+                        <span class="p">$</span> apptainer pull fastsurfer.sif \<br>
+                            docker://deepmi/fastsurfer:latest<br>
                         <br>
                         <span class="c"># Run segmentation (--nv enables GPU, -B binds data dir)</span><br>
                         <span class="p">$</span> apptainer run --nv -B <b>/data</b>:/data fastsurfer.sif \<br>

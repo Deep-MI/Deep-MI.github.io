@@ -1,179 +1,406 @@
 ---
 title: "FastSurfer: The Science"
-author: "Leonie Henschel"
-layout: default
-group: research
+description: "A deep dive into the architecture, methodology, and extensive validation of FastSurfer's deep-learning neuroimaging pipeline."
+layout: product
 ---
 
-<p style="margin-bottom: 1.5rem;"><a href="/research/fastsurfer/">&larr; Back to FastSurfer</a></p>
+<style>
+    /* ---- Page sub-header (condensed variant of the hero) ---- */
+    .sci-header {
+        background: linear-gradient(135deg, var(--fs-primary) 0%, var(--fs-primary-2) 100%);
+        color: #fff;
+        padding: 3rem 0 3.5rem;
+    }
 
-## FastSurfer - a fast and accurate deep-learning based neuroimaging pipeline
+    .sci-breadcrumb {
+        display: inline-block;
+        color: #bcd4f5;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+    }
 
-FastSurfer is a fast and [extensively validated](#proof-of-concept) deep-learning pipeline for the fully automated
-processing of structural
-human brain MRIs. As such, it provides FreeSurfer conform outputs, enables scalable big-data analysis and time-critical
-clinical applications
-such as structure localization during image acquisition or extraction of quantitative measures.
+    .sci-breadcrumb:hover {
+        color: #fff;
+        text-decoration: none;
+    }
 
-FastSurfer consists of two main parts building upon each other:
+    .sci-header h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        margin: 0 0 0.75rem;
+        line-height: 1.1;
+    }
 
-1. [FastSurferCNN](#volumetric-segmentation---fastsurfercnn) - an advanced deep learning architecture capable of whole
-   brain segmentation into 95 classes in under
-   1 minute, mimicking FreeSurfer’s anatomical segmentation and cortical parcellation (DKTatlas)
+    .sci-header p {
+        font-size: 1.15rem;
+        color: #dbe7f7;
+        max-width: 640px;
+        margin: 0;
+    }
 
-2. [recon-surf](#surface-reconstruction---recon-surf) - full FreeSurfer alternative for cortical surface reconstruction,
-   mapping of cortical labels and
-   traditional point-wise and ROI thickness analysis in approximately 60 minutes (+ optionally 30 min for group
-   registration).
+    @media (max-width: 680px) {
+        .sci-header h1 { font-size: 1.9rem; }
+    }
 
-<img src="/static/img/research/fastsurfer/01_teaser_white.png" class="responsive" alt="FastSurfer" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 600px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 1. FastSurfer - fully automated neuroimaging pipeline combining an advanced neural network architecture (FastSurferCNN) with a surface pipeline (recon-surf).
-</div>
+    /* ---- Two-column layout ---- */
+    .sci-two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+    }
 
-{::nomarkdown}
-<div class="video-container">
-         <iframe src="https://www.youtube.com/embed/V78jKcqVg7k" frameborder="0" width="280" height="107"></iframe>
-</div>
-{:/nomarkdown}
+    .sci-two-col-flip {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+    }
 
-### Volumetric Segmentation - FastSurferCNN
+    @media (max-width: 780px) {
+        .sci-two-col,
+        .sci-two-col-flip { grid-template-columns: 1fr; gap: 2rem; }
+        .sci-two-col-flip .sci-flip-img { order: -1; }
+    }
 
-FastSurferCNN is composed of three fully convolutional neural networks (F-CNNs) operating on coronal, axial, and
-sagittal
-2D slice stacks and a final view aggregation combining the advantages of 3D patches (local neighbourhood) and 2D
-slices (global view).
-Within each F-CNN we incorporate local and global competition via competitive dense blocks and competitive skip
-pathways, as well as
-multi-slice information aggregation (7-channel input) that specifically tailor network performance towards accurate
-recognition of
-both cortical and sub-cortical structures.
+    /* ---- Figures ---- */
+    .sci-figure {
+        text-align: center;
+        margin: 0;
+    }
 
-<img src="/static/img/research/fastsurfer/02_fastsurferCNN.png" alt="FastSurferCNN" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 500px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 2. FastSurferCNN architecture and proposed view aggregation.
-</div>
+    .sci-figure img {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+        border-radius: var(--fs-radius);
+        border: 1px solid var(--fs-border);
+    }
 
-### Surface reconstruction - recon-surf
+    .sci-figure figcaption {
+        color: var(--fs-muted);
+        font-size: 0.88rem;
+        margin-top: 0.7rem;
+        line-height: 1.5;
+    }
 
-With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels and traditional point-wise
-and ROI thickness analysis. Due to the presence of a high-quality brain segmentation (generated by FastSurferCNN) many
-steps from within the traditional FreeSurfer recon-all have become obsolete, such as skull stripping and
-non-linear atlas registration.
+    /* ---- Video embed ---- */
+    .sci-video-wrap {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: var(--fs-radius);
+        max-width: 720px;
+        margin: 2rem auto 0;
+        box-shadow: 0 14px 40px rgba(3, 20, 55, 0.15);
+    }
 
-Further, we perform a novel spectral spherical embedding and directly map the cortical labels from the image to the
-surface. Precisely, we use the eigenfunctions of the Laplace-Beltrami operator to parametrize
-the surface smoothly and quickly generate the final spherical map by scaling the
-3D spectral embedding vector to unit length.
+    .sci-video-wrap iframe {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        border: 0;
+    }
 
-Overall, these improvements result in a significant speed-up compared to FreeSurfer.
+    /* ---- Body text tweaks ---- */
+    .sci-body p {
+        color: var(--fs-muted);
+        font-size: 1rem;
+        line-height: 1.75;
+        margin-bottom: 1rem;
+    }
 
-<img src="/static/img/research/fastsurfer/03_recon_surf.png" alt="ReconSurf" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 500px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 3. FreeSurfer´s iterative spherical inflation versus recon-surf´s one-shot spectral embedding using the first three non-constant
-eigenfunctions of the Laplace-Beltrami operator.
-</div>
+    .sci-body p strong { color: var(--fs-ink); }
 
-### Proof of Concept
+    .sci-body ol,
+    .sci-body ul {
+        color: var(--fs-muted);
+        padding-left: 1.4rem;
+        line-height: 1.75;
+    }
 
-To ensure the usefulness of our entire pipeline, FastSurfer was extensively validated using a number of publicly
-available datasets.
+    .sci-body ol li,
+    .sci-body ul li { margin-bottom: 0.4rem; }
 
-#### 1. Accuracy and Generalizability - How good is the whole brain segmentation generated by FastSurferCNN?
+    .sci-body li strong { color: var(--fs-ink); }
 
-__Answer__: Very good! FastSurferCNN outperforms other deep-learning architectures by a significant margin both wrt to
-FreeSurfer
-and a manual standard (Mindboggle). It generalizes well across five different datasets including subjects with different
-disease states (e.g.
-cognitive normal, mild cognitive impaired or demented subjects in OASIS, ADNI, MIRIAD), different
-vendors (e.g. THP), age groups, downsampled and defaced images (e.g. HCP) and alternative T1-imaging protocols (e.g.
-MIRIAD)
+    /* ---- Step number badge ---- */
+    .sci-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.1rem;
+        height: 2.1rem;
+        border-radius: 50%;
+        background: var(--fs-accent);
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        flex-shrink: 0;
+    }
 
-<img src="/static/img/research/fastsurfer/04_dice_hd_barplot.png" alt="DICE" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 500px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 4. FastSurfer outperforms other state-of-the-art deep-learning architectures
- across a number of datasets both wrt to Dice Similarity Coefficient and Hausdorff distance.
-</div>
+    /* ---- Validation cards (3-up) ---- */
+    .sci-val-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+    }
 
-#### 2. Reliability - How well does FastSurfer reproduce results across scans with minimal anatomical variations (Test-Retest)?
+    @media (max-width: 860px) {
+        .sci-val-grid { grid-template-columns: 1fr; }
+    }
 
-__Answer__: FastSurfer is highly reliable as demonstrated by the close agreement between the thickness and volumetric
-measurements for 20 Test-Retest subjects from OASIS1.
+    .sci-val-card {
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-radius: var(--fs-radius);
+        padding: 1.75rem 1.5rem 1.5rem;
+    }
 
-<img src="/static/img/research/fastsurfer/05_icc_reliability_lr.png" alt="ICC" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 500px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 5. FreeSurfer exhibits high test-retest reliability and improves agreement
-between the cortical thickness measurments compared to FreeSurfer.
-</div>
+    .sci-val-card h3 {
+        margin: 0.5rem 0 0.5rem;
+        font-size: 1.08rem;
+        font-weight: 700;
+    }
 
-#### 3. Sensitivity - How well does FastSurfer detect significant effects in the data?
+    .sci-val-card p {
+        color: var(--fs-muted);
+        font-size: 0.94rem;
+        margin: 0 0 1.25rem;
+        line-height: 1.6;
+    }
 
-__Answer__: FastSurfer is capable of accurately reproducing known disease effects in a control versus dementia
-cross-sectional group study.
-Reduced cortical thickness in regions associated with dementia (e.g. temporal lobes) as well as subcortical volume
-differences (e.g. enlarged ventricles, shrunken Hippocampus) are robustly detected with increased sensitivity relative
-to FreeSurfer.
+    /* ---- Resource link list ---- */
+    .sci-links {
+        display: grid;
+        gap: 0.65rem;
+        max-width: 720px;
+        margin: 1.75rem auto 0;
+        text-align: left;
+    }
 
-<img src="/static/img/research/fastsurfer/06_sensitivity_v3.png" alt="Sensitivity" style="
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-max-width: 500px;
-height: auto;
-">
-<div  style="text-align: center;"> Fig 6. FastSurfer sensitively detects known differences in the cortical
-thickness and subcortical volumes between dementia and control groups.
-</div>
+    .sci-link-item {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-radius: 10px;
+        padding: 0.9rem 1.2rem;
+        color: var(--fs-ink);
+        transition: border-color .2s;
+    }
 
-### Tool and Paper
+    .sci-link-item:hover {
+        border-color: var(--fs-primary);
+        text-decoration: none;
+    }
 
-- FastSurfer is available as open source at [github](https://github.com/deep-mi/FastSurfer).
+    .sci-link-label {
+        font-weight: 700;
+        min-width: 8rem;
+        color: var(--fs-primary);
+        font-size: 0.95rem;
+    }
 
-- Documentation, usage and installation instructions are available [here](/research/fastsurfer/science-page.md).
+    .sci-link-desc {
+        color: var(--fs-muted);
+        font-size: 0.93rem;
+    }
+</style>
 
-- An accompanying set of quality control tools can be found at [github](https://github.com/deep-mi/qatools-python).
+<!-- ===================== PAGE HEADER ===================== -->
+<section class="sci-header">
+    <div class="fs-wrap">
+        <a class="sci-breadcrumb" href="/research/fastsurfer/">&larr; FastSurfer</a>
+        <h1>The Science Behind FastSurfer</h1>
+        <p>A deep dive into the architecture, methodology, and extensive validation of FastSurfer's deep-learning neuroimaging pipeline.</p>
+    </div>
+</section>
 
-- In-depth information about FastSurfer can be found in our [paper](https://doi.org/10.1016/j.neuroimage.2020.117012).
+<!-- ===================== OVERVIEW ===================== -->
+<section>
+    <div class="fs-wrap">
+        <div class="sci-two-col">
+            <div class="sci-body">
+                <h2 class="fs-section-title">How FastSurfer works</h2>
+                <p>FastSurfer is a fast and extensively validated deep-learning pipeline for the fully automated
+                    processing of structural human brain MRIs. It provides FreeSurfer-conform outputs, enabling
+                    scalable big-data analysis and time-critical clinical applications such as structure
+                    localization during image acquisition or extraction of quantitative measures.</p>
+                <p>The pipeline is built from two main components:</p>
+                <ol>
+                    <li><strong>FastSurferCNN</strong> — whole-brain segmentation into 95 classes in under 1 minute,
+                        mimicking FreeSurfer's anatomical segmentation and cortical parcellation (DKTatlas).</li>
+                    <li><strong>recon-surf</strong> — a full FreeSurfer-alternative for cortical surface reconstruction,
+                        cortical label mapping, and traditional point-wise and ROI thickness analysis in approximately
+                        60 minutes.</li>
+                </ol>
+            </div>
+            <figure class="sci-figure">
+                <img src="/static/img/research/fastsurfer/01_teaser_white.png"
+                     alt="FastSurfer fully automated pipeline combining FastSurferCNN with recon-surf">
+                <figcaption>Fig&nbsp;1. FastSurfer's fully automated pipeline — FastSurferCNN for volumetric
+                    segmentation, recon-surf for surface reconstruction.</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
 
-- Or watch our small presentation (10min) on [YouTube](https://www.youtube.com/watch?v=V78jKcqVg7k).
+<!-- ===================== VIDEO ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">10-minute overview</h2>
+        <p class="fs-section-lead">Watch a concise introduction to FastSurfer's design and capabilities.</p>
+        <div class="sci-video-wrap">
+            <iframe src="https://www.youtube.com/embed/V78jKcqVg7k"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
 
-### Tutorial
+<!-- ===================== FASTSURFERCNN ===================== -->
+<section>
+    <div class="fs-wrap">
+        <div class="sci-two-col">
+            <div class="sci-body">
+                <h2 class="fs-section-title">Volumetric Segmentation — FastSurferCNN</h2>
+                <p>FastSurferCNN is composed of three fully convolutional neural networks (F-CNNs) operating on
+                    coronal, axial, and sagittal 2D slice stacks, combined with a final view aggregation that
+                    harnesses both the local neighbourhood context of 3D patches and the global view of 2D slices.</p>
+                <p>Within each F-CNN the architecture incorporates:</p>
+                <ul>
+                    <li><strong>Competitive dense blocks</strong> and <strong>competitive skip pathways</strong>
+                        for local and global competition</li>
+                    <li><strong>Multi-slice information aggregation</strong> via 7-channel inputs</li>
+                    <li>Tailored performance for both cortical and sub-cortical structure recognition</li>
+                </ul>
+            </div>
+            <figure class="sci-figure">
+                <img src="/static/img/research/fastsurfer/02_fastsurferCNN.png"
+                     alt="FastSurferCNN architecture and view aggregation">
+                <figcaption>Fig&nbsp;2. FastSurferCNN architecture and the proposed multi-view aggregation strategy.</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
 
-- A set of detailed tutorials for running Fastsurfer can be found within the FastSurfer github repository
-  at [github](https://github.com/deep-mi/FastSurfer/tree/master/Tutorial).
+<!-- ===================== RECON-SURF ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap">
+        <div class="sci-two-col-flip">
+            <figure class="sci-figure sci-flip-img">
+                <img src="/static/img/research/fastsurfer/03_recon_surf.png"
+                     alt="FreeSurfer iterative spherical inflation vs recon-surf spectral embedding">
+                <figcaption>Fig&nbsp;3. FreeSurfer's iterative spherical inflation versus recon-surf's one-shot spectral
+                    embedding using the first three non-constant eigenfunctions of the Laplace-Beltrami operator.</figcaption>
+            </figure>
+            <div class="sci-body">
+                <h2 class="fs-section-title">Surface Reconstruction — recon-surf</h2>
+                <p>With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels, and
+                    traditional point-wise and ROI thickness analysis. The high-quality brain segmentation from
+                    FastSurferCNN makes many traditional FreeSurfer steps obsolete — including skull stripping and
+                    non-linear atlas registration.</p>
+                <p>We perform a novel <strong>spectral spherical embedding</strong>, directly mapping cortical labels
+                    from image to surface using eigenfunctions of the Laplace-Beltrami operator, then scaling the
+                    3D spectral embedding vector to unit length to produce the final spherical map. These improvements
+                    result in a significant speed-up compared to FreeSurfer recon-all.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-### News
+<!-- ===================== VALIDATION ===================== -->
+<section>
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">Proof of Concept</h2>
+        <p class="fs-section-lead">FastSurfer was extensively validated across multiple publicly available datasets
+            for accuracy, reliability, and sensitivity.</p>
+    </div>
+    <div class="fs-wrap">
+        <div class="sci-val-grid">
 
-- FastSurfer was presented in the #OHBMx equinox (check out our twitter [@deepmilab](https://twitter.com/deepmilab)).
+            <div class="sci-val-card">
+                <div class="sci-badge">1</div>
+                <h3>Accuracy &amp; Generalizability</h3>
+                <p>FastSurferCNN outperforms other deep-learning architectures across five datasets covering different
+                    disease states (OASIS, ADNI, MIRIAD), scanner vendors, age groups, downsampled images, and
+                    alternative T1 imaging protocols.</p>
+                <figure class="sci-figure">
+                    <img src="/static/img/research/fastsurfer/04_dice_hd_barplot.png"
+                         alt="Dice similarity and Hausdorff distance comparison across architectures">
+                    <figcaption>Fig&nbsp;4. FastSurfer outperforms state-of-the-art architectures on both Dice
+                        Similarity Coefficient and Hausdorff distance.</figcaption>
+                </figure>
+            </div>
 
+            <div class="sci-val-card">
+                <div class="sci-badge">2</div>
+                <h3>Reliability</h3>
+                <p>FastSurfer demonstrates high test-retest reliability, with close agreement between thickness and
+                    volumetric measurements across 20 Test-Retest subjects from OASIS1.</p>
+                <figure class="sci-figure">
+                    <img src="/static/img/research/fastsurfer/05_icc_reliability_lr.png"
+                         alt="ICC test-retest reliability">
+                    <figcaption>Fig&nbsp;5. High test-retest reliability with improved cortical thickness agreement
+                        compared to FreeSurfer.</figcaption>
+                </figure>
+            </div>
+
+            <div class="sci-val-card">
+                <div class="sci-badge">3</div>
+                <h3>Sensitivity</h3>
+                <p>FastSurfer accurately reproduces known disease effects in control vs. dementia cross-sectional
+                    studies, detecting cortical thickness reductions and subcortical volume differences with greater
+                    sensitivity than FreeSurfer.</p>
+                <figure class="sci-figure">
+                    <img src="/static/img/research/fastsurfer/06_sensitivity_v3.png"
+                         alt="Sensitivity: group differences between dementia and control">
+                    <figcaption>Fig&nbsp;6. FastSurfer sensitively detects cortical and subcortical differences
+                        between dementia and control groups.</figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== RESOURCES ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap fs-center">
+        <h2 class="fs-section-title">Resources</h2>
+        <p class="fs-section-lead">Everything you need to use, cite, and learn more about FastSurfer.</p>
+        <div class="sci-links">
+            <a class="sci-link-item" href="https://doi.org/10.1016/j.neuroimage.2020.117012" target="_blank" rel="noopener">
+                <span class="sci-link-label">Paper</span>
+                <span class="sci-link-desc">FastSurfer (NeuroImage, 2020) — primary reference for the pipeline</span>
+            </a>
+            <a class="sci-link-item" href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">
+                <span class="sci-link-label">GitHub</span>
+                <span class="sci-link-desc">Source code, releases, issues, and community discussions</span>
+            </a>
+            <a class="sci-link-item" href="/FastSurfer/">
+                <span class="sci-link-label">Documentation</span>
+                <span class="sci-link-desc">Installation, usage, GPU setup, and all pipeline options</span>
+            </a>
+            <a class="sci-link-item" href="https://github.com/deep-mi/qatools-python" target="_blank" rel="noopener">
+                <span class="sci-link-label">QC Tools</span>
+                <span class="sci-link-desc">Accompanying quality control tools for FastSurfer outputs</span>
+            </a>
+            <a class="sci-link-item" href="https://github.com/deep-mi/FastSurfer/tree/master/Tutorial" target="_blank" rel="noopener">
+                <span class="sci-link-label">Tutorials</span>
+                <span class="sci-link-desc">Step-by-step guides for running FastSurfer on various setups</span>
+            </a>
+            <a class="sci-link-item" href="/publications/">
+                <span class="sci-link-label">All publications</span>
+                <span class="sci-link-desc">Full list of FastSurfer-related papers from the Deep-MI lab</span>
+            </a>
+        </div>
+    </div>
+</section>

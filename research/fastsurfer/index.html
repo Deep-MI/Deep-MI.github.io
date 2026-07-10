@@ -290,6 +290,60 @@ layout: product
     .fs-final .fs-hero-cta {
         justify-content: center;
     }
+
+    /* ---------- Code tab switcher ---------- */
+    .fs-code-wrap {
+        position: relative;
+    }
+
+    .fs-code-tabs {
+        display: flex;
+        gap: 2px;
+        background: #1a2535;
+        border-radius: var(--fs-radius) var(--fs-radius) 0 0;
+        padding: 0.45rem 0.65rem 0;
+    }
+
+    .fs-tab {
+        background: transparent;
+        color: #7d8aa0;
+        border: none;
+        padding: 0.32rem 0.9rem;
+        font-family: inherit;
+        font-size: 0.83rem;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px 5px 0 0;
+        transition: color .15s, background .15s;
+    }
+
+    .fs-tab:hover { color: #c9d5e4; }
+
+    .fs-tab.active {
+        background: #0b1220;
+        color: #f9a56b;
+    }
+
+    .fs-code-wrap .fs-code {
+        border-radius: 0 0 var(--fs-radius) var(--fs-radius);
+    }
+
+    /* ---------- Interactive viewer callout ---------- */
+    .fs-viewer-card {
+        background: #fff;
+        border: 1px solid var(--fs-border);
+        border-top: 4px solid var(--fs-accent);
+        border-radius: var(--fs-radius);
+        padding: 3rem 2.5rem;
+        max-width: 640px;
+        margin: 0 auto;
+        box-shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+    }
+
+    .fs-viewer-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
 </style>
 
 <!-- ===================== HERO ===================== -->
@@ -357,21 +411,50 @@ layout: product
         <div class="fs-quick-grid">
             <div>
                 <h2 class="fs-section-title">Get started in one command</h2>
-                <p class="fs-section-lead">Run FastSurfer via Docker on a single T1-weighted scan. See the documentation
+                <p class="fs-section-lead">Run the segmentation pipeline on a single T1-weighted scan —
+                    via Docker on workstations, or Apptainer on HPC clusters. See the documentation
                     for native installation, GPU setup, and all options.</p>
                 <a class="btn btn-primary" href="/FastSurfer/">Full documentation &rarr;</a>
             </div>
             <div>
-                <div class="fs-code"><span class="c"># Run the full pipeline on one subject</span><br>
-                    <span class="p">$</span> docker run --gpus all -v <b>/data</b>:/data \\<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;deepmi/fastsurfer:latest \\<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;--t1 /data/subject/orig.mgz \\<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output
+                <div class="fs-code-wrap">
+                    <div class="fs-code-tabs">
+                        <button class="fs-tab active" onclick="fsTab(this,'apptainer')">Apptainer / HPC</button>
+                        <button class="fs-tab" onclick="fsTab(this,'docker')">Docker</button>
+                    </div>
+                    <div id="fs-cmd-apptainer" class="fs-code">
+                        <span class="c"># Pull once — saves a portable .sif file</span><br>
+                        <span class="p">$</span> apptainer pull fastsurfer.sif docker://deepmi/fastsurfer:latest<br>
+                        <br>
+                        <span class="c"># Run segmentation (--nv enables GPU, -B binds data dir)</span><br>
+                        <span class="p">$</span> apptainer run --nv -B <b>/data</b>:/data fastsurfer.sif \<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;--t1 /data/subject/orig.mgz \<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output --seg_only
+                    </div>
+                    <div id="fs-cmd-docker" class="fs-code" style="display:none">
+                        <span class="c"># No FreeSurfer license needed with --seg_only</span><br>
+                        <span class="p">$</span> docker run --gpus all -v <b>/data</b>:/data \<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;deepmi/fastsurfer:latest \<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;--t1 /data/subject/orig.mgz \<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output --seg_only
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    function fsTab(btn, id) {
+        btn.closest('.fs-code-tabs').querySelectorAll('.fs-tab').forEach(function (t) {
+            t.classList.remove('active');
+        });
+        btn.classList.add('active');
+        var wrap = btn.closest('.fs-code-wrap');
+        wrap.querySelectorAll('.fs-code').forEach(function (c) { c.style.display = 'none'; });
+        wrap.querySelector('#fs-cmd-' + id).style.display = 'block';
+    }
+</script>
 
 <!-- ===================== WHAT IT PRODUCES ===================== -->
 <section>
@@ -398,6 +481,30 @@ layout: product
                 <h3>HypVINN — hypothalamus</h3>
                 <p>Integrated module for automated sub-segmentation of the hypothalamus and adjacent structures.</p>
             </div>
+            <div class="fs-module">
+                <h3>FastSurfer-CC — corpus callosum</h3>
+                <p>Automated morphometry of the corpus callosum and its sub-regions, derived from the whole-brain segmentation.</p>
+            </div>
+            <div class="fs-module">
+                <h3>FastSurfer LIT — lesion inpainting</h3>
+                <p>Lesion inpainting module enabling robust surface reconstruction in brains with tumors or cavities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== INTERACTIVE VIEWER ===================== -->
+<section class="fs-section-soft">
+    <div class="fs-wrap fs-center">
+        <div class="fs-viewer-card">
+            <div class="fs-viewer-icon">🧠</div>
+            <h2 class="fs-section-title">See it for yourself — right now</h2>
+            <p class="fs-section-lead">Explore a real FastSurfer whole-brain segmentation interactively in your browser
+                with <strong>NeuroCade</strong>. No installation, no account required.</p>
+            <a class="btn btn-primary" href="https://neurocade.org" target="_blank" rel="noopener">Open in NeuroCade ↗</a>
+            <p style="margin-top: 0.9rem; font-size: 0.88rem; color: var(--fs-muted);">
+                Web-based viewer &middot; full-brain segmentation &middot; runs in any modern browser
+            </p>
         </div>
     </div>
 </section>

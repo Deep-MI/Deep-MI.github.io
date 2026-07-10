@@ -379,11 +379,11 @@ layout: product
                 <a class="btn btn-primary" href="/FastSurfer/">Full documentation &rarr;</a>
             </div>
             <div>
-                <div class="fs-code"><span class="c"># Run the full pipeline on one subject</span><br>
+                <div class="fs-code"><span class="c"># Run the segmentation pipeline on one subject</span><br>
                     <span class="p">$</span> docker run --gpus all -v <b>/data</b>:/data \\<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;deepmi/fastsurfer:latest \\<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;--t1 /data/subject/orig.mgz \\<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output
+                    &nbsp;&nbsp;&nbsp;&nbsp;--sid <b>subjectID</b> --sd /data/output --seg_only
                 </div>
             </div>
         </div>

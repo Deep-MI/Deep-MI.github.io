@@ -332,18 +332,20 @@ layout: product
         <div class="sci-two-col">
             <div class="sci-body">
                 <h2 class="fs-section-title">How FastSurfer works</h2>
-                <p>FastSurfer is a fast and extensively validated deep-learning pipeline for fully automated processing
-                    of structural human brain MRIs. It provides FreeSurfer-conform outputs, enabling scalable big-data
-                    analysis and time-critical clinical applications such as structure localization during image
-                    acquisition or extraction of quantitative measures.</p>
-                <p>The pipeline is built from two main components:</p>
+                <p>FastSurfer is a fast and extensively validated deep-learning pipeline for fully automated
+                    processing of structural human brain MRIs. It provides FreeSurfer-conform outputs, enabling
+                    scalable big-data analysis and time-critical clinical applications such as structure
+                    localization during image acquisition or extraction of quantitative measures.</p>
+                <p>The pipeline is organized into two main stages:</p>
                 <ol>
-                    <li><strong>FastSurferVINN</strong> &mdash; resolution-independent whole-brain segmentation into
-                        95 classes in under 1 minute, producing outputs compatible with FreeSurfer's DKTatlas
-                        parcellation.</li>
-                    <li><strong>recon-surf</strong> &mdash; a full FreeSurfer-alternative for cortical surface
-                        reconstruction, label mapping, and point-wise and ROI thickness analysis in approximately
-                        60 minutes.</li>
+                    <li><strong>Segmentation</strong> &mdash; A deep neural network labels ~95 brain structures
+                        (cortical regions, subcortical nuclei, white matter) in under one minute. Specialized
+                        sub-modules extend this to detailed analysis of additional structures such as the
+                        cerebellum, hypothalamus, and corpus callosum.</li>
+                    <li><strong>Surface-based analysis</strong> &mdash; Starting from the segmentation,
+                        FastSurfer reconstructs the cortical surfaces, maps parcellation labels, and computes
+                        thickness and curvature measures &mdash; the same outputs as a full FreeSurfer
+                        analysis, produced in a fraction of the time.</li>
                 </ol>
             </div>
             <figure class="sci-figure">
@@ -380,7 +382,7 @@ layout: product
                     current segmentation engine in FastSurfer, introduced in Henschel et al., NeuroImage 2022.
                     It performs whole-brain segmentation into 95 anatomical classes in under one minute and produces
                     outputs fully compatible with FreeSurfer's DKTatlas parcellation.</p>
-                <p>The architecture uses three fully convolutional networks (F-CNNs) operating in parallel on
+                <p>The architecture uses three fully convolutional networks (F-CNNs) operating on
                     coronal, axial, and sagittal 2D slice stacks &mdash; an approach first established in the original
                     FastSurferCNN &mdash; combined with competitive dense blocks, competitive skip pathways, and a
                     7-channel multi-slice input that captures local neighbourhood context.</p>
@@ -389,7 +391,7 @@ layout: product
                     size, VINN adapts its internal representations to the acquisition resolution at inference time.
                     This enables robust, consistent segmentation across protocols ranging from standard 1&nbsp;mm
                     isotropic acquisitions to high-resolution 0.7&ndash;0.8&nbsp;mm sub-millimeter scans &mdash;
-                    without any retraining or protocol-specific fine-tuning.</p>
+                    without any protocol-specific fine-tuning.</p>
             </div>
             <figure class="sci-figure">
                 <img src="/static/pub/henschel_2022.jpg"
@@ -417,7 +419,7 @@ layout: product
                 <h2 class="fs-section-title">Surface Reconstruction &mdash; recon-surf</h2>
                 <p>With recon-surf we perform fast cortical surface reconstruction, mapping of cortical labels, and
                     traditional point-wise and ROI thickness analysis. The high-quality segmentation from
-                    FastSurferVINN makes many traditional FreeSurfer steps obsolete &mdash; including skull stripping
+                    FastSurferVINN makes many time-consuming FreeSurfer steps obsolete &mdash; including skull stripping
                     and non-linear atlas registration.</p>
                 <p>We perform a novel <strong>spectral spherical embedding</strong>, directly mapping cortical labels
                     from image to surface using eigenfunctions of the Laplace-Beltrami operator, then scaling the

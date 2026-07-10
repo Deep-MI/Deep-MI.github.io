@@ -117,8 +117,9 @@
   scholar: tRjIOUIAAAAJ
   orcid: 0000-0001-7119-9473
   github: sRassmann
-  description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Bonn University. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has previously worked on automating the analysis of microscopy and X-ray imagery. Currently, his research focuses on implementing diffusion models for MR contrast translation.'
-  projects: 'FLAIR synthesis'
+  description: 'Sebastian has a multidisciplinary background, with Computer Science and Biomedicine degrees from Bonn University. He is interested in applying novel deep-learning methods to medical image analysis to aid patient care. He has previously worked on automating the analysis of microscopy and X-ray imagery. 
+  He develops generative AI models for medical image translation (e.g. FLAIR synthesis), with strong focus on maximizing information extractability rather than mere image appearance. Currently, his research also aims to translate the gained insights to (conditional) brain MRI denoising.'
+  projects: 'Medical image translation, Brain MRI denoising'
 
 - name: Jingjing Wu
   image: /static/img/members/wu.jpg

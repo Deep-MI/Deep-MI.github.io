@@ -31,6 +31,17 @@
 #       url: 'http://coollab.uni.edu/'
 #
 
+- id: 'rassmann_2026'
+  authors: '**Rassmann S**, **Kügler D**, Brunheim S, Ehses P , **Reuter M**'
+  title: 'Rethinking Real-World MRI Denoising: Learning from Physical Noise'
+  journal: '*European Conference on Computer Vision (ECCV)*'
+  type: 'conference'
+  year: 2026 (to appear)
+  image: '/static/pub/rassmann_2026.jpg'
+  bibtex: '/static/pub/rassmann_2026.bib'
+  pdf: 'https://srassmann.github.io/assets/files/2026_ECCV_YADO.pdf'
+  github: 'deep-mi/YADO'
+
 - id: 'ewert_2026'
   authors: '**Ewert C**, **Kügler D**, **Reuter M**'
   title: 'Learning-based Segmentation of Diffusion-Weighted MR Images with Arbitrary q-Space Samplings'
@@ -46,7 +57,7 @@
 - id: 'pollak_2026'
   authors: '**Pollak C**, **Diers K**, **Estrada S.**, **Kügler D**, **Reuter M**'
   title: 'FastSurfer-CC: A robust, accurate, and comprehensive framework for corpus callosum morphometry'
-  journal: 'Imaging Neuroscience'
+  journal: '*Imaging Neuroscience*'
   type: 'journal'
   year: 2026
   image: '/static/pub/pollak_2026.jpg'

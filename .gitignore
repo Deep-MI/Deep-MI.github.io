@@ -28,3 +28,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# AI agents
+.agentbridge
+.agent-work

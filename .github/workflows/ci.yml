@@ -11,29 +11,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
 
-    - name: Validate YAML files
-      run: ruby scripts/validate_yaml.rb
+      - name: Validate YAML files
+        run: ruby scripts/validate_yaml.rb
 
-    - name: Validate posts
-      run: bash scripts/validate_posts.sh
+      - name: Validate posts
+        run: bash scripts/validate_posts.sh
 
-    - name: Build Jekyll site
-      run: bundle exec jekyll build
-      env:
-        JEKYLL_ENV: production
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
-    - name: Test with html-proofer
-      run: |
-        bundle exec htmlproofer ./_site \
-          --disable-external \
-          --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" \
-          --allow-hash-href
+      - name: Test with html-proofer
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" \
+            --allow-hash-href
 

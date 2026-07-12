@@ -1,8 +1,9 @@
 ---
 title: Location
-layout: default
+layout: lab
 group: events
 ---
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # Directions
 
@@ -41,3 +42,5 @@ Upon arrival the DZNE, please turn to the **reception** (close to the main entra
 
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2024)</p>
+
+</div>

@@ -1,8 +1,9 @@
 ---
 title: FastSurfer workshop 2023
-layout: default
+layout: lab
 group: events
 ---
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 <img src="/static/img/events/teaser_long.jpg" class="responsive" alt="FastSurfer" style="
 	display: block;
@@ -128,3 +129,4 @@ Bonn, Germany
 martin.reuter(at)dzne.de
 
 kersten.diers(at)dzne.de
+</div>

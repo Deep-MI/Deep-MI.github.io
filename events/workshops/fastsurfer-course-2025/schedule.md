@@ -1,8 +1,10 @@
 ---
 title: Schedule
-layout: default
+layout: lab
 group: events
 ---
+
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # Schedule
 
@@ -109,3 +111,4 @@ _Friday, September 19:_
 All sessions will contain lectures and demos as well as practical and interactive parts. The schedule may be subject to minor temporal adjustments.
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2025)</p>
+</div>

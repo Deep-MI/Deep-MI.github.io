@@ -1,8 +1,9 @@
 ---
 title: Registration
-layout: default
+layout: lab
 group: events
 ---
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # Registration
 
@@ -38,4 +39,4 @@ There is a maximum capacity of **20 participants** and no course fee.
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2024)</p>
 
-
+</div>

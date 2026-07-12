@@ -1,8 +1,10 @@
 ---
 title: DeepMI FastSurfer/FreeSurfer course 2025
-layout: default
+layout: lab
 group: events
 ---
+
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # DeepMI FastSurfer / FreeSurfer course 2025
 
@@ -73,3 +75,4 @@ We are looking forward to your registration for the course:
 Please feel free to get in touch with any questions or requests that you might have:
 
 - <a href="mailto:fastsurfer-course&#64;dzne&#46;de">The FastSurfer course organizers</a>
+</div>

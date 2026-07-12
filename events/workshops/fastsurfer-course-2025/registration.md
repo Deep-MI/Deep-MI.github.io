@@ -1,8 +1,10 @@
 ---
 title: Registration
-layout: default
+layout: lab
 group: events
 ---
+
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # Registration
 
@@ -52,4 +54,4 @@ The organizers reserve the right to make minor adjustments to the program and sc
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2025)</p>
 
-
+</div>

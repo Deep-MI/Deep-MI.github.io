@@ -1,0 +1,126 @@
+---
+title: Events
+layout: lab
+group: events
+---
+
+<style>
+.lab-event-card {
+    display: flex;
+    background: #fff;
+    border: 1px solid var(--lab-border);
+    border-top: 4px solid var(--lab-accent);
+    border-radius: var(--lab-radius);
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.lab-event-thumb { width: 40%; max-width: 440px; flex-shrink: 0; }
+.lab-event-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.lab-event-info { padding: 2rem 2.25rem; flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.lab-event-list { list-style: none; margin: 0; padding: 0; }
+.lab-event-list li { display: flex; gap: 1.25rem; padding: 0.9rem 0; border-bottom: 1px solid var(--lab-border); align-items: baseline; line-height: 1.55; }
+.lab-event-list li:last-child { border-bottom: none; }
+.lab-event-date { font-size: 0.77rem; font-weight: 700; color: var(--lab-muted); white-space: nowrap; min-width: 68px; text-transform: uppercase; letter-spacing: 0.05em; padding-top: 0.07rem; }
+@media (max-width: 640px) {
+    .lab-event-card { flex-direction: column; }
+    .lab-event-thumb { width: 100%; max-width: none; height: 180px; }
+    .lab-event-info { padding: 1.25rem; }
+    .lab-event-list li { flex-direction: column; gap: 0.15rem; }
+}
+</style>
+
+<div class="lab-page-header">
+    <div class="lab-wrap">
+        <h1>Events</h1>
+        <p>Talks, summer schools, and hands-on courses hosted by the Deep Medical Imaging Lab.</p>
+    </div>
+</div>
+
+<section>
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Upcoming</h2>
+        <p class="lab-section-lead">Register early &mdash; capacity is limited for our workshops and courses.</p>
+
+        <div class="lab-event-card">
+            <div class="lab-event-thumb">
+                <img src="/static/img/events/teaser_long.jpg" alt="FastSurfer Course 2026">
+            </div>
+            <div class="lab-event-info">
+                <span class="lab-proj-tag">Workshop &middot; Oct 14&ndash;16, 2026 &middot; DZNE Bonn</span>
+                <h3 style="font-size:1.3rem;font-weight:800;margin:0.55rem 0 0.7rem;line-height:1.2;color:var(--lab-ink)">DeepMI FastSurfer / FreeSurfer Course 2026</h3>
+                <p style="color:var(--lab-muted);font-size:0.93rem;line-height:1.7;margin:0 0 1.25rem">
+                    A 2.5-day hands-on introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. Lectures, demos, practical exercises, and social events at the German Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany.
+                </p>
+                <div style="display:flex;gap:0.65rem;flex-wrap:wrap">
+                    <a href="/events/workshops/fastsurfer-course-2026/" class="lab-btn lab-btn-accent">Course details</a>
+                    <a href="/events/workshops/fastsurfer-course-2026/registration" class="lab-btn lab-btn-outline">Register</a>
+                    <a href="/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf" class="lab-btn lab-btn-light" target="_blank" rel="noopener">Flyer (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="lab-soft">
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Past Events</h2>
+        <ul class="lab-event-list">
+            <li>
+                <span class="lab-event-date">Sep 2025</span>
+                <span><a href="/events/workshops/fastsurfer-course-2025/">DeepMI FastSurfer/FreeSurfer course 2025</a> &mdash; DZNE Bonn (Sep 17&ndash;19, 2025)</span>
+            </li>
+            <li>
+                <span class="lab-event-date">May 2025</span>
+                <span>BIGS Neuroscience Summer School 2025: Introduction to AI in Human Neuroimaging</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Sep 2024</span>
+                <span><a href="/events/workshops/fastsurfer-course-2024/">DeepMI FastSurfer/FreeSurfer course 2024</a> &mdash; DZNE Bonn (Sep 26&ndash;27, 2024)</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Jun 2024</span>
+                <span>BIGS Neuroscience Summer School 2024: Introduction to AI in Human Neuroimaging</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Jun 2024</span>
+                <span>Talk by Yanwu Yang (Harbin Institute of Technology) &mdash; &ldquo;Neuroimaging Foundation Models: Towards General Neuroimage Analysis and Applications&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Nov 2023</span>
+                <span>Talk by Anastacia Yendiki (Martinos Center / MGH) &mdash; &ldquo;Towards a complete map of the human connectome across scales&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Sep 2023</span>
+                <span><a href="/events/workshops/fastsurfer-course-2023/">DeepMI FastSurfer/FreeSurfer course 2023</a> &mdash; DZNE Bonn (Sep 28&ndash;29, 2023)</span>
+            </li>
+            <li>
+                <span class="lab-event-date">May 2023</span>
+                <span>BIGS Neuroscience Summer School 2023: Introduction to AI in Human Neuroimaging</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Sep 2022</span>
+                <span>Talk by Pham Huy Hieu (Vin University) &mdash; &ldquo;Building large-scale medical imaging datasets and evaluating AI algorithms in clinical settings&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Aug 2022</span>
+                <span>BIGS Neuroscience Summer School 2022: Introduction to AI in Human Neuroimaging</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Nov 2021</span>
+                <span>Talk by Carlos Loza (U Texas Austin) &mdash; &ldquo;Deep Neural Dynamic Bayesian Networks applied to EEG sleep spindles modeling&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Oct 2020</span>
+                <span>Talk by Jean Chen (U Toronto) &mdash; &ldquo;Mapping age effects on functional and structural connectivity in aging: Physiological considerations&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Jul 2018</span>
+                <span>Talk by Qi Dou (CUHK) &mdash; &ldquo;Medical Image Computing via Deep Learning &mdash; Detection and Segmentation&rdquo;</span>
+            </li>
+            <li>
+                <span class="lab-event-date">Nov 2017</span>
+                <span>Talk by Eugenio Iglesias (UCL) &mdash; &ldquo;Building atlases with ex-vivo MRI for segmentation of brain substructures from in vivo MRI and implementation in FreeSurfer&rdquo;</span>
+            </li>
+        </ul>
+    </div>
+</section>

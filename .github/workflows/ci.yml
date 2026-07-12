@@ -37,3 +37,10 @@ jobs:
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/\/fsqc\//,/\/LaPy\//,/\/BrainPrint/,/\/FastSurfer\//" \
             --allow-hash-href
 
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site/
+          retention-days: 7
+

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Deep Medical Imaging Lab</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="theme-color" content="#1e293b">
+    <link rel="icon" href="/favicon_large.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    {% if page.group == 'news' %}
+    <link rel="alternate" type="application/atom+xml" title="DeepMI News Feed" href="/news.xml">
+    {% endif %}
+    <style>
+        /* ---- Variables ---- */
+        :root {
+            --lab-primary:  #1e293b;
+            --lab-hero-1:   #1a3050;
+            --lab-hero-2:   #26508a;
+            --lab-accent:   #0d9488;
+            --lab-ink:      #111827;
+            --lab-muted:    #4b5872;
+            --lab-soft:     #f0f5fa;
+            --lab-border:   #dce4ef;
+            --lab-radius:   12px;
+            --lab-maxw:     1100px;
+        }
+
+        /* ---- Reset & base ---- */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: var(--lab-ink);
+            background: #fff;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--lab-accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        img { max-width: 100%; height: auto; }
+        h1, h2, h3, h4 { line-height: 1.2; }
+
+        /* ---- Layout ---- */
+        .lab-wrap {
+            max-width: var(--lab-maxw);
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+        .lab-center { text-align: center; }
+        .lab-center .lab-section-lead { margin-left: auto; margin-right: auto; }
+
+        /* ---- Navbar ---- */
+        .lab-nav {
+            position: sticky; top: 0; z-index: 50;
+            background: var(--lab-primary);
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+        }
+        .lab-nav-inner {
+            display: flex; align-items: center; justify-content: space-between;
+            max-width: var(--lab-maxw); margin: 0 auto; padding: 0 1.25rem;
+            height: 52px;
+        }
+        .lab-brand {
+            font-weight: 800; font-size: 1rem; color: #fff;
+            letter-spacing: -0.01em; white-space: nowrap; flex-shrink: 0;
+        }
+        .lab-brand:hover { color: #fff; text-decoration: none; }
+        .lab-nav-menu { display: flex; align-items: center; gap: 0.1rem; }
+        .lab-nav-menu a {
+            color: rgba(255,255,255,0.68); font-size: 0.88rem; font-weight: 500;
+            padding: 0.28rem 0.65rem; border-radius: 6px;
+            transition: color .15s, background .15s;
+        }
+        .lab-nav-menu a:hover {
+            color: #fff; background: rgba(255,255,255,0.1); text-decoration: none;
+        }
+        .lab-nav-menu a.active {
+            color: #fff; font-weight: 600; background: rgba(255,255,255,0.13);
+        }
+        /* Mobile toggle */
+        .lab-nav-toggle {
+            display: none; flex-direction: column; justify-content: space-between;
+            width: 24px; height: 17px; background: transparent; border: none;
+            cursor: pointer; padding: 0; flex-shrink: 0;
+        }
+        .lab-nav-toggle span {
+            display: block; height: 2px; background: rgba(255,255,255,0.8); border-radius: 2px;
+        }
+        @media (max-width: 760px) {
+            .lab-nav-toggle { display: flex; }
+            .lab-nav-menu {
+                display: none; flex-direction: column; align-items: stretch;
+                position: absolute; top: 52px; left: 0; right: 0;
+                background: #162032; padding: 0.5rem 1.25rem 1rem;
+                border-bottom: 1px solid rgba(255,255,255,0.08);
+                box-shadow: 0 8px 24px rgba(0,0,0,0.25); gap: 0;
+            }
+            .lab-nav-menu.open { display: flex; }
+            .lab-nav-menu a { padding: 0.55rem 0.75rem; font-size: 0.95rem; }
+        }
+
+        /* ---- Sections ---- */
+        section { padding: 4rem 0; }
+        .lab-soft { background: var(--lab-soft); }
+
+        /* ---- Typography ---- */
+        .lab-section-title {
+            font-size: 1.8rem; font-weight: 800; letter-spacing: -0.025em;
+            margin: 0 0 0.5rem; color: var(--lab-ink);
+        }
+        .lab-section-lead {
+            color: var(--lab-muted); font-size: 1.05rem;
+            margin: 0 0 2rem; max-width: 680px; line-height: 1.7;
+        }
+
+        /* ---- Inner page header (gradient banner) ---- */
+        .lab-page-header {
+            background: linear-gradient(135deg, var(--lab-hero-1) 0%, var(--lab-hero-2) 100%);
+            color: #fff; padding: 3rem 0 3.5rem;
+        }
+        .lab-page-header h1 {
+            font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em;
+            margin: 0 0 0.7rem; line-height: 1.1;
+        }
+        .lab-page-header p {
+            font-size: 1.1rem; color: #c5dce8; max-width: 620px; margin: 0; line-height: 1.65;
+        }
+        .lab-breadcrumb {
+            display: inline-block; color: #8ec5d6; font-size: 0.88rem;
+            font-weight: 500; margin-bottom: 1.2rem;
+        }
+        .lab-breadcrumb:hover { color: #fff; text-decoration: none; }
+
+        /* ---- Buttons ---- */
+        .lab-btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.65rem 1.3rem; border-radius: 999px;
+            font-weight: 600; font-size: 0.95rem; cursor: pointer;
+            border: 1px solid transparent; font-family: inherit;
+            transition: transform .05s ease, box-shadow .2s ease, background .2s ease;
+        }
+        .lab-btn:hover { text-decoration: none; transform: translateY(-1px); }
+        .lab-btn:active { transform: translateY(0); }
+        .lab-btn-accent {
+            background: var(--lab-accent); color: #fff;
+            box-shadow: 0 4px 14px rgba(13,148,136,0.3);
+        }
+        .lab-btn-accent:hover { background: #0b7a71; color: #fff; }
+        .lab-btn-ghost {
+            background: transparent; color: #fff; border-color: rgba(255,255,255,0.5);
+        }
+        .lab-btn-ghost:hover { background: rgba(255,255,255,0.1); color: #fff; }
+        .lab-btn-outline {
+            background: transparent; color: var(--lab-accent); border-color: var(--lab-border);
+        }
+        .lab-btn-outline:hover { background: var(--lab-soft); }
+        .lab-btn-light {
+            background: #fff; color: var(--lab-ink); border-color: var(--lab-border);
+        }
+        .lab-btn-light:hover { background: var(--lab-soft); color: var(--lab-ink); }
+
+        /* ---- Project cards (research page + homepage) ---- */
+        .lab-proj-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
+        }
+        .lab-proj-card {
+            background: #fff; border: 1px solid var(--lab-border);
+            border-radius: var(--lab-radius); overflow: hidden;
+            transition: box-shadow .2s, transform .18s;
+            color: var(--lab-ink); text-decoration: none;
+            display: flex; flex-direction: column;
+        }
+        .lab-proj-card:hover {
+            box-shadow: 0 12px 36px rgba(15,23,42,0.1); transform: translateY(-3px);
+            text-decoration: none;
+        }
+        .lab-proj-card.featured { border-top: 4px solid var(--lab-accent); }
+        .lab-proj-img {
+            width: 100%; height: 150px; object-fit: cover;
+            background: var(--lab-soft); display: block;
+            border-bottom: 1px solid var(--lab-border);
+        }
+        .lab-proj-placeholder {
+            width: 100%; height: 150px; background: var(--lab-soft);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2rem; color: var(--lab-muted);
+            border-bottom: 1px solid var(--lab-border);
+        }
+        .lab-proj-body {
+            padding: 1.1rem 1.2rem 1.2rem; flex: 1;
+            display: flex; flex-direction: column;
+        }
+        .lab-proj-tag {
+            display: inline-block; background: var(--lab-soft);
+            border: 1px solid var(--lab-border); border-radius: 999px;
+            padding: 0.17rem 0.62rem; font-size: 0.72rem; color: var(--lab-muted);
+            font-weight: 600; margin-bottom: 0.5rem;
+            text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .lab-proj-name { font-size: 1.02rem; font-weight: 700; margin: 0 0 0.35rem; }
+        .lab-proj-desc {
+            font-size: 0.9rem; color: var(--lab-muted); line-height: 1.6; margin: 0; flex: 1;
+        }
+        .lab-proj-link {
+            margin-top: 0.85rem; font-size: 0.87rem; font-weight: 600; color: var(--lab-accent);
+        }
+        @media (max-width: 760px) { .lab-proj-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 480px) { .lab-proj-grid { grid-template-columns: 1fr; } }
+
+        /* ---- Member cards (members page + homepage) ---- */
+        .lab-mem-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem;
+        }
+        .lab-mem-card {
+            background: #fff; border: 1px solid var(--lab-border);
+            border-radius: var(--lab-radius); overflow: hidden;
+            text-align: center; transition: box-shadow .2s;
+            color: var(--lab-ink); text-decoration: none; display: block;
+        }
+        .lab-mem-card:hover { box-shadow: 0 8px 24px rgba(15,23,42,0.08); text-decoration: none; }
+        .lab-mem-photo {
+            width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+            background: var(--lab-soft); display: block;
+        }
+        .lab-mem-placeholder {
+            width: 100%; aspect-ratio: 1 / 1; background: var(--lab-soft);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2.5rem; color: var(--lab-border);
+        }
+        .lab-mem-body { padding: 0.8rem 0.85rem 1rem; }
+        .lab-mem-name { font-weight: 700; font-size: 0.92rem; margin: 0 0 0.2rem; }
+        .lab-mem-role { font-size: 0.8rem; color: var(--lab-muted); }
+        @media (max-width: 760px) { .lab-mem-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 480px) { .lab-mem-grid { grid-template-columns: repeat(2, 1fr); } }
+
+        /* ---- Footer ---- */
+        .lab-footer {
+            background: #0d1b2a; color: #94a3b8;
+            padding: 3.5rem 0 2rem; font-size: 0.91rem;
+        }
+        .lab-footer a { color: #e2e8f0; }
+        .lab-footer a:hover { color: #fff; text-decoration: underline; }
+        .lab-footer-grid {
+            display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 2rem; margin-bottom: 2.5rem;
+        }
+        .lab-footer h4 {
+            color: #fff; font-size: 0.76rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem;
+        }
+        .lab-footer ul { list-style: none; margin: 0; padding: 0; }
+        .lab-footer li { margin: 0.3rem 0; font-size: 0.89rem; }
+        .lab-footer-desc {
+            margin: 0.5rem 0 1.1rem; color: #7a90a4;
+            font-size: 0.88rem; line-height: 1.65;
+        }
+        .lab-footer-logos { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+        .lab-footer-logos img {
+            height: 19px; opacity: 0.55; filter: brightness(0) invert(1);
+            transition: opacity .2s;
+        }
+        .lab-footer-logos a:hover img { opacity: 0.85; }
+        .lab-footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 1.25rem; color: #475569; font-size: 0.82rem;
+            display: flex; justify-content: space-between;
+            align-items: center; flex-wrap: wrap; gap: 0.5rem;
+        }
+        @media (max-width: 760px) { .lab-footer-grid { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 480px) {
+            .lab-footer-grid { grid-template-columns: 1fr; }
+            .lab-section-title { font-size: 1.5rem; }
+            .lab-page-header h1 { font-size: 1.8rem; }
+            .lab-page-header { padding: 2.25rem 0 2.75rem; }
+            section { padding: 3rem 0; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="lab-nav">
+    <div class="lab-nav-inner">
+        <a class="lab-brand" href="/">Deep Medical Imaging Lab</a>
+        <button class="lab-nav-toggle" id="lab-nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="lab-nav-menu" id="lab-nav-menu">
+            {% for link in site.data.navlinks %}
+            <a href="{{ link.link }}"{% if page.group == link.group %} class="active"{% endif %}>{{ link.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</header>
+
+{{ content }}
+
+<footer class="lab-footer">
+    <div class="lab-wrap">
+        <div class="lab-footer-grid">
+            <div>
+                <strong style="color:#fff;font-size:0.97rem;">Deep Medical Imaging Lab</strong>
+                <p class="lab-footer-desc">Developing AI and deep-learning methods for automated analysis of medical images, with a focus on neuroimaging and neurodegenerative diseases.</p>
+                <div class="lab-footer-logos">
+                    <a href="https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/reuter/" target="_blank" rel="noopener"><img src="/static/img/logos/dzne_logo.png" alt="DZNE"></a>
+                    <a href="https://www.nmr.mgh.harvard.edu/user/7284" target="_blank" rel="noopener"><img src="/static/img/logos/hms_logo.svg" alt="Harvard Medical School"></a>
+                    <a href="http://reuter.mit.edu" target="_blank" rel="noopener"><img src="/static/img/logos/mit_logo.svg" alt="MIT"></a>
+                </div>
+            </div>
+            <div>
+                <h4>Research</h4>
+                <ul>
+                    <li><a href="/research/fastsurfer/">FastSurfer</a></li>
+                    <li><a href="/research/">All projects</a></li>
+                    <li><a href="/publications/">Publications</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Lab</h4>
+                <ul>
+                    <li><a href="/members/">Members</a></li>
+                    <li><a href="/events/">Events</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Code</h4>
+                <ul>
+                    <li><a href="https://github.com/Deep-MI" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="/LaPy/">LaPy</a></li>
+                    <li><a href="/fsqc/">FastSurfer QC</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lab-footer-bottom">
+            <span>&copy; {{ 'now' | date: '%Y' }} Deep Medical Imaging Lab &middot; <a href="https://github.com/Deep-MI/Deep-MI.github.io" target="_blank" rel="noopener">Open source on GitHub</a></span>
+            <span>DZNE Bonn &middot; MGH / Harvard Medical School &middot; MIT CSAIL</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('lab-nav-toggle').addEventListener('click', function () {
+        document.getElementById('lab-nav-menu').classList.toggle('open');
+    });
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) };
+        i[r].l = 1 * new Date();
+        a = s.createElement(o); m = s.getElementsByTagName(o)[0];
+        a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-52773332-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

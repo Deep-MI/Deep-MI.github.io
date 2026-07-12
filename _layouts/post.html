@@ -1,16 +1,46 @@
-{% include header.html %}
+---
+layout: lab
+---
 
-<div class="row-fluid">
-    <div class="col-sm-7 col-md-8">
-        <div class = "page header"><h1>{{ page.title }}</h1></div>
-        <p><span class="author"><a href="/members#{{page.author}}">{{page.author}}</a></span><br>
-        <span class="date"><em>{{ page.date | date_to_long_string }}</em></span></p>
-        {{ content }}
-        {% include disqus.html %}
+<style>
+    .post-wrap {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+    }
+    .post-meta {
+        font-size: 0.88rem;
+        color: var(--lab-muted);
+        margin: 0.4rem 0 2rem;
+    }
+    .post-meta a { color: var(--lab-muted); }
+    .post-body { font-size: 1rem; line-height: 1.8; color: var(--lab-ink); }
+    .post-body h2, .post-body h3 { margin-top: 2rem; }
+    .post-body img { border-radius: var(--lab-radius); border: 1px solid var(--lab-border); }
+    .post-body a { color: var(--lab-accent); }
+    .post-follow {
+        margin-top: 3rem;
+        padding: 1.25rem 1.5rem;
+        background: var(--lab-soft);
+        border: 1px solid var(--lab-border);
+        border-radius: var(--lab-radius);
+        font-size: 0.92rem;
+        color: var(--lab-muted);
+    }
+    .post-follow a { color: var(--lab-accent); font-weight: 600; }
+</style>
+
+<div class="post-wrap">
+    <a style="font-size:0.88rem;color:var(--lab-muted);" href="/news/">&larr; All news</a>
+    <h1 style="font-size:2rem;font-weight:800;letter-spacing:-0.025em;margin:0.75rem 0 0.3rem;">{{ page.title }}</h1>
+    <p class="post-meta">
+        <a href="/members/#{{ page.author | slugify }}">{{ page.author }}</a>
+        &mdash; <em>{{ page.date | date_to_long_string }}</em>
+    </p>
+    <div class="post-body">{{ content }}</div>
+    <div class="post-follow">
+        Follow the lab on <a href="https://twitter.com/deepmilab" target="_blank" rel="noopener">X&nbsp;/&nbsp;Twitter&nbsp;@deepmilab</a>
+        for updates.
     </div>
-    <div class="col-sm-5 col-md-4 hidden-xs">
-        {% include twitter_sidebar.html %}
-    </div>
+    {% include disqus.html %}
 </div>
-
-{% include footer.html %}

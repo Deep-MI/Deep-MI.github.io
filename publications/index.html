@@ -1,134 +1,140 @@
 ---
-title: DeepMI Pubs
-layout: default
+title: "Publications"
+layout: lab
 group: publications
 ---
 
-<h1>Publications</h1>
+<style>
+    .pub-scholar {
+        font-size: 0.95rem; color: var(--lab-muted); margin-bottom: 2rem;
+    }
+    .pub-scholar a { color: var(--lab-accent); font-weight: 600; }
 
-<div style="font-size: 120% !important;">
-	You can also find our publications at: <a href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank"> <img src="/static/img/logos/scholar_logo.gif" alt="google scholar"> </a>
-</div>
+    .pub-list { display: flex; flex-direction: column; gap: 1.25rem; }
 
-<div class="container-fluid">
+    .pub-item {
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-radius: var(--lab-radius);
+        padding: 1.25rem 1.4rem;
+        display: flex;
+        gap: 1.4rem;
+        align-items: flex-start;
+        scroll-margin-top: 64px;
+    }
+    .pub-item:hover { border-color: #c0cfe4; }
 
-{% for publication in site.data.publications %}
-<hr>
-   <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.id}}">
-   <div class="col-sm-12" style="font-size: 120% !important;"> {{ publication.authors | append: ". " | append: publication.title | append: ". " | append: publication.journal | append: ". " | append: publication.year | append: ". " | markdownify }}</div>
-	<div class="col-sm-6">
-		{% if publication.image %}
-		<img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
-		{% endif %}
-	</div>
-	<ul class="col-sm-6" style="list-style-type:none;">
-			<strong>Access the paper</strong>
-			<!--DOI-->
-			{% if publication.doi %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/DOI_logo.svg" alt="DOI">  <a href="https://dx.doi.org/{{publication.doi}}" alt = "doi: {{publication.doi}}" target="_blank"> {{publication.doi}}</a></li>
-			{% endif %}
+    .pub-thumb {
+        width: 120px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid var(--lab-border);
+        object-fit: cover;
+        display: block;
+    }
+    .pub-body { flex: 1; min-width: 0; }
+    .pub-citation {
+        font-size: 0.95rem;
+        color: var(--lab-ink);
+        line-height: 1.65;
+        margin: 0 0 0.8rem;
+    }
+    .pub-links {
+        display: flex; flex-wrap: wrap; gap: 0.45rem;
+    }
+    .pub-link {
+        display: inline-flex; align-items: center; gap: 0.3rem;
+        background: var(--lab-soft); border: 1px solid var(--lab-border);
+        border-radius: 999px; padding: 0.2rem 0.65rem;
+        font-size: 0.78rem; font-weight: 600; color: var(--lab-ink);
+        transition: border-color .15s, background .15s;
+    }
+    .pub-link:hover { background: #e2eaf5; border-color: #b8cce0; text-decoration: none; }
+    .pub-link img { height: 0.9em; }
 
-			<!--PMID-->
-			{% if publication.pmid %}
-			<li>PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}" target="_blank"> {{publication.pmid}}</a></li>
-			{% endif %}
-			
-			<!--PMCID - optional -->
-			{% if publication.pmcid %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/pmc_logo.jpg" alt="PMC"> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}" target="_blank"> {{publication.pmcid}}</a></li>
-			{% endif %}
+    @media (max-width: 600px) {
+        .pub-item { flex-direction: column; }
+        .pub-thumb { width: 100%; max-height: 160px; object-fit: cover; width: auto; }
+    }
+</style>
 
-			<!--Biorxiv - optional -->
-			{% if publication.biorxiv %}
-			<li>Biorxiv Preprint: <a href="https://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}" target="_blank"> {{publication.biorxiv}}</a></li>
-			{% endif %}
+<!-- PAGE HEADER -->
+<section class="lab-page-header">
+    <div class="lab-wrap">
+        <a class="lab-breadcrumb" href="/">&larr; Deep-MI Lab</a>
+        <h1>Publications</h1>
+        <p>Peer-reviewed publications from the Deep Medical Imaging Lab.
+            When using our tools please cite the relevant papers.</p>
+    </div>
+</section>
 
-			<!--Arxiv - optional -->
-			{% if publication.arxiv %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}" target="_blank"> {{publication.arxiv}}</a></li>
-			{% endif %}
-
-			<!--Chemrxiv - optional -->
-			{% if publication.chemrxiv %}
-			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{publication.chemrxiv}}" alt = "chemrxiv preprint link: {{publication.chemrxiv}}" target="_blank"> {{publication.chemrxiv}}</a></li>
-			{% endif %}
-
-			<!-- PDF -->
-			{% if publication.pdf %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF">  <a href="{{publication.pdf}}" alt = "PDF" target="_blank"> Full Text</a></li>
-      {% endif %}
-
-			<!-- BibTex -->
-			{% if publication.bibtex %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bibtex.svg" alt="bibTeX">  <a href="{{publication.bibtex}}" download alt = "BibTeX"> BibTeX</a></li>
-			{% endif %}
-		
-			<!--Github - optional -->
-			{% if publication.github %}
-		        <br>
-		        <strong>Source Code</strong>
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg" alt="GitHub"> <a href="https://github.com/{{publication.github}}" alt = "github link: {{publication.github}}" target="_blank"> {{publication.github}}</a></li>
-			{% endif %}
-
-			<!-- Datasets - optional -->
-			{% if publication.data %}
-			<li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-				{% if publication.data.size > 1 %}
-				<ul>
-					{% for dataset in publication.data %}
-					<li><a href="https://dx.doi.org/{{dataset}}" alt = "sbgrid data repository" target="_blank">doi:{{dataset}}</a></li>
-					{% endfor %}
-				</ul>
-				{% else %}
-				<a href="https://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository" target="_blank">doi:{{publication.data}}</a>
-				{% endif %}
-			</li>
-			{% endif %}
-
-			<!--PDBS - optional-->
-			{% if publication.pdbs %}
-			<li>Deposited Structure{% if publication.pdbs.size > 1 %}s{% endif %}:
-				{% for code in publication.pdbs %}
-				<a href="https://www.rcsb.org/pdb/explore/explore.do?structureId={{code}}" target="_blank">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
-			{% endif %}
-
-			<!--EMBDS - optional-->
-			{% if publication.emdbs %}
-			<li>Deposited Map{% if publication.emdbs.size > 1 %}s{% endif %}:
-				{% for code in publication.emdbs %}
-				<a href="https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{code}}" target="_blank">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
-			{% endif %}
-
-			<!--pairs of maps and models - optional-->
-			{% if publication.paired_maps_and_models %}
-			<li>Deposited Structure{% if publication.paired_maps_and_models.size > 1 %}s{% endif %} and Map{% if publication.paired_maps_and_models.size > 1 %}s{% endif %}:
-				{% for pair in publication.paired_maps_and_models %}
-				<a href="https://www.rcsb.org/pdb/explore/explore.do?structureId={{pair.pdb}}" target="_blank">{{pair.pdb}}</a>/<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{pair.emdb}}">{{pair.emdb}}</a>{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
-			{% endif %}
-
-			<!--zenodo records - optional-->
-			{% if publication.zenodo %}
-			<li>Zenodo Record{% if publication.zenodo.size > 1 %}s{% endif %}:
-				{% for record in publication.zenodo %}
-				<a href="https://doi.org/10.5281/zenodo.{{record.code}}" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.{{record.code}}.svg" alt="DOI"></a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-				{% endfor %}
-			</li>
-			{% endif %}
-
-			<!--Extra junk-->
-		        {% if publication.links %}
-			<strong>Additional Links</strong>
-			        {% for link in publication.links %}
-			        <li><a href="{{link.url}}" alt="{{link.name}}" target="_blank">{{link.name}}</a></li>
-			        {% endfor %}
-		        {% endif %}
-	</ul>
-</div> <br>
-{% endfor %}
-</div>
+<!-- PUBLICATIONS LIST -->
+<section>
+    <div class="lab-wrap">
+        <p class="pub-scholar">
+            Full list also available on
+            <a href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &rarr;</a>
+        </p>
+        <div class="pub-list">
+            {% for publication in site.data.publications %}
+            <div class="pub-item" id="{{ publication.id }}">
+                {% if publication.image %}
+                <img class="pub-thumb" src="{{ publication.image }}" alt="Key figure">
+                {% endif %}
+                <div class="pub-body">
+                    <p class="pub-citation">
+                        {{ publication.authors | append: ". " | append: publication.title | append: ". " | append: publication.journal | append: ". " | append: publication.year | append: "." | markdownify | remove: "<p>" | remove: "</p>" }}
+                    </p>
+                    <div class="pub-links">
+                        {% if publication.doi %}
+                        <a class="pub-link" href="https://dx.doi.org/{{ publication.doi }}" target="_blank" rel="noopener">
+                            <img src="/static/img/logos/DOI_logo.svg" alt="DOI"> DOI
+                        </a>
+                        {% endif %}
+                        {% if publication.pmid %}
+                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank" rel="noopener">
+                            PubMed
+                        </a>
+                        {% endif %}
+                        {% if publication.pmcid %}
+                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}" target="_blank" rel="noopener">
+                            <img src="/static/img/logos/pmc_logo.jpg" alt="PMC"> PMC
+                        </a>
+                        {% endif %}
+                        {% if publication.arxiv %}
+                        <a class="pub-link" href="https://arxiv.org/abs/{{ publication.arxiv }}" target="_blank" rel="noopener">
+                            <img src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> arXiv
+                        </a>
+                        {% endif %}
+                        {% if publication.biorxiv %}
+                        <a class="pub-link" href="https://dx.doi.org/10.1101/{{ publication.biorxiv }}" target="_blank" rel="noopener">
+                            bioRxiv
+                        </a>
+                        {% endif %}
+                        {% if publication.pdf %}
+                        <a class="pub-link" href="{{ publication.pdf }}" target="_blank" rel="noopener">
+                            <img src="/static/img/logos/PDF.svg" alt="PDF"> PDF
+                        </a>
+                        {% endif %}
+                        {% if publication.bibtex %}
+                        <a class="pub-link" href="{{ publication.bibtex }}" download>
+                            <img src="/static/img/logos/bibtex.svg" alt="BibTeX"> BibTeX
+                        </a>
+                        {% endif %}
+                        {% if publication.github %}
+                        <a class="pub-link" href="https://github.com/{{ publication.github }}" target="_blank" rel="noopener">
+                            <img src="/static/img/logos/github_logo.svg" alt="GitHub"> Code
+                        </a>
+                        {% endif %}
+                        {% if publication.links %}
+                        {% for link in publication.links %}
+                        <a class="pub-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

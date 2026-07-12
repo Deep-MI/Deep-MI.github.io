@@ -1,0 +1,189 @@
+---
+title: "Contact"
+layout: lab
+group: contact
+---
+
+<style>
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-top: 2rem;
+    }
+    .contact-card {
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-radius: var(--lab-radius);
+        padding: 1.5rem 1.6rem;
+    }
+    .contact-card h3 {
+        font-size: 1.05rem; font-weight: 700; margin: 0 0 0.9rem;
+        color: var(--lab-ink);
+    }
+    .contact-card p {
+        margin: 0 0 0.35rem; font-size: 0.93rem; color: var(--lab-muted); line-height: 1.65;
+    }
+    .contact-card a { color: var(--lab-accent); }
+    .contact-card .email {
+        font-family: monospace; font-size: 0.88rem;
+        background: var(--lab-soft); padding: 0.15rem 0.4rem;
+        border-radius: 4px; color: var(--lab-ink);
+    }
+    .addr-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-top: 2rem;
+    }
+    .addr-card {
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-radius: var(--lab-radius);
+        padding: 1.4rem 1.5rem;
+    }
+    .addr-card h3 {
+        font-size: 1rem; font-weight: 700; margin: 0 0 0.75rem;
+    }
+    .addr-card p {
+        margin: 0; font-size: 0.91rem; color: var(--lab-muted); line-height: 1.7;
+    }
+    .addr-card a { color: var(--lab-accent); font-size: 0.87rem; }
+    .dir-section h3 {
+        font-size: 1rem; font-weight: 700; margin: 2rem 0 0.5rem;
+    }
+    .dir-section h4 {
+        font-size: 0.88rem; font-weight: 600; margin: 1rem 0 0.3rem;
+        color: var(--lab-muted); text-transform: uppercase; letter-spacing: 0.05em;
+    }
+    .dir-section p, .dir-section li {
+        font-size: 0.92rem; color: var(--lab-muted); line-height: 1.7; margin: 0 0 0.3rem;
+    }
+    .dir-section ul { padding-left: 1.25rem; }
+    .collab-card {
+        background: var(--lab-soft);
+        border: 1px solid var(--lab-border);
+        border-left: 4px solid var(--lab-accent);
+        border-radius: var(--lab-radius);
+        padding: 1.4rem 1.6rem;
+        margin-top: 2rem;
+    }
+    .collab-card h3 { font-size: 1rem; font-weight: 700; margin: 0 0 0.6rem; }
+    .collab-card p { font-size: 0.92rem; color: var(--lab-muted); line-height: 1.65; margin: 0 0 0.4rem; }
+    @media (max-width: 640px) {
+        .contact-grid, .addr-grid { grid-template-columns: 1fr; }
+    }
+</style>
+
+<!-- PAGE HEADER -->
+<section class="lab-page-header">
+    <div class="lab-wrap">
+        <a class="lab-breadcrumb" href="/">&larr; Deep-MI Lab</a>
+        <h1>Contact</h1>
+        <p>Get in touch with the Deep Medical Imaging Lab.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Get in Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Martin Reuter, Ph.D.</h3>
+                <p>Director, Medical Image Analysis<br>
+                   German Center for Neurodegenerative Diseases (DZNE), Bonn, Germany</p>
+                <p><span class="email">martin.reuter (at) dzne.de</span></p>
+                <p>Tel: +49 228 43302 380</p>
+                <p style="margin-top:0.75rem;">
+                    Assistant Professor of Radiology &amp; Neurology<br>
+                    Harvard Medical School &mdash; Martinos Center for Biomedical Imaging, MGH, Boston
+                </p>
+                <p><span class="email">mreuter (at) nmr.mgh.harvard.edu</span></p>
+            </div>
+            <div class="contact-card" style="display:flex;flex-direction:column;justify-content:space-between;">
+                <div>
+                    <h3>Links</h3>
+                    <p><a href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a></p>
+                    <p><a href="https://orcid.org/0000-0002-2665-9693" target="_blank" rel="noopener">ORCID 0000-0002-2665-9693</a></p>
+                    <p><a href="https://github.com/deepmi" target="_blank" rel="noopener">GitHub: deepmi</a></p>
+                    <p><a href="https://twitter.com/deepmilab" target="_blank" rel="noopener">Twitter/X: @deepmilab</a></p>
+                    <p><a href="http://reuter.mit.edu" target="_blank" rel="noopener">MIT CSAIL page</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collaboration note -->
+        <div class="collab-card">
+            <h3>Collaborations, Visits &amp; Students</h3>
+            <p>We welcome Humboldt Fellowship postdoctoral stays (6&ndash;24 months), master thesis projects, and
+               academic/industry visitors. If you are interested in a visit or collaboration, please
+               reach out by email. We currently do not have open funded positions.</p>
+            <p>As a member of the Humboldt Foundation Network, we are particularly happy to host researchers
+               via a <a href="https://www.humboldt-foundation.de/bewerben/foerderprogramme/humboldt-forschungsstipendium" target="_blank" rel="noopener">Humboldt Postdoctoral Fellowship</a>.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ADDRESSES -->
+<section class="lab-soft">
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Addresses</h2>
+        <div class="addr-grid">
+            <div class="addr-card">
+                <h3>DZNE Bonn</h3>
+                <p>German Center for Neurodegenerative Diseases (DZNE)<br>
+                   Venusberg-Campus 1, Geb&auml;ude 99<br>
+                   53127 Bonn, Germany</p>
+                <p style="margin-top:0.75rem;"><a href="https://g.page/dzne_de" target="_blank" rel="noopener">Map &rarr;</a></p>
+            </div>
+            <div class="addr-card">
+                <h3>Martinos Center MGH Boston</h3>
+                <p>Martinos Center for Biomedical Imaging<br>
+                   Massachusetts General Hospital<br>
+                   149 13th St, Office 10119<br>
+                   Charlestown, MA 02129, USA</p>
+                <p style="margin-top:0.75rem;"><a href="https://goo.gl/maps/sPu64zgHfiWZkf4E7" target="_blank" rel="noopener">Map &rarr;</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DIRECTIONS -->
+<section>
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Directions</h2>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;">
+            <div class="dir-section">
+                <h3>DZNE Bonn Campus</h3>
+                <h4>By public transportation</h4>
+                <ul>
+                    <li>Take Bus 601 (e.g. from Bonn central station) to the endpoint &ldquo;Uniklinikum S&uuml;d&rdquo;</li>
+                    <li>Walk straight, left at the roundabout &mdash; after 100 m the DZNE building is on your right (green/orange panels)</li>
+                    <li>Talk to the receptionist and someone will pick you up</li>
+                </ul>
+                <h4>By car</h4>
+                <ul>
+                    <li>Enter Uniklinikum, keep right at the first roundabout, park at Parkhaus S&uuml;d</li>
+                    <li>Walk left &mdash; the DZNE building is on the right</li>
+                </ul>
+            </div>
+            <div class="dir-section">
+                <h3>Martinos Center, Charlestown</h3>
+                <h4>By public transportation</h4>
+                <ul>
+                    <li>Take the Red Line to Charles/MGH</li>
+                    <li>Walk through MGH main campus to the shuttle bus stop</li>
+                    <li>Take the Charlestown shuttle to the last stop (Building 149)</li>
+                    <li>Check in with reception (photo ID required)</li>
+                </ul>
+                <h4>By car</h4>
+                <ul>
+                    <li>Parking garage next to Building 149</li>
+                    <li>Cross 13th Street, enter Building 149</li>
+                    <li>Check in with reception (photo ID required)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

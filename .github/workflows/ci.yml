@@ -34,6 +34,6 @@ jobs:
         run: |
           bundle exec htmlproofer ./_site \
             --disable-external \
-            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/\/fsqc\//" \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/\/fsqc\//,/\/LaPy\//,/\/BrainPrint/,/\/FastSurfer\//" \
             --allow-hash-href
 

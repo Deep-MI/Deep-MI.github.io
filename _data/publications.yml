@@ -655,7 +655,7 @@
   type: 'journal'
   year: 2015
   title: 'Responses of the Human Brain to Mild Dehydration and Rehydration Explored In Vivo by 1H-MR Imaging and Spectroscopy'
-  pdf: http://www.ajnr.org/content/ajnr/36/12/2277.full.pdf
+  pdf: https://www.ajnr.org/content/ajnr/36/12/2277.full.pdf
   pages: 2277 - 2284
   volume: 36
   number: 12
@@ -675,7 +675,7 @@
   title: 'Mid-Space-Independent Symmetric Data Term for Pairwise Deformable Image Registration'
   pages: '263-271'
   volume: 9350
-  pdf: 'http://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
+  pdf: 'https://nmr.mgh.harvard.edu/~iman/Aganj_MICCAI15.pdf'
   doi: 10.1007/978-3-319-24571-3_32
   pmcid: PMC4732576
   image: '/static/pub/aganj_2015.jpg'
@@ -1148,7 +1148,7 @@
   pages: '79 - 88'
   image: '/static/pub/lian_2011.jpg'
   doi: 10.2312/3DOR/3DOR11/079-088
-  pdf: 'http://diglib.eg.org/bitstream/handle/10.2312/3DOR.3DOR11.079-088/079-088.pdf?sequence=1&isAllowed=y'
+  pdf: 'https://diglib.eg.org/bitstream/handle/10.2312/3DOR.3DOR11.079-088/079-088.pdf?sequence=1&isAllowed=y'
   bibtex: '/static/pub/lian_2011.bib'
 
 - id: 'desikan_2010'

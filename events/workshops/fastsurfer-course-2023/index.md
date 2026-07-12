@@ -4,7 +4,7 @@ layout: default
 group: events
 ---
 
-<img src="/static/img/events/teaser.png" class="responsive" alt="FastSurfer" style="
+<img src="/static/img/events/teaser_long.jpg" class="responsive" alt="FastSurfer" style="
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

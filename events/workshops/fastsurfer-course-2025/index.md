@@ -1,8 +1,10 @@
 ---
 title: DeepMI FastSurfer/FreeSurfer course 2025
-layout: default
+layout: lab
 group: events
 ---
+
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # DeepMI FastSurfer / FreeSurfer course 2025
 
@@ -45,10 +47,10 @@ The course will cover the following topics:
 
 - [Introduction to structural neuroimaging](/events/workshops/fastsurfer-course-2025/program#introduction-to-structural-neuroimaging): an overview of the FastSurfer and FreeSurfer software packages and what they can do 
 - [Advanced deep-learning for image segmentation](/events/workshops/fastsurfer-course-2025/program#advanced-deep-learning-for-image-segmentation): fast and reliable anatomical segmentation -- the core module of the FastSurfer software
-- [Surface models](/events/workshops/fastsurfer-course-2025/program#surface-models): how to create surface models and extract a rich set of anatomical features
+- [Surface models](/events/workshops/fastsurfer-course-2025/program#surface-models-of-the-brain): how to create surface models and extract a rich set of anatomical features
 - [Statistical modeling and inference](/events/workshops/fastsurfer-course-2025/program#statistical-modeling-and-inference): how to arrive at conclusions -- the evaluation and interpretation of results
 - [**NEW**: Longitudinal processing and analysis](/events/workshops/fastsurfer-course-2025/program#longitudinal-processing-and-analysis): taking advantage of longitudinal study designs -- and dealing with their challenges and intricacies
-- [Quality control and edits](/events/workshops/fastsurfer-course-2025/program#qc-troubleshooting-and-practical-issues): how to trust your results -- solutions to potential pitfalls and issues 
+- [Quality control and edits](/events/workshops/fastsurfer-course-2025/program#quality-control-and-edits): how to trust your results -- solutions to potential pitfalls and issues 
 - [The FastSurfer ecosystem](/events/workshops/fastsurfer-course-2025/program#the-fastsurfer-ecosystem): specialized applications, add-on modules, and an outlook to future developments
 
 See here for detailed information:
@@ -73,3 +75,4 @@ We are looking forward to your registration for the course:
 Please feel free to get in touch with any questions or requests that you might have:
 
 - <a href="mailto:fastsurfer-course&#64;dzne&#46;de">The FastSurfer course organizers</a>
+</div>

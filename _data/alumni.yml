@@ -1,35 +1,35 @@
-- name: Markus Schirmer
+- name: Markus Schirmer, PhD
   position: Postdoctoral Scientist
   startdate: 2016
   enddate: 2020
-  current: Instructor in Neurology @ MGH
+  current: Assistant Professor @ Harvard Medical School
   lab: http://www.markus-schirmer.com/
 
 - name: Sailesh Conjeti, PhD
   position: Postdoctoral Scientist
   startdate: 2017
   enddate: 2019
-  current: Product Manager @ Siemens Healthineers
+  current: Global Product Lead @ Olympus Europe
 
 - name: Christian Wachinger, PhD
   position: Postdoctoral Fellow
   startdate: 2011
   enddate: 2016
-  current: Interim Prof. @ LMU Munich
+  current: Professor @ TU Munich
   lab: http://ai-med.de/
 
 - name: Dorit Kliemann, PhD
   position: Postdoctoral Fellow
   startdate: 2013
   enddate: 2018
-  current: Assistant Prof. @ U Iowa
+  current: Assistant Professor @ University of Iowa
   lab: https://kliemann.lab.uiowa.edu/
 
-- name: Saikat Roy
+- name: Saikat Roy, PhD
   position: Research Associate
   startdate: 2018
   enddate: 2021
-  current: PhD @ DKFZ Heidelberg
+  current: Senior ML Engineer @ mediaire GmbH
 
 - name: Emad Bahrami-Rad
   position: Research Associate
@@ -42,3 +42,9 @@
   startdate: 2018
   enddate: 2023
   current: Industry
+
+- name: Jingjing Wu, PhD/MD
+  position: Research Associate
+  startdate: 2024
+  enddate: 2025
+  current: "—"

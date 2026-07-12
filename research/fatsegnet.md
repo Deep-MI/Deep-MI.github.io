@@ -49,7 +49,7 @@ Our CDFNet is implemented by adopting a Dense-Unet architecture  and extending i
 
 For more information into competitive learning please check:
 - Estrada, Santiago, et al. "Competition vs. concatenation in skip connections of fully convolutional networks." International Workshop on Machine Learning in Medical Imaging. Springer, Cham, 2018. [arxiv](https://arxiv.org/pdf/1807.07803.pdf)
-- Goodfellow, Ian J., et al. "Maxout networks." arXiv preprint arXiv:1302.4389 (2013). [arxiv](http://proceedings.mlr.press/v28/goodfellow13.pdf)
+- Goodfellow, Ian J., et al. "Maxout networks." arXiv preprint arXiv:1302.4389 (2013). [arxiv](https://proceedings.mlr.press/v28/goodfellow13.pdf)
 -  Srivastava, Rupesh Kumar, et al. "Understanding locally competitive networks." arXiv preprint arXiv:1410.1165 (2014). [arxiv](https://arxiv.org/abs/1410.1165)
 - Liao, Zhibin, and Gustavo Carneiro. "Competitive multi-scale convolution." arXiv preprint arXiv:1511.05635 (2015).[arxiv](https://arxiv.org/abs/1511.05635)
 

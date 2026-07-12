@@ -1,10 +1,9 @@
 ---
 title: Program
-layout: default
+layout: lab
 group: events
 ---
-
-<div style="width: 800px;">
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem;width: 800px;">
 
 # Program
 
@@ -145,6 +144,5 @@ The course concludes with a question-and-answer session about any potentially re
 
 <br>
 <p style="text-align: right">[Back to main page](/events/workshops/fastsurfer-course-2024)</p>
-
 
 </div>

@@ -1,8 +1,9 @@
 ---
 title: DeepMI FastSurfer/FreeSurfer course 2024
-layout: default
+layout: lab
 group: events
 ---
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 # DeepMI FastSurfer / FreeSurfer course 2024
 
@@ -67,3 +68,4 @@ Please feel free to get in touch with any questions or requests that you might h
 
 - <a href="mailto:kersten&#46;diers&#64;dzne&#46;de">Kersten Diers</a>
 - <a href="mailto:martin&#46;reuter&#64;dzne&#46;de">Martin Reuter</a>
+</div>

@@ -1,0 +1,70 @@
+# Research projects — edit this file to add or update project cards on the
+# Research page and homepage. Fields:
+#   id:          unique slug (used for anchors)
+#   name:        display name
+#   tag:         short category label shown on the card
+#   featured:    true → teal top border on card
+#   description: one or two sentences shown on the card
+#   image:       path to card thumbnail (leave blank for a letter placeholder)
+#   url:         link for "Learn more" — use a local path or external URL
+#   github:      optional GitHub repo slug shown in footer (org/repo)
+
+- id: fastsurfer
+  name: FastSurfer
+  tag: Neuroimaging Pipeline
+  featured: true
+  description: >
+    Fast, accurate, deep-learning pipeline for whole-brain segmentation in under
+    a minute and full surface reconstruction in about an hour.
+    Produces FreeSurfer-conform outputs for large-cohort and clinical use.
+  image: /static/img/research/fastsurfer/01_teaser_white_with_cerebnet.png
+  url: /research/fastsurfer/
+  github: deep-mi/FastSurfer
+
+- id: fatsegnet
+  name: FatSegNet
+  tag: MRI Segmentation
+  description: >
+    Automated adipose tissue segmentation and field-of-view estimation in
+    whole-body Dixon MRI, enabling large-scale body composition studies.
+  image: /static/img/research/fatsegnet/2_FatSegNet_pipeline.jpg
+  url: /research/fatsegnet/
+  github: deep-mi/FatSegNet
+
+- id: brainprint
+  name: BrainPrint
+  tag: Shape Analysis
+  description: >
+    Shape and asymmetry analysis of neuroanatomical structures using
+    Laplace-Beltrami spectral descriptors for group studies and individual
+    subject classification.
+  image: /static/img/research/brainprint/03_brainprint.png
+  url: /research/brainprint/
+  github: Deep-MI/BrainPrint
+
+- id: p3cnn
+  name: p3CNN
+  tag: Cortical Surface
+  description: >
+    Cortical surface parcellation using projection-based 3D convolutional neural
+    networks operating on spherical mesh representations.
+  image: /static/img/research/spherical/segmentation_bvm.jpg
+  url: /research/spherical/
+
+- id: lapy
+  name: LaPy
+  tag: Python Library
+  description: >
+    Python library for geometric mesh processing and finite element method (FEM)
+    differential geometry computations on triangular and tetrahedral meshes.
+  url: /LaPy/
+  github: deep-mi/LaPy
+
+- id: fsqc
+  name: FastSurfer QC
+  tag: Quality Control
+  description: >
+    Automated quality check tools for surface-based morphometry outputs from
+    FastSurfer and FreeSurfer, enabling quality control at scale.
+  url: /fsqc/
+  github: deep-mi/qatools-python

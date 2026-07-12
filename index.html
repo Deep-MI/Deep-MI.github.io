@@ -1,0 +1,201 @@
+---
+title: "Deep Medical Imaging Lab"
+layout: lab
+group: home
+---
+
+<style>
+    /* ---- Hero ---- */
+    .home-hero {
+        background: linear-gradient(135deg, var(--lab-hero-1) 0%, var(--lab-hero-2) 60%, #1a6080 100%);
+        color: #fff;
+        padding: 5rem 0 4.5rem;
+        overflow: hidden;
+    }
+    .home-hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 3rem;
+        align-items: center;
+        max-width: var(--lab-maxw);
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+    .home-eyebrow {
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #8ec5d6;
+        margin-bottom: 0.9rem;
+    }
+    .home-hero h1 {
+        font-size: 3rem;
+        line-height: 1.07;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        margin: 0 0 1rem;
+    }
+    .home-hero p.lead {
+        font-size: 1.15rem;
+        color: #c5dce8;
+        max-width: 38ch;
+        line-height: 1.7;
+        margin: 0 0 2rem;
+    }
+    .home-cta { display: flex; gap: 0.9rem; flex-wrap: wrap; }
+    .home-hero-media {
+        background: rgba(255,255,255,0.1);
+        border-radius: var(--lab-radius);
+        padding: 0.5rem;
+        border: 1px solid rgba(255,255,255,0.15);
+    }
+    .home-hero-media img {
+        width: 100%; height: auto; display: block; border-radius: 8px; opacity: 0.92;
+    }
+    @media (max-width: 820px) {
+        .home-hero-grid { grid-template-columns: 1fr; }
+        .home-hero h1 { font-size: 2.4rem; }
+        .home-hero-media { order: -1; max-width: 480px; }
+    }
+
+    /* ---- Stats strip ---- */
+    .home-stats {
+        background: var(--lab-soft);
+        border-bottom: 1px solid var(--lab-border);
+        padding: 1.4rem 0;
+    }
+    .home-stats-row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: var(--lab-maxw);
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+    .home-stat { text-align: center; padding: 0.5rem 1rem; }
+    .home-stat .num {
+        display: block; font-size: 1.65rem; font-weight: 800;
+        color: var(--lab-hero-1); letter-spacing: -0.02em;
+    }
+    .home-stat .lbl {
+        display: block; font-size: 0.79rem; color: var(--lab-muted); font-weight: 500;
+    }
+
+    /* ---- Team teaser ---- */
+    .home-team-strip {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+</style>
+
+<!-- HERO -->
+<section class="home-hero">
+    <div class="home-hero-grid">
+        <div>
+            <span class="home-eyebrow">DZNE Bonn &middot; MGH / Harvard Medical School &middot; MIT CSAIL</span>
+            <h1>AI-powered analysis of the human brain.</h1>
+            <p class="lead">We develop deep-learning and machine-learning methods for automated,
+                accurate, and scalable analysis of brain MRI &mdash; enabling large-scale
+                neuroimaging research and clinical applications.</p>
+            <div class="home-cta">
+                <a class="lab-btn lab-btn-accent" href="/research/">Our research &darr;</a>
+                <a class="lab-btn lab-btn-ghost" href="/publications/">Publications &rarr;</a>
+            </div>
+        </div>
+        <div class="home-hero-media">
+            <img src="/static/img/research/fastsurfer/01_teaser_white_with_cerebnet.png"
+                 alt="FastSurfer whole-brain segmentation and surface reconstruction">
+        </div>
+    </div>
+</section>
+
+<!-- STATS -->
+<div class="home-stats">
+    <div class="home-stats-row">
+        <div class="home-stat"><span class="num">95+</span><span class="lbl">Brain structures segmented</span></div>
+        <div class="home-stat"><span class="num">&lt;&nbsp;1&nbsp;min</span><span class="lbl">Whole-brain segmentation</span></div>
+        <div class="home-stat"><span class="num">200+</span><span class="lbl">Citations of FastSurfer</span></div>
+        <div class="home-stat"><span class="num">Open source</span><span class="lbl">Apache 2.0 licensed</span></div>
+    </div>
+</div>
+
+<!-- RESEARCH PROJECTS -->
+<section>
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Research &amp; Projects</h2>
+        <p class="lab-section-lead">We build open, validated computational tools for neuroimaging &mdash;
+            from whole-brain segmentation pipelines to geometric shape analysis libraries.</p>
+        <div class="lab-proj-grid">
+            {% for project in site.data.projects %}
+            <a class="lab-proj-card{% if project.featured %} featured{% endif %}" href="{{ project.url }}">
+                {% if project.image %}
+                <img class="lab-proj-img" src="{{ project.image }}" alt="{{ project.name }}">
+                {% else %}
+                <div class="lab-proj-placeholder">{{ project.name | slice: 0, 1 }}</div>
+                {% endif %}
+                <div class="lab-proj-body">
+                    <span class="lab-proj-tag">{{ project.tag }}</span>
+                    <div class="lab-proj-name">{{ project.name }}</div>
+                    <p class="lab-proj-desc">{{ project.description }}</p>
+                    <span class="lab-proj-link">Learn more &rarr;</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section class="lab-soft">
+    <div class="lab-wrap">
+        <div class="home-team-strip">
+            <div>
+                <h2 class="lab-section-title">The Team</h2>
+                <p class="lab-section-lead" style="margin-bottom:0;">
+                    We are based at DZNE Bonn and the Martinos Center for Biomedical Imaging at
+                    MGH / Harvard Medical School, Boston. Our lab welcomes people of any background.
+                </p>
+            </div>
+            <a class="lab-btn lab-btn-outline" href="/members/" style="white-space:nowrap;flex-shrink:0;">
+                Meet the team &rarr;
+            </a>
+        </div>
+        <div class="lab-mem-grid" style="margin-top:2rem;">
+            {% for person in site.data.members limit: 4 %}
+            <a class="lab-mem-card" href="/members/#{{ person.name | slugify }}">
+                {% if person.image %}
+                <img class="lab-mem-photo" src="{{ person.image }}" alt="{{ person.name }}">
+                {% else %}
+                <div class="lab-mem-placeholder">&#128100;</div>
+                {% endif %}
+                <div class="lab-mem-body">
+                    <div class="lab-mem-name">{{ person.name }}</div>
+                    <div class="lab-mem-role">{{ person.position }}</div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- EVENTS -->
+<section>
+    <div class="lab-wrap" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
+        <div>
+            <h2 class="lab-section-title">Events &amp; Courses</h2>
+            <p class="lab-section-lead" style="margin-bottom:0;">
+                We regularly organise FastSurfer workshops and training courses. Check the events
+                page for upcoming dates.
+            </p>
+        </div>
+        <a class="lab-btn lab-btn-outline" href="/events/" style="white-space:nowrap;flex-shrink:0;">
+            View events &rarr;
+        </a>
+    </div>
+</section>

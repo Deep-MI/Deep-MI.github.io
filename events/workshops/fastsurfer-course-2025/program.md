@@ -1,10 +1,10 @@
 ---
 title: Program
-layout: default
+layout: lab
 group: events
 ---
 
-<div style="width: 800px;">
+<div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem;width: 800px;">
 
 # Program
 

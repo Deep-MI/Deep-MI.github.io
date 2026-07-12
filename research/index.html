@@ -1,0 +1,126 @@
+---
+title: "Research"
+layout: lab
+group: research
+---
+
+<style>
+    /* ---- Research directions ---- */
+    .res-directions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-top: 2rem;
+    }
+    .res-dir-card {
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-left: 4px solid var(--lab-accent);
+        border-radius: var(--lab-radius);
+        padding: 1.25rem 1.4rem;
+    }
+    .res-dir-card h3 {
+        font-size: 1rem; font-weight: 700; margin: 0 0 0.35rem;
+    }
+    .res-dir-card p {
+        margin: 0; font-size: 0.91rem; color: var(--lab-muted); line-height: 1.6;
+    }
+    @media (max-width: 680px) { .res-directions { grid-template-columns: 1fr; } }
+</style>
+
+<!-- PAGE HEADER -->
+<section class="lab-page-header">
+    <div class="lab-wrap">
+        <a class="lab-breadcrumb" href="/">&larr; Deep-MI Lab</a>
+        <h1>Research &amp; Projects</h1>
+        <p>We develop open, validated computational tools at the intersection of deep learning,
+            medical image computing, and computational geometry.</p>
+    </div>
+</section>
+
+<!-- PROJECTS GRID -->
+<section>
+    <div class="lab-wrap">
+        <div class="lab-proj-grid">
+            {% for project in site.data.projects %}
+            <a class="lab-proj-card{% if project.featured %} featured{% endif %}"
+               href="{{ project.url }}" id="{{ project.id }}">
+                {% if project.image %}
+                <img class="lab-proj-img" src="{{ project.image }}" alt="{{ project.name }}">
+                {% else %}
+                <div class="lab-proj-placeholder">{{ project.name | slice: 0, 1 }}</div>
+                {% endif %}
+                <div class="lab-proj-body">
+                    <span class="lab-proj-tag">{{ project.tag }}</span>
+                    <div class="lab-proj-name">{{ project.name }}</div>
+                    <p class="lab-proj-desc">{{ project.description }}</p>
+                    {% if project.github %}
+                    <span class="lab-proj-link">
+                        <img src="/static/img/logos/github_logo.svg" alt="" style="height:0.85em;vertical-align:middle;margin-right:0.25rem;opacity:0.6">
+                        {{ project.github }}
+                    </span>
+                    {% else %}
+                    <span class="lab-proj-link">Learn more &rarr;</span>
+                    {% endif %}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <p style="margin-top:1.5rem;font-size:0.9rem;color:var(--lab-muted);">
+            All code is open source and available on
+            <a href="https://github.com/Deep-MI" target="_blank" rel="noopener">github.com/Deep-MI</a>.
+        </p>
+    </div>
+</section>
+
+<!-- RESEARCH DIRECTIONS -->
+<section class="lab-soft">
+    <div class="lab-wrap">
+        <h2 class="lab-section-title">Research Directions</h2>
+        <p class="lab-section-lead">
+            Our work spans computational neuroimaging, geometric deep learning, and medical image
+            analysis. In close collaboration with clinical and industrial partners, we develop
+            next-generation methods for large-scale biomedical imaging datasets.
+        </p>
+        <div class="res-directions">
+            <div class="res-dir-card">
+                <h3>Medical Image Segmentation &amp; Analysis</h3>
+                <p>Deep-learning methods for reliable image segmentation, registration, and
+                    reconstruction &mdash; with a focus on sensitivity in longitudinal studies
+                    and generalizability across scanners and protocols.</p>
+            </div>
+            <div class="res-dir-card">
+                <h3>Biomarker Extraction &amp; Clinical Translation</h3>
+                <p>Statistical modeling and computer vision for extracting clinically relevant
+                    biomarkers from large datasets &mdash; supporting computer-aided diagnosis,
+                    prognosis, and personalized medicine.</p>
+            </div>
+            <div class="res-dir-card">
+                <h3>Computational Geometry &amp; Topology</h3>
+                <p>Differential and computational geometry methods for shape analysis, spectral
+                    descriptors, and surface-based morphometry of neuroanatomical structures.</p>
+            </div>
+            <div class="res-dir-card">
+                <h3>Neurodegeneration &amp; Brain Development</h3>
+                <p>Understanding brain development and neurodegeneration (aging, Alzheimer's,
+                    Huntington's disease) via multi-modal imaging of large population cohorts
+                    such as the Rhineland Study.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PUBLICATIONS LINK -->
+<section>
+    <div class="lab-wrap lab-center">
+        <h2 class="lab-section-title">Publications</h2>
+        <p class="lab-section-lead">
+            All research from the Deep-MI lab is backed by peer-reviewed publications.
+            You can find the full list on the publications page or on Google Scholar.
+        </p>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+            <a class="lab-btn lab-btn-accent" href="/publications/">View all publications &rarr;</a>
+            <a class="lab-btn lab-btn-outline" href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &rarr;</a>
+        </div>
+    </div>
+</section>

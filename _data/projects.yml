@@ -44,7 +44,7 @@
     Automated geometry-based method for hippocampal shape and thickness analysis
     from structural MRI, enabling fine-grained morphometric studies of the
     hippocampus.
-  image: /static/pub/diers_2023.jpg
+  image: /static/pub/diers_2023.png
   url: /hipsta/
   github: deep-mi/hipsta
 

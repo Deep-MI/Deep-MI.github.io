@@ -12,6 +12,7 @@ group: research
         gap: 1.25rem;
         margin-top: 2rem;
     }
+
     .res-dir-card {
         background: #fff;
         border: 1px solid var(--lab-border);
@@ -19,13 +20,25 @@ group: research
         border-radius: var(--lab-radius);
         padding: 1.25rem 1.4rem;
     }
+
     .res-dir-card h3 {
-        font-size: 1rem; font-weight: 700; margin: 0 0 0.35rem;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0 0 0.35rem;
     }
+
     .res-dir-card p {
-        margin: 0; font-size: 0.91rem; color: var(--lab-muted); line-height: 1.6;
+        margin: 0;
+        font-size: 0.91rem;
+        color: var(--lab-muted);
+        line-height: 1.6;
     }
-    @media (max-width: 680px) { .res-directions { grid-template-columns: 1fr; } }
+
+    @media (max-width: 680px) {
+        .res-directions {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 <!-- PAGE HEADER -->
@@ -56,7 +69,8 @@ group: research
                     <p class="lab-proj-desc">{{ project.description }}</p>
                     {% if project.github %}
                     <span class="lab-proj-link">
-                        <img src="/static/img/logos/github_logo.svg" alt="" style="height:0.85em;vertical-align:middle;margin-right:0.25rem;opacity:0.6">
+                        <img src="/static/img/logos/github_logo.svg" alt=""
+                             style="height:0.85em;vertical-align:middle;margin-right:0.25rem;opacity:0.6">
                         {{ project.github }}
                     </span>
                     {% else %}
@@ -104,7 +118,8 @@ group: research
                 <h3>Neurodegeneration &amp; Brain Development</h3>
                 <p>Understanding brain development and neurodegeneration (aging, Alzheimer's,
                     Huntington's disease) via multi-modal imaging of large population cohorts
-                    such as the Rhineland Study.</p>
+                    such as the <a href="https://www.rheinland-studie.de/en/research/research-areas/">Rhineland
+                        Study</a>.</p>
             </div>
         </div>
     </div>
@@ -120,7 +135,8 @@ group: research
         </p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
             <a class="lab-btn lab-btn-accent" href="/publications/">View all publications &rarr;</a>
-            <a class="lab-btn lab-btn-outline" href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &rarr;</a>
+            <a class="lab-btn lab-btn-outline" href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en"
+               target="_blank" rel="noopener">Google Scholar &rarr;</a>
         </div>
     </div>
 </section>

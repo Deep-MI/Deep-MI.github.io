@@ -167,11 +167,19 @@ group: home
 <!-- RESEARCH PROJECTS -->
 <section>
     <div class="lab-wrap">
-        <h2 class="lab-section-title">Research &amp; Projects</h2>
-        <p class="lab-section-lead">We build open, validated computational tools for neuroimaging &mdash;
-            from whole-brain segmentation pipelines to geometric shape analysis libraries.</p>
-        <div class="lab-proj-grid">
-            {% for project in site.data.projects %}
+        <div class="home-team-strip">
+            <div>
+                <h2 class="lab-section-title">Research &amp; Projects</h2>
+                <p class="lab-section-lead" style="margin-bottom:0;">We build open, validated computational tools for
+                    neuroimaging &mdash;
+                    from whole-brain segmentation pipelines to geometric shape analysis libraries.</p>
+            </div>
+            <a class="lab-btn lab-btn-outline" href="/research/" style="white-space:nowrap;flex-shrink:0;">
+                View all research &rarr;
+            </a>
+        </div>
+        <div class="lab-proj-grid" style="margin-top:2rem;">
+            {% for project in site.data.projects %}{% if project.homepage %}
             <a class="lab-proj-card{% if project.featured %} featured{% endif %}" href="{{ project.url }}">
                 {% if project.image %}
                 <img class="lab-proj-img" src="{{ project.image }}" alt="{{ project.name }}">
@@ -185,7 +193,7 @@ group: home
                     <span class="lab-proj-link">Learn more &rarr;</span>
                 </div>
             </a>
-            {% endfor %}
+            {% endif %}{% endfor %}
         </div>
     </div>
 </section>

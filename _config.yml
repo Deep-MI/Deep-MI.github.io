@@ -4,12 +4,15 @@ description: "This is the official web page for the Deep Medical Imaging Lab at 
 url: "https://Deep-MI.org"
 
 paginate: 5
-plugins: [jekyll-paginate]
+plugins: [ jekyll-paginate ]
 paginate_path: "news/page:num"
 
 permalink: pretty
 markdown: kramdown
-kramdown: 
+kramdown:
   parse_block_html: true
 
-exclude: [vendor]
+exclude:
+  - vendor
+  - .agentbridge
+  - .agent-work

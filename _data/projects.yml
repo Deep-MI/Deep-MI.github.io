@@ -4,6 +4,7 @@
 #   name:        display name
 #   tag:         short category label shown on the card
 #   featured:    true → teal top border on card
+#   homepage:    true → shown on the front page (all projects appear on /research/)
 #   description: one or two sentences shown on the card
 #   image:       path to card thumbnail (leave blank for a letter placeholder)
 #   url:         link for "Learn more" — use a local path or external URL
@@ -13,6 +14,7 @@
   name: FastSurfer
   tag: Neuroimaging Pipeline
   featured: true
+  homepage: true
   description: >
     Fast, accurate, deep-learning pipeline for whole-brain segmentation in under
     a minute and full surface reconstruction in about an hour.
@@ -20,6 +22,42 @@
   image: /static/img/research/fastsurfer/01_teaser_white_with_cerebnet.png
   url: /research/fastsurfer/
   github: deep-mi/FastSurfer
+
+- id: neuroreg
+  name: NeuroReg
+  tag: Image Registration
+  homepage: true
+  description: >
+    GPU-accelerated Python toolkit for neuroimaging registration — same-modality,
+    cross-modal, boundary-based, and multi-timepoint — plus transform and volume
+    utilities. Replaces FreeSurfer's mri_robust_register, mri_coreg, and
+    bbregister. Usable from the command line or as a library.
+  image: /static/pub/reuter_2010_invconsregistration.jpg
+  url: /neuroreg/
+  github: deep-mi/neuroreg
+
+- id: hipsta
+  name: HipSTA
+  tag: Shape Analysis
+  homepage: true
+  description: >
+    Automated geometry-based method for hippocampal shape and thickness analysis
+    from structural MRI, enabling fine-grained morphometric studies of the
+    hippocampus.
+  image: /static/pub/diers_2023.jpg
+  url: /hipsta/
+  github: deep-mi/hipsta
+
+- id: neurocade
+  name: NeuroCade
+  tag: Neuroimaging Platform
+  homepage: true
+  description: >
+    AI-powered neuroimaging platform combining an MRI viewer with integrated
+    pipelines like FastSurfer. Run complex structural imaging workflows through
+    a GUI or conversational AI — no command line required.
+  image: /static/img/research/neurocade/teaser.jpg
+  url: https://neurocade.org
 
 - id: fatsegnet
   name: FatSegNet
@@ -45,6 +83,7 @@
 - id: p3cnn
   name: p3CNN
   tag: Cortical Surface
+  homepage: true
   description: >
     Cortical surface parcellation using projection-based 3D convolutional neural
     networks operating on spherical mesh representations.
@@ -54,12 +93,24 @@
 - id: lapy
   name: LaPy
   tag: Python Library
+  homepage: true
   description: >
     Python library for geometric mesh processing and finite element method (FEM)
     differential geometry computations on triangular and tetrahedral meshes.
   url: /LaPy/
   image: /static/pub/reuter_2009_lbeigenvaluesfunctions_lapy.png
   github: deep-mi/LaPy
+
+- id: whippersnappy
+  name: WhipperSnapPy
+  tag: Visualization
+  description: >
+    Python/OpenGL tool for rendering brain surface meshes with color overlays and
+    generating publication-quality screenshots from the command line, Jupyter
+    notebooks, or an interactive desktop GUI.
+  image: /static/img/research/whippersnappy/teaser.jpg
+  url: /WhipperSnapPy/
+  github: deep-mi/WhipperSnapPy
 
 - id: fsqc
   name: FastSurfer QC

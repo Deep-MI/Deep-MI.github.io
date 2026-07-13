@@ -105,9 +105,10 @@
   name: WhipperSnapPy
   tag: Visualization
   description: >
-    Python/OpenGL tool for rendering brain surface meshes with color overlays and
-    generating publication-quality screenshots from the command line, Jupyter
-    notebooks, or an interactive desktop GUI.
+    Python/OpenGL tool for rendering surface meshes with color overlays and
+    generating publication-quality screenshots — fully offscreen (no GPU required),
+    runs in Docker and headless environments, as well as from the command line,
+    Jupyter notebooks, or an interactive desktop GUI.
   image: /static/img/research/whippersnappy/teaser.jpg
   url: /WhipperSnapPy/
   github: deep-mi/WhipperSnapPy

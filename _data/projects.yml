@@ -58,6 +58,7 @@
     Python library for geometric mesh processing and finite element method (FEM)
     differential geometry computations on triangular and tetrahedral meshes.
   url: /LaPy/
+  image: /static/pub/reuter_2009_lbeigenvaluesfunctions_lapy.png
   github: deep-mi/LaPy
 
 - id: fsqc

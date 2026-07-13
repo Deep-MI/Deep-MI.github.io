@@ -659,10 +659,10 @@
   pages: 2277 - 2284
   volume: 36
   number: 12
-#  issn = {1936-959X},
+  #  issn = {1936-959X},
   journal: '*Am J Neuroradiol*'
   doi: 10.3174/ajnr.A4508
-#  pmid: 26381562
+  #  pmid: 26381562
   pmcid: PMC4916775
   image: '/static/pub/biller_2015.jpg'
   bibtex: '/static/pub/biller_2015.bib'
@@ -1035,13 +1035,13 @@
   image: '/static/pub/lian_2013.jpg'
   bibtex: '/static/pub/lian_2013.bib'
 
-#- id: 'reuter_2012_longitfreesurf'
-#  authors: '**Reuter M**, Rosas DH, Fischl B'
-#  title: 'Longitudinal FreeSurfer for Reliable Imaging Biomarkers'
-#  type: 'workshop'
-#  journal: '*MICCAI Novel Neuroimaging Biomarkers for Alzheimer's Disease and Related Disorders Workshop and Challenge*'
-#  year: 2012
-#  month: 10
+  #- id: 'reuter_2012_longitfreesurf'
+  #  authors: '**Reuter M**, Rosas DH, Fischl B'
+  #  title: 'Longitudinal FreeSurfer for Reliable Imaging Biomarkers'
+  #  type: 'workshop'
+  #  journal: '*MICCAI Novel Neuroimaging Biomarkers for Alzheimer's Disease and Related Disorders Workshop and Challenge*'
+  #  year: 2012
+  #  month: 10
   # pdf: '/static/pub/reuter_2012_longitfreesurf.pdf'
 #  bibtex: '/static/pub/reuter_2012_longitfreesurf.bib'
 
@@ -1223,7 +1223,7 @@
   pages: '739 - 755'
   volume: 41
   number: 10
-  image: '/static/pub/reuter_2009_lbeigenvaluesfunctions.jpg'
+  image: '/static/pub/reuter_2009_lbeigenvaluesfunctions_lapy.png'
   pmcid: PMC2753296
   doi: 10.1016/j.cad.2009.02.007
   pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2753296/pdf/nihms99404.pdf'
@@ -1242,7 +1242,7 @@
   image: '/static/pub/reuter_2008.jpg'
   doi: 10.1007/s00371-007-0184-x
   pdf: 'https://www.researchgate.net/publication/220067482_Solving_nonlinear_polynomial_systems_in_the_barycentric_Bernstein_basis'
-# pdf: '/static/pub/reuter_2008.pdf'
+  # pdf: '/static/pub/reuter_2008.pdf'
   bibtex: '/static/pub/reuter_2008.bib'
 
 - id: 'reuter_2007_hearshape'

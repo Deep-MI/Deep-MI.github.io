@@ -5,34 +5,93 @@ group: events
 ---
 
 <style>
-.lab-event-card {
-    display: flex;
-    background: #fff;
-    border: 1px solid var(--lab-border);
-    border-top: 4px solid var(--lab-accent);
-    border-radius: var(--lab-radius);
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-.lab-event-thumb { width: 40%; max-width: 440px; flex-shrink: 0; }
-.lab-event-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.lab-event-info { padding: 2rem 2.25rem; flex: 1; display: flex; flex-direction: column; justify-content: center; }
-.lab-event-list { list-style: none; margin: 0; padding: 0; }
-.lab-event-list li { display: flex; gap: 1.25rem; padding: 0.9rem 0; border-bottom: 1px solid var(--lab-border); align-items: baseline; line-height: 1.55; }
-.lab-event-list li:last-child { border-bottom: none; }
-.lab-event-date { font-size: 0.77rem; font-weight: 700; color: var(--lab-muted); white-space: nowrap; min-width: 68px; text-transform: uppercase; letter-spacing: 0.05em; padding-top: 0.07rem; }
-@media (max-width: 640px) {
-    .lab-event-card { flex-direction: column; }
-    .lab-event-thumb { width: 100%; max-width: none; height: 180px; }
-    .lab-event-info { padding: 1.25rem; }
-    .lab-event-list li { flex-direction: column; gap: 0.15rem; }
-}
+    .lab-event-card {
+        display: flex;
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-top: 4px solid var(--lab-accent);
+        border-radius: var(--lab-radius);
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    .lab-event-thumb {
+        width: 40%;
+        max-width: 440px;
+        flex-shrink: 0;
+    }
+
+    .lab-event-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .lab-event-info {
+        padding: 2rem 2.25rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lab-event-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lab-event-list li {
+        display: flex;
+        gap: 1.25rem;
+        padding: 0.9rem 0;
+        border-bottom: 1px solid var(--lab-border);
+        align-items: baseline;
+        line-height: 1.55;
+    }
+
+    .lab-event-list li:last-child {
+        border-bottom: none;
+    }
+
+    .lab-event-date {
+        font-size: 0.77rem;
+        font-weight: 700;
+        color: var(--lab-muted);
+        white-space: nowrap;
+        min-width: 68px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding-top: 0.07rem;
+    }
+
+    @media (max-width: 640px) {
+        .lab-event-card {
+            flex-direction: column;
+        }
+
+        .lab-event-thumb {
+            width: 100%;
+            max-width: none;
+            height: 180px;
+        }
+
+        .lab-event-info {
+            padding: 1.25rem;
+        }
+
+        .lab-event-list li {
+            flex-direction: column;
+            gap: 0.15rem;
+        }
+    }
 </style>
 
 <div class="lab-page-header">
     <div class="lab-wrap">
         <h1>Events</h1>
-        <p>Talks, summer schools, and hands-on courses hosted by the Deep Medical Imaging Lab.</p>
+        <p>Talks, summer schools, and hands-on courses hosted by the AI in Medical Imaging Lab.</p>
     </div>
 </div>
 
@@ -47,14 +106,19 @@ group: events
             </div>
             <div class="lab-event-info">
                 <span class="lab-proj-tag">Workshop &middot; Oct 14&ndash;16, 2026 &middot; DZNE Bonn</span>
-                <h3 style="font-size:1.3rem;font-weight:800;margin:0.55rem 0 0.7rem;line-height:1.2;color:var(--lab-ink)">DeepMI FastSurfer / FreeSurfer Course 2026</h3>
+                <h3 style="font-size:1.3rem;font-weight:800;margin:0.55rem 0 0.7rem;line-height:1.2;color:var(--lab-ink)">
+                    DeepMI FastSurfer / FreeSurfer Course 2026</h3>
                 <p style="color:var(--lab-muted);font-size:0.93rem;line-height:1.7;margin:0 0 1.25rem">
-                    A 2.5-day hands-on introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. Lectures, demos, practical exercises, and social events at the German Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany.
+                    A 2.5-day hands-on introductory course on state-of-the-art deep-learning methods for fast and
+                    reliable neuroimage analysis. Lectures, demos, practical exercises, and social events at the German
+                    Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany.
                 </p>
                 <div style="display:flex;gap:0.65rem;flex-wrap:wrap">
-                    <a href="/events/workshops/fastsurfer-course-2026/" class="lab-btn lab-btn-accent">Course details</a>
+                    <a href="/events/workshops/fastsurfer-course-2026/" class="lab-btn lab-btn-accent">Course
+                        details</a>
                     <a href="/events/workshops/fastsurfer-course-2026/registration" class="lab-btn lab-btn-outline">Register</a>
-                    <a href="/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf" class="lab-btn lab-btn-light" target="_blank" rel="noopener">Flyer (PDF)</a>
+                    <a href="/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf" class="lab-btn lab-btn-light"
+                       target="_blank" rel="noopener">Flyer (PDF)</a>
                 </div>
             </div>
         </div>

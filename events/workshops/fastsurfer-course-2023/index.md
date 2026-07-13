@@ -3,22 +3,25 @@ title: FastSurfer workshop 2023
 layout: lab
 group: events
 ---
+
 <div class="lab-wrap" style="padding-top:2.5rem;padding-bottom:4rem">
 
 <img src="/static/img/events/teaser_long.jpg" class="responsive" alt="FastSurfer" style="
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    width: 100%;
-    max-width: 1500px;
-    height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 1500px;
+height: auto;
 ">
 
 # **DeepMI FastSurfer / FreeSurfer course 2023**
 
 ## Overview
 
-The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurfer/FreeSurfer course** focussing on the analysis of structural brain MRI data. The course consists of lectures, demonstrations, and practical exercises and will cover a range of topics, such as:
+The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurfer/FreeSurfer course** focussing on the
+analysis of structural brain MRI data. The course consists of lectures, demonstrations, and practical exercises and will
+cover a range of topics, such as:
 
 - Advanced deep-learning for image segmentation
 - Organization, processing, and inspection (QC) of brain MRI data
@@ -26,19 +29,21 @@ The DeepMI lab is happy to announce a two-day, hands-on, introductory **FastSurf
 - General linear models for statistical analysis
 - Future directions
 
-The goal of the course is to equip participants with working knowledge about fundamental concepts in structural neuroimaging analysis, and enable them to conduct analyses of structural imaging data using the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software packages. 
+The goal of the course is to equip participants with working knowledge about fundamental concepts in structural
+neuroimaging analysis, and enable them to conduct analyses of structural imaging data using
+the [FastSurfer](https://deep-mi.org/research/fastsurfer) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu) software
+packages.
 
-
-## Dates 
+## Dates
 
 The course will be held on **September 28 and 29, 2023* (Thursday and Friday) **between 9:15 am and 4:30 pm**.
 
-
 ## Places
 
-The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)**, Venusberg Campus, Bonn. 
+The course takes place at the **German Center for Neurodegenerative Diseases (DZNE)**, Venusberg Campus, Bonn.
 
-Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9:10 am each day at the reception in the DZNE main building.
+Room: **B.1.119/120**. Non-DZNE participants will be picked-up at 9:10 am each day at the reception in the DZNE main
+building.
 
 ## Schedule
 
@@ -104,24 +109,30 @@ There is a maximum capacity of **20 participants** and no course fee.
 
 Registration is now closed.
 
-
 ## Requirements
 
-Participants should have initial experience in working with MRI data. 
+Participants should have initial experience in working with MRI data.
 
-During the course, participants will be provided with workstations, software, and materials for the lectures and practical exercises.
+During the course, participants will be provided with workstations, software, and materials for the lectures and
+practical exercises.
 
 We can neither provide support for personal devices nor individual datasets.
 
 ## Directions
 
-The German Center for Neurodegenerative Diseases (Deutsches Zentrum für Neurodegenerative Erkrankungen, DZNE) is located at the Venusberg campus of the university hospital, its address is "Building 99, Venusberg-Campus 1". The most convenient way to get from Bonn main ststion to the DZNE is by bus. From Bonn main station, cross the street towards the city center to get to the bus station. At the bus station, take line 601 towards the direction "Venusberg / Uniklinikum" until its final stop "Uniklinikum Süd"; don’t take the 601 bus towards "Tannenbusch" (which is the opposite direction). The bus towards "Venusberg / Uniklinikum" typically leaves at platform A1, roughly every 10 mins.
+The German Center for Neurodegenerative Diseases (Deutsches Zentrum für Neurodegenerative Erkrankungen, DZNE) is located
+at the Venusberg campus of the university hospital, its address is "Building 99, Venusberg-Campus 1". The most
+convenient way to get from Bonn main ststion to the DZNE is by bus. From Bonn main station, cross the street towards the
+city center to get to the bus station. At the bus station, take line 601 towards the direction "Venusberg / Uniklinikum"
+until its final stop "Uniklinikum Süd"; don’t take the 601 bus towards "Tannenbusch" (which is the opposite direction).
+The bus towards "Venusberg / Uniklinikum" typically leaves at platform A1, roughly every 10 mins.
 
-When arriving at the "Uniklinikum Süd" bus stop, follow the road until the roundabout, then turn left. The DZNE is located approximately 100m from the bus stop, and it’s a huge black building with colorful windows. 
+When arriving at the "Uniklinikum Süd" bus stop, follow the road until the roundabout, then turn left. The DZNE is
+located approximately 100m from the bus stop, and it’s a huge black building with colorful windows.
 
 ## Contact
 
-Deep Medical Imaging Lab<br/>
+AI in Medical Imaging Lab<br/>
 German Center for Neurodegenerative Diseases (DZNE)<br/>
 Venusberg Campus 1/99<br/>
 Bonn, Germany

@@ -13,25 +13,61 @@ comments: true
         padding: 1.5rem 1.75rem;
         margin-bottom: 1.25rem;
     }
+
     .news-post h2 {
-        font-size: 1.3rem; font-weight: 700; margin: 0 0 0.4rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 0 0 0.4rem;
     }
-    .news-post h2 a { color: var(--lab-ink); }
-    .news-post h2 a:hover { color: var(--lab-accent); text-decoration: none; }
+
+    .news-post h2 a {
+        color: var(--lab-ink);
+    }
+
+    .news-post h2 a:hover {
+        color: var(--lab-accent);
+        text-decoration: none;
+    }
+
     .news-meta {
-        font-size: 0.85rem; color: var(--lab-muted); margin: 0 0 1rem;
+        font-size: 0.85rem;
+        color: var(--lab-muted);
+        margin: 0 0 1rem;
     }
-    .news-content { font-size: 0.95rem; color: var(--lab-muted); line-height: 1.7; }
+
+    .news-content {
+        font-size: 0.95rem;
+        color: var(--lab-muted);
+        line-height: 1.7;
+    }
+
     .news-pagination {
-        display: flex; gap: 0.5rem; justify-content: center; margin-top: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 2rem;
     }
+
     .news-pagination a, .news-pagination span {
-        display: inline-block; padding: 0.4rem 0.85rem;
-        border: 1px solid var(--lab-border); border-radius: 8px;
-        font-size: 0.88rem; font-weight: 500; color: var(--lab-muted);
+        display: inline-block;
+        padding: 0.4rem 0.85rem;
+        border: 1px solid var(--lab-border);
+        border-radius: 8px;
+        font-size: 0.88rem;
+        font-weight: 500;
+        color: var(--lab-muted);
     }
-    .news-pagination a:hover { background: var(--lab-soft); text-decoration: none; }
-    .news-pagination .active-pg { background: var(--lab-accent); color: #fff; border-color: var(--lab-accent); }
+
+    .news-pagination a:hover {
+        background: var(--lab-soft);
+        text-decoration: none;
+    }
+
+    .news-pagination .active-pg {
+        background: var(--lab-accent);
+        color: #fff;
+        border-color: var(--lab-accent);
+    }
 </style>
 
 <!-- PAGE HEADER -->
@@ -39,7 +75,7 @@ comments: true
     <div class="lab-wrap">
         <a class="lab-breadcrumb" href="/">&larr; Deep-MI Lab</a>
         <h1>News</h1>
-        <p>Updates from the Deep Medical Imaging Lab.</p>
+        <p>Updates from the AI in Medical Imaging Lab.</p>
     </div>
 </section>
 
@@ -69,7 +105,8 @@ comments: true
             {% elsif page == 1 %}
             <a href="{{ '/news' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
-            <a href="{{ '/news/page:num' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            <a href="{{ '/news/page:num' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{
+                page }}</a>
             {% endif %}
             {% endfor %}
             {% if paginator.next_page %}

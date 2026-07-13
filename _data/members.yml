@@ -33,7 +33,7 @@
   and structural shape analysis for computer-aided diagnosis and prognosis. His methods are
   widely employed as part of the open source FreeSurfer software package to study neurodegeneration and
   assess disease modifying therapies, e.g., by the Alzheimer''s Disease Neuroimaging Initiative,
-  the Rhineland Study, and other large cohort studies.
+  the [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/), and other large cohort studies.
 
 
   After receiving a competitive NIH Career Award (2014) for his research on computational methods for medical image
@@ -51,7 +51,7 @@
   github: santiestrada32
   description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in
   Biomedical Computing. His research focuses on the deployment of deep learning methods for
-  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/)).
+  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/)).
   When not at the lab, Santiago enjoys going to the movies and exploring the city.'
   projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
 

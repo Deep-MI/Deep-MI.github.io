@@ -25,7 +25,10 @@ layout: lab
 
 <div class="lab-wrap rp-page">
 
-FatSegNet is a fast and fully automated deep learning pipeline to accurately identify, segment, and quantify visceral and subcutaneous adipose tissue (VAT and SAT) within a consistent, anatomically defined abdominal region on Dixon MRI scans. The pipeline implements a three-stage design with our Competitive Dense Fully Convolutional Network (CDFNet) architecture at its core for localizing the abdominal region and segmenting abdominal adipose tissue.
+FatSegNet is a fast and fully automated deep learning pipeline to accurately identify, segment, and quantify visceral
+and subcutaneous adipose tissue (VAT and SAT) within a consistent, anatomically defined abdominal region on Dixon MRI
+scans. The pipeline implements a three-stage design with our Competitive Dense Fully Convolutional Network (CDFNet)
+architecture at its core for localizing the abdominal region and segmenting abdominal adipose tissue.
 
 {::nomarkdown}
 <figure class="rp-fig">
@@ -36,7 +39,9 @@ FatSegNet is a fast and fully automated deep learning pipeline to accurately ide
 
 ## CDFNet Architecture
 
-Our CDFNet adopts a Dense-Unet architecture extended toward competitive learning via maxout activations. The Maxout operation computes the maximum at each spatial location across feature maps instead of concatenating them. Benefits of competitive learning through Maxout activations:
+Our CDFNet adopts a Dense-Unet architecture extended toward competitive learning via maxout activations. The Maxout
+operation computes the maximum at each spatial location across feature maps instead of concatenating them. Benefits of
+competitive learning through Maxout activations:
 
 - It promotes dedicated local sub-networks and improves feature selectivity through local competition.
 - Each sub-network can learn a sub-problem more efficiently.
@@ -51,14 +56,22 @@ Our CDFNet adopts a Dense-Unet architecture extended toward competitive learning
 {:/nomarkdown}
 
 For more information on competitive learning:
-- Estrada et al. "Competition vs. concatenation in skip connections of fully convolutional networks." MLMI 2018. [arxiv](https://arxiv.org/pdf/1807.07803.pdf)
-- Goodfellow et al. "Maxout networks." arXiv:1302.4389 (2013). [arxiv](https://proceedings.mlr.press/v28/goodfellow13.pdf)
-- Srivastava et al. "Understanding locally competitive networks." arXiv:1410.1165 (2014). [arxiv](https://arxiv.org/abs/1410.1165)
-- Liao &amp; Carneiro. "Competitive multi-scale convolution." arXiv:1511.05635 (2015). [arxiv](https://arxiv.org/abs/1511.05635)
+
+- Estrada et al. "Competition vs. concatenation in skip connections of fully convolutional networks." MLMI
+  2018. [arxiv](https://arxiv.org/pdf/1807.07803.pdf)
+- Goodfellow et al. "Maxout networks." arXiv:1302.4389 (
+  2013). [arxiv](https://proceedings.mlr.press/v28/goodfellow13.pdf)
+- Srivastava et al. "Understanding locally competitive networks." arXiv:1410.1165 (
+  2014). [arxiv](https://arxiv.org/abs/1410.1165)
+- Liao &amp; Carneiro. "Competitive multi-scale convolution." arXiv:1511.05635 (
+  2015). [arxiv](https://arxiv.org/abs/1511.05635)
 
 ## Proof of Concept
 
-FatSegNet was tested and validated in the [Rhineland Study](https://www.rheinland-studie.de/), a large prospective cohort study based in Bonn, Germany. We evaluate the whole pipeline with respect to robustness and reliability against two independent test sets: a manually edited set and a test-retest set.
+FatSegNet was tested and validated in
+the [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/), a large prospective cohort study
+based in Bonn, Germany. We evaluate the whole pipeline with respect to robustness and reliability against two
+independent test sets: a manually edited set and a test-retest set.
 
 {::nomarkdown}
 <table class="rp-table">
@@ -100,10 +113,15 @@ FatSegNet was tested and validated in the [Rhineland Study](https://www.rheinlan
 
 ## News
 
-- FatSegNet was selected as June 2020 [MRM Highlights](https://blog.ismrm.org/category/highlights/) by the ISMRM community — [Q&amp;A interview](https://blog.ismrm.org/2020/06/19/qa-with-santiago-estrada-and-martin-reuter/) · [reproducible research interview](https://blog.ismrm.org/2020/07/03/reproducible-research-insights-with-santiago-estrada-and-martin-reuter/).
-- The tool has been deployed in 2,738 participants from the [Rhineland Study](https://www.rheinland-studie.de/), processing 16,520 liters of abdominal adipose tissue.
-- We are collaborating with [GenerationR](https://generationr.nl/) to improve domain adaptation to a wider population (age &lt; 30).
-- One of our paper images appeared on the cover of the April 2020 edition of [Magnetic Resonance in Medicine](https://onlinelibrary.wiley.com/toc/15222594/2020/83/4).
+- FatSegNet was selected as June 2020 [MRM Highlights](https://blog.ismrm.org/category/highlights/) by the ISMRM
+  community — [Q&amp;A interview](https://blog.ismrm.org/2020/06/19/qa-with-santiago-estrada-and-martin-reuter/) · [reproducible research interview](https://blog.ismrm.org/2020/07/03/reproducible-research-insights-with-santiago-estrada-and-martin-reuter/).
+- The tool has been deployed in 2,738 participants from
+  the [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/), processing 16,520 liters of
+  abdominal adipose tissue.
+- We are collaborating with [GenerationR](https://generationr.nl/) to improve domain adaptation to a wider population (
+  age &lt; 30).
+- One of our paper images appeared on the cover of the April 2020 edition
+  of [Magnetic Resonance in Medicine](https://onlinelibrary.wiley.com/toc/15222594/2020/83/4).
 
 {::nomarkdown}
 <figure class="rp-fig">

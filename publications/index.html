@@ -6,55 +6,106 @@ group: publications
 
 <style>
     .pub-scholar {
-        font-size: 0.95rem; color: var(--lab-muted); margin-bottom: 2rem;
+        font-size: 0.95rem;
+        color: var(--lab-muted);
+        margin-bottom: 2rem;
     }
-    .pub-scholar a { color: var(--lab-accent); font-weight: 600; }
 
-    .pub-list { display: flex; flex-direction: column; gap: 1.25rem; }
+    .pub-scholar a {
+        color: var(--lab-accent);
+        font-weight: 600;
+    }
+
+    .pub-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
 
     .pub-item {
         background: #fff;
         border: 1px solid var(--lab-border);
         border-radius: var(--lab-radius);
-        padding: 1.25rem 1.4rem;
+        padding: 0.1rem 1.4rem 0.4rem;
         display: flex;
         gap: 1.4rem;
         align-items: flex-start;
         scroll-margin-top: 64px;
     }
-    .pub-item:hover { border-color: #c0cfe4; }
+
+    .pub-item:hover {
+        border-color: #c0cfe4;
+    }
+
+    .pub-thumb-spacer {
+        width: 150px;
+        flex-shrink: 0;
+    }
 
     .pub-thumb {
-        width: 120px;
+        width: 150px;
         flex-shrink: 0;
         border-radius: 8px;
         border: 1px solid var(--lab-border);
         object-fit: cover;
         display: block;
+        align-self: center;
     }
-    .pub-body { flex: 1; min-width: 0; }
+
+    .pub-body {
+        flex: 1;
+        min-width: 0;
+    }
+
     .pub-citation {
         font-size: 0.95rem;
         color: var(--lab-ink);
         line-height: 1.65;
         margin: 0 0 0.8rem;
     }
+
     .pub-links {
-        display: flex; flex-wrap: wrap; gap: 0.45rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
     }
+
     .pub-link {
-        display: inline-flex; align-items: center; gap: 0.3rem;
-        background: var(--lab-soft); border: 1px solid var(--lab-border);
-        border-radius: 999px; padding: 0.2rem 0.65rem;
-        font-size: 0.78rem; font-weight: 600; color: var(--lab-ink);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        background: var(--lab-soft);
+        border: 1px solid var(--lab-border);
+        border-radius: 999px;
+        padding: 0.2rem 0.65rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: var(--lab-ink);
         transition: border-color .15s, background .15s;
     }
-    .pub-link:hover { background: #e2eaf5; border-color: #b8cce0; text-decoration: none; }
-    .pub-link img { height: 0.9em; }
+
+    .pub-link:hover {
+        background: #e2eaf5;
+        border-color: #b8cce0;
+        text-decoration: none;
+    }
+
+    .pub-link img {
+        height: 0.9em;
+    }
 
     @media (max-width: 600px) {
-        .pub-item { flex-direction: column; }
-        .pub-thumb { width: 100%; max-height: 160px; object-fit: cover; width: auto; }
+        .pub-item {
+            flex-direction: column;
+        }
+
+        .pub-thumb {
+            width: 100%;
+            max-height: 160px;
+            object-fit: cover;
+            width: auto;
+        }
+        .pub-thumb-spacer { display: none; }
     }
 </style>
 
@@ -73,41 +124,52 @@ group: publications
     <div class="lab-wrap">
         <p class="pub-scholar">
             Full list also available on
-            <a href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &rarr;</a>
+            <a href="https://scholar.google.com/citations?user=CbdJk1wAAAAJ&hl=en" target="_blank" rel="noopener">Google
+                Scholar &rarr;</a>
         </p>
         <div class="pub-list">
             {% for publication in site.data.publications %}
             <div class="pub-item" id="{{ publication.id }}">
                 {% if publication.image %}
                 <img class="pub-thumb" src="{{ publication.image }}" alt="Key figure">
+                {% else %}
+                <div class="pub-thumb-spacer"></div>
                 {% endif %}
                 <div class="pub-body">
                     <p class="pub-citation">
-                        {{ publication.authors | append: ". " | append: publication.title | append: ". " | append: publication.journal | append: ". " | append: publication.year | append: "." | markdownify | remove: "<p>" | remove: "</p>" }}
+                        {{ publication.authors | append: ". " | append: publication.title | append: ". " | append:
+                        publication.journal | append: ". " | append: publication.year | append: "." | markdownify |
+                        remove: "
+                    <p>" | remove: "</p>" }}
                     </p>
                     <div class="pub-links">
                         {% if publication.doi %}
-                        <a class="pub-link" href="https://dx.doi.org/{{ publication.doi }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://dx.doi.org/{{ publication.doi }}" target="_blank"
+                           rel="noopener">
                             <img src="/static/img/logos/DOI_logo.svg" alt="DOI"> DOI
                         </a>
                         {% endif %}
                         {% if publication.pmid %}
-                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}"
+                           target="_blank" rel="noopener">
                             PubMed
                         </a>
                         {% endif %}
                         {% if publication.pmcid %}
-                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ publication.pmcid }}"
+                           target="_blank" rel="noopener">
                             <img src="/static/img/logos/pmc_logo.jpg" alt="PMC"> PMC
                         </a>
                         {% endif %}
                         {% if publication.arxiv %}
-                        <a class="pub-link" href="https://arxiv.org/abs/{{ publication.arxiv }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://arxiv.org/abs/{{ publication.arxiv }}" target="_blank"
+                           rel="noopener">
                             <img src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> arXiv
                         </a>
                         {% endif %}
                         {% if publication.biorxiv %}
-                        <a class="pub-link" href="https://dx.doi.org/10.1101/{{ publication.biorxiv }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://dx.doi.org/10.1101/{{ publication.biorxiv }}" target="_blank"
+                           rel="noopener">
                             bioRxiv
                         </a>
                         {% endif %}
@@ -122,7 +184,8 @@ group: publications
                         </a>
                         {% endif %}
                         {% if publication.github %}
-                        <a class="pub-link" href="https://github.com/{{ publication.github }}" target="_blank" rel="noopener">
+                        <a class="pub-link" href="https://github.com/{{ publication.github }}" target="_blank"
+                           rel="noopener">
                             <img src="/static/img/logos/github_logo.svg" alt="GitHub"> Code
                         </a>
                         {% endif %}

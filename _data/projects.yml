@@ -58,6 +58,7 @@
     a GUI or conversational AI — no command line required.
   image: /static/img/research/neurocade/teaser.jpg
   url: https://neurocade.org
+  github: deep-mi/NeuroCade
 
 - id: fatsegnet
   name: FatSegNet

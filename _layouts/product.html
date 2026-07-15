@@ -108,6 +108,24 @@
             letter-spacing: -0.01em;
         }
 
+        .fs-brand-name {
+            color: var(--fs-ink);
+            text-decoration: none;
+        }
+
+        .fs-brand-by {
+            font-size: 0.72em;
+            font-weight: 400;
+            opacity: 0.65;
+            letter-spacing: 0;
+        }
+
+        .fs-brand-by a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
         .fs-nav-links {
             display: flex;
             align-items: center;
@@ -281,15 +299,16 @@
 
 <header class="fs-nav">
     <div class="fs-nav-inner">
-        <a class="fs-brand" href="/research/fastsurfer/">
-            <img src="/static/img/research/fastsurfer/fastsurfer-logo.png" alt="FastSurfer logo">
-            <span>FastSurfer</span>
-        </a>
+        <div class="fs-brand">
+            <a href="/research/fastsurfer/"><img src="/static/img/research/fastsurfer/fastsurfer-logo.png"
+                                                 alt="FastSurfer logo"></a>
+            <span><a href="/research/fastsurfer/" class="fs-brand-name">FastSurfer</a> <span class="fs-brand-by">by <a
+                    href="/">Deep-MI Lab</a></span></span>
+        </div>
         <nav class="fs-nav-links">
             <a class="fs-hide-sm" href="/research/fastsurfer/science/">Science</a>
             <a href="/FastSurfer/">Docs</a>
             <a href="https://github.com/deep-mi/FastSurfer" target="_blank" rel="noopener">GitHub</a>
-            <a class="fs-lablink" href="/">Deep-MI Lab</a>
         </nav>
     </div>
 </header>

@@ -10,58 +10,117 @@ group: members
         display: grid;
         grid-template-columns: 180px 1fr;
         gap: 2rem;
-        padding: 2.5rem 0;
+        padding: 2.5rem 0 1.5rem;
         border-top: 1px solid var(--lab-border);
         align-items: start;
+        scroll-margin-top: 70px;
     }
-    .mem-profile:last-child { border-bottom: 1px solid var(--lab-border); }
+
+    .mem-profile:first-of-type {
+        border-top: none;
+        padding-top: 1rem;
+        margin-top: 0.5rem;
+    }
+
     .mem-profile-photo {
-        width: 180px; height: 180px;
+        height: 180px;
+        width: auto;
+        max-width: 180px;
         border-radius: var(--lab-radius);
-        object-fit: cover;
-        border: 1px solid var(--lab-border);
         display: block;
+        margin: 0 auto;
     }
+
     .mem-profile-placeholder {
-        width: 180px; height: 180px;
+        width: 180px;
+        height: 180px;
         border-radius: var(--lab-radius);
         border: 1px solid var(--lab-border);
         background: var(--lab-soft);
-        display: flex; align-items: center; justify-content: center;
-        font-size: 3rem; color: var(--lab-border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: var(--lab-border);
     }
+
     .mem-profile-name {
-        font-size: 1.25rem; font-weight: 700; margin: 0 0 0.2rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 0 0 0.2rem;
     }
+
     .mem-profile-pos {
-        font-size: 0.95rem; color: var(--lab-muted); margin: 0 0 0.2rem;
+        font-size: 0.95rem;
+        color: var(--lab-muted);
+        margin: 0 0 0.2rem;
     }
+
     .mem-profile-email {
-        font-size: 0.88rem; color: var(--lab-muted); font-style: italic; margin: 0 0 0.75rem;
+        font-size: 0.88rem;
+        color: var(--lab-muted);
+        font-style: italic;
+        margin: 0 0 0.75rem;
     }
+
     .mem-links {
-        display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
     }
+
     .mem-link {
-        display: inline-flex; align-items: center; gap: 0.3rem;
-        background: var(--lab-soft); border: 1px solid var(--lab-border);
-        border-radius: 999px; padding: 0.22rem 0.7rem;
-        font-size: 0.8rem; font-weight: 500; color: var(--lab-ink);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        background: var(--lab-soft);
+        border: 1px solid var(--lab-border);
+        border-radius: 999px;
+        padding: 0.22rem 0.7rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: var(--lab-ink);
         transition: border-color .15s, background .15s;
     }
-    .mem-link:hover { background: #e2eaf5; border-color: #b8cce0; text-decoration: none; }
-    .mem-link img { height: 0.95em; vertical-align: middle; }
+
+    .mem-link:hover {
+        background: #e2eaf5;
+        border-color: #b8cce0;
+        text-decoration: none;
+    }
+
+    .mem-link img {
+        height: 0.95em;
+        vertical-align: middle;
+    }
+
     .mem-desc {
-        font-size: 0.95rem; color: var(--lab-muted); line-height: 1.75;
+        font-size: 0.95rem;
+        color: var(--lab-muted);
+        line-height: 1.75;
         margin: 0 0 0.6rem;
     }
+
     .mem-projects {
-        font-size: 0.9rem; color: var(--lab-muted);
+        font-size: 0.9rem;
+        color: var(--lab-muted);
     }
-    .mem-projects strong { color: var(--lab-ink); }
+
+    .mem-projects strong {
+        color: var(--lab-ink);
+    }
+
     @media (max-width: 640px) {
-        .mem-profile { grid-template-columns: 1fr; }
-        .mem-profile-photo, .mem-profile-placeholder { width: 120px; height: 120px; }
+        .mem-profile {
+            grid-template-columns: 1fr;
+        }
+
+        .mem-profile-photo, .mem-profile-placeholder {
+            height: 120px;
+            width: auto;
+            max-width: 120px;
+        }
     }
 
     /* ---- Alumni grid ---- */
@@ -71,16 +130,48 @@ group: members
         gap: 1rem;
         margin-top: 1.5rem;
     }
+
     .alum-card {
-        background: #fff; border: 1px solid var(--lab-border);
-        border-radius: var(--lab-radius); padding: 1rem 1.1rem;
+        background: #fff;
+        border: 1px solid var(--lab-border);
+        border-radius: var(--lab-radius);
+        padding: 1rem 1.1rem;
     }
-    .alum-name { font-weight: 700; font-size: 0.92rem; margin: 0 0 0.15rem; }
-    .alum-pos { font-size: 0.82rem; color: var(--lab-muted); margin: 0 0 0.15rem; }
-    .alum-dates { font-size: 0.78rem; color: var(--lab-muted); }
-    .alum-current { font-size: 0.82rem; color: var(--lab-muted); margin-top: 0.3rem; }
-    @media (max-width: 760px) { .alum-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 480px) { .alum-grid { grid-template-columns: 1fr; } }
+
+    .alum-name {
+        font-weight: 700;
+        font-size: 0.92rem;
+        margin: 0 0 0.15rem;
+    }
+
+    .alum-pos {
+        font-size: 0.82rem;
+        color: var(--lab-muted);
+        margin: 0 0 0.15rem;
+    }
+
+    .alum-dates {
+        font-size: 0.78rem;
+        color: var(--lab-muted);
+    }
+
+    .alum-current {
+        font-size: 0.82rem;
+        color: var(--lab-muted);
+        margin-top: 0.3rem;
+    }
+
+    @media (max-width: 760px) {
+        .alum-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .alum-grid {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 <!-- PAGE HEADER -->
@@ -102,7 +193,8 @@ group: members
             <a class="lab-mem-card" href="#{{ person.name | slugify }}">
                 {% if person.image %}
                 <img class="lab-mem-photo" src="{{ person.image }}"
-                     {% if person.altimage %}onmouseover="this.src='{{ person.altimage }}'" onmouseout="this.src='{{ person.image }}'"{% endif %}
+                     {% if person.altimage %}onmouseover="this.src='{{ person.altimage }}'"
+                     onmouseout="this.src='{{ person.image }}'" {% endif %}
                      alt="{{ person.name }}">
                 {% else %}
                 <div class="lab-mem-placeholder">&#128100;</div>
@@ -122,10 +214,11 @@ group: members
     <div class="lab-wrap">
         <h2 class="lab-section-title">Profiles</h2>
         {% for person in site.data.members %}
-        <div class="mem-profile" id="{{ person.name | slugify }}" style="padding-top:2.5rem;margin-top:-52px;">
+        <div class="mem-profile" id="{{ person.name | slugify }}">
             {% if person.image %}
             <img class="mem-profile-photo" src="{{ person.image }}"
-                 {% if person.altimage %}onmouseover="this.src='{{ person.altimage }}'" onmouseout="this.src='{{ person.image }}'"{% endif %}
+                 {% if person.altimage %}onmouseover="this.src='{{ person.altimage }}'"
+                 onmouseout="this.src='{{ person.image }}'" {% endif %}
                  alt="{{ person.name }}">
             {% else %}
             <div class="mem-profile-placeholder">&#128100;</div>
@@ -141,7 +234,8 @@ group: members
                     </a>
                     {% endif %}
                     {% if person.scholar %}
-                    <a class="mem-link" href="https://scholar.google.com/citations?user={{ person.scholar }}" target="_blank" rel="noopener">
+                    <a class="mem-link" href="https://scholar.google.com/citations?user={{ person.scholar }}"
+                       target="_blank" rel="noopener">
                         <img src="/static/img/logos/gscholar_logo.svg" alt="Scholar"> Scholar
                     </a>
                     {% endif %}
@@ -156,7 +250,8 @@ group: members
                     </a>
                     {% endif %}
                     {% if person.linkedin %}
-                    <a class="mem-link" href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank" rel="noopener">
+                    <a class="mem-link" href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank"
+                       rel="noopener">
                         <img src="/static/img/logos/lin_logo.svg" alt="LinkedIn"> LinkedIn
                     </a>
                     {% endif %}
@@ -188,7 +283,9 @@ group: members
                 <div class="alum-name">{{ alum.name }}</div>
                 <div class="alum-pos">{{ alum.position }}</div>
                 {% if alum.startdate or alum.enddate %}
-                <div class="alum-dates">{% if alum.startdate %}{{ alum.startdate }} &ndash; {% endif %}{{ alum.enddate }}</div>
+                <div class="alum-dates">{% if alum.startdate %}{{ alum.startdate }} &ndash; {% endif %}{{ alum.enddate
+                    }}
+                </div>
                 {% endif %}
                 {% if alum.current %}
                 <div class="alum-current">Now: {{ alum.current }}</div>

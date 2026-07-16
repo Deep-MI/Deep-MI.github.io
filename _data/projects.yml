@@ -88,7 +88,7 @@
   description: >
     Cortical surface parcellation using projection-based 3D convolutional neural
     networks operating on spherical mesh representations.
-  image: /static/img/research/spherical/segmentation_bvm.jpg
+  image: /static/img/research/spherical/segmentation_bvm.png
   url: /research/spherical/
 
 - id: lapy

@@ -20,13 +20,18 @@ layout: lab
 
 <div class="lab-wrap rp-page">
 
-Spherical coordinate systems have become a standard for analyzing human cortical neuroimaging data. Surface-based signals such as curvature, folding patterns, functional activations, or estimates of myelination define relevant cortical regions. Surface-based deep learning approaches such as spherical CNNs, however, primarily focus on classification and cannot yet achieve satisfactory accuracy in segmentation tasks.
+Spherical coordinate systems have become a standard for analyzing human cortical neuroimaging data. Surface-based
+signals such as curvature, folding patterns, functional activations, or estimates of myelination define relevant
+cortical regions. Surface-based deep learning approaches such as spherical CNNs, however, primarily focus on
+classification and cannot yet achieve satisfactory accuracy in segmentation tasks.
 
-To perform surface-based segmentation of the human cortex, we introduce and evaluate a 2D parameter space approach with view aggregation (**p3CNN**). We show that it outperforms the spherical CNN by a margin, increasing the average Dice similarity score for cortical segmentation to above 0.9.
+To perform surface-based segmentation of the human cortex, we introduce and evaluate a 2D parameter space approach with
+view aggregation (**p3CNN**). We show that it outperforms the spherical CNN by a margin, increasing the average Dice
+similarity score for cortical segmentation to above 0.9.
 
 {::nomarkdown}
 <figure class="rp-fig">
-<img src="/static/img/research/spherical/segmentation_bvm.jpg" alt="Spherical Segmentation">
+<img src="/static/img/research/spherical/segmentation_bvm.png" alt="Spherical Segmentation">
 <figcaption>Comparison of a spherical CNN (ugscnn, middle) and our proposed view-aggregation on 2D spherical parameter spaces (p3CNN, right) for cortical segmentation (bottom row).</figcaption>
 </figure>
 {:/nomarkdown}
@@ -38,6 +43,7 @@ To perform surface-based segmentation of the human cortex, we introduce and eval
 
 ## News
 
-**May 2020** — Congratulations to Leonie Henschel for 1st place: Best Scientific Submission at the [BVM Workshop 2020](https://www.bvm-workshop.org/).
+**May 2020** — Congratulations to Leonie Henschel for 1st place: Best Scientific Submission at
+the [BVM Workshop 2020](https://www.bvm-workshop.org/).
 
 </div>

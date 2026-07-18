@@ -1,0 +1,72 @@
+# Events
+#
+# Suggested structure:
+# - keep past and upcoming entries together in this file and render each section
+#   from site.data.events.past / site.data.events.upcoming
+# - or split upcoming into a dedicated _data/upcoming_events.yml if the card layout
+#   needs very different fields from the past-events list
+#
+
+upcoming:
+  - type: 'Workshop'
+    date_range: 'Oct 14&ndash;16, 2026'
+    location: 'DZNE Bonn'
+    image: '/static/img/events/teaser_long.jpg'
+    image_alt: 'FastSurfer Course 2026'
+    title: 'DeepMI FastSurfer / FreeSurfer Course 2026'
+    description: 'A 2.5-day hands-on introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. Lectures, demos, practical exercises, and social events at the German Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany.'
+    links:
+      - label: 'Course details'
+        url: '/events/workshops/fastsurfer-course-2026/'
+        class: 'lab-btn lab-btn-accent'
+      - label: 'Register'
+        url: '/events/workshops/fastsurfer-course-2026/registration'
+        class: 'lab-btn lab-btn-outline'
+      - label: 'Flyer (PDF)'
+        url: '/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf'
+        class: 'lab-btn lab-btn-light'
+        target: '_blank'
+        rel: 'noopener'
+
+past:
+  - date: 'Sep 2025'
+    title: 'DeepMI FastSurfer/FreeSurfer course 2025'
+    url: '/events/workshops/fastsurfer-course-2025/'
+    details: 'DZNE Bonn (Sep 17&ndash;19, 2025)'
+  - date: 'May 2025'
+    title: 'BIGS Neuroscience Summer School 2025: Introduction to AI in Human Neuroimaging'
+  - date: 'Sep 2024'
+    title: 'DeepMI FastSurfer/FreeSurfer course 2024'
+    url: '/events/workshops/fastsurfer-course-2024/'
+    details: 'DZNE Bonn (Sep 26&ndash;27, 2024)'
+  - date: 'Jun 2024'
+    title: 'BIGS Neuroscience Summer School 2024: Introduction to AI in Human Neuroimaging'
+  - date: 'Jun 2024'
+    title: 'Talk by Yanwu Yang (Harbin Institute of Technology)'
+    details: '&ldquo;Neuroimaging Foundation Models: Towards General Neuroimage Analysis and Applications&rdquo;'
+  - date: 'Nov 2023'
+    title: 'Talk by Anastacia Yendiki (Martinos Center / MGH)'
+    details: '&ldquo;Towards a complete map of the human connectome across scales&rdquo;'
+  - date: 'Sep 2023'
+    title: 'DeepMI FastSurfer/FreeSurfer course 2023'
+    url: '/events/workshops/fastsurfer-course-2023/'
+    details: 'DZNE Bonn (Sep 28&ndash;29, 2023)'
+  - date: 'May 2023'
+    title: 'BIGS Neuroscience Summer School 2023: Introduction to AI in Human Neuroimaging'
+  - date: 'Sep 2022'
+    title: 'Talk by Pham Huy Hieu (Vin University)'
+    details: '&ldquo;Building large-scale medical imaging datasets and evaluating AI algorithms in clinical settings&rdquo;'
+  - date: 'Aug 2022'
+    title: 'BIGS Neuroscience Summer School 2022: Introduction to AI in Human Neuroimaging'
+  - date: 'Nov 2021'
+    title: 'Talk by Carlos Loza (U Texas Austin)'
+    details: '&ldquo;Deep Neural Dynamic Bayesian Networks applied to EEG sleep spindles modeling&rdquo;'
+  - date: 'Oct 2020'
+    title: 'Talk by Jean Chen (U Toronto)'
+    details: '&ldquo;Mapping age effects on functional and structural connectivity in aging: Physiological considerations&rdquo;'
+  - date: 'Jul 2018'
+    title: 'Talk by Qi Dou (CUHK)'
+    details: '&ldquo;Medical Image Computing via Deep Learning &mdash; Detection and Segmentation&rdquo;'
+  - date: 'Nov 2017'
+    title: 'Talk by Eugenio Iglesias (UCL)'
+    details: '&ldquo;Building atlases with ex-vivo MRI for segmentation of brain substructures from in vivo MRI and implementation in FreeSurfer&rdquo;'

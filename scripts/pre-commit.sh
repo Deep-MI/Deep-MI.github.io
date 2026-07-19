@@ -7,7 +7,7 @@ set -e
 echo "Running pre-commit checks..."
 
 # Check if validation scripts exist
-if [ ! -f "scripts/validate_yaml.rb" ] || [ ! -f "scripts/validate_posts.sh" ]; then
+if [ ! -f "scripts/validate_yaml.rb" ]; then
   echo "⚠️  Validation scripts not found. Skipping validation."
   exit 0
 fi
@@ -17,16 +17,6 @@ echo "→ Validating YAML files..."
 if ! ./scripts/validate_yaml.rb; then
   echo ""
   echo "✗ YAML validation failed!"
-  echo "  Fix the errors above before committing."
-  exit 1
-fi
-
-# Validate posts
-echo ""
-echo "→ Validating posts..."
-if ! ./scripts/validate_posts.sh; then
-  echo ""
-  echo "✗ Post validation failed!"
   echo "  Fix the errors above before committing."
   exit 1
 fi

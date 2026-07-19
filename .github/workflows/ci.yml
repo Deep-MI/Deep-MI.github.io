@@ -22,9 +22,6 @@ jobs:
       - name: Validate YAML files
         run: ruby scripts/validate_yaml.rb
 
-      - name: Validate posts
-        run: bash scripts/validate_posts.sh
-
       - name: Build Jekyll site
         run: bundle exec jekyll build
         env:

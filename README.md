@@ -10,23 +10,6 @@ The website is built with Jekyll and hosted on GitHub Pages.
 - **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Quick Start**: See [QUICKSTART.md](QUICKSTART.md)
 
-## Create News Posts
-
-- put an .md file into the _posts directory
-- name it like 2020-03-15-Short-Title.md
-- have it start with the following markdown
-```
----
-title: Your Nice Title
-author: First Lastname
-layout: post
-group: news
----
-Your text goes here, with images, links etc....
-```
-
-See `_templates/post-template.md` for a complete template.
-
 ## Add Members
 
 - add member info to _data/members.yml (see file for format)
@@ -51,9 +34,6 @@ Before committing changes, validate your content:
 ```bash
 # Validate YAML data files
 ./scripts/validate_yaml.rb
-
-# Validate post filenames and format
-./scripts/validate_posts.sh
 ```
 
 See `CONTRIBUTING.md` for detailed contribution guidelines.
@@ -65,9 +45,6 @@ See `CONTRIBUTING.md` for detailed contribution guidelines.
 ```bash
 # Validate YAML files (checks structure, required fields, file existence)
 ./scripts/validate_yaml.rb
-
-# Validate post filenames and format
-./scripts/validate_posts.sh
 ```
 
 ### Image Optimization
@@ -79,6 +56,7 @@ See `CONTRIBUTING.md` for detailed contribution guidelines.
 ```
 
 **Requirements**: ImageMagick
+
 - macOS: `brew install imagemagick`
 - Linux: `sudo apt-get install imagemagick` or `sudo yum install imagemagick`
 - Windows: See [imagemagick.org](https://imagemagick.org/script/download.php#windows)
@@ -95,7 +73,8 @@ For more detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Attribution
 
-This website was built using the [Fraser Lab website](http://fraserlab.com/) as a template. James Fraser's website is open-source and available on [GitHub](https://github.com/fraser-lab/fraser-lab.github.io).
+This website was built using the [Fraser Lab website](http://fraserlab.com/) as a template. James Fraser's website is
+open-source and available on [GitHub](https://github.com/fraser-lab/fraser-lab.github.io).
 
 ### Technologies Used
 
@@ -105,7 +84,8 @@ This website was built using the [Fraser Lab website](http://fraserlab.com/) as 
 
 ## Local Development
 
-Before pushing changes, please check that they will work on your system first with the plugins included in the Gemfile using the bundler tool.
+Before pushing changes, please check that they will work on your system first with the plugins included in the Gemfile
+using the bundler tool.
 
 ### Setup (First Time)
 

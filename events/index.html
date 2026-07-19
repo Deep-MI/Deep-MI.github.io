@@ -66,6 +66,14 @@ group: events
         padding-top: 0.07rem;
     }
 
+    .lab-event-quote {
+        display: block;
+        color: var(--lab-muted);
+        font-size: 0.9rem;
+        font-style: italic;
+        margin-top: 0.2rem;
+    }
+
     @media (max-width: 640px) {
         .lab-event-card {
             flex-direction: column;
@@ -108,13 +116,14 @@ group: events
             <div class="lab-event-info">
                 <span class="lab-proj-tag">{{ event.type }} &middot; {{ event.date_range }} &middot; {{ event.location }}</span>
                 <h3 style="font-size:1.3rem;font-weight:800;margin:0.55rem 0 0.7rem;line-height:1.2;color:var(--lab-ink)">
-                    {{ event.title }}</h3>
+                    {{ event.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
                 <p style="color:var(--lab-muted);font-size:0.93rem;line-height:1.7;margin:0 0 1.25rem">
-                    {{ event.description }}
+                    {{ event.description | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                 </p>
                 <div style="display:flex;gap:0.65rem;flex-wrap:wrap">
                     {% for link in event.links %}
-                    <a href="{{ link.url }}" class="{{ link.class }}"{% if link.target %} target="{{ link.target }}"{% endif %}{% if link.rel %} rel="{{ link.rel }}"{% endif %}>{{ link.label }}</a>
+                    <a href="{{ link.url }}" class="{{ link.class }}" {% if link.target %} target="{{ link.target }}" {%
+                       endif %}{% if link.rel %} rel="{{ link.rel }}" {% endif %}>{{ link.label }}</a>
                     {% endfor %}
                 </div>
             </div>
@@ -130,7 +139,8 @@ group: events
             {% for event in site.data.events.past %}
             <li>
                 <span class="lab-event-date">{{ event.date }}</span>
-                <span>{% if event.url %}<a href="{{ event.url }}">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}{% if event.details %} &mdash; {{ event.details }}{% endif %}</span>
+                <span>{{ event.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if event.details %}<span
+                        class="lab-event-quote">{{ event.details | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</span>
             </li>
             {% endfor %}
         </ul>

@@ -17,7 +17,7 @@ bundle exec jekyll serve
 
 ## Adding Content
 
-### Team Member (10 minutes)
+### Team Member
 
 1. Prepare photo: 365×365px, JPG
 2. Optimize: `./scripts/optimize_images.sh member photo.jpg`
@@ -25,7 +25,7 @@ bundle exec jekyll serve
 4. Add entry to: `_data/members.yml` (see `_templates/member-template.md`)
 5. Validate: `./scripts/validate_yaml.rb`
 
-### Publication (15 minutes)
+### Publication
 
 1. Prepare teaser: Max 200px height, JPG, max 100KB
 2. Optimize: `./scripts/optimize_images.sh pub image.jpg`
@@ -36,22 +36,29 @@ bundle exec jekyll serve
 4. Add entry to: `_data/publications.yml` (see `_templates/publication-template.md`)
 5. Validate: `./scripts/validate_yaml.rb`
 
+### Event
+
+1. Add entry to: `_data/events.yml` (`upcoming:` or `past:` list)
+2. For upcoming events, add a teaser image to: `/static/img/events/`
+3. Links in `title`/`details` may be inline HTML or Markdown-style (`[text](url)`) — external links open in a new tab
+   automatically
+4. Validate: `./scripts/validate_yaml.rb`
+
 ## File Locations
 
 | Content Type | Data File                | Assets                 | Template                             |
 |--------------|--------------------------|------------------------|--------------------------------------|
 | Members      | `_data/members.yml`      | `/static/img/members/` | `_templates/member-template.md`      |
 | Publications | `_data/publications.yml` | `/static/pub/`         | `_templates/publication-template.md` |
+| Events       | `_data/events.yml`       | `/static/img/events/`  | -                                    |
 | Alumni       | `_data/alumni.yml`       | -                      | -                                    |
-| Visitors     | `_data/visitors.yml`     | -                      | -                                    |
 
 ## Image Requirements
 
-| Type               | Size              | Format  | Max Size |
-|--------------------|-------------------|---------|----------|
-| Member Photo       | 365×365px, 72 DPI | JPG     | 100KB    |
-| Publication Teaser | Max 200px height  | JPG     | 100KB    |
-| Post Images        | Reasonable        | JPG/PNG | 500KB    |
+| Type               | Size              | Format | Max Size |
+|--------------------|-------------------|--------|----------|
+| Member Photo       | 365×365px, 72 DPI | JPG    | 100KB    |
+| Publication Teaser | Max 200px height  | JPG    | 100KB    |
 
 ## Validation Scripts
 
@@ -107,7 +114,7 @@ rbenv local 3.1.0
 ```bash
 # Full build and test
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external
+bundle exec ruby scripts/htmlproofer_check.rb
 
 # Clean build
 bundle exec jekyll clean
@@ -126,7 +133,6 @@ chmod +x .git/hooks/pre-commit
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [YAML Syntax](https://yaml.org/)
-- [Bootstrap 4.4 Docs](https://getbootstrap.com/docs/4.4/)
 
 ## Support
 

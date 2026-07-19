@@ -6,6 +6,7 @@ Thank you for contributing to the Deep-MI lab website! This guide will help you 
 
 - [Adding Members](#adding-members)
 - [Adding Publications](#adding-publications)
+- [Adding Events](#adding-events)
 - [Validation Before Committing](#validation-before-committing)
 - [Local Development](#local-development)
 
@@ -56,6 +57,47 @@ Thank you for contributing to the Deep-MI lab website! This guide will help you 
 - `image`: Teaser image path
 - `bibtex`: BibTeX file path
 - `pdf`: Link to open access PDF or local file
+
+## Adding Events
+
+### Upcoming Events
+
+1. **Add event info** to the `upcoming:` list in `_data/events.yml`
+2. **Prepare a teaser image** and save it to `/static/img/events/`
+
+#### Fields
+
+- `type`: Event type (e.g., Workshop, Talk)
+- `date_range`: Displayed date range (e.g., `'Oct 14&ndash;16, 2026'`)
+- `location`: Where the event takes place
+- `image` / `image_alt`: Teaser image path and alt text
+- `title`: Event title
+- `description`: Short description shown on the card
+- `links`: List of buttons, each with `label`, `url`, and `class` (`lab-btn lab-btn-accent`, `lab-btn lab-btn-outline`,
+  or `lab-btn lab-btn-light`); for a local file (e.g. a PDF flyer) that should open in a new tab, add `target: '_blank'`
+  and `rel: 'noopener'` explicitly — absolute `http(s)` links get this automatically (see Links below)
+
+### Past Events
+
+1. **Add an entry** to the `past:` list in `_data/events.yml`, most recent first
+
+#### Fields
+
+- `date`: Short date shown next to the entry (e.g., `'Sep 2025'`)
+- `title`: Required. Supports inline HTML (`<a href="...">text</a>`) or Markdown-style links (`[text](url)`)
+- `details` (optional): Shown on its own line below the title — use for a talk abstract/quote or a short venue note
+
+### Workshop Pages
+
+For a full course/workshop microsite (course details, registration, program, location), copy an existing folder under
+`events/workshops/` (e.g., `fastsurfer-course-2026/`) as a template.
+
+### Links
+
+External links (`http://` or `https://`) automatically open in a new tab site-wide — no need to add `target="_blank"`
+manually, whether the link is written as inline HTML, Markdown shorthand, or in an events `links` entry. This only
+applies to absolute `http(s)` URLs; for a local file (e.g. a PDF) that should still open in a new tab, add
+`target="_blank"` explicitly.
 
 ## Validation Before Committing
 
@@ -140,8 +182,9 @@ bundle exec jekyll serve
 # Build site
 bundle exec jekyll build
 
-# Check for broken links
-bundle exec htmlproofer ./_site --disable-external
+# Check for broken links (uses scripts/htmlproofer_check.rb to skip known
+# placeholder links to sibling repos without their own GitHub Pages site)
+bundle exec ruby scripts/htmlproofer_check.rb
 ```
 
 ## Style Guidelines

@@ -375,6 +375,11 @@
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-52773332-1', 'auto');
     ga('send', 'pageview');
+
+    document.querySelectorAll('a[href^="http"]:not([target])').forEach(function (a) {
+        a.target = '_blank';
+        a.rel = 'noopener';
+    });
 </script>
 </body>
 </html>

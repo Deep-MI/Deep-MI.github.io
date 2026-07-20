@@ -20,11 +20,18 @@ layout: lab
 
 <div class="lab-wrap rp-page">
 
-Our BrainPrint tools provide shape descriptors of neuroanatomical structures and require a [FastSurfer](/research/fastsurfer/) or FreeSurfer segmentation as a pre-processing step. BrainPrint is based on "ShapeDNA", a spectral shape descriptor well suited for the analysis of non-rigid bendable shapes like biological structures.
+Our BrainPrint tools provide shape descriptors of neuroanatomical structures and require
+a [FastSurfer](/research/fastsurfer/) or FreeSurfer segmentation as a pre-processing step. BrainPrint is based on "
+ShapeDNA", a spectral shape descriptor well suited for the analysis of non-rigid bendable shapes like biological
+structures.
 
 ## Spectral Shape Analysis
 
-In spectral shape analysis we employ the spectrum of the Laplace-Beltrami operator as a shape descriptor for the analysis of shape differences. The main advantage is that this descriptor is **isometry invariant** — distances measured along the surface stay the same regardless of pose. So a hand with different finger positions or a person in different body postures will be (near) isometric. We are thus able to identify similar deformable objects even if they cannot be aligned with a rigid transformation.
+In spectral shape analysis we employ the spectrum of the Laplace-Beltrami operator as a shape descriptor for the
+analysis of shape differences. The main advantage is that this descriptor is **isometry invariant** — distances measured
+along the surface stay the same regardless of pose. So a hand with different finger positions or a person in different
+body postures will be (near) isometric. We are thus able to identify similar deformable objects even if they cannot be
+aligned with a rigid transformation.
 
 {::nomarkdown}
 <figure class="rp-fig">
@@ -42,7 +49,9 @@ In spectral shape analysis we employ the spectrum of the Laplace-Beltrami operat
 
 ## BrainPrint
 
-We have extended this work to analyze brain shape changes with respect to symmetry, heritability, and computer-aided diagnosis of neurodegenerative disease. The code for the BrainPrint tools is available on [GitHub](https://github.com/Deep-MI/BrainPrint) and documentation can be found [here](/BrainPrint).
+We have extended this work to analyze brain shape changes with respect to symmetry, heritability, and computer-aided
+diagnosis of neurodegenerative disease. The code for the BrainPrint tools is available
+on [GitHub](https://github.com/Deep-MI/BrainPrint) and documentation can be found [here](/BrainPrint/).
 
 {::nomarkdown}
 <figure class="rp-fig">
@@ -60,7 +69,7 @@ We have extended this work to analyze brain shape changes with respect to symmet
 
 ## Selected Publications
 
-- [Documentation and API](/BrainPrint)
+- [Documentation and API](/BrainPrint/)
 - [Open Source on GitHub](https://github.com/Deep-MI/BrainPrint)
 - [BrainPrint: A Discriminative Characterization of Brain Morphology. C. Wachinger et al. NeuroImage. 2015.](/publications/#wachinger_2015_brainPrint)
 - [Laplace-Beltrami spectra as "Shape-DNA" of surfaces and solids. M. Reuter et al. Computer-Aided Design. 2006.](/publications/#reuter_2006_shapedna)

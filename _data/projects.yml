@@ -120,5 +120,6 @@
   description: >
     Automated quality check tools for surface-based morphometry outputs from
     FastSurfer and FreeSurfer, enabling quality control at scale.
+  image: /static/img/research/fsqc/teaser.jpg
   url: /fsqc/
   github: deep-mi/qatools-python

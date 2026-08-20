@@ -72,6 +72,21 @@
   image-guided and electromagnetic tracking for temporal bone surgery.'
   projects: 'Geometry Reconstruction, Interpretability'
 
+- name: Clemens Pollak
+  image: /static/img/members/pollak.jpg
+  position: Postdoc
+  email: clemens.pollak (at) dzne.de
+  scholar: GDzfdagAAAAJ
+  orcid: 0009-0001-1645-7609
+  github: clepol
+  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover.
+  The reliability of quantitative neuroimaging is frequently compromised by image artifacts, 
+  anatomical pathologies, and biased standardization procedures, which disrupt standard automated analysis pipelines. 
+  Clemens has tackled these challenges in his doctoral thesis by creating strong computational frameworks for MRI analysis, 
+  with a focus on motion quantification and segmentation based on deep learning. His current research focuses on expanding
+  these methods and bridging them to clinical applications.'
+  projects: 'Lesion robust brain segmentation, Corpus Callosum Morphometry, MR Head Motion Tracking'
+
 - name: Kersten Diers
   image: /static/img/members/diers.jpg
   position: Research Associate
@@ -93,21 +108,6 @@
   neuroimaging data. He explores ways to apply Deep Learning to accelerated image reconstruction and fiber-tracking
   in diffusion-weighted MRI.'
   projects: 'Diffusion Processing, Fiber Tracking'
-
-- name: Clemens Pollak
-  image: /static/img/members/pollak.jpg
-  position: Research Associate
-  email: clemens.pollak (at) dzne.de
-  scholar: GDzfdagAAAAJ
-  orcid: 0009-0001-1645-7609
-  github: clepol
-  description: 'Clemens obtained his Master degree in Computer Science at Leibniz University Hanover.
-  The reliability of quantitative neuroimaging is frequently compromised by image artifacts, 
-  anatomical pathologies, and biased standardization procedures, which disrupt standard automated analysis pipelines. 
-  Clemens has tackled these challenges in his doctoral thesis by creating strong computational frameworks for MRI analysis, 
-  with a focus on motion quantification and segmentation based on deep learning. His current research focuses on expanding
-  these methods and bridging them to clinical applications.'
-  projects: 'Lesion robust brain segmentation, Corpus Callosum Morphometry, MR Head Motion Tracking'
 
 - name: Sebastian Rassmann
   image: /static/img/members/rassmann.jpg

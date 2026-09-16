@@ -76,7 +76,7 @@ We are planning to conclude the second day of the course (Thursday) at a **resta
 
 ## Registration
 
-The [registration](/events/workshops/fastsurfer-course-2026/registration) for the course is now open.
+The course is currently fully booked, but registration for the [waiting list](/events/workshops/fastsurfer-course-2026/registration) is still possible.
 
 The capacity of the course is limited, and registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained.
 

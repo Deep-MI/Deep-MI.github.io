@@ -123,3 +123,24 @@
   image: /static/img/research/fsqc/teaser.jpg
   url: /fsqc/
   github: deep-mi/qatools-python
+  
+- id: yoda
+  name: YODA
+  tag: Medical Image Translation
+  featured: false
+  homepage: false
+  description: >
+    State-of-the-Art framework for medical image translation (e.g. FLAIR generation) optimizing for information fidelity rather than perceptual realism (and thus noise replication).
+  image: /static/img/research/yoda/teaser_FLAIR.jpg
+  github: deep-mi/YODA
+  
+- id: yado
+  name: YADO
+  tag: MRI Denoising
+  featured: false
+  homepage: false
+  description: >
+    MRI denoiser, that actually (!) removes physical acquisition noise, squeezing every bit of information out of (already-decent) MR images. 
+  image: /static/img/research/yado/teaser.jpg
+  url: https://srassmann.github.io/papers/yado/
+  github: deep-mi/YODA

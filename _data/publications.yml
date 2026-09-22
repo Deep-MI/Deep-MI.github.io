@@ -36,11 +36,15 @@
   title: 'Rethinking Real-World MRI Denoising: Learning from Physical Noise'
   journal: '*European Conference on Computer Vision (ECCV)*'
   type: 'conference'
-  year: 2026 (to appear)
+  year: 2026
   image: '/static/pub/rassmann_2026.jpg'
   bibtex: '/static/pub/rassmann_2026.bib'
   pdf: 'https://srassmann.github.io/assets/files/2026_ECCV_YADO.pdf'
+  doi: 10.1007/978-3-032-37435-6_27
   github: 'deep-mi/YADO'
+  links:
+   - name: Project page
+     url: https://srassmann.github.io/papers/yado/
 
 - id: 'ewert_2026'
   authors: '**Ewert C**, **Kügler D**, **Reuter M**'

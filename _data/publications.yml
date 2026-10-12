@@ -38,7 +38,7 @@
   type: 'preprint'
   year: 2026
   month: 9
-  image: '/static/pub/harsy_2026.png'
+  image: '/static/pub/harsy_2026.jpg'
   arxiv: 2609.26924
   bibtex: '/static/pub/harsy_2026.bib'
 

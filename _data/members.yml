@@ -120,4 +120,11 @@
   He develops generative AI models for medical image translation (e.g. FLAIR synthesis), with strong focus on maximizing information extractability rather than mere image appearance. Currently, his research also aims to translate the gained insights to (conditional) brain MRI denoising.'
   projects: 'Medical image translation, Brain MRI denoising'
 
-
+- name: Adrián Rodríguez
+  image: /static/img/members/rodriguez.jpg
+  position: PhD student
+  email: adrianbenjamin.rodriguezcarpio (at) dzne.de
+  orcid: 0009-0001-7489-3185
+  github: abcar86
+  description: 'Adrián graduated from the University of Twente with an MSc in Biomedical Engineering, specializing in Medical Device Design, after completing his BEng in Biomedical Engineering at Universidad Iberoamericana in Mexico City. His research focuses on deep learning for medical image analysis, with particular interests in geometric deep learning, anatomical surface modeling, and neural deformation fields. His PhD work focuses on developing learning-based methods for cortical surface reconstruction and modeling.'
+  projects: 'Cortical surface reconstruction'

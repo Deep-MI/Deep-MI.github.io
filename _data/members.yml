@@ -48,11 +48,21 @@
   scholar: c3sq1afExmsC
   orcid: 0000-0003-0339-8870
   github: santiestrada32
-  description: 'Santiago graduated from Technical University of Munich (TUM) with a degree in
-  Biomedical Computing. His research focuses on the deployment of deep learning methods for
-  quantifying imaging biomarkers in large cohort studies (e.g. [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/)).
-  When not at the lab, Santiago enjoys going to the movies and exploring the city.'
-  projects: 'Olfactory Bulb Segmentation, Localized Brain Age Prediction, Automated Tools for Retina Image Analysis'
+  description: 'Santiago graduated from the Technical University of Munich (TUM) with a degree in
+  Biomedical Computing and completed his PhD in Computer Science at the University of Bonn. He conducted
+  his doctoral research within the Rhineland Study (PI: Prof. Monique M. B. Breteler) in collaboration
+  with the Deep-MI Lab, developing open-source MRI segmentation tools for abdominal adipose tissue
+  ([FatSegNet](https://deep-mi.org/research/fatsegnet/)), the
+  [olfactory bulb](https://github.com/Deep-MI/olf-bulb-segmentation), and hypothalamic
+  substructures ([HypVINN](https://github.com/Deep-MI/FastSurfer/blob/dev/HypVINN/README.md)).
+  These tools have been used to process scans from around 10,000 [Rhineland Study](https://www.rheinland-studie.de/en/research/research-areas/) participants, 
+  as well as scans from other large cohorts, including [UK Biobank](https://www.ukbiobank.ac.uk/) and the [Human Connectome Project](https://www.humanconnectome.org/).
+  
+  
+  As a postdoctoral researcher, he develops scalable deep learning pipelines for extracting brain and
+  retinal imaging biomarkers to study neurodegeneration and population health. Outside the lab,
+  Santiago enjoys going to the movies and exploring the city.'
+  projects: 'Cerebellum, Brainstem and Choroid Plexus Segmentation'
 
 - name: David Kügler
   image: /static/img/members/kuegler.jpg

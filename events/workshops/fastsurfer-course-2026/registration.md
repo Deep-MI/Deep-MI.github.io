@@ -49,11 +49,11 @@ The intended audience for this course is neuroimaging scientists at all career s
 
 Registration for the 2026 course will open on July 1, 2026, at the latest, and will close on September 22, 2026, or when all spots are filled, whichever is earlier.
 
-Late registrations after September 22, 2026, may be accepted, but this cannot be guaranteed.
-
 The **course fee** is EUR 250. This covers the scientific lectures and practical sessions, course materials, rental hardware, and catering during the course (lunch, coffee breaks, reception on the first day, dinner on the second day). Payments can be made via credit cards, PayPal, or bank transfer.
 
-[Register here](https://eveeno.com/fastsurfer-course) to take part in the 2026 DeepMI FastSurfer / FreeSurfer course. You will be forwarded to the site of our external service provider (eveeno.com).
+The course is currently fully booked.
+
+Subscriptions to a [waiting list](https://eveeno.com/fastsurfer-course) are still possible. You will be forwarded to the site of our external service provider (eveeno.com). We will contact you in case a spot becomes available.
 
 We will send a confirmation email immediately after your registration. Registration will only be complete, and participation in the course will only be possible, after we have received your payment. We reserve the right to cancel registrations with overdue payments.
 

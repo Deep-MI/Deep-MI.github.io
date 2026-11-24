@@ -7,28 +7,13 @@
 #   needs very different fields from the past-events list
 #
 
-upcoming:
-  - type: 'Workshop'
-    date_range: 'Oct 14&ndash;16, 2026'
-    location: 'DZNE Bonn'
-    image: '/static/img/events/teaser_long.jpg'
-    image_alt: 'FastSurfer Course 2026'
-    title: 'DeepMI FastSurfer / FreeSurfer Course 2026'
-    description: 'A 2.5-day hands-on introductory course on state-of-the-art deep-learning methods for fast and reliable neuroimage analysis. Lectures, demos, practical exercises, and social events at the German Center for Neurodegenerative Diseases (DZNE) in Bonn, Germany.'
-    links:
-      - label: 'Course details'
-        url: '/events/workshops/fastsurfer-course-2026/'
-        class: 'lab-btn lab-btn-accent'
-      - label: 'Register'
-        url: '/events/workshops/fastsurfer-course-2026/registration'
-        class: 'lab-btn lab-btn-outline'
-      - label: 'Flyer (PDF)'
-        url: '/static/img/events/deepmi-fastsurfer-course-2026-poster.pdf'
-        class: 'lab-btn lab-btn-light'
-        target: '_blank'
-        rel: 'noopener'
+# Upcoming entries use: type, date_range, location, image, image_alt, title, description,
+# links (label, url, class, optional target/rel). Leave empty ([]) to hide the section.
+upcoming: []
 
 past:
+  - date: 'Oct 2026'
+    title: '<a href="/events/workshops/fastsurfer-course-2026/">DeepMI FastSurfer/FreeSurfer course 2026</a> DZNE Bonn (Oct 14&ndash;16, 2026)'
   - date: 'Jun 2026'
     title: 'Find us at OHBM [Brainhack](https://ohbm.github.io/hackathon2026/) Hackathon and see our Posters @ [OHBM 2026 in Bordeaux](https://www.ohbmbrainmapping.org/2026/)'
   - date: 'May 2026'

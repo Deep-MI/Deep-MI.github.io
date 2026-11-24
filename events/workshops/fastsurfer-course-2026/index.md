@@ -76,9 +76,7 @@ We are planning to conclude the second day of the course (Thursday) at a **resta
 
 ## Registration
 
-The course is currently fully booked, but registration for the [waiting list](/events/workshops/fastsurfer-course-2026/registration) is still possible.
-
-The capacity of the course is limited, and registrations will be accepted on a first-come, first-served basis. If the capacity is exceeded, a waiting list will be maintained.
+Registration for the 2026 course is now closed. [Subscribe to the FastSurfer newsletter](https://www.listserv.dfn.de/sympa/subscribe/fastsurfer) to hear about future courses.
 
 ## Contact
 

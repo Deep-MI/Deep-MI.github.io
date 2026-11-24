@@ -103,6 +103,7 @@ group: events
     </div>
 </div>
 
+{% if site.data.events.upcoming.size > 0 %}
 <section>
     <div class="lab-wrap">
         <h2 class="lab-section-title">Upcoming</h2>
@@ -131,6 +132,7 @@ group: events
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
 <section class="lab-soft">
     <div class="lab-wrap">

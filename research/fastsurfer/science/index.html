@@ -95,11 +95,67 @@ layout: product
         box-shadow: 0 14px 40px rgba(3, 20, 55, 0.15);
     }
 
-    .sci-video-wrap iframe {
+    .sci-video-wrap iframe,
+    .sci-video-consent {
         position: absolute;
         top: 0; left: 0;
         width: 100%; height: 100%;
         border: 0;
+    }
+
+    /* Click-to-load placeholder: nothing is requested from YouTube until the visitor clicks. */
+    .sci-video-consent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.9rem;
+        padding: 1.5rem;
+        cursor: pointer;
+        color: #fff;
+        font: inherit;
+        background: #0b1220 url('/static/img/research/fastsurfer/video-thumbnail.jpg') center / cover no-repeat;
+    }
+
+    .sci-video-consent::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(11, 18, 32, 0.55);
+    }
+
+    .sci-video-consent > * {
+        position: relative;
+    }
+
+    .sci-video-play {
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        background: var(--fs-accent);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    .sci-video-play::after {
+        content: "";
+        margin-left: 5px;
+        border-style: solid;
+        border-width: 12px 0 12px 20px;
+        border-color: transparent transparent transparent #fff;
+    }
+
+    .sci-video-note {
+        max-width: 460px;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .sci-video-note a {
+        color: #fff;
+        text-decoration: underline;
     }
 
     /* ---- Body text ---- */
@@ -365,10 +421,29 @@ layout: product
         <h2 class="fs-section-title">10-minute overview</h2>
         <p class="fs-section-lead">Watch a concise introduction to FastSurfer's design and capabilities.</p>
         <div class="sci-video-wrap">
-            <iframe src="https://www.youtube.com/embed/V78jKcqVg7k"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="sci-video-consent" id="sci-video-consent" data-video-id="V78jKcqVg7k">
+                <button type="button" class="sci-video-play" aria-label="Load and play video from YouTube"
+                        style="border:0;cursor:pointer;"></button>
+                <p class="sci-video-note">Clicking play loads the video from YouTube (Google). Your IP address and
+                    other data will then be transmitted to Google. See our <a href="/privacy/">privacy policy</a>,
+                    or <a href="https://www.youtube.com/watch?v=V78jKcqVg7k" target="_blank" rel="noopener">watch it
+                    on YouTube</a> instead.</p>
+            </div>
         </div>
+        <script>
+            (function () {
+                var box = document.getElementById('sci-video-consent');
+                box.addEventListener('click', function (e) {
+                    if (e.target.closest('a')) return;
+                    var iframe = document.createElement('iframe');
+                    iframe.src = 'https://www.youtube-nocookie.com/embed/' + box.dataset.videoId + '?autoplay=1';
+                    iframe.title = 'FastSurfer 10-minute overview';
+                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                    iframe.allowFullscreen = true;
+                    box.replaceWith(iframe);
+                });
+            })();
+        </script>
     </div>
 </section>
 
